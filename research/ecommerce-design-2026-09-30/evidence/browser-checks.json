@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-30",
+  "url": "http://127.0.0.1:3791/index.html",
+  "home_products": 20,
+  "default_hero_screens": 32,
+  "broken_loaded_images": 0,
+  "horizontal_overflow": false,
+  "checked_filters": {
+    "category": "口红",
+    "role": "色号/试色",
+    "secondary_category": "气垫",
+    "secondary_role": "结构/多角度",
+    "single_image_matches": 0,
+    "multiview_matches": 2
+  },
+  "detail_target": "ysllip-detail-screen-07",
+  "detail_visible_source_images_loaded": true,
+  "screenshots": [
+    "evidence/expanded-library-home.jpg",
+    "evidence/expanded-ysl-screen.jpg"
+  ],
+  "first_batch_check": {
+    "date": "2026-09-30",
+    "url": "http://127.0.0.1:3791/",
+    "home_products": 8,
+    "default_hero_screens": 12,
+    "broken_loaded_images": 0,
+    "horizontal_overflow": false,
+    "checked_filters": {
+      "category": "卸妆油",
+      "role": "结构/多角度",
+      "single_image_matches": 0,
+      "multiview_matches": 1
+    },
+    "detail_target": "zhuben-detail-screen-16",
+    "detail_visible_source_images_loaded": true,
+    "detail_ready_filter_matches": 2
+  }
+}

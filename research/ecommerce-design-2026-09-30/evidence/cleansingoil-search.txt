@@ -1,0 +1,547 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "自然堂绿茶净透卸妆油150ml养肤清洁1秒乳化清爽护肤品卸妆清洁生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "自然堂绿茶净透卸妆油150ml养肤清洁1秒乳化清爽护肤品卸妆清洁生日礼物"
+- generic: 1万+人已买
+- generic: "|超60万人店内购买"
+- generic: "|水润不拔干"
+- generic: ¥
+- generic: "79"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 每200减30
+- generic "已售10万+"
+- generic: 自然堂京东自营旗舰店
+- generic "ddg荔枝卸妆油30ml":
+- img "自营"
+- text: ddg荔枝卸妆油30ml
+- generic: 6重面护精粹
+- generic: "|敏感肌适用"
+- generic: "|专研磁吸乳化技术"
+- generic: "|一冲即净无油膜"
+- generic: ¥
+- generic: "14"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满赠
+- generic "已售10万+"
+- generic "100+人复购"
+- generic: ddg京东自营旗舰店
+- generic "多效净澈防晒敏感肌卸妆油":
+- img "自营"
+- text: 多效净澈防晒敏感肌卸妆油
+- generic: 速溶净卸双体系
+- generic: "|水漾木兰香调"
+- generic: "|温和不辣眼"
+- generic: "|清爽净卸不闷痘"
+- generic: ¥
+- generic: "69"
+- generic: 已补6元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 包邮
+- generic "已售2万+"
+- generic "500+人好评"
+- generic: 京东美妆自营旗舰店
+- generic "逐本云檀植萃水感净透卸妆油温和150ml卸防晒眼唇礼物":
+- img "自营"
+- text: 逐本云檀植萃水感净透卸妆油温和150ml卸防晒眼唇礼物
+- generic "卸妆金榜第3名":
+  - text: 卸妆金榜第3名
+- generic: 一步净卸
+- generic: "|水感清爽"
+- generic: "|精油养肤"
+- generic: "|洁净无残"
+- generic "卸妆金榜第3名":
+  - text: 卸妆金榜第3名
+- generic: ¥
+- generic: "88"
+- generic: 已补30元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 赠
+- generic: 包邮
+- generic "已售100万+"
+- generic "1万+人复购"
+- generic: 逐本京东自营旗舰店
+- generic "KIMTRUE且初无花果深层清洁卸妆油180ml温和养肤敏感肌净卸妆":
+  - generic: 广告
+- img "自营"
+- generic "KIMTRUE且初无花果深层清洁卸妆油180ml温和养肤敏感肌净卸妆"
+- generic: 新香型·奶香清甜无花果香
+- generic: "|敏感肌"
+- generic: "|香味超好闻"
+- generic: ¥
+- generic: "74"
+- generic: 到手价
+- generic: ¥84
+- button
+- img "明日达"
+- img "京东超市"
+- img "重磅新品"
+- generic: 首购礼金10元
+- generic "已售10万+"
+- generic: KIMTRUE且初京东自营旗舰店
+- generic "柳丝木（Ositree）黑茶卸妆油膏女面部眼唇卸三合一洁颜油温和敏感肌 185ml":
+- img "自营"
+- text: 柳丝木（Ositree）黑茶卸妆油膏女面部眼唇卸三合一洁颜油温和敏感肌 185ml
+- generic "柳丝木卸妆热卖榜第3名":
+  - text: 柳丝木卸妆热卖榜第3名
+- generic: 温和卸妆
+- generic: "|水感不油腻"
+- generic: "|快速溶解"
+- generic: "|清新爽肤"
+- generic "柳丝木卸妆热卖榜第3名":
+  - text: 柳丝木卸妆热卖榜第3名
+- generic: ¥
+- generic: "43"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- generic: 满赠
+- generic: 满赠
+- generic "已售7万+"
+- generic "900+人复购"
+- generic: 柳丝木（Ositree）美妆京东自营旗舰店
+- generic "欧莱雅花萃净透卸妆油250ml 舒缓温和深层清洁护肤品礼物送女友":
+- img "自营"
+- text: 欧莱雅花萃净透卸妆油250ml 舒缓温和深层清洁护肤品礼物送女友
+- generic: 温和不刺激
+- generic: "|卸养一体"
+- generic: "|使用后肌肤舒缓"
+- generic: "|温和舒缓"
+- generic: ¥
+- generic: "59"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售3万+"
+- generic "30天加购飙升5倍"
+- generic: 京东美妆自营旗舰店
+- generic "至本舒颜修护卸妆膏100ml":
+- img "自营"
+- text: 至本舒颜修护卸妆膏100ml
+- generic "卸妆金榜第7名":
+  - text: 卸妆金榜第7名
+- generic: 洁净舒适
+- generic: "|快速乳化"
+- generic: "|植萃呵护"
+- generic: "|洁净无残"
+- generic "卸妆金榜第7名":
+  - text: 卸妆金榜第7名
+- generic: ¥
+- generic: "55"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满赠
+- generic: 满赠
+- generic "已售40万+"
+- generic "1万+人复购"
+- generic: 至本京东自营旗舰店
+- generic "ddg【黄子弘凡同款】燕麦卸妆油2.0 150ml 眼唇脸温和清洁敏感肌":
+  - generic: 广告
+- img "自营"
+- generic "ddg【黄子弘凡同款】燕麦卸妆油2.0 150ml 眼唇脸温和清洁敏感肌"
+- generic: 不油腻 不糊眼
+- generic: "|店铺被10万人种草"
+- generic: ¥
+- generic: "59"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 每200减30
+- generic "已售10万+"
+- generic: ddg京东自营旗舰店
+- generic "芭比波朗BobbiBrown舒盈洁肤油":
+- img "全球购自营"
+- text: 芭比波朗BobbiBrown舒盈洁肤油
+- generic: 快速乳化
+- generic: "|清透卸妆"
+- generic: "|温和卸妆"
+- generic: "|400ml大容量"
+- generic: ¥
+- generic: "369"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- generic: 包税
+- generic: 正品鉴别
+- generic "已售1万+"
+- generic "100+人复购"
+- generic: 京东全球购美妆自营旗舰店
+- generic "植村秀【NO.1】琥珀卸妆油450ml":
+- img "自营"
+- text: 植村秀【NO.1】琥珀卸妆油450ml
+- generic "卸妆金榜第1名":
+  - text: 卸妆金榜第1名
+- generic: 净彻卸妆
+- generic: "|油溶科技"
+- generic: "|高级羊绒质地"
+- generic: "|肌肤柔滑"
+- generic "卸妆金榜第1名":
+  - text: 卸妆金榜第1名
+- generic: ¥
+- generic: "990"
+- button
+- img "明日达"
+- generic: 满2件赠2件
+- generic: 赠
+- generic "已售40万+"
+- generic "3500+人复购"
+- generic: 植村秀京东自营旗舰店
+- generic "芭比波朗真水感洁肤油200ml清透舒盈卸妆油卸妆乳生日礼物":
+- img "自营"
+- text: 芭比波朗真水感洁肤油200ml清透舒盈卸妆油卸妆乳生日礼物
+- generic: 温和清洁不紧绷
+- generic: "|防水彩妆轻松卸除"
+- generic: "|清爽乳化不残留"
+- generic: "|独立泵头防污染"
+- generic: ¥
+- generic: "550"
+- button
+- img "明日达"
+- img "国家补贴"
+- generic: 赠
+- generic "已售10万+"
+- generic "100+人复购"
+- generic: BOBBI BROWN芭比波朗京东自营旗舰店
+- generic "逐本清欢植萃净颜卸妆膏深层清洁温和不刺激100ml礼物":
+  - generic: 广告
+- img "自营"
+- text: 逐本清欢植萃净颜卸妆膏深层清洁温和不刺激100ml礼物
+- generic "卸妆热卖榜第8名":
+  - text: 卸妆热卖榜第8名
+- generic: 2万+店铺粉丝浏览
+- generic: "|60万+人浏览"
+- generic "卸妆热卖榜第8名":
+  - text: 卸妆热卖榜第8名
+- generic: ¥
+- generic: "53"
+- generic: 已补4.18元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金6元
+- generic "已售40万+"
+- generic: 逐本京东自营旗舰店
+- generic "植村秀（shu uemura）琥珀臻萃洁颜油450ml 卸净顽妆":
+- img "自营"
+- text: 植村秀（shu uemura）琥珀臻萃洁颜油450ml 卸净顽妆
+- generic: 琥珀臻萃
+- generic: "|滋润不干燥"
+- generic: "|净澈清洁"
+- generic: "|深层卸妆"
+- generic: ¥
+- generic: "449"
+- generic: 已补41.02元
+- button
+- img "百亿补贴"
+- img "京东超市"
+- img "国家补贴"
+- generic: 赠
+- generic: 包邮
+- generic "已售5万+"
+- generic "100+人复购"
+- generic: 1号会员店
+- generic "柳丝木黑茶植萃卸妆油200ml":
+- img "自营"
+- text: 柳丝木黑茶植萃卸妆油200ml
+- generic "柳丝木卸妆热卖榜第1名":
+  - text: 柳丝木卸妆热卖榜第1名
+- generic: 自由基清除率高
+- generic: "|清爽不油腻"
+- generic: "|含维生素E抗氧化"
+- generic: "|黑茶植萃成分"
+- generic "柳丝木卸妆热卖榜第1名":
+  - text: 柳丝木卸妆热卖榜第1名
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- generic: 满赠
+- generic: 满赠
+- generic "已售20万+"
+- generic "3200+人复购"
+- generic: 柳丝木（Ositree）美妆京东自营旗舰店
+- generic "植村秀琥珀护肤洁颜油"
+- img "自营"
+- text: 植村秀琥珀护肤洁颜油
+- generic: 专柜同款
+- generic: "|温和敏感肌可用"
+- generic: "|强力卸妆"
+- generic: "|温和清洁"
+- generic: ¥
+- generic: "288"
+- generic: 到手价
+- generic: ¥321
+- button
+- img "明日达"
+- generic: 官方直降10%
+- generic "已售100+"
+- generic "900+人种草"
+- generic: 美妆优选京东自营专区
+- generic "KIMTRUE【重磅新香】且初琥珀松深层清洁卸妆油180ml":
+  - generic: 广告
+- img "自营"
+- generic "KIMTRUE【重磅新香】且初琥珀松深层清洁卸妆油180ml"
+- generic: 深层清洁
+- generic: "|新香型·全新琥珀松香型"
+- generic: ¥
+- generic: "74"
+- generic: 到手价
+- generic: ¥84
+- button
+- img "明日达"
+- img "京东超市"
+- img "重磅新品"
+- generic: 首购礼金10元
+- generic: 满赠
+- generic "已售10万+"
+- generic: KIMTRUE且初京东自营旗舰店
+- generic "芭比波朗真水感洁肤油400ml清透舒盈卸妆油卸妆乳生日礼物":
+- img "自营"
+- text: 芭比波朗真水感洁肤油400ml清透舒盈卸妆油卸妆乳生日礼物
+- generic: 温和不紧绷肌肤
+- generic: "|眼唇卸妆一步净"
+- generic: "|添加植物精萃养肤"
+- generic: "|防水彩妆轻松卸"
+- generic: ¥
+- generic: "790"
+- button
+- img "明日达"
+- img "国家补贴"
+- generic: 赠
+- generic "已售10万+"
+- generic "100+人复购"
+- generic: BOBBI BROWN芭比波朗京东自营旗舰店
+- generic "芙丽芳丝（Freeplus）卸妆油深层清洁眼唇净润精华卸妆生日礼物送男女朋友150ml*3":
+- img "自营"
+- text: 芙丽芳丝（Freeplus）卸妆油深层清洁眼唇净润精华卸妆生日礼物送男女朋友150ml*3
+- generic: 双油速养卸养合一
+- generic: "|更好卸 更温和"
+- generic: "|88%保湿精华油"
+- generic: "|专研配方"
+- generic: ¥
+- generic: "234"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售70万+"
+- generic "1900+人种草"
+- generic: 芙丽芳丝京东自营旗舰店
+- generic "欧莱雅花萃卸妆油双支装"
+- img "自营"
+- text: 欧莱雅花萃卸妆油双支装
+- generic: 快速乳化
+- generic: "|卸养一体"
+- generic: "|敏感肌可用"
+- generic: "|敏感肌适用"
+- generic: ¥
+- generic: "238"
+- button
+- img "京东超市"
+- generic "已售100万+"
+- generic "500+人好评"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "且初太阳红梨卸妆油180ml深层清洁温和养肤卸妆乳敏感肌净卸眼唇":
+  - generic: 广告
+- img "自营"
+- generic "且初太阳红梨卸妆油180ml深层清洁温和养肤卸妆乳敏感肌净卸眼唇"
+- generic: 温和无刺激
+- generic: "|2千+护肤达人已买"
+- generic: "|400+人收藏"
+- generic: ¥
+- generic: "74"
+- generic: 到手价
+- generic: ¥84
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金10元
+- generic: 满赠
+- generic "已售10万+"
+- generic: KIMTRUE且初京东自营旗舰店
+- generic "芭比波朗洁肤油 200ml":
+- img "全球购自营"
+- text: 芭比波朗洁肤油 200ml
+- generic: 清爽洁肤
+- generic: "|清洁力强"
+- generic: "|温和净澈"
+- generic: ¥
+- generic: "279"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- generic: 包税
+- generic: 正品鉴别
+- generic: 品质溯源
+- generic "已售1万+"
+- generic "30天加购飙升5倍"
+- generic: 京东全球购美妆自营旗舰店
+- generic "植村秀臻萃养肤洁颜油450ml":
+- img "自营"
+- text: 植村秀臻萃养肤洁颜油450ml
+- generic: 29/3到期
+- generic: "|接受者可拍"
+- generic: "|临期清仓"
+- generic: "|临期清仓特惠"
+- generic: ¥
+- generic: "425"
+- generic: .
+- generic: "5"
+- button
+- img "百亿补贴"
+- img "京东超市"
+- generic: 包邮
+- generic "已售10万+"
+- generic "6400+人种草"
+- generic: 临期清仓专区
+- generic "【全网爆款】进口养肤卸妆油*2":
+- img "全球购自营"
+- text: 【全网爆款】进口养肤卸妆油*2
+- generic: 眼唇可卸
+- generic: "|敏感肌可用"
+- generic: "|进口第一"
+- generic: "|深层清洁眼唇"
+- generic: ¥
+- generic: "159"
+- button
+- generic: 包税
+- generic "已售1万+"
+- generic "1800+人种草"
+- generic: Losoki美妆海外京东自营旗舰店
+- generic "逐本清欢植萃卸妆油150ml眼唇卸温和敏感肌可用礼物":
+  - generic: 广告
+- img "自营"
+- generic "逐本清欢植萃卸妆油150ml眼唇卸温和敏感肌可用礼物"
+- generic: 近7日热卖好货
+- generic: "|100万+人浏览"
+- generic: ¥
+- generic: "88"
+- generic: 已补30元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic "已售100万+"
+- generic: 逐本京东自营旗舰店
+- generic "美宝莲眼唇卸卸妆水温和深层清洁":
+- img "自营"
+- text: 美宝莲眼唇卸卸妆水温和深层清洁
+- generic: B5舒缓成分
+- generic: "|3秒快速卸妆"
+- generic: "|敏感肌友好"
+- generic: "|温和不刺激"
+- generic: ¥
+- generic: "165"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满赠
+- generic "已售300万+"
+- generic "200+人复购"
+- generic: 美宝莲京东自营旗舰店
+- generic "花西子卸妆油210ml":
+- img "自营"
+- text: 花西子卸妆油210ml
+- generic: SPA级卸妆体
+- generic: "|瞬息乳化无残留"
+- generic: "|卸洗合一"
+- generic: "|不易拉扯"
+- generic: ¥
+- generic: "199"
+- generic: 到手价
+- generic: ¥209
+- button
+- img "明日达"
+- generic: 券满78减10
+- generic: 满赠
+- generic: 赠
+- generic "已售3万+"
+- generic "1100+人复购"
+- generic: 花西子京东自营旗舰店
+- generic "美宝莲唇部卸妆液1520ml"
+- img "自营"
+- text: 美宝莲唇部卸妆液1520ml
+- generic: 3秒快速卸妆
+- generic: "|深层清洁彩妆"
+- generic: "|B5舒缓成分"
+- generic: "|戴美瞳可用"
+- generic: ¥
+- generic: "224"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售5万+"
+- generic "100+人复购"
+- generic: 美宝莲京东自营旗舰店
+- generic "美宝莲眼唇卸 卸妆水套装":
+- img "自营"
+- text: 美宝莲眼唇卸 卸妆水套装
+- generic: 保湿不紧绷
+- generic: "|温和不刺激"
+- generic: "|深层清洁"
+- generic: "|放心卸妆"
+- generic: ¥
+- generic: "169"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满赠
+- generic "已售300万+"
+- generic "30天加购飙升5倍"
+- generic: 美宝莲京东自营旗舰店
+- generic "DHC蝶翠诗橄榄卸妆油450ml（300ml+120ml+3ml*10）温和【张翅同款】":
+- img "自营"
+- text: DHC蝶翠诗橄榄卸妆油450ml（300ml+120ml+3ml*10）温和【张翅同款】
+- generic: 天然植萃
+- generic: "|不添加香精"
+- generic: "|温和卸妆"
+- generic: "|温和卸妆"
+- generic: ¥
+- generic: "211"
+- generic: 已补18元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金10元
+- generic: 赠
+- generic: 包邮
+- generic "已售2万+"
+- generic "4600+人种草"
+- generic: DHC蝶翠诗京东自营旗舰店

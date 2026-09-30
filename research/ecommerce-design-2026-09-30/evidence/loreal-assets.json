@@ -1,0 +1,354 @@
+{
+  "product_url": "https://item.jd.com/100308183035.html",
+  "captured_at": "2026-09-30",
+  "heat": [
+    "- generic: 买家评价(200万+)",
+    "- generic: 累计评价 200万+",
+    "- link \"面膜热卖榜·第6名\":",
+    "  - generic: 面膜热卖榜·第6名"
+  ],
+  "hero": [
+    {
+      "order": 1,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/509301/14/13328/69717/6a97ff1bFfcd0f114/00833203209baa1f.png.avif",
+      "path": "assets/loreal/hero-01.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/509301/14/13328/69717/6a97ff1bFfcd0f114/00833203209baa1f.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 2,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/381874/35/1767/118941/6943e4ceF82962275/d91fd40e19381cba.jpg.avif",
+      "path": "assets/loreal/hero-02.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/381874/35/1767/118941/6943e4ceF82962275/d91fd40e19381cba.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 3,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/375920/13/14465/91858/6943e4cdFa19fb15d/12e2c8dc725c6d9f.jpg.avif",
+      "path": "assets/loreal/hero-03.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/375920/13/14465/91858/6943e4cdFa19fb15d/12e2c8dc725c6d9f.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 4,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/377593/1/15762/160944/6943e4cfFdb6c86c1/0e3ae119a0f0f531.jpg.avif",
+      "path": "assets/loreal/hero-04.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/377593/1/15762/160944/6943e4cfFdb6c86c1/0e3ae119a0f0f531.jpg.avif",
+      "preview_frame": 0
+    }
+  ],
+  "detail": [
+    {
+      "height": 387,
+      "order": 1,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/375306/37/17709/36265/6943e5ccFf110989c/00d62ee183f69441.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-01.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/375306/37/17709/36265/6943e5ccFf110989c/00d62ee183f69441.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1458,
+      "order": 2,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/376869/19/15804/135517/6943e5cfFddcabf90/00d62ee5b215d1ce.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-02.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/376869/19/15804/135517/6943e5cfFddcabf90/00d62ee5b215d1ce.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1313,
+      "order": 3,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/377509/24/15380/142823/6943e5d0Fe9b2bae3/00d62ee521b587ca.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-03.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/377509/24/15380/142823/6943e5d0Fe9b2bae3/00d62ee521b587ca.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1743,
+      "order": 4,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/375674/13/12408/196982/6943e5d0F4427c438/00d62ee6cf230600.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-04.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/375674/13/12408/196982/6943e5d0F4427c438/00d62ee6cf230600.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1861,
+      "order": 5,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/378652/25/6749/121627/6943e5d0F59e7173c/00d62ee74555c157.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-05.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/378652/25/6749/121627/6943e5d0F59e7173c/00d62ee74555c157.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1209,
+      "order": 6,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/375500/2/17109/81353/6943e5cfFd0d6dda0/00d62ee4b9bbfde5.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-06.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/375500/2/17109/81353/6943e5cfFd0d6dda0/00d62ee4b9bbfde5.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 970,
+      "order": 7,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/382820/26/1944/61597/6943e5cfF0fcee422/00d62ee3ca591aba.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-07.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/382820/26/1944/61597/6943e5cfF0fcee422/00d62ee3ca591aba.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1169,
+      "order": 8,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/381046/30/2140/105744/6943e5cfF5a36f0d5/00d62ee4919b7478.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-08.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/381046/30/2140/105744/6943e5cfF5a36f0d5/00d62ee4919b7478.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1612,
+      "order": 9,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/376344/34/15387/143512/6943e5d0F3bf5dfc4/00d62ee64c7477f4.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-09.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/376344/34/15387/143512/6943e5d0F3bf5dfc4/00d62ee64c7477f4.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1328,
+      "order": 10,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/383063/8/1557/83461/6943e5cfFf59a0965/00d62ee530a16c07.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-10.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/383063/8/1557/83461/6943e5cfFf59a0965/00d62ee530a16c07.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1290,
+      "order": 11,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/383721/17/1696/89131/6943e5cfFe3e8d886/00d62ee50a37fb31.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-11.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/383721/17/1696/89131/6943e5cfFe3e8d886/00d62ee50a37fb31.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1516,
+      "order": 12,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/383015/32/2065/127440/6943e5d0F960ac63a/00d62ee5ecdecfd9.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-12.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/383015/32/2065/127440/6943e5d0F960ac63a/00d62ee5ecdecfd9.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1206,
+      "order": 13,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/373293/13/12312/90504/6943e5cfF9f697ff8/00d62ee4b6a16e5e.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-13.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/373293/13/12312/90504/6943e5cfF9f697ff8/00d62ee4b6a16e5e.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 490,
+      "order": 14,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/380061/5/9294/58115/6943e5ceF753862c0/00d62ee1ea837de9.jpg.avif",
+      "width": 750,
+      "path": "assets/loreal/detail-14.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/380061/5/9294/58115/6943e5ceF753862c0/00d62ee1ea837de9.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1200,
+      "order": 15,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/379370/30/9215/160940/6943e5d0Fb33460c2/00d64b04b0fdcaa6.jpg.avif",
+      "width": 1200,
+      "path": "assets/loreal/detail-15.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/379370/30/9215/160940/6943e5d0Fb33460c2/00d64b04b0fdcaa6.jpg.avif",
+      "preview_frame": 0
+    }
+  ],
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/avif",
+        "id": "a5d43bc897525453",
+        "kind": "image",
+        "name": "d91fd40e19381cba.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/8d72404a-216b-4b53-b9c4-a3bf885302a3/a5d43bc897525453.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/381874/35/1767/118941/6943e4ceF82962275/d91fd40e19381cba.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "85a3a7c99e756d7a",
+        "kind": "image",
+        "name": "12e2c8dc725c6d9f.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/8d72404a-216b-4b53-b9c4-a3bf885302a3/85a3a7c99e756d7a.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/375920/13/14465/91858/6943e4cdFa19fb15d/12e2c8dc725c6d9f.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "0ac48437f5d43625",
+        "kind": "image",
+        "name": "0e3ae119a0f0f531.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/8d72404a-216b-4b53-b9c4-a3bf885302a3/0ac48437f5d43625.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/377593/1/15762/160944/6943e4cfFdb6c86c1/0e3ae119a0f0f531.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "13ad825f1e5e6904",
+        "kind": "image",
+        "name": "00833203209baa1f.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/8d72404a-216b-4b53-b9c4-a3bf885302a3/13ad825f1e5e6904.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/509301/14/13328/69717/6a97ff1bFfcd0f114/00833203209baa1f.png.avif"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/383015/32/2065/127440/6943e5d0F960ac63a/00d62ee5ecdecfd9.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/3e58fa36b2c5e224.avif",
+        "id": "3e58fa36b2c5e224",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/375306/37/17709/36265/6943e5ccFf110989c/00d62ee183f69441.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/076147ab691bada4.avif",
+        "id": "076147ab691bada4",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/379370/30/9215/160940/6943e5d0Fb33460c2/00d64b04b0fdcaa6.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/583cd5522abc4f63.avif",
+        "id": "583cd5522abc4f63",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/373293/13/12312/90504/6943e5cfF9f697ff8/00d62ee4b6a16e5e.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/9a6d21807d938e1c.avif",
+        "id": "9a6d21807d938e1c",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/376344/34/15387/143512/6943e5d0F3bf5dfc4/00d62ee64c7477f4.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/c0b6a968a2427a29.avif",
+        "id": "c0b6a968a2427a29",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/380061/5/9294/58115/6943e5ceF753862c0/00d62ee1ea837de9.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/9e2f3a6fc75ae149.avif",
+        "id": "9e2f3a6fc75ae149",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/378652/25/6749/121627/6943e5d0F59e7173c/00d62ee74555c157.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/5a428cc823c6d897.avif",
+        "id": "5a428cc823c6d897",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/375500/2/17109/81353/6943e5cfFd0d6dda0/00d62ee4b9bbfde5.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/725c1ae3175353fa.avif",
+        "id": "725c1ae3175353fa",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/377509/24/15380/142823/6943e5d0Fe9b2bae3/00d62ee521b587ca.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/083b2461e1641930.avif",
+        "id": "083b2461e1641930",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/381046/30/2140/105744/6943e5cfF5a36f0d5/00d62ee4919b7478.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/88a1f46c4aca7f80.avif",
+        "id": "88a1f46c4aca7f80",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/383063/8/1557/83461/6943e5cfFf59a0965/00d62ee530a16c07.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/00d950d8db34daae.avif",
+        "id": "00d950d8db34daae",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/375674/13/12408/196982/6943e5d0F4427c438/00d62ee6cf230600.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/422fded656dceb95.avif",
+        "id": "422fded656dceb95",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/382820/26/1944/61597/6943e5cfF0fcee422/00d62ee3ca591aba.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/11cd9475b20b0ef4.avif",
+        "id": "11cd9475b20b0ef4",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/383721/17/1696/89131/6943e5cfFe3e8d886/00d62ee50a37fb31.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/4589df021716b17f.avif",
+        "id": "4589df021716b17f",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/376869/19/15804/135517/6943e5cfFddcabf90/00d62ee5b215d1ce.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/728ca2e4561740ad.avif",
+        "id": "728ca2e4561740ad",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      }
+    ],
+    "directoryPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/8d72404a-216b-4b53-b9c4-a3bf885302a3",
+    "failures": [],
+    "manifestPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/8d72404a-216b-4b53-b9c4-a3bf885302a3/manifest.json",
+    "summary": {
+      "downloadedCount": 4,
+      "elapsedMs": 1318.1368750000838,
+      "failedCount": 0,
+      "requestedCount": 4
+    }
+  }
+}

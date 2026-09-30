@@ -1,0 +1,628 @@
+- generic "沙宣（VS）沙宣大红瓶清盈顺柔护发洗发水750g去油蓬松柔顺洗头膏洗发露 京东自营":
+  - generic: 广告
+- img "自营"
+- generic "沙宣（VS）沙宣大红瓶清盈顺柔护发洗发水750g去油蓬松柔顺洗头膏洗发露 京东自营"
+- generic: 5千+人已买
+- generic: "|近30日热销商品"
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "8"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售1万+"
+- generic: 洗发护发京东自营专区
+- generic "【央妈力荐】TOP榜第1名洗发水":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名洗发水
+- generic "洗发水金榜第1名":
+  - text: 洗发水金榜第1名
+- generic: 无效全退
+- generic: "|金榜销冠"
+- generic: "|自营担保"
+- generic: "|玉龙茶香留香"
+- generic "洗发水金榜第1名":
+  - text: 洗发水金榜第1名
+- generic: ¥
+- generic: "31"
+- generic: .
+- generic: "7"
+- generic: 到手价
+- generic: ¥38.7
+- button
+- img "明日达"
+- generic: 京东秒杀
+- generic: 首购礼金7元
+- generic: 59买2件
+- img "安心品质"
+- generic: 包邮
+- generic "已售300万+"
+- generic "30天加购飙升5倍"
+- generic: 维特丝京东自营旗舰店
+- generic "【金榜推荐】清扬控油蓬松洗发水":
+- img "自营"
+- text: 【金榜推荐】清扬控油蓬松洗发水
+- generic "洗发水热卖榜第1名":
+  - text: 洗发水热卖榜第1名
+- generic: 8倍强韧赋能
+- generic: "|劲速控油"
+- generic: "|清扬去屑洗发水"
+- generic: "|去屑控油"
+- generic "洗发水热卖榜第1名":
+  - text: 洗发水热卖榜第1名
+- generic: ¥
+- generic: "34"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满赠
+- generic: 满赠
+- generic "已售1000万+"
+- generic "4万+人好评"
+- generic: 清扬（CLEAR）京东自营旗舰店
+- generic "【新品】潘婷桃桃洗发水470g":
+- img "自营"
+- text: 【新品】潘婷桃桃洗发水470g
+- generic "潘婷洗发水热卖榜第2名":
+  - text: 潘婷洗发水热卖榜第2名
+- generic: B5精华配方
+- generic: "|白桃乌龙香"
+- generic: "|净澈蓬松柔润"
+- generic: "|48小时控油"
+- generic "潘婷洗发水热卖榜第2名":
+  - text: 潘婷洗发水热卖榜第2名
+- generic: ¥
+- generic: "44"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥49.8
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 2件9折
+- generic: 赠
+- generic "已售60万+"
+- generic "6300+人复购"
+- generic: 宝洁京东自营旗舰店
+- generic "儒意洗发水去屑止痒控油持久蓬松留香洗头膏露500ml女男士专用正品":
+  - generic: 广告
+- img "自营"
+- generic "儒意洗发水去屑止痒控油持久蓬松留香洗头膏露500ml女男士专用正品"
+- generic: 200+店铺会员浏览
+- generic: "|6千+人已买"
+- generic: "|100+人收藏"
+- generic: ¥
+- generic: "66"
+- generic: 到手价
+- generic: ¥69
+- button
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 99买2件
+- generic "已售2万+"
+- generic: 儒意京东自营旗舰店
+- generic "【央妈力荐】TOP榜第1名洗发水":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名洗发水
+- generic "护发洗发水热卖榜第8名":
+  - text: 护发洗发水热卖榜第8名
+- generic: 行业销冠
+- generic: "|30天无效直接退"
+- generic: "|自营担保"
+- generic: "|72小时控油"
+- generic "护发洗发水热卖榜第8名":
+  - text: 护发洗发水热卖榜第8名
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥52.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 79买2件
+- generic: 满赠
+- generic: 包邮
+- generic "已售4000+"
+- generic "4万+人种草"
+- generic: 维特丝京东自营旗舰店
+- generic "【NO.1】蓬松花香洗发水":
+- img "全球购自营"
+- text: 【NO.1】蓬松花香洗发水
+- generic "控油蓬松洗发水热卖榜第1名":
+  - text: 控油蓬松洗发水热卖榜第1名
+- generic: 品质认证
+- generic: "|双倍蓬松技术"
+- generic: "|7天人气商品"
+- generic: "|三天蓬松"
+- generic "控油蓬松洗发水热卖榜第1名":
+  - text: 控油蓬松洗发水热卖榜第1名
+- generic: ¥
+- generic: "148"
+- generic: 到手价
+- generic: ¥169
+- button
+- img "明日达"
+- generic: 包税
+- generic: 立减21元
+- generic: 正品鉴别
+- generic "已售9万+"
+- generic "30天加购飙升5倍"
+- generic: DOFANKIN海外京东自营旗舰店
+- generic "阿道夫去屑止痒洗发水420ml"
+- img "自营"
+- text: 阿道夫去屑止痒洗发水420ml
+- generic "含玫瑰精油洗发水热卖榜第3名":
+  - text: 含玫瑰精油洗发水热卖榜第3名
+- generic: 祛屑舒爽
+- generic: "|经典留香"
+- generic: "|清爽控油"
+- generic: "|持久留香"
+- generic "含玫瑰精油洗发水热卖榜第3名":
+  - text: 含玫瑰精油洗发水热卖榜第3名
+- generic: ¥
+- generic: "43"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满119享8.8折
+- generic: 赠
+- generic: 品质认证
+- generic "已售500万+"
+- generic "30天加购飙升5倍"
+- generic: 阿道夫京东自营旗舰店
+- generic "七绿（SEVENGREEN）十三珍头皮素青蒿清洁控油蓬松去屑修护头皮素去屑止痒蓬松洗发水 【2瓶强韧修护款】修护受损头皮":
+  - generic: 广告
+- generic "七绿（SEVENGREEN）十三珍头皮素青蒿清洁控油蓬松去屑修护头皮素去屑止痒蓬松洗发水 【2瓶强韧修护款】修护受损头皮"
+- generic: 强韧修护
+- generic: "|控油蓬松"
+- generic: "|去屑止痒"
+- generic: ¥
+- generic: "69"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥74.9
+- button
+- generic: 券满11减5
+- generic "11人看过"
+- generic: 七绿 SEVENGREEN身体护理旗舰店
+- generic "【央妈力荐】TOP榜第1名洗发水":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名洗发水
+- generic "洗发水好评榜第5名":
+  - text: 洗发水好评榜第5名
+- generic: 控油蓬松
+- generic: "|持久留香96H"
+- generic: "|去屑止痒"
+- generic: "|长效留香持久"
+- generic "洗发水好评榜第5名":
+  - text: 洗发水好评榜第5名
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "1"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 89买2件
+- generic "已售30万+"
+- generic "1万+人复购"
+- generic: 维特丝京东自营旗舰店
+- generic "[去屑控油]海飞丝止痒蓬松1KG":
+- img "自营"
+- text: "[去屑控油]海飞丝止痒蓬松1KG"
+- generic "洗发水热卖榜第2名":
+  - text: 洗发水热卖榜第2名
+- generic: 疏通毛孔堵塞
+- generic: "|长效清爽"
+- generic: "|去屑控油"
+- generic: "|适合头皮"
+- generic "洗发水热卖榜第2名":
+  - text: 洗发水热卖榜第2名
+- generic: ¥
+- generic: "53"
+- generic: .
+- generic: "7"
+- generic: 到手价
+- generic: ¥59.7
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金6元
+- generic: 2件9折
+- generic: 包邮
+- generic "已售1000万+"
+- generic "7万+人复购"
+- generic: 宝洁京东自营旗舰店
+- generic "【金榜推荐】飘柔清爽去屑洗发水"
+- img "自营"
+- text: 【金榜推荐】飘柔清爽去屑洗发水
+- generic: 双效去屑清爽
+- generic: "|一洗双效"
+- generic: "|兰花香型"
+- generic: "|家庭装超值"
+- generic: ¥
+- generic: "29"
+- generic: .
+- generic: "8"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 2件9折
+- generic "已售1000万+"
+- generic "30天加购飙升5倍"
+- generic: 宝洁京东自营旗舰店
+- generic "DOFANKIN控油蓬松洗发水500ml去屑止痒持久留香氛洗头膏露男女士进口":
+  - generic: 广告
+- img "全球购自营"
+- generic "DOFANKIN控油蓬松洗发水500ml去屑止痒持久留香氛洗头膏露男女士进口"
+- generic: 1千+美发达人加购
+- generic: "|8千+人已买"
+- generic: "|900+人收藏"
+- generic: ¥
+- generic: "152"
+- generic: .
+- generic: "1"
+- generic: 到手价
+- generic: ¥169
+- button
+- img "明日达"
+- generic: 立享9折
+- generic: 正品鉴别
+- generic "已售6000+"
+- generic: DOFANKIN海外京东自营旗舰店
+- generic "阿道夫澳谷控油蓬松洗发水700ml":
+- img "自营"
+- text: 阿道夫澳谷控油蓬松洗发水700ml
+- generic "水杨酸洗发水热卖榜第9名":
+  - text: 水杨酸洗发水热卖榜第9名
+- generic: 天然花萃
+- generic: "|维生素原B5"
+- generic: "|护肤级水杨酸"
+- generic: "|维生素原B5"
+- generic "水杨酸洗发水热卖榜第9名":
+  - text: 水杨酸洗发水热卖榜第9名
+- generic: ¥
+- generic: "47"
+- generic: 到手价
+- generic: ¥49
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 券满119享8.8折
+- generic "已售60万+"
+- generic "30天种草飙升5倍"
+- generic: 阿道夫京东自营旗舰店
+- generic "【央妈力荐】TOP榜第1名洗发水":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名洗发水
+- generic "含海盐洗发水热卖榜第9名":
+  - text: 含海盐洗发水热卖榜第9名
+- generic: 无效全退
+- generic: "|自营担保"
+- generic: "|行业销冠"
+- generic: "|水杨酸护发"
+- generic "含海盐洗发水热卖榜第9名":
+  - text: 含海盐洗发水热卖榜第9名
+- generic: ¥
+- generic: "39"
+- button
+- img "明日达"
+- img "京东超市"
+- img "新品"
+- generic: 69买2件
+- generic: 满赠
+- generic "已售400+"
+- generic "3600+人种草"
+- generic: 维特丝京东自营旗舰店
+- generic "【油扁塌推荐】蓬松花香洗发水":
+- img "全球购自营"
+- text: 【油扁塌推荐】蓬松花香洗发水
+- generic "含马齿苋洗发水热卖榜第3名":
+  - text: 含马齿苋洗发水热卖榜第3名
+- generic: 香水级留香72H
+- generic: "|持久控油蓬松"
+- generic: "|去屑止痒不反复"
+- generic: "|持久留香"
+- generic "含马齿苋洗发水热卖榜第3名":
+  - text: 含马齿苋洗发水热卖榜第3名
+- generic: ¥
+- generic: "129"
+- generic: .
+- generic: "5"
+- generic: 到手价
+- generic: ¥155
+- button
+- generic: 首购礼金10元
+- generic: 包税
+- generic: 立享9折
+- generic: 正品鉴别
+- generic "已售1万+"
+- generic "3200+人好评"
+- generic: YERENTANG海外京东自营旗舰店
+- generic "DOFANKIN进口檀木去屑洗发水止痒控油久留香蓬松柔顺洗头膏露男女士500ml":
+  - generic: 广告
+- img "全球购自营"
+- generic "DOFANKIN进口檀木去屑洗发水止痒控油久留香蓬松柔顺洗头膏露男女士500ml"
+- generic: 近30日热销商品
+- generic: "|3万+人加购"
+- generic: ¥
+- generic: "148"
+- generic: 到手价
+- generic: ¥169
+- button
+- img "明日达"
+- generic: 立减21元
+- generic: 正品鉴别
+- generic "已售6万+"
+- generic: DOFANKIN海外京东自营旗舰店
+- generic "【TOP热卖榜】热卖爆款丰盈蓬松":
+- img "自营"
+- text: 【TOP热卖榜】热卖爆款丰盈蓬松
+- generic "施华蔻洗发水热卖榜第3名":
+  - text: 施华蔻洗发水热卖榜第3名
+- generic: 发根站立技术
+- generic: "|去油蓬松"
+- generic: "|无硅油配方"
+- generic: "|轻盈顺滑"
+- generic "施华蔻洗发水热卖榜第3名":
+  - text: 施华蔻洗发水热卖榜第3名
+- generic: ¥
+- generic: "62"
+- generic: 到手价
+- generic: ¥70
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满70减8
+- generic "已售200万+"
+- generic "9100+人复购"
+- generic: 施华蔻京东自营旗舰店
+- generic "清扬清爽控油蓬松洗发水1200g":
+- img "自营"
+- text: 清扬清爽控油蓬松洗发水1200g
+- generic "50-200元洗发水热卖榜第2名":
+  - text: 50-200元洗发水热卖榜第2名
+- generic: 迸发控油能量
+- generic: "|清凉净爽"
+- generic: "|去屑控油"
+- generic: "|烟酰胺修护"
+- generic "50-200元洗发水热卖榜第2名":
+  - text: 50-200元洗发水热卖榜第2名
+- generic: ¥
+- generic: "61"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥64.8
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic "已售1000万+"
+- generic "1万+人复购"
+- generic: 清扬（CLEAR）京东自营旗舰店
+- generic "【央妈力荐】多肽蓬松洗发水TOP1":
+- img "自营"
+- text: 【央妈力荐】多肽蓬松洗发水TOP1
+- generic: 控油蓬松久留香
+- generic: "|自营担保"
+- generic: "|已售1000万+"
+- generic: "|7天蓬松控油"
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "3"
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 109买2件
+- generic: 包邮
+- generic "已售3000+"
+- generic "600+人好评"
+- generic: 瘾京东自营旗舰店
+- generic "沙宣（VS）沙宣大红瓶水润去屑护发洗发水750g去油柔顺洗头膏洗发露 京东自营":
+  - generic: 广告
+- img "自营"
+- generic "沙宣（VS）沙宣大红瓶水润去屑护发洗发水750g去油柔顺洗头膏洗发露 京东自营"
+- generic: 2千+人已买
+- generic: "|近7日人气商品"
+- generic: "|近30日热销商品"
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "8"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售1万+"
+- generic: 洗发护发京东自营专区
+- generic "【央妈力荐】止脱增发第1名":
+- img "自营"
+- text: 【央妈力荐】止脱增发第1名
+- generic "育发洗发水热卖榜第1名":
+  - text: 育发洗发水热卖榜第1名
+- generic: 30天无效包退
+- generic: "|自营担保"
+- generic: "|全网热销千万"
+- generic: "|生姜固发"
+- generic "育发洗发水热卖榜第1名":
+  - text: 育发洗发水热卖榜第1名
+- generic: ¥
+- generic: "66"
+- generic: 到手价
+- generic: ¥69
+- button
+- img "明日达"
+- generic: 京东秒杀
+- generic: 首购礼金3元
+- generic: 109买2件
+- img "安心品质"
+- generic "已售20万+"
+- generic "1万+人复购"
+- generic: 维特丝京东自营旗舰店
+- generic "德马吉粉鸢尾香氛洗发水控油蓬松":
+- img "自营"
+- text: 德马吉粉鸢尾香氛洗发水控油蓬松
+- generic "护发洗发水好评榜第3名":
+  - text: 护发洗发水好评榜第3名
+- generic: 持久留香
+- generic: "|韧发防断"
+- generic: "|控油蓬松"
+- generic: "|持久留香"
+- generic "护发洗发水好评榜第3名":
+  - text: 护发洗发水好评榜第3名
+- generic: ¥
+- generic: "44"
+- generic: 到手价
+- generic: ¥48
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金4元
+- generic: 满赠
+- generic: 赠
+- generic: 包邮
+- generic "已售9万+"
+- generic "2500+人好评"
+- generic: 德马吉京东自营旗舰店
+- generic "【央妈力荐】TOP榜第1名洗发水":
+  - generic: 重庆预定
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名洗发水
+- generic "含水解角蛋白洗发水好评榜第4名":
+  - text: 含水解角蛋白洗发水好评榜第4名
+- generic: 柔顺滋养
+- generic: "|无效包退"
+- generic: "|染烫修护"
+- generic: "|弱酸温和配方"
+- generic "含水解角蛋白洗发水好评榜第4名":
+  - text: 含水解角蛋白洗发水好评榜第4名
+- generic: ¥
+- generic: "69"
+- button
+- img "京东超市"
+- generic: 119买2件
+- generic: 满赠
+- generic "已售800+"
+- generic "9800+人种草"
+- generic: 维特丝京东自营旗舰店
+- generic "Allowish英国进口香氛洗发水300ml*2控油蓬松留香去屑止痒清爽柔顺洗头膏":
+  - generic: 广告
+- img "全球购自营"
+- generic "Allowish英国进口香氛洗发水300ml*2控油蓬松留香去屑止痒清爽柔顺洗头膏"
+- generic: ¥
+- generic: "301"
+- generic: 到手价
+- generic: ¥331
+- generic: 每300减30
+- generic: 券满500减50
+- generic "已售1万+"
+- generic: Allowish海外京东自营旗舰店
+- generic "【返回购券】清扬樱花去屑洗发水":
+- img "自营"
+- text: 【返回购券】清扬樱花去屑洗发水
+- generic: 持久留樱花香
+- generic: "|抗屑抗油抗氧化"
+- generic: "|清扬去屑洗发水"
+- generic: "|沁爽清爽"
+- generic: ¥
+- generic: "18"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售500万+"
+- generic "6300+人好评"
+- generic: 清扬（CLEAR）京东自营旗舰店
+- generic "Spes控油蓬松洗发水500ml":
+- img "自营"
+- text: Spes控油蓬松洗发水500ml
+- generic: 72H控油蓬松
+- generic: "|专研微导肽科技"
+- generic: "|头皮根源养护"
+- generic: "|三合一修护"
+- generic: ¥
+- generic: "104"
+- generic: 到手价
+- generic: ¥109
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 赠
+- generic "已售100万+"
+- generic "25万+人种草"
+- generic: 诗裴丝Spes京东自营旗舰店
+- generic "【央妈力荐】TOP榜第1名洗发水":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名洗发水
+- generic "含苦参提取物洗发水热卖榜第1名":
+  - text: 含苦参提取物洗发水热卖榜第1名
+- generic: 无效包退
+- generic: "|自营担保"
+- generic: "|去屑止痒"
+- generic: "|苦参提取"
+- generic "含苦参提取物洗发水热卖榜第1名":
+  - text: 含苦参提取物洗发水热卖榜第1名
+- generic: ¥
+- generic: "69"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 119买2件
+- img "安心品质"
+- generic "已售10万+"
+- generic "1万+人复购"
+- generic: 维特丝京东自营旗舰店
+- generic "Allowish进口香氛洗发水300ml控油蓬松去屑止痒柔顺持久留香洗头膏男女士":
+  - generic: 广告
+- img "全球购自营"
+- generic "Allowish进口香氛洗发水300ml控油蓬松去屑止痒柔顺持久留香洗头膏男女士"
+- generic: 多效控油蓬松
+- generic: "|900+美发达人加购"
+- generic: "|蓬松去屑"
+- generic: ¥
+- generic: "169"
+- generic: 已补10元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 每300减30
+- generic: 正品鉴别
+- generic "已售1万+"
+- generic: Allowish海外京东自营旗舰店
+- generic "玻尿酸洗发露440ml 蓬松控油清爽":
+- img "自营"
+- text: 玻尿酸洗发露440ml 蓬松控油清爽
+- generic "洗发水热卖榜第7名":
+  - text: 洗发水热卖榜第7名
+- generic: 蓬松高颅顶
+- generic: "|发根站立3cm"
+- generic: "|去油蓬松"
+- generic: "|补水锁水"
+- generic "洗发水热卖榜第7名":
+  - text: 洗发水热卖榜第7名
+- generic: ¥
+- generic: "65"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售300万+"
+- generic "30天加购飙升5倍"
+- generic: 欧莱雅美发京东自营旗舰店

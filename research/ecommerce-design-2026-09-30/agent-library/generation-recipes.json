@@ -1,0 +1,3637 @@
+[
+  {
+    "product_id": "proya",
+    "category": "精华",
+    "form": "细长泵瓶",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "proya-main-screen-03",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "proya-hero-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "proya-main-screen-06",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "proya-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "proya-detail-screen-11",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "proya-detail-15"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "proya-detail-screen-12",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "proya-detail-16"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "proya-detail-screen-04",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "proya-detail-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "proya-detail-screen-03",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "proya-detail-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "pain",
+        "purpose": "从目标用户的明确使用需求切入，再承接产品优势。",
+        "reference_id": "proya-detail-screen-05",
+        "required_inputs": [
+          "target_user_needs"
+        ],
+        "source_asset_ids": [
+          "proya-detail-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "proya-detail-screen-08",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "proya-detail-10"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "proya-detail-screen-11",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "proya-detail-15"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "proya-detail-screen-12",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "proya-detail-16"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "proya-detail-screen-14",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "proya-detail-18"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "proya-detail-screen-04",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "proya-detail-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 8,
+        "role": "faq",
+        "purpose": "回答购买前的关键问题；答案来自产品资料。",
+        "reference_id": "proya-detail-screen-16",
+        "required_inputs": [
+          "verified_faq"
+        ],
+        "source_asset_ids": [
+          "proya-detail-20"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "pantene",
+    "category": "洗发水",
+    "form": "大泵瓶",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "pantene-main-screen-08",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "pantene-hero-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "pantene-main-screen-03",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "pantene-hero-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "pantene-detail-screen-07",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "pantene-detail-12",
+          "pantene-detail-13"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "pantene-main-screen-04",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "pantene-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "pantene-main-screen-07",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "pantene-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "pantene-detail-screen-03",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "pantene-detail-03",
+          "pantene-detail-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "pain",
+        "purpose": "从目标用户的明确使用需求切入，再承接产品优势。",
+        "reference_id": "pantene-detail-screen-02",
+        "required_inputs": [
+          "target_user_needs"
+        ],
+        "source_asset_ids": [
+          "pantene-detail-02"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "pantene-detail-screen-04",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "pantene-detail-05",
+          "pantene-detail-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "pantene-detail-screen-07",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "pantene-detail-12",
+          "pantene-detail-13"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "pantene-detail-screen-08",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "pantene-detail-14"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "pantene-detail-screen-09",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "pantene-detail-15"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "pantene-main-screen-07",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "pantene-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "fino",
+    "category": "发膜",
+    "form": "广口罐",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "fino-detail-screen-03",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "fino-detail-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "fino-main-screen-05",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "fino-hero-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "fino-main-screen-03",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "fino-hero-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "fino-main-screen-04",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "fino-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "fino-detail-screen-14",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "fino-detail-21",
+          "fino-detail-22"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "fino-detail-screen-03",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "fino-detail-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "pain",
+        "purpose": "从目标用户的明确使用需求切入，再承接产品优势。",
+        "reference_id": "fino-detail-screen-06",
+        "required_inputs": [
+          "target_user_needs"
+        ],
+        "source_asset_ids": [
+          "fino-detail-06",
+          "fino-detail-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "fino-detail-screen-08",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "fino-detail-10",
+          "fino-detail-11"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "fino-main-screen-03",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "fino-hero-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "fino-detail-screen-11",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "fino-detail-15",
+          "fino-detail-16"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "upgrade",
+        "purpose": "并列展示真实新旧版本，解释可验证的变化。",
+        "reference_id": "fino-detail-screen-13",
+        "required_inputs": [
+          "old_new_assets_and_facts"
+        ],
+        "source_asset_ids": [
+          "fino-detail-19",
+          "fino-detail-20"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "fino-detail-screen-14",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "fino-detail-21",
+          "fino-detail-22"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "safeguard",
+    "category": "沐浴露",
+    "form": "大泵瓶",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "safeguard-main-screen-04",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "safeguard-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "safeguard-main-screen-06",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "safeguard-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "safeguard-main-screen-07",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "safeguard-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "safeguard-detail-screen-13",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "safeguard-detail-16"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "safeguard-main-screen-08",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "safeguard-hero-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "safeguard-detail-screen-03",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "safeguard-detail-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "pain",
+        "purpose": "从目标用户的明确使用需求切入，再承接产品优势。",
+        "reference_id": "safeguard-detail-screen-04",
+        "required_inputs": [
+          "target_user_needs"
+        ],
+        "source_asset_ids": [
+          "safeguard-detail-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "safeguard-detail-screen-07",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "safeguard-detail-09"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "safeguard-detail-screen-09",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "safeguard-detail-11"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "safeguard-detail-screen-13",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "safeguard-detail-16"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "safeguard-main-screen-08",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "safeguard-hero-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "cerave",
+    "category": "身体乳",
+    "form": "大泵瓶",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "cerave-main-screen-06",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "cerave-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "benefit",
+        "purpose": "将用户已确认的优势压缩为二至三个短信息块。",
+        "reference_id": "cerave-main-screen-01",
+        "required_inputs": [
+          "confirmed_benefits"
+        ],
+        "source_asset_ids": [
+          "cerave-hero-01"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "cerave-main-screen-04",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "cerave-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "cerave-detail-screen-03",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "cerave-detail-03",
+          "cerave-detail-04"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "cerave-main-screen-05",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "cerave-hero-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "cerave-main-screen-06",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "cerave-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "benefit",
+        "purpose": "将用户已确认的优势压缩为二至三个短信息块。",
+        "reference_id": "cerave-detail-screen-01",
+        "required_inputs": [
+          "confirmed_benefits"
+        ],
+        "source_asset_ids": [
+          "cerave-detail-01"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "mechanism",
+        "purpose": "用简化示意解释机制，清楚区分概念示意与实测证据。",
+        "reference_id": "cerave-detail-screen-02",
+        "required_inputs": [
+          "verified_mechanism"
+        ],
+        "source_asset_ids": [
+          "cerave-detail-02",
+          "cerave-detail-03"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "cerave-main-screen-04",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "cerave-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "cerave-detail-screen-03",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "cerave-detail-03",
+          "cerave-detail-04"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "cerave-detail-screen-05",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "cerave-detail-05",
+          "cerave-detail-06"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "faq",
+        "purpose": "回答购买前的关键问题；答案来自产品资料。",
+        "reference_id": "cerave-detail-screen-04",
+        "required_inputs": [
+          "verified_faq"
+        ],
+        "source_asset_ids": [
+          "cerave-detail-04",
+          "cerave-detail-05"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "zhuben",
+    "category": "卸妆油",
+    "form": "透明泵瓶",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "zhuben-main-screen-02",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "zhuben-hero-02"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "zhuben-main-screen-04",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "zhuben-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "zhuben-main-screen-05",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "zhuben-hero-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "zhuben-detail-screen-16",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "zhuben-detail-29",
+          "zhuben-detail-30"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "zhuben-main-screen-06",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "zhuben-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "zhuben-detail-screen-04",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "zhuben-detail-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "mechanism",
+        "purpose": "用简化示意解释机制，清楚区分概念示意与实测证据。",
+        "reference_id": "zhuben-detail-screen-05",
+        "required_inputs": [
+          "verified_mechanism"
+        ],
+        "source_asset_ids": [
+          "zhuben-detail-07",
+          "zhuben-detail-08",
+          "zhuben-detail-09"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "zhuben-detail-screen-07",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "zhuben-detail-13",
+          "zhuben-detail-14"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "zhuben-detail-screen-09",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "zhuben-detail-16",
+          "zhuben-detail-17"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "zhuben-detail-screen-14",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "zhuben-detail-25",
+          "zhuben-detail-26"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "zhuben-detail-screen-16",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "zhuben-detail-29",
+          "zhuben-detail-30"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "zhuben-main-screen-06",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "zhuben-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 8,
+        "role": "faq",
+        "purpose": "回答购买前的关键问题；答案来自产品资料。",
+        "reference_id": "zhuben-detail-screen-17",
+        "required_inputs": [
+          "verified_faq"
+        ],
+        "source_asset_ids": [
+          "zhuben-detail-30",
+          "zhuben-detail-31"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "anessa",
+    "category": "防晒",
+    "form": "扁平瓶",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "anessa-detail-screen-01",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "anessa-detail-01"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "benefit",
+        "purpose": "将用户已确认的优势压缩为二至三个短信息块。",
+        "reference_id": "anessa-main-screen-02",
+        "required_inputs": [
+          "confirmed_benefits"
+        ],
+        "source_asset_ids": [
+          "anessa-hero-02"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "anessa-detail-screen-09",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "anessa-detail-13"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "anessa-detail-screen-10",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "anessa-detail-14",
+          "anessa-detail-15"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "anessa-main-screen-09",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "anessa-hero-09"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "anessa-detail-screen-01",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "anessa-detail-01"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "benefit",
+        "purpose": "将用户已确认的优势压缩为二至三个短信息块。",
+        "reference_id": "anessa-detail-screen-08",
+        "required_inputs": [
+          "confirmed_benefits"
+        ],
+        "source_asset_ids": [
+          "anessa-detail-12"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "anessa-detail-screen-09",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "anessa-detail-13"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "anessa-main-screen-03",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "anessa-hero-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "anessa-detail-screen-10",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "anessa-detail-14",
+          "anessa-detail-15"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "anessa-detail-screen-11",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "anessa-detail-16",
+          "anessa-detail-17"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "anessa-detail-screen-13",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "anessa-detail-18"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 8,
+        "role": "faq",
+        "purpose": "回答购买前的关键问题；答案来自产品资料。",
+        "reference_id": "anessa-detail-screen-12",
+        "required_inputs": [
+          "verified_faq"
+        ],
+        "source_asset_ids": [
+          "anessa-detail-17"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "loreal",
+    "category": "面膜",
+    "form": "分区袋盒",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "loreal-detail-screen-02",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "loreal-detail-02"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "loreal-main-screen-02",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "loreal-hero-02"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "loreal-detail-screen-07",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "loreal-detail-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "loreal-detail-screen-09",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "loreal-detail-10"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "loreal-main-screen-04",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "loreal-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "loreal-detail-screen-02",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "loreal-detail-02"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "loreal-detail-screen-03",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "loreal-detail-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "loreal-detail-screen-07",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "loreal-detail-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "loreal-detail-screen-09",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "loreal-detail-10"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "loreal-detail-screen-10",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "loreal-detail-11"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "loreal-detail-screen-14",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "loreal-detail-15"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "faq",
+        "purpose": "回答购买前的关键问题；答案来自产品资料。",
+        "reference_id": "loreal-detail-screen-11",
+        "required_inputs": [
+          "verified_faq"
+        ],
+        "source_asset_ids": [
+          "loreal-detail-12"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "freeplus",
+    "category": "洁面乳",
+    "form": "软管",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "freeplus-main-screen-04",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "freeplus-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "benefit",
+        "purpose": "将用户已确认的优势压缩为二至三个短信息块。",
+        "reference_id": "freeplus-main-screen-06",
+        "required_inputs": [
+          "confirmed_benefits"
+        ],
+        "source_asset_ids": [
+          "freeplus-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "freeplus-detail-screen-10",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "freeplus-detail-14"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "freeplus-main-screen-07",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "freeplus-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "freeplus-main-screen-08",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "freeplus-hero-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "freeplus-detail-screen-04",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "freeplus-detail-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "mechanism",
+        "purpose": "用简化示意解释机制，清楚区分概念示意与实测证据。",
+        "reference_id": "freeplus-detail-screen-06",
+        "required_inputs": [
+          "verified_mechanism"
+        ],
+        "source_asset_ids": [
+          "freeplus-detail-09"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "freeplus-detail-screen-07",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "freeplus-detail-10"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "freeplus-detail-screen-10",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "freeplus-detail-14"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "freeplus-detail-screen-13",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "freeplus-detail-17"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "freeplus-detail-screen-14",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "freeplus-detail-18"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "faq",
+        "purpose": "回答购买前的关键问题；答案来自产品资料。",
+        "reference_id": "freeplus-detail-screen-15",
+        "required_inputs": [
+          "verified_faq"
+        ],
+        "source_asset_ids": [
+          "freeplus-detail-19"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 8,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "freeplus-detail-screen-17",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "freeplus-detail-21"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "loccitane",
+    "category": "护手霜",
+    "form": "软管礼盒",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "loccitane-main-screen-05",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "loccitane-hero-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "loccitane-main-screen-08",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "loccitane-hero-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "loccitane-main-screen-06",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "loccitane-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "loccitane-detail-screen-06",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "loccitane-detail-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "loccitane-main-screen-09",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "loccitane-hero-09"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "loccitane-detail-screen-04",
+        "required_inputs": [
+          "real_sku_assets_and_differences",
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "loccitane-detail-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "loccitane-detail-screen-05",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "loccitane-detail-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "loccitane-detail-screen-06",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "loccitane-detail-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "loccitane-detail-screen-07",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent",
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "loccitane-detail-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "loccitane-main-screen-06",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "loccitane-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "loccitane-detail-screen-03",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "loccitane-detail-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "avene",
+    "category": "喷雾",
+    "form": "喷雾罐",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "avene-detail-screen-03",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "avene-detail-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "avene-main-screen-05",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "avene-hero-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "avene-main-screen-04",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "avene-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "avene-main-screen-08",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "avene-hero-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "avene-detail-screen-03",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "avene-detail-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "avene-detail-screen-07",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "avene-detail-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "avene-detail-screen-08",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "avene-detail-09"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "faq",
+        "purpose": "回答购买前的关键问题；答案来自产品资料。",
+        "reference_id": "avene-detail-screen-14",
+        "required_inputs": [
+          "verified_faq"
+        ],
+        "source_asset_ids": [
+          "avene-detail-16"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "avene-detail-screen-15",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "avene-detail-17"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "avene-main-screen-08",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "avene-hero-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "kiehls",
+    "category": "面霜",
+    "form": "广口罐",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "kiehls-detail-screen-06",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "kiehls-detail-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "kiehls-main-screen-03",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "kiehls-hero-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "kiehls-main-screen-04",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "kiehls-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "kiehls-main-screen-05",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "kiehls-hero-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "kiehls-detail-screen-06",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "kiehls-detail-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "pain",
+        "purpose": "从目标用户的明确使用需求切入，再承接产品优势。",
+        "reference_id": "kiehls-detail-screen-08",
+        "required_inputs": [
+          "target_user_needs"
+        ],
+        "source_asset_ids": [
+          "kiehls-detail-10"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "kiehls-detail-screen-09",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "kiehls-detail-11"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "kiehls-main-screen-03",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "kiehls-hero-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "kiehls-detail-screen-11",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "kiehls-detail-13"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "kiehls-detail-screen-12",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "kiehls-detail-13"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "kiehls-detail-screen-03",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "kiehls-detail-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 8,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "kiehls-main-screen-05",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "kiehls-hero-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "lancome",
+    "category": "化妆水",
+    "form": "化妆水瓶",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "lancome-main-screen-06",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "lancome-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "lancome-main-screen-04",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "lancome-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "benefit",
+        "purpose": "将用户已确认的优势压缩为二至三个短信息块。",
+        "reference_id": "lancome-detail-screen-09",
+        "required_inputs": [
+          "confirmed_benefits"
+        ],
+        "source_asset_ids": [
+          "lancome-detail-09"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "lancome-main-screen-07",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "lancome-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "lancome-detail-screen-05",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "lancome-detail-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "pain",
+        "purpose": "从目标用户的明确使用需求切入，再承接产品优势。",
+        "reference_id": "lancome-detail-screen-04",
+        "required_inputs": [
+          "target_user_needs"
+        ],
+        "source_asset_ids": [
+          "lancome-detail-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "lancome-detail-screen-08",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "lancome-detail-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "benefit",
+        "purpose": "将用户已确认的优势压缩为二至三个短信息块。",
+        "reference_id": "lancome-detail-screen-09",
+        "required_inputs": [
+          "confirmed_benefits"
+        ],
+        "source_asset_ids": [
+          "lancome-detail-09"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "lancome-main-screen-07",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "lancome-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "kerastase",
+    "category": "护发精油",
+    "form": "精油泵瓶",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "kerastase-detail-screen-04",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "kerastase-detail-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "kerastase-main-screen-04",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "kerastase-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "kerastase-detail-screen-11",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "kerastase-detail-12"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "kerastase-detail-screen-12",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "kerastase-detail-13"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "kerastase-main-screen-07",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "kerastase-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "kerastase-detail-screen-04",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "kerastase-detail-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "kerastase-detail-screen-05",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "kerastase-detail-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "kerastase-detail-screen-11",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "kerastase-detail-12"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "kerastase-detail-screen-12",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "kerastase-detail-13"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "kerastase-detail-screen-29",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "kerastase-detail-30"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "kerastase-detail-screen-16",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "kerastase-detail-17"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "faq",
+        "purpose": "回答购买前的关键问题；答案来自产品资料。",
+        "reference_id": "kerastase-detail-screen-17",
+        "required_inputs": [
+          "verified_faq"
+        ],
+        "source_asset_ids": [
+          "kerastase-detail-18"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 8,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "kerastase-main-screen-07",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "kerastase-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "doublewear",
+    "category": "粉底液",
+    "form": "粉底瓶",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "doublewear-main-screen-06",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "doublewear-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "shade",
+        "purpose": "用已核验色号与真实试色帮助选择；包装色不能代表上脸或上唇颜色。",
+        "reference_id": "doublewear-main-screen-07",
+        "required_inputs": [
+          "verified_shades_and_swatch_assets"
+        ],
+        "source_asset_ids": [
+          "doublewear-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "doublewear-detail-screen-12",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "doublewear-detail-12"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "doublewear-main-screen-03",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "doublewear-hero-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "doublewear-main-screen-10",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "doublewear-hero-10"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "doublewear-detail-screen-05",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "doublewear-detail-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "doublewear-detail-screen-09",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "doublewear-detail-09"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "doublewear-detail-screen-12",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "doublewear-detail-12"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "shade",
+        "purpose": "用已核验色号与真实试色帮助选择；包装色不能代表上脸或上唇颜色。",
+        "reference_id": "doublewear-detail-screen-15",
+        "required_inputs": [
+          "verified_shades_and_swatch_assets"
+        ],
+        "source_asset_ids": [
+          "doublewear-detail-15"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "makeup",
+        "purpose": "用属于目标产品且有使用授权的妆效素材展示妆面，不凭包装图虚构效果。",
+        "reference_id": "doublewear-detail-screen-11",
+        "required_inputs": [
+          "product_specific_makeup_assets"
+        ],
+        "source_asset_ids": [
+          "doublewear-detail-11"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "doublewear-detail-screen-13",
+        "required_inputs": [
+          "confirmed_instructions"
+        ],
+        "source_asset_ids": [
+          "doublewear-detail-13"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "upgrade",
+        "purpose": "并列展示真实新旧版本，解释可验证的变化。",
+        "reference_id": "doublewear-detail-screen-20",
+        "required_inputs": [
+          "old_new_assets_and_facts"
+        ],
+        "source_asset_ids": [
+          "doublewear-detail-20",
+          "doublewear-detail-21"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 8,
+        "role": "faq",
+        "purpose": "回答购买前的关键问题；答案来自产品资料。",
+        "reference_id": "doublewear-detail-screen-22",
+        "required_inputs": [
+          "verified_faq"
+        ],
+        "source_asset_ids": [
+          "doublewear-detail-23"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 9,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "doublewear-detail-screen-24",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "doublewear-detail-25"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "yslcushion",
+    "category": "气垫",
+    "form": "气垫盒",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "yslcushion-detail-screen-06",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "yslcushion-detail-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "shade",
+        "purpose": "用已核验色号与真实试色帮助选择；包装色不能代表上脸或上唇颜色。",
+        "reference_id": "yslcushion-main-screen-05",
+        "required_inputs": [
+          "verified_shades_and_swatch_assets"
+        ],
+        "source_asset_ids": [
+          "yslcushion-hero-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "yslcushion-detail-screen-07",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "yslcushion-detail-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "yslcushion-main-screen-02",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "yslcushion-hero-02"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "yslcushion-main-screen-08",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "yslcushion-hero-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "yslcushion-detail-screen-06",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "yslcushion-detail-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "yslcushion-detail-screen-07",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "yslcushion-detail-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "benefit",
+        "purpose": "将用户已确认的优势压缩为二至三个短信息块。",
+        "reference_id": "yslcushion-detail-screen-09",
+        "required_inputs": [
+          "confirmed_benefits"
+        ],
+        "source_asset_ids": [
+          "yslcushion-detail-09"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "makeup",
+        "purpose": "用属于目标产品且有使用授权的妆效素材展示妆面，不凭包装图虚构效果。",
+        "reference_id": "yslcushion-detail-screen-08",
+        "required_inputs": [
+          "product_specific_makeup_assets"
+        ],
+        "source_asset_ids": [
+          "yslcushion-detail-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "structure",
+        "purpose": "展示真实正背面、开口、泵头或包装结构；需要对应视角与结构资料。",
+        "reference_id": "yslcushion-detail-screen-11",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "yslcushion-detail-11"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "shade",
+        "purpose": "用已核验色号与真实试色帮助选择；包装色不能代表上脸或上唇颜色。",
+        "reference_id": "yslcushion-detail-screen-12",
+        "required_inputs": [
+          "verified_shades_and_swatch_assets"
+        ],
+        "source_asset_ids": [
+          "yslcushion-detail-12"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 7,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "yslcushion-detail-screen-13",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "yslcushion-detail-13"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 8,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "yslcushion-main-screen-08",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "yslcushion-hero-08"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "ysllip",
+    "category": "口红",
+    "form": "口红管",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "ysllip-detail-screen-17",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "ysllip-detail-17"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "shade",
+        "purpose": "用已核验色号与真实试色帮助选择；包装色不能代表上脸或上唇颜色。",
+        "reference_id": "ysllip-main-screen-04",
+        "required_inputs": [
+          "verified_shades_and_swatch_assets"
+        ],
+        "source_asset_ids": [
+          "ysllip-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "ysllip-detail-screen-18",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "ysllip-detail-18"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "ysllip-main-screen-07",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "ysllip-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "ysllip-detail-screen-17",
+        "required_inputs": [
+          "matching_multiview_or_structure_assets"
+        ],
+        "source_asset_ids": [
+          "ysllip-detail-17"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "shade",
+        "purpose": "用已核验色号与真实试色帮助选择；包装色不能代表上脸或上唇颜色。",
+        "reference_id": "ysllip-detail-screen-05",
+        "required_inputs": [
+          "verified_shades_and_swatch_assets"
+        ],
+        "source_asset_ids": [
+          "ysllip-detail-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "ysllip-detail-screen-18",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "ysllip-detail-18"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "ysllip-main-screen-07",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "ysllip-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "threece",
+    "category": "眼影",
+    "form": "多格眼影盘",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "makeup",
+        "purpose": "用属于目标产品且有使用授权的妆效素材展示妆面，不凭包装图虚构效果。",
+        "reference_id": "threece-main-screen-03",
+        "required_inputs": [
+          "product_specific_makeup_assets"
+        ],
+        "source_asset_ids": [
+          "threece-hero-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 2,
+        "role": "benefit",
+        "purpose": "将用户已确认的优势压缩为二至三个短信息块。",
+        "reference_id": "threece-main-screen-04",
+        "required_inputs": [
+          "confirmed_benefits"
+        ],
+        "source_asset_ids": [
+          "threece-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "shade",
+        "purpose": "用已核验色号与真实试色帮助选择；包装色不能代表上脸或上唇颜色。",
+        "reference_id": "threece-main-screen-06",
+        "required_inputs": [
+          "verified_shades_and_swatch_assets"
+        ],
+        "source_asset_ids": [
+          "threece-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "threece-detail-screen-08",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "threece-detail-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "threece-detail-screen-04",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "threece-detail-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 2,
+        "role": "makeup",
+        "purpose": "用属于目标产品且有使用授权的妆效素材展示妆面，不凭包装图虚构效果。",
+        "reference_id": "threece-detail-screen-06",
+        "required_inputs": [
+          "product_specific_makeup_assets"
+        ],
+        "source_asset_ids": [
+          "threece-detail-06"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "usage",
+        "purpose": "将已确认的使用步骤画成连续小图，并保留正确的先后顺序。",
+        "reference_id": "threece-detail-screen-07",
+        "required_inputs": [
+          "confirmed_instructions",
+          "verified_shades_and_swatch_assets"
+        ],
+        "source_asset_ids": [
+          "threece-detail-06"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "upgrade",
+        "purpose": "并列展示真实新旧版本，解释可验证的变化。",
+        "reference_id": "threece-detail-screen-03",
+        "required_inputs": [
+          "old_new_assets_and_facts"
+        ],
+        "source_asset_ids": [
+          "threece-detail-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "threece-detail-screen-08",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "threece-detail-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "missdior",
+    "category": "香水",
+    "form": "香水瓶",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "missdior-main-screen-01",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "missdior-hero-01"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "missdior-main-screen-04",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "missdior-hero-04"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "missdior-main-screen-05",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "missdior-hero-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "missdior-main-screen-06",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "missdior-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "missdior-detail-screen-05",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "missdior-detail-05"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "ingredient",
+        "purpose": "用原料、液滴或分层结构解释配方或香调；素材只表达已确认信息。",
+        "reference_id": "missdior-detail-screen-06",
+        "required_inputs": [
+          "confirmed_ingredients_or_scent"
+        ],
+        "source_asset_ids": [
+          "missdior-detail-05"
+        ],
+        "requires_region_review": true,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "missdior-detail-screen-03",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "missdior-detail-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "scene",
+        "purpose": "把产品放到符合其实际用途的环境中，保持产品形状和比例。",
+        "reference_id": "missdior-detail-screen-08",
+        "required_inputs": [
+          "confirmed_use_scenario"
+        ],
+        "source_asset_ids": [
+          "missdior-detail-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "missdior-main-screen-06",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "missdior-hero-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  },
+  {
+    "product_id": "advancednight",
+    "category": "精华",
+    "form": "滴管瓶",
+    "status": "inferred_design_recommendation_not_source_order_or_generation_result",
+    "counts_are_optional": true,
+    "missing_fact_policy": "skip_or_replace_with_identity_only_product_view",
+    "main": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "advancednight-main-screen-05",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "advancednight-hero-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "advancednight-main-screen-07",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "advancednight-hero-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "advancednight-main-screen-03",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "advancednight-hero-03"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "advancednight-main-screen-09",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "advancednight-hero-09"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ],
+    "detail": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "purpose": "先认清产品、品类和包装轮廓；主标题只放一个信息重点。",
+        "reference_id": "advancednight-detail-screen-06",
+        "required_inputs": [],
+        "source_asset_ids": [
+          "advancednight-detail-06"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": false,
+        "minimum_safe_output": "仅已见产品外观与已确认品名"
+      },
+      {
+        "slot": 2,
+        "role": "pain",
+        "purpose": "从目标用户的明确使用需求切入，再承接产品优势。",
+        "reference_id": "advancednight-detail-screen-05",
+        "required_inputs": [
+          "target_user_needs"
+        ],
+        "source_asset_ids": [
+          "advancednight-detail-05"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 3,
+        "role": "mechanism",
+        "purpose": "用简化示意解释机制，清楚区分概念示意与实测证据。",
+        "reference_id": "advancednight-detail-screen-07",
+        "required_inputs": [
+          "verified_mechanism"
+        ],
+        "source_asset_ids": [
+          "advancednight-detail-07"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 4,
+        "role": "texture",
+        "purpose": "用真实质地素材展示流动性、膏体或泡沫；不能从包装外观推断内容物。",
+        "reference_id": "advancednight-detail-screen-12",
+        "required_inputs": [
+          "texture_reference"
+        ],
+        "source_asset_ids": [
+          "advancednight-detail-12"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 5,
+        "role": "selection",
+        "purpose": "用相同尺度比较真实存在的版本或套装，不臆造其他 SKU。",
+        "reference_id": "advancednight-detail-screen-13",
+        "required_inputs": [
+          "real_sku_assets_and_differences"
+        ],
+        "source_asset_ids": [
+          "advancednight-detail-13"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      },
+      {
+        "slot": 6,
+        "role": "spec",
+        "purpose": "让用户核对规格、容量、版本和真实标签；小字用排版层处理。",
+        "reference_id": "advancednight-detail-screen-16",
+        "required_inputs": [
+          "verified_specs_and_label"
+        ],
+        "source_asset_ids": [
+          "advancednight-detail-16"
+        ],
+        "requires_region_review": false,
+        "skip_if_missing": true,
+        "minimum_safe_output": null
+      }
+    ]
+  }
+]

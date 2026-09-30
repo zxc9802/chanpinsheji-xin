@@ -1,0 +1,1116 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 拍拍二手
+- generic: 品牌
+- generic: 京东国际
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "珀莱雅双抗面膜特证版15片保湿补水美白紧致焕亮肌肤生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅双抗面膜特证版15片保湿补水美白紧致焕亮肌肤生日礼物"
+- generic: 2千+护肤党收藏
+- generic: "|2千+护肤达人收藏"
+- generic: ¥
+- generic: "231"
+- generic: 已补58.99元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 券满500减50
+- generic "已售200万+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "珀莱雅【尝鲜礼】双抗面膜特证版2片装":
+- img "自营"
+- text: 珀莱雅【尝鲜礼】双抗面膜特证版2片装
+- generic "珀莱雅面膜热卖榜第1名":
+  - text: 珀莱雅面膜热卖榜第1名
+- generic: 敏感肌适用
+- generic: "|舒缓红敏肌"
+- generic: "|植物来源成分"
+- generic: "|14天淡斑匀肤"
+- generic "珀莱雅面膜热卖榜第1名":
+  - text: 珀莱雅面膜热卖榜第1名
+- generic: ¥
+- generic: "13"
+- generic: .
+- generic: "9"
+- generic: 已补12.53元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 包邮
+- generic "已售200万+"
+- generic "2500+人复购"
+- generic: 珀莱雅京东自营旗舰店
+- generic "【修护焕亮】理肤泉王牌B5 PRO":
+- img "自营"
+- text: 【修护焕亮】理肤泉王牌B5 PRO
+- generic "面膜热卖榜第5名":
+  - text: 面膜热卖榜第5名
+- generic: 5片稳屏障
+- generic: "|1片抗应激"
+- generic: "|含10倍B5"
+- generic: "|适合成人肤质"
+- generic "面膜热卖榜第5名":
+  - text: 面膜热卖榜第5名
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- generic: 已补5.1元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 包邮
+- generic "已售100万+"
+- generic "1万+人复购"
+- generic: 理肤泉京东自营旗舰店
+- generic "欧莱雅玻色因安瓶面膜3.0 5片装含赠到手20片保湿修护生日礼物":
+- img "自营"
+- text: 欧莱雅玻色因安瓶面膜3.0 5片装含赠到手20片保湿修护生日礼物
+- generic "面膜热卖榜第6名":
+  - text: 面膜热卖榜第6名
+- generic: 无酒精矿物油
+- generic: "|特殊美容后修护"
+- generic: "|敏感肌适用"
+- generic: "|强韧肌肤屏障"
+- generic "面膜热卖榜第6名":
+  - text: 面膜热卖榜第6名
+- generic: ¥
+- generic: "119"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售700万+"
+- generic "19万+人种草"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "珀莱雅双抗面膜特证版5片保湿补水美白紧致焕亮肌肤生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅双抗面膜特证版5片保湿补水美白紧致焕亮肌肤生日礼物"
+- generic: 900+护肤达人收藏
+- generic: "|近30日热销商品"
+- generic: ¥
+- generic: "109"
+- generic: 到手价
+- generic: ¥122
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 券满500减50
+- generic "已售200万+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "【央妈力荐】TOP榜第1名面膜":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名面膜
+- generic "面膜热卖榜第1名":
+  - text: 面膜热卖榜第1名
+- generic: 自营担保
+- generic: "|行业销冠"
+- generic: "|无效全退"
+- generic: "|去黄提亮"
+- generic "面膜热卖榜第1名":
+  - text: 面膜热卖榜第1名
+- generic: ¥
+- generic: "49"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 59买2件
+- generic: 包邮
+- generic "已售70万+"
+- generic "1万+人复购"
+- generic: 维特丝京东自营旗舰店
+- generic "【明星同款】奕沃水光面膜":
+- img "自营"
+- text: 【明星同款】奕沃水光面膜
+- generic "贴片面膜金榜第5名":
+  - text: 贴片面膜金榜第5名
+- generic: 人民好物认证
+- generic: "|全网热销第一"
+- generic: "|老爸抽检"
+- generic: "|敏感肌友好"
+- generic "贴片面膜金榜第5名":
+  - text: 贴片面膜金榜第5名
+- generic: ¥
+- generic: "37"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥49
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 满49减9.1
+- generic: 2件减19
+- generic "已售20万+"
+- generic "4800+人复购"
+- generic: 奕沃 (EIIO)京东自营旗舰店
+- generic "珀莱雅双抗精华面膜特证版15片":
+- img "自营"
+- text: 珀莱雅双抗精华面膜特证版15片
+- generic "珀莱雅面膜热卖榜第3名":
+  - text: 珀莱雅面膜热卖榜第3名
+- generic: 舒缓
+- generic: "|补水"
+- generic: "|保湿"
+- generic: "|真焕白弹润"
+- generic "珀莱雅面膜热卖榜第3名":
+  - text: 珀莱雅面膜热卖榜第3名
+- generic: ¥
+- generic: "95"
+- button
+- img "明日达"
+- img "京东超市"
+- img "国家补贴"
+- generic: 赠
+- generic "已售10万+"
+- generic "6400+人复购"
+- generic: 1号会员店
+- generic "珀莱雅（PROYA）【全新升级】源力面膜3.0 晒后修护舒缓敏感10片护肤品生日礼物":
+  - generic: 重庆预定
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅（PROYA）【全新升级】源力面膜3.0 晒后修护舒缓敏感10片护肤品生日礼物"
+- generic: 水润舒缓
+- generic: "|超1000万人关注店铺"
+- generic: "|重磅升级"
+- generic: ¥
+- generic: "215"
+- button
+- img "京东超市"
+- img "重磅新品"
+- generic: 券满500减50
+- generic "已售40万+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "珀莱雅双抗面膜美白10片保湿补水皱紧致焕亮肌肤舒缓修红生日礼物送女友":
+- img "自营"
+- text: 珀莱雅双抗面膜美白10片保湿补水皱紧致焕亮肌肤舒缓修红生日礼物送女友
+- generic "珀莱雅面膜热卖榜第4名":
+  - text: 珀莱雅面膜热卖榜第4名
+- generic: 舒缓红干敏肌
+- generic: "|双抗焕白净亮"
+- generic: "|专利羽感膜布"
+- generic: "|弹润焕亮肌肤"
+- generic "珀莱雅面膜热卖榜第4名":
+  - text: 珀莱雅面膜热卖榜第4名
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "8"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售4万+"
+- generic "100+人复购"
+- generic: 京东美妆自营旗舰店
+- generic "谷雨体验试用旅行装奶皮面膜2片":
+- img "自营"
+- text: 谷雨体验试用旅行装奶皮面膜2片
+- generic: 多通路美白矩阵
+- generic: "|适合中国人肤质"
+- generic: "|轻薄服帖不反吸"
+- generic: "|科技纤维膜布"
+- generic: ¥
+- generic: "9"
+- generic: .
+- generic: "9"
+- button
+- generic "已售90万+"
+- generic "30天加购飙升5倍"
+- generic: 谷雨京东自营旗舰店
+- generic "珀莱雅小球藻面膜补水保湿海藻补水玻尿酸面膜男女士生日礼物":
+- img "自营"
+- text: 珀莱雅小球藻面膜补水保湿海藻补水玻尿酸面膜男女士生日礼物
+- generic "贴片面膜金榜第10名":
+  - text: 贴片面膜金榜第10名
+- generic: 温和无添加
+- generic: "|舒缓保湿"
+- generic: "|深层补水"
+- generic: "|海藻精华"
+- generic "贴片面膜金榜第10名":
+  - text: 贴片面膜金榜第10名
+- generic: ¥
+- generic: "79"
+- generic: 到手价
+- generic: ¥87.8
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 赠
+- generic "已售1000万+"
+- generic "1万+人复购"
+- generic: 珀莱雅京东自营旗舰店
+- generic "FANBEAUTY面膜6片尝鲜装":
+- img "自营"
+- text: FANBEAUTY面膜6片尝鲜装
+- generic "新锐国货面膜热卖榜第1名":
+  - text: 新锐国货面膜热卖榜第1名
+- generic: 补水保湿
+- generic: "|清洁控油"
+- generic: "|强韧修护"
+- generic: "|甘油保湿"
+- generic "新锐国货面膜热卖榜第1名":
+  - text: 新锐国货面膜热卖榜第1名
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "8"
+- generic: 已补39.2元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 满赠
+- generic: 包邮
+- generic "已售40万+"
+- generic "1万+人复购"
+- generic: Fan Beauty Diary京东自营旗舰店
+- generic "美迪惠尔积雪草面膜":
+- img "自营"
+- text: 美迪惠尔积雪草面膜
+- generic: 改善色素沉着
+- generic: "|脂质体微囊工艺"
+- generic: "|水润不紧绷"
+- generic: "|淡印舒缓泛红"
+- generic: ¥
+- generic: "69"
+- generic: 到手价
+- generic: ¥76
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满70减7
+- generic: 满赠
+- generic: 满赠
+- generic "已售200万+"
+- generic "900+人复购"
+- generic: 美迪惠尔京东自营旗舰店
+- generic "可复美透明质酸钠水润贴面膜10片（5片*2盒）大水膜 国庆节送礼旅行必备":
+- img "自营"
+- text: 可复美透明质酸钠水润贴面膜10片（5片*2盒）大水膜 国庆节送礼旅行必备
+- generic: 换季干燥肌救星
+- generic: "|敏感肌适用无刺激"
+- generic: "|依克多因焕颜专利"
+- generic: "|水润贴敷无需清洗"
+- generic: ¥
+- generic: "53"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售1万+"
+- generic "100+人复购"
+- generic: 京东美妆自营旗舰店
+- generic "可复美医用湿敷单片":
+- img "自营"
+- text: 可复美医用湿敷单片
+- generic: 重组胶原蛋白
+- generic: "|术后修复"
+- generic: "|Ⅱ类14"
+- generic: ¥
+- generic: "9"
+- generic: .
+- generic: "9"
+- button
+- generic "已售10万+"
+- generic "1100+人复购"
+- generic: 可复美京东自营旗舰店
+- generic "珀莱雅红宝石面膜3.0干皮补水紧致淡纹生日礼物女 10片":
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅红宝石面膜3.0干皮补水紧致淡纹生日礼物女 10片"
+- generic: 超1000万人关注店铺
+- generic: "|近7日人气商品"
+- generic: ¥
+- generic: "241"
+- generic: 到手价
+- generic: ¥268
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 券满500减50
+- generic "已售30万+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "达肤妍B5pro经典保湿面膜补水修护泛红平价学生30片囤货装":
+- img "自营"
+- text: 达肤妍B5pro经典保湿面膜补水修护泛红平价学生30片囤货装
+- generic: 2周强韧肌肤屏障
+- generic: "|油橄榄叶提取物"
+- generic: "|积雪草纤维融合"
+- generic: "|婴儿级可接触膜布"
+- generic: ¥
+- generic: "129"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售100万+"
+- generic "2万+人种草"
+- generic: 达肤妍京东自营旗舰店
+- generic "自然堂雪莲补水舒缓面膜5片":
+- img "自营"
+- text: 自然堂雪莲补水舒缓面膜5片
+- generic: 滋润舒缓
+- generic: "|补水锁水"
+- generic: "|长效保湿"
+- generic: "|深层滋养"
+- generic: ¥
+- generic: "25"
+- button
+- img "明日达"
+- generic "已售300万+"
+- generic "5100+人复购"
+- generic: 自然堂京东自营旗舰店
+- generic "【央妈力荐】面膜TOP榜第1名":
+- img "自营"
+- text: 【央妈力荐】面膜TOP榜第1名
+- generic "面膜热卖榜第3名":
+  - text: 面膜热卖榜第3名
+- generic: 美国进口
+- generic: "|30天无效全退"
+- generic: "|自营担保"
+- generic: "|补水保湿"
+- generic "面膜热卖榜第3名":
+  - text: 面膜热卖榜第3名
+- generic: ¥
+- generic: "79"
+- generic: 到手价
+- generic: ¥89
+- button
+- img "明日达"
+- generic: 京东秒杀
+- img "重磅新品"
+- generic: 首购礼金10元
+- generic "已售30万+"
+- generic "4500+人好评"
+- generic: OHBT京东自营旗舰店
+- generic "珀莱雅红宝石面膜3.0干皮补水紧致淡纹生日礼物女 20片":
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅红宝石面膜3.0干皮补水紧致淡纹生日礼物女 20片"
+- generic: 2万+护肤党加购
+- generic: "|15万+人浏览"
+- generic: "|5万+人加购"
+- generic: ¥
+- generic: "486"
+- generic: 到手价
+- generic: ¥596
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 券满1200减120
+- generic "已售30万+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "薇诺娜（WINONA）极润保湿面膜补水屏障修护舒缓敏感肌面膜组合官方正品 【2.0升级款】极润保湿面膜5片":
+- generic: 薇诺娜（WINONA）极润保湿面膜补水屏障修护舒缓敏感肌面膜组合官方正品 【2.0升级款】极润保湿面膜5片
+- generic "薇诺娜面膜热卖榜第10名":
+  - text: 薇诺娜面膜热卖榜第10名
+- generic: 轻薄天丝膜布
+- generic: "|敏感肌实测有效"
+- generic: "|舒缓敏感泛红"
+- generic: "|24倍高载液膜布"
+- generic "薇诺娜面膜热卖榜第10名":
+  - text: 薇诺娜面膜热卖榜第10名
+- generic: ¥
+- generic: "29"
+- generic: .
+- generic: "9"
+- button
+- generic: 包邮
+- generic "已售4000+"
+- generic "4200+人种草"
+- generic: 薇诺娜小象优选专卖店
+- generic "奕沃（eiio）提亮去黄贴片面膜3盒装保湿紧致修护礼物e七夕节礼物":
+- img "自营"
+- text: 奕沃（eiio）提亮去黄贴片面膜3盒装保湿紧致修护礼物e七夕节礼物
+- generic: 金榜推荐
+- generic: "|老爸抽检"
+- generic: "|人民好物推荐"
+- generic: "|全网热销999w"
+- generic: ¥
+- generic: "99"
+- button
+- img "京东超市"
+- generic: 券满258减20
+- generic "已售20万+"
+- generic "700+人好评"
+- generic: 奕沃 (EIIO)京东自营旗舰店
+- generic "理肤泉B5面膜PRO10片无盒体验装积雪草补水修护舒缓敏感肌 赠品介意慎拍":
+- img "自营"
+- text: 理肤泉B5面膜PRO10片无盒体验装积雪草补水修护舒缓敏感肌 赠品介意慎拍
+- generic: 5片稳屏障
+- generic: "|含10倍B5"
+- generic: "|1片抗应激"
+- generic: "|B5抗应激"
+- generic: ¥
+- generic: "98"
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 包邮
+- generic "已售40万+"
+- generic "5500+人好评"
+- generic: 理肤泉京东自营旗舰店
+- generic "雅漾（Avene）专研密集修护面膜10片 超修小白膜敏肌舒缓褪红晒后补水换季护肤":
+  - generic: 广告
+- img "自营"
+- generic "雅漾（Avene）专研密集修护面膜10片 超修小白膜敏肌舒缓褪红晒后补水换季护肤"
+- generic: 店铺被30万人种草
+- generic: "|5万+店铺老客浏览"
+- generic: ¥
+- generic: "234"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥261
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满20享9折
+- generic: 券满329享8折
+- generic "已售20万+"
+- generic: 雅漾京东自营旗舰店
+- generic "薇诺娜（WINONA）透明质酸保湿修护面贴膜2盒保湿滋润修护生日礼物中秋节礼物":
+- img "自营"
+- text: 薇诺娜（WINONA）透明质酸保湿修护面贴膜2盒保湿滋润修护生日礼物中秋节礼物
+- generic: 4周改善泛红
+- generic: "|敏感肌适用"
+- generic: "|特殊护理后可用"
+- generic: "|快速吸收不粘腻"
+- generic: ¥
+- generic: "68"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售2万+"
+- generic "200+人好评"
+- generic: 京东美妆自营旗舰店
+- generic "珀莱雅小球藻面膜20片":
+- img "自营"
+- text: 珀莱雅小球藻面膜20片
+- generic "珀莱雅面膜热卖榜第2名":
+  - text: 珀莱雅面膜热卖榜第2名
+- generic: 舒缓保湿
+- generic: "|深层补水"
+- generic: "|温和无添加"
+- generic: "|莹润保湿"
+- generic "珀莱雅面膜热卖榜第2名":
+  - text: 珀莱雅面膜热卖榜第2名
+- generic: ¥
+- generic: "37"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥42.2
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 满赠
+- generic: 包邮
+- generic "已售1000万+"
+- generic "30天加购飙升5倍"
+- generic: 珀莱雅京东自营旗舰店
+- generic "奕沃（eiio）水光弹润补水面膜3片装平价送女友送男女七夕节礼物":
+- img "自营"
+- text: 奕沃（eiio）水光弹润补水面膜3片装平价送女友送男女七夕节礼物
+- generic: 改善粗糙度
+- generic: "|植物纤维膜布贴合"
+- generic: "|专利纳米微乳精华"
+- generic: "|敏感肌适用"
+- generic: ¥
+- generic: "11"
+- generic: .
+- generic: "8"
+- generic: 已补4.1元
+- button
+- img "百亿补贴"
+- img "京东超市"
+- generic: 包邮
+- generic "已售20万+"
+- generic "30天加购飙升5倍"
+- generic: 奕沃 (EIIO)京东自营旗舰店
+- generic "韩束金刚侠面膜抗皱紧致补水保湿含赠到手41片护肤品生日礼物男女":
+  - generic: 广告
+- img "自营"
+- generic "韩束金刚侠面膜抗皱紧致补水保湿含赠到手41片护肤品生日礼物男女"
+- generic: 近7日人气商品
+- generic: "|胶原肽精粹"
+- generic: "|8万+护肤党浏览"
+- generic: ¥
+- generic: "268"
+- generic: 已补31元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 满赠
+- generic "1万+人看过"
+- generic: KANS韩束京东自营旗舰店
+- generic "欧莱雅玻色因安瓶面膜15片 保湿修护面膜护肤品生日礼送女友礼物":
+- img "自营"
+- text: 欧莱雅玻色因安瓶面膜15片 保湿修护面膜护肤品生日礼送女友礼物
+- generic: 舒缓肌肤
+- generic: "|密集补水"
+- generic: "|淡纹修护"
+- generic: "|玻色因修护"
+- generic: ¥
+- generic: "89"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售10万+"
+- generic "30天加购飙升5倍"
+- generic: 京东美妆自营旗舰店
+- generic "珀莱雅防晒霜盾护防晒液防水防汗户外高倍SPF50+ PA++++清爽隔离学生礼 盾护防晒液50ml":
+- generic: 珀莱雅防晒霜盾护防晒液防水防汗户外高倍SPF50+ PA++++清爽隔离学生礼 盾护防晒液50ml
+- generic: 快速成膜不粘腻
+- generic: "|三抗防护抗衰老"
+- generic: "|轻薄不油腻肤感"
+- generic: "|防水防汗不脱妆"
+- generic: ¥
+- generic: "63"
+- generic: .
+- generic: "9"
+- generic: 已补34.68元
+- button
+- img "百亿补贴"
+- generic: 包邮
+- generic "已售4万+"
+- generic "30天加购飙升5倍"
+- generic: 优京化妆品专营店
+- generic "珂润保湿水感防晒乳60ml物理防晒":
+- img "自营"
+- text: 珂润保湿水感防晒乳60ml物理防晒
+- generic: 敏感肌适用
+- generic: "|进口护肤品"
+- generic: "|物理防晒"
+- generic: "|全身可涂"
+- generic: ¥
+- generic: "81"
+- button
+- img "明日达"
+- generic: 满赠
+- generic: 满赠
+- generic "已售10万+"
+- generic "1万+人种草"
+- generic: 珂润京东自营旗舰店
+- generic "SK-II小贝壳调色防晒CC霜玫瑰色30g美白素颜遮瑕妆前隔离sk2生日礼物女":
+  - generic: 广告
+- img "自营"
+- generic "SK-II小贝壳调色防晒CC霜玫瑰色30g美白素颜遮瑕妆前隔离sk2生日礼物女"
+- generic: 近30日人气商品
+- generic: "|近7日人气商品"
+- generic: ¥
+- generic: "540"
+- button
+- img "明日达"
+- img "安心品质"
+- generic "已售1万+"
+- generic: SK-II京东自营旗舰店
+- generic "安热沙新一代小金瓶60ml":
+- img "自营"
+- text: 安热沙新一代小金瓶60ml
+- generic: 养肤精粹呵护
+- generic: "|防水防汗配方"
+- generic: "|敏感肌适用"
+- generic: "|轻盈乳液质地"
+- generic: ¥
+- generic: "102"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售2万+"
+- generic "900+人好评"
+- generic: 安热沙京东自营专区
+- generic "欧莱雅小金管防晒霜15ml*4":
+- img "自营"
+- text: 欧莱雅小金管防晒霜15ml*4
+- generic: 高倍防晒
+- generic: "|敏肌适用"
+- generic: "|清爽不粘腻"
+- generic: "|阻隔光老化"
+- generic: ¥
+- generic: "48"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售10万+"
+- generic "900+人好评"
+- generic: 京东美妆自营旗舰店
+- generic "eLL 美白防晒素颜霜30g SPF30PA++隔离遮瑕防晒三合一通勤提亮肤色":
+- img "自营"
+- text: eLL 美白防晒素颜霜30g SPF30PA++隔离遮瑕防晒三合一通勤提亮肤色
+- generic "亮泽妆效隔离霜热卖榜第1名":
+  - text: 亮泽妆效隔离霜热卖榜第1名
+- generic: 全网热销
+- generic: "|药监认证"
+- generic: "|TOP榜单"
+- generic: "|不卡粉妆效"
+- generic "亮泽妆效隔离霜热卖榜第1名":
+  - text: 亮泽妆效隔离霜热卖榜第1名
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- generic "已售2万+"
+- generic "2万+人种草"
+- generic: eLL京东自营旗舰店
+- generic "雅漾（Avene）倍护水润防晒乳50ML SPF50+小金刚高倍防晒霜防水防汗户外军训":
+  - generic: 广告
+- img "自营"
+- generic "雅漾（Avene）倍护水润防晒乳50ML SPF50+小金刚高倍防晒霜防水防汗户外军训"
+- generic: 100人已回购
+- generic: "|15万+人加购"
+- generic: "|近7日人气商品"
+- generic: ¥
+- generic: "89"
+- generic: .
+- generic: "01"
+- generic: 到手价
+- generic: ¥98.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满20享9折
+- generic: 券满329享8折
+- generic "已售10万+"
+- generic: 雅漾京东自营旗舰店
+- generic "薇诺娜【邓为同款】清透防晒乳5g 会员派样生日礼物":
+- img "自营"
+- text: 薇诺娜【邓为同款】清透防晒乳5g 会员派样生日礼物
+- generic "防晒折扣榜第2名":
+  - text: 防晒折扣榜第2名
+- generic: 防水防汗防摩擦
+- generic: "|修护光损伤"
+- generic: "|清爽不油腻"
+- generic: "|敏感肌专研配方"
+- generic "防晒折扣榜第2名":
+  - text: 防晒折扣榜第2名
+- generic: ¥
+- generic: "4"
+- generic: .
+- generic: "9"
+- button
+- img "京东超市"
+- generic "已售10万+"
+- generic "3700+人复购"
+- generic: 薇诺娜WINONA京东自营旗舰店
+- generic "Mistine蜜丝婷小黄帽防晒霜乳0ml":
+- img "自营"
+- text: Mistine蜜丝婷小黄帽防晒霜乳0ml
+- generic: 快速成膜不泛白
+- generic: "|敏感肌适用"
+- generic: "|轻薄不粘腻"
+- generic: "|适合所有肤质使用"
+- generic: ¥
+- generic: "39"
+- generic: .
+- generic: "9"
+- button
+- img "京东超市"
+- generic "已售1万+"
+- generic "30天加购飙升5倍"
+- generic: Mistine京东自营旗舰店
+- generic "妮维雅（NIVEA）美白防晒霜180ml 防水防汗透气 泰国进口 生日礼物女":
+- img "全球购自营"
+- text: 妮维雅（NIVEA）美白防晒霜180ml 防水防汗透气 泰国进口 生日礼物女
+- generic: 光感亮白
+- generic: "|水润透气"
+- generic: "|防晒养肤"
+- generic: "|美白防护"
+- generic: ¥
+- generic: "34"
+- generic: 已补17.87元
+- button
+- img "百亿补贴"
+- generic: 首购礼金2元
+- generic: 包税
+- generic: 券满1享9折
+- generic: 正品鉴别
+- generic: 包邮
+- generic "已售10万+"
+- generic "100+人好评"
+- generic: 妮维雅NIVEA海外京东自营旗舰店
+- generic "兰蔻轻透水漾防晒乳50ml小白管SPF50化妆品旅行出游":
+  - generic: 广告
+- img "自营"
+- generic "兰蔻轻透水漾防晒乳50ml小白管SPF50化妆品旅行出游"
+- generic: 超80万人店内购买
+- generic: "|75万+店铺老客浏览"
+- generic: ¥
+- generic: "760"
+- button
+- img "明日达"
+- generic "已售100万+"
+- generic: 兰蔻京东自营旗舰店
+- generic "理肤泉B5特护修护防晒乳15ml":
+- img "自营"
+- text: 理肤泉B5特护修护防晒乳15ml
+- generic: 红没药醇舒缓刺激
+- generic: "|麦色滤全段防护"
+- generic: "|水润保湿不粘腻"
+- generic: "|B5特护修护屏障"
+- generic: ¥
+- generic: "25"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售3000+"
+- generic "1800+人种草"
+- generic: 理肤泉京东自营旗舰店
+- generic "珀莱雅（PROYA）盾护防晒50ml防晒清爽隔离防晒霜 国庆出游":
+- img "自营"
+- text: 珀莱雅（PROYA）盾护防晒50ml防晒清爽隔离防晒霜 国庆出游
+- generic: 10重物化防晒剂
+- generic: "|防水抗汗持久防护"
+- generic: "|轻盈肤感不黏腻"
+- generic: ¥
+- generic: "79"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售2000+"
+- generic "9800+人种草"
+- generic: 京东美妆自营旗舰店
+- generic "安热沙 倍护 防晒乳 亲肤型 60ml 正装":
+- img "自营"
+- text: 安热沙 倍护 防晒乳 亲肤型 60ml 正装
+- generic: 含60%护肤成分
+- generic: "|快速成膜不泛白"
+- generic: "|不添加酒精香料"
+- generic: "|清爽不粘腻"
+- generic: ¥
+- generic: "119"
+- generic: 已补9元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 包邮
+- generic "已售8万+"
+- generic "2800+人种草"
+- generic: 安热沙京东自营专区
+- generic "Mistine【军训出游】蜜丝婷防晒霜户外赛事级摇摇乐防水汗紫外线40g礼物":
+  - generic: 广告
+- img "自营"
+- generic "Mistine【军训出游】蜜丝婷防晒霜户外赛事级摇摇乐防水汗紫外线40g礼物"
+- generic: 3千+人收藏
+- generic: "|近7日热销商品"
+- generic: ¥
+- generic: "64"
+- generic: 到手价
+- generic: ¥69
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic "已售10万+"
+- generic: Mistine京东自营旗舰店
+- generic "mistine蜜丝婷小蓝帽防晒霜":
+- img "自营"
+- text: mistine蜜丝婷小蓝帽防晒霜
+- generic: 水感美白
+- generic: "|高倍防晒"
+- generic: "|清爽亲肤"
+- generic: "|多重功效"
+- generic: ¥
+- generic: "79"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售10万+"
+- generic "30天加购飙升5倍"
+- generic: Mistine京东自营旗舰店
+- generic "EltaMD安妍科防晒霜女生物理防晒":
+- img "自营"
+- text: EltaMD安妍科防晒霜女生物理防晒
+- generic: 物理防晒不闷痘
+- generic: "|轻透质地不假白"
+- generic: "|敏感肌适用无刺激"
+- generic: "|油皮适用"
+- generic: ¥
+- generic: "79"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售4万+"
+- generic "4000+人种草"
+- generic: 京东美妆自营旗舰店
+- generic "Elta MD精妍轻透防晒霜85g":
+- img "自营"
+- text: Elta MD精妍轻透防晒霜85g
+- generic: 清透肤感
+- generic: "|敏肌专研"
+- generic: "|清爽不油腻"
+- generic: "|适合男女"
+- generic "领政府补贴减￥8.9"
+- generic: 清透肤感
+- generic: "|敏肌专研"
+- generic: "|清爽不油腻"
+- generic: "|适合男女"
+- generic: ¥
+- generic: "80"
+- generic: .
+- generic: "1"
+- generic: 已补10元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- img "政府补贴"
+- generic: 包邮
+- generic "已售7万+"
+- generic "30天种草飙升5倍"
+- generic: Elta MD京东自营旗舰店
+- generic "Mistine蜜丝婷小黄帽防晒霜乳【超值囤货】60ml*2+40ml军训男女通用":
+  - generic: 广告
+- img "自营"
+- generic "Mistine蜜丝婷小黄帽防晒霜乳【超值囤货】60ml*2+40ml军训男女通用"
+- generic: 无眼刺激
+- generic: "|10万+人加购"
+- generic: "|超400万人关注店铺"
+- generic: ¥
+- generic: "150"
+- generic: 到手价
+- generic: ¥160
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金10元
+- generic "已售400万+"
+- generic: Mistine京东自营旗舰店
+- generic "德妃（DERMAFIRM）养肤清透隔离霜50mlSPF50+紫苏防晒妆前乳素颜霜遮瑕礼物":
+- img "自营"
+- text: 德妃（DERMAFIRM）养肤清透隔离霜50mlSPF50+紫苏防晒妆前乳素颜霜遮瑕礼物
+- generic "亮泽妆效隔离霜热卖榜第9名":
+  - text: 亮泽妆效隔离霜热卖榜第9名
+- generic: 隔离紫外线
+- generic: "|妆前润养肌肤"
+- generic: "|含紫苏养肤成分"
+- generic: "|自然提亮肤色"
+- generic "亮泽妆效隔离霜热卖榜第9名":
+  - text: 亮泽妆效隔离霜热卖榜第9名
+- generic: ¥
+- generic: "67"
+- generic: 到手价
+- generic: ¥79
+- button
+- img "明日达"
+- generic: 首购礼金7元
+- generic: 立减5元
+- generic: 赠
+- generic "已售20万+"
+- generic "30天加购飙升5倍"
+- generic: 德妃（DERMAFIRM）京东自营旗舰店
+- generic "Mistine蜜丝婷水感哑光清盈防护面部防晒霜60ml SPF50+【临期清仓】":
+- img "自营"
+- text: Mistine蜜丝婷水感哑光清盈防护面部防晒霜60ml SPF50+【临期清仓】
+- generic: 接受者可拍
+- generic: "|29/5到期"
+- generic: "|临期清仓"
+- generic: "|面部清爽保湿"
+- generic: ¥
+- generic: "45"
+- generic: .
+- generic: "9"
+- button
+- img "百亿补贴"
+- img "京东超市"
+- generic: 包邮
+- generic "已售10万+"
+- generic "200+人好评"
+- generic: 临期清仓专区
+- generic "修丽可小银伞美白防晒乳15ml SPF50+淡斑清爽防晒隔离紫外线送女友":
+- img "自营"
+- text: 修丽可小银伞美白防晒乳15ml SPF50+淡斑清爽防晒隔离紫外线送女友
+- generic: 10小时超长防护
+- generic: "|化学防晒高倍防护"
+- generic: "|全波段防晒防黑"
+- generic: "|三重院线美白成分"
+- generic: ¥
+- generic: "55"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售4万+"
+- generic "30天加购飙升5倍"
+- generic: 进口优选美妆京东自营专区
+- generic "珀莱雅（PROYA）【刘亦菲同款】盾护防晒霜高倍防晒隔离霜户外军训护肤品官方正品 【送双抗旅行装】盾护防晒霜50ml+中样15ml*2":
+  - generic: 广告
+- generic "珀莱雅（PROYA）【刘亦菲同款】盾护防晒霜高倍防晒隔离霜户外军训护肤品官方正品 【送双抗旅行装】盾护防晒霜50ml+中样15ml*2"
+- generic: ¥
+- generic: "131"
+- generic: .
+- generic: "1"
+- generic: 到手价
+- generic: ¥138
+- button
+- generic: 限时折上9.5折
+- generic "已售1万+"
+- generic: 焱雯化妆品专营店
+- generic "欧莱雅小金管防晒霜30ml+15ml*2 经典版 隔离霜护肤品生日礼礼物":
+- img "自营"
+- text: 欧莱雅小金管防晒霜30ml+15ml*2 经典版 隔离霜护肤品生日礼礼物
+- generic: 抗老促胶原成分
+- generic: "|真空泵便捷取用"
+- generic: "|敏肌友好不粘腻"
+- generic: "|深层水润养肤"
+- generic: ¥
+- generic: "83"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售10万+"
+- generic "100+人复购"
+- generic: 京东美妆自营旗舰店
+- generic "【限量特价】舒芙水感防晒霜60g":
+- img "自营"
+- text: 【限量特价】舒芙水感防晒霜60g
+- generic "脱毛刀折扣榜第8名":
+  - text: 脱毛刀折扣榜第8名
+- generic: 高倍防晒
+- generic: "|敏感肌适用"
+- generic: "|水感轻薄"
+- generic: "|防紫外线"
+- generic "脱毛刀折扣榜第8名":
+  - text: 脱毛刀折扣榜第8名
+- generic: ¥
+- generic: "19"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 2件9折
+- generic: 赠
+- generic "已售4000+"
+- generic "2100+人种草"
+- generic: 舒适京东自营旗舰店
+- generic "珀莱雅盾护防晒25ml":
+- img "自营"
+- text: 珀莱雅盾护防晒25ml
+- generic: 轻盈肤感不黏腻
+- generic: "|抗晒黑红伤老化"
+- generic: "|防水防汗更持久"
+- generic: "|贴合肌肤"
+- generic: ¥
+- generic: "39"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售2000+"
+- generic "5900+人种草"
+- generic: 京东美妆自营旗舰店
+- generic "Mistine蜜丝婷防晒水喷雾小凉喷SPF50+美白清爽保湿80ml军训男女通用":
+  - generic: 广告
+- img "自营"
+- generic "Mistine蜜丝婷防晒水喷雾小凉喷SPF50+美白清爽保湿80ml军训男女通用"
+- generic: 旅行便携随身带
+- generic: "|10万+店铺老客浏览"
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 2件减39
+- generic "已售8万+"
+- generic: Mistine京东自营旗舰店
+- generic "曼秀雷敦新碧小金帽防晒霜":
+- img "自营"
+- text: 曼秀雷敦新碧小金帽防晒霜
+- generic: 抗光老阻光损伤
+- generic: "|轻薄透气不闷肤"
+- generic: "|一抹化水易推开"
+- generic: "|8小时长效锁水"
+- generic: ¥
+- generic: "34"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥39.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic "已售100万+"
+- generic "30天种草飙升5倍"
+- generic: 曼秀雷敦京东自营旗舰店
+- generic "欧莱雅美颜柔紫防晒40ml":
+- img "自营"
+- text: 欧莱雅美颜柔紫防晒40ml
+- generic "修饰肤色防晒好评榜第1名":
+  - text: 修饰肤色防晒好评榜第1名
+- generic: 快速成膜不粘腻
+- generic: "|轻薄乳液质地"
+- generic: "|修饰暗黄提亮"
+- generic: "|美白防晒双特证"
+- generic "修饰肤色防晒好评榜第1名":
+  - text: 修饰肤色防晒好评榜第1名
+- generic: ¥
+- generic: "89"
+- generic: 到手价
+- generic: ¥98.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic "已售600万+"
+- generic "30天种草飙升5倍"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "珀莱雅（PROYA）盾护防晒15ml 清爽耐晒防晒霜防水防汗军训防晒霜男 女士":
+- img "自营"
+- text: 珀莱雅（PROYA）盾护防晒15ml 清爽耐晒防晒霜防水防汗军训防晒霜男 女士
+- generic: 16小时长效防护
+- generic: "|抗晒伤防红黑"
+- generic: "|军训级防晒力"
+- generic: "|油皮干皮双适配"
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售100万+"
+- generic "1600+人复购"
+- generic: 珀莱雅京东自营旗舰店

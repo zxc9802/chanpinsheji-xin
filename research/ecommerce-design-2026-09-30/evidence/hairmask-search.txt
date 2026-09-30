@@ -1,0 +1,673 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 京东国际
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic: ¥
+- generic: "5"
+- img "divider"
+- generic: 无门槛·立减，仅可购买自营部分商品
+- generic: 00:59:28后失效
+- generic: 筛选商品
+- generic "潘婷三明治金粹修护发膜180G改善干枯毛躁3重精华滋养柔顺高浓护发素":
+  - generic: 广告
+- img "自营"
+- generic "潘婷三明治金粹修护发膜180G改善干枯毛躁3重精华滋养柔顺高浓护发素"
+- generic: ¥
+- generic: "43"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥49.8
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金6元
+- generic "已售7万+"
+- generic: 宝洁京东自营旗舰店
+- generic "【热卖TOP榜】芬浓修护发膜230g":
+- img "自营"
+- text: 【热卖TOP榜】芬浓修护发膜230g
+- generic "发膜热卖榜第1名":
+  - text: 发膜热卖榜第1名
+- generic: 72h柔顺
+- generic: "|修护受损"
+- generic: "|润泽柔亮"
+- generic: "|修护深入发芯"
+- generic "发膜热卖榜第1名":
+  - text: 发膜热卖榜第1名
+- generic: ¥
+- generic: "40"
+- generic: .
+- generic: "7"
+- generic: 到手价
+- generic: ¥42.7
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic "已售300万+"
+- generic "2万+人复购"
+- generic: FINO芬浓京东自营旗舰店
+- generic "【爆卖2亿颗】潘婷胜肽泡弹发膜":
+- img "自营"
+- text: 【爆卖2亿颗】潘婷胜肽泡弹发膜
+- generic "发膜热卖榜第2名":
+  - text: 发膜热卖榜第2名
+- generic: 3天持久弹韧亮
+- generic: "|第四代重磅升级"
+- generic: "|护肤级胜肽精华"
+- generic: "|柔顺弹亮"
+- generic "发膜热卖榜第2名":
+  - text: 发膜热卖榜第2名
+- generic: ¥
+- generic: "72"
+- generic: 到手价
+- generic: ¥79
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金7元
+- generic: 125买2件
+- generic: 满赠
+- generic "已售300万+"
+- generic "1万+人好评"
+- generic: 宝洁京东自营旗舰店
+- generic "黄金发膜250ml 免蒸 改善毛躁":
+- img "自营"
+- text: 黄金发膜250ml 免蒸 改善毛躁
+- generic "发膜热卖榜第6名":
+  - text: 发膜热卖榜第6名
+- generic: 滋养闪耀秀发
+- generic: "|秀发垂顺"
+- generic: "|修护干枯受损"
+- generic: "|深层滋养"
+- generic "发膜热卖榜第6名":
+  - text: 发膜热卖榜第6名
+- generic: ¥
+- generic: "73"
+- generic: 到手价
+- generic: ¥88
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 满80减12
+- generic: 赠
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 欧莱雅美发京东自营旗舰店
+- generic "潘婷发膜氨基酸深层滋养头发护理养发柔顺护发素免蒸发膜 【干枯毛躁用】发膜270g*2+紫40ml":
+  - generic: 广告
+- generic "潘婷发膜氨基酸深层滋养头发护理养发柔顺护发素免蒸发膜 【干枯毛躁用】发膜270g*2+紫40ml"
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "7"
+- generic: 到手价
+- generic: ¥69.7
+- button
+- img "百亿补贴"
+- generic: 首购礼金5元
+- generic: 券满29减5
+- generic "已售3万+"
+- generic: 潘婷官方旗舰店
+- generic "【央妈力荐】TOP榜第1名发膜":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名发膜
+- generic "柔顺发膜热卖榜第1名":
+  - text: 柔顺发膜热卖榜第1名
+- generic: 染烫柔顺修护
+- generic: "|干枯毛躁修复"
+- generic: "|30天无效包退"
+- generic: "|免蒸修护"
+- generic "柔顺发膜热卖榜第1名":
+  - text: 柔顺发膜热卖榜第1名
+- generic: ¥
+- generic: "59"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 89买2件
+- generic "已售9万+"
+- generic "30天加购飙升5倍"
+- generic: 维特丝京东自营旗舰店
+- generic "【全网热销】OKCS分级修护发膜":
+- img "自营"
+- text: 【全网热销】OKCS分级修护发膜
+- generic: 明星网红同款
+- generic: "|首创分级修护发膜"
+- generic: "|专为不同发质设计"
+- generic: "|干枯柔顺"
+- generic: ¥
+- generic: "67"
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 券满99减10
+- generic: 满赠
+- generic: 包邮
+- generic "已售10万+"
+- generic "30天加购飙升5倍"
+- generic: OKCS京东自营旗舰店
+- generic "【金榜】潘婷乳液修护发膜":
+- img "自营"
+- text: 【金榜】潘婷乳液修护发膜
+- generic "干枯发质适用发膜热卖榜第4名":
+  - text: 干枯发质适用发膜热卖榜第4名
+- generic: 蕴含维他命
+- generic: "|柔韧强韧"
+- generic: "|全新升级"
+- generic: "|氨基酸配方"
+- generic "干枯发质适用发膜热卖榜第4名":
+  - text: 干枯发质适用发膜热卖榜第4名
+- generic: ¥
+- generic: "29"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥34.8
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 2件9折
+- generic: 满赠
+- generic "已售80万+"
+- generic "30天加购飙升5倍"
+- generic: 宝洁京东自营旗舰店
+- generic "密集修护多芬氨基酸小金碗发膜":
+- img "自营"
+- text: 密集修护多芬氨基酸小金碗发膜
+- generic "滋养发膜好评榜第9名":
+  - text: 滋养发膜好评榜第9名
+- generic: 水润滋养
+- generic: "|长效锁水"
+- generic: "|密集修护"
+- generic: "|柔顺干枯发"
+- generic "滋养发膜好评榜第9名":
+  - text: 滋养发膜好评榜第9名
+- generic: ¥
+- generic: "34"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥39.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 赠
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 联合利华京东自营旗舰店
+- generic "【热卖】fino芬浓发膜套装690g"
+- img "自营"
+- text: 【热卖】fino芬浓发膜套装690g
+- generic "柔顺发膜热卖榜第2名":
+  - text: 柔顺发膜热卖榜第2名
+- generic: 修护受损
+- generic: "|多重美容液"
+- generic: "|柔顺保湿"
+- generic: "|受损修复"
+- generic "柔顺发膜热卖榜第2名":
+  - text: 柔顺发膜热卖榜第2名
+- generic: ¥
+- generic: "119"
+- generic: 到手价
+- generic: ¥124
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic "已售300万+"
+- generic "30天加购飙升5倍"
+- generic: FINO芬浓京东自营旗舰店
+- generic "【店铺TOP1】拉芳鱼子酱发膜":
+- img "自营"
+- text: 【店铺TOP1】拉芳鱼子酱发膜
+- generic "发膜热卖榜第3名":
+  - text: 发膜热卖榜第3名
+- generic: 柔顺水光丝滑
+- generic: "|深层修护"
+- generic: "|鱼子酱精华"
+- generic: "|5秒免蒸速冲"
+- generic "发膜热卖榜第3名":
+  - text: 发膜热卖榜第3名
+- generic: ¥
+- generic: "27"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥42.9
+- button
+- img "京东超市"
+- generic: 首购礼金15元
+- generic: 券满119享8.8折
+- generic: 满赠
+- generic "已售70万+"
+- generic "9900+人复购"
+- generic: 拉芳京东自营旗舰店
+- generic "蒂花之秀精油发膜500ml":
+- img "自营"
+- text: 蒂花之秀精油发膜500ml
+- generic "发膜热卖榜第8名":
+  - text: 发膜热卖榜第8名
+- generic: 强韧发丝
+- generic: "|全网爆款热卖"
+- generic: "|滋养修护防断发"
+- generic: "|两周改善损伤"
+- generic "发膜热卖榜第8名":
+  - text: 发膜热卖榜第8名
+- generic: ¥
+- generic: "35"
+- generic: .
+- generic: "1"
+- generic: 到手价
+- generic: ¥39.1
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金4元
+- generic: 59买2件
+- generic: 赠
+- generic "已售10万+"
+- generic "30天种草飙升5倍"
+- generic: 蒂花之秀（DIFASO）京东自营旗舰店
+- generic "OHBT鱼子酱发膜蛋白营养修复头发防掉发干枯改善毛躁柔顺光泽护发素":
+  - generic: 广告
+- img "自营"
+- generic "OHBT鱼子酱发膜蛋白营养修复头发防掉发干枯改善毛躁柔顺光泽护发素"
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 89买2件
+- generic "已售9万+"
+- generic: OHBT京东自营旗舰店
+- generic "潘婷深水泡弹发膜玫瑰香氛型12ml":
+- img "自营"
+- text: 潘婷深水泡弹发膜玫瑰香氛型12ml
+- generic "发膜好评榜第2名":
+  - text: 发膜好评榜第2名
+- generic: 密集滋养
+- generic: "|沁润补水"
+- generic: "|日常护理"
+- generic: "|发芯赋活"
+- generic "发膜好评榜第2名":
+  - text: 发膜好评榜第2名
+- generic: ¥
+- generic: "6"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥9.9
+- button
+- img "京东超市"
+- generic: 首购礼金3元
+- generic "已售50万+"
+- generic "1万+人好评"
+- generic: 宝洁京东自营旗舰店
+- generic "欧莱雅PRO【瞬顺发膜】250ml":
+- img "自营"
+- text: 欧莱雅PRO【瞬顺发膜】250ml
+- generic "干枯修护发膜好评榜第5名":
+  - text: 干枯修护发膜好评榜第5名
+- generic: 1分钟修护
+- generic: "|解救炸毛"
+- generic: "|修护受损发丝"
+- generic: "|柔顺如初"
+- generic "干枯修护发膜好评榜第5名":
+  - text: 干枯修护发膜好评榜第5名
+- generic: ¥
+- generic: "252"
+- generic: 到手价
+- generic: ¥300
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金12元
+- generic: 官方直降12%
+- generic: 赠
+- generic "已售30万+"
+- generic "3100+人好评"
+- generic: 欧莱雅PRO京东自营旗舰店
+- generic "潘婷3分钟茉莉山茶香护发素70ml":
+- img "自营"
+- text: 潘婷3分钟茉莉山茶香护发素70ml
+- generic: 多效损伤修护
+- generic: "|B5精华"
+- generic: "|茉莉山茶香"
+- generic: "|香氛型发膜"
+- generic: ¥
+- generic: "14"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥18.8
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金4元
+- generic: 满赠
+- generic "已售30万+"
+- generic "6800+人好评"
+- generic: 宝洁京东自营旗舰店
+- generic "YERENTANG泰国进口发膜修复干枯改善毛躁柔顺光泽蛋白发膜护发头发护理烫染 【柔顺滋养修护】鱼子酱发膜":
+  - generic: 广告
+- img "全球购"
+- generic "YERENTANG泰国进口发膜修复干枯改善毛躁柔顺光泽蛋白发膜护发头发护理烫染 【柔顺滋养修护】鱼子酱发膜"
+- generic: 1千+店铺老客浏览
+- generic: "|修护干枯"
+- generic: "|300+人已买"
+- generic: ¥
+- generic: "121"
+- generic: .
+- generic: "12"
+- generic: 到手价
+- generic: ¥141.12
+- button
+- img "送货上门"
+- generic: 券满21减20
+- generic: 每300减30
+- generic "已售500+"
+- generic: YERENTANG海外旗舰店
+- generic "潘婷玫瑰泡弹发膜12ml*8":
+- img "自营"
+- text: 潘婷玫瑰泡弹发膜12ml*8
+- generic "受损发质适用发膜热卖榜第4名":
+  - text: 受损发质适用发膜热卖榜第4名
+- generic: 显著减少断发
+- generic: "|高浓护发精华"
+- generic: "|72小时持久留香"
+- generic: "|强韧度提升"
+- generic "受损发质适用发膜热卖榜第4名":
+  - text: 受损发质适用发膜热卖榜第4名
+- generic: ¥
+- generic: "80"
+- generic: 到手价
+- generic: ¥89
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金9元
+- generic: 198买3件
+- generic: 满赠
+- generic "已售300万+"
+- generic "5200+人复购"
+- generic: 宝洁京东自营旗舰店
+- generic "发膜蛋白霜护发素改善干枯毛躁":
+- img "自营"
+- text: 发膜蛋白霜护发素改善干枯毛躁
+- generic: 柔顺修护
+- generic: "|水光锁蛋白"
+- generic: "|强韧防断"
+- generic: ¥
+- generic: "74"
+- generic: 到手价
+- generic: ¥79
+- button
+- img "明日达"
+- img "京东超市"
+- img "新品"
+- generic: 首购礼金5元
+- generic: 满赠
+- generic: 赠
+- generic "已售100+"
+- generic "100%好评"
+- generic: 德马吉京东自营旗舰店
+- generic "【行业销冠】修护发膜TOP1":
+- img "自营"
+- text: 【行业销冠】修护发膜TOP1
+- generic "强韧发膜热卖榜第5名":
+  - text: 强韧发膜热卖榜第5名
+- generic: 烫染柔顺修护
+- generic: "|自营担保"
+- generic: "|30天无效包退"
+- generic: "|改善毛躁"
+- generic "强韧发膜热卖榜第5名":
+  - text: 强韧发膜热卖榜第5名
+- generic: ¥
+- generic: "36"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥39.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 59买2件
+- generic: 赠
+- generic "已售40万+"
+- generic "30天加购飙升5倍"
+- generic: 儒意京东自营旗舰店
+- generic "潘婷玻尿酸发膜深水泡弹高浓护发素弹韧亮柔顺养发修护12ml*8 京东自营":
+  - generic: 广告
+- img "自营"
+- generic "潘婷玻尿酸发膜深水泡弹高浓护发素弹韧亮柔顺养发修护12ml*8 京东自营"
+- generic: 近7日人气商品
+- generic: "|2千+人浏览"
+- generic: "|近30日人气商品"
+- generic: ¥
+- generic: "56"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售2000+"
+- generic: 洗发护发京东自营专区
+- generic "蜂花 修护发膜改善毛燥380g":
+- img "自营"
+- text: 蜂花 修护发膜改善毛燥380g
+- generic "发膜热卖榜第9名":
+  - text: 发膜热卖榜第9名
+- generic: 修护润泽发丝
+- generic: "|缓解秀发干枯"
+- generic: "|丝肽精华护发"
+- generic: "|保湿滋润"
+- generic "发膜热卖榜第9名":
+  - text: 发膜热卖榜第9名
+- generic: ¥
+- generic: "12"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥13.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金1元
+- generic: 2件9.5折
+- generic "已售100万+"
+- generic "5200+人复购"
+- generic: 蜂花京东自营旗舰店
+- generic "施华蔻专业专属修护发膜1000ml":
+- img "自营"
+- text: 施华蔻专业专属修护发膜1000ml
+- generic "受损发质适用发膜热卖榜第9名":
+  - text: 受损发质适用发膜热卖榜第9名
+- generic: 无硅修护
+- generic: "|强韧顺滑"
+- generic: "|维他命B3&B5"
+- generic: "|改善毛躁"
+- generic "受损发质适用发膜热卖榜第9名":
+  - text: 受损发质适用发膜热卖榜第9名
+- generic: ¥
+- generic: "97"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满赠
+- generic: 满赠
+- generic "已售40万+"
+- generic "2100+人复购"
+- generic: 施华蔻专业线京东自营旗舰店
+- generic "OKCS分级修护发膜250g-中度":
+- img "自营"
+- text: OKCS分级修护发膜250g-中度
+- generic: 明星网红同款发膜
+- generic: "|首创分级修护发膜"
+- generic: "|角蛋白多重修护"
+- generic: "|缓解干枯"
+- generic: ¥
+- generic: "43"
+- generic: .
+- generic: "5"
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 券满49享9折
+- generic: 满赠
+- generic: 包邮
+- generic "已售2万+"
+- generic "30天加购飙升5倍"
+- generic: OKCS京东自营旗舰店
+- generic "H18日本鱼子酱发膜护发素修复干枯改善毛躁柔顺光泽蛋白营养修复头发":
+  - generic: 广告
+- img "自营"
+- generic "H18日本鱼子酱发膜护发素修复干枯改善毛躁柔顺光泽蛋白营养修复头发"
+- generic: 3万+人加购
+- generic: "|1万+店铺老客浏览"
+- generic: ¥
+- generic: "118"
+- generic: 到手价
+- generic: ¥128
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金10元
+- generic: 满200减38
+- generic "已售1万+"
+- generic: H18京东自营旗舰店
+- generic "【新品热销】Befe玫瑰滋养发膜":
+- img "自营"
+- text: 【新品热销】Befe玫瑰滋养发膜
+- generic: 保湿护发
+- generic: "|滋养发丝"
+- generic: "|改善干枯"
+- generic: "|绸缎质感"
+- generic: ¥
+- generic: "65"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥68.9
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 券满99减10
+- generic: 满赠
+- generic: 包邮
+- generic "已售9万+"
+- generic "100+人复购"
+- generic: Befe京东自营旗舰店
+- generic "【爆卖2亿颗】潘婷胜肽发膜":
+- img "自营"
+- text: 【爆卖2亿颗】潘婷胜肽发膜
+- generic "发膜好评榜第10名":
+  - text: 发膜好评榜第10名
+- generic: 第四代重磅升级
+- generic: "|护肤级胜肽精华"
+- generic: "|3天持久弹韧亮"
+- generic: "|快速修复"
+- generic "发膜好评榜第10名":
+  - text: 发膜好评榜第10名
+- generic: ¥
+- generic: "32"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥39.8
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金7元
+- generic: 满赠
+- generic: 包邮
+- generic "已售20万+"
+- generic "30天种草飙升5倍"
+- generic: 宝洁京东自营旗舰店
+- generic "BELEMBUCA3分钟奇迹护发素 180ml":
+- img "京喜自营"
+- text: BELEMBUCA3分钟奇迹护发素 180ml
+- generic "保湿护发素热卖榜第9名":
+  - text: 保湿护发素热卖榜第9名
+- generic: 柔顺易梳
+- generic: "|3分钟护发"
+- generic: "|强韧修护"
+- generic: "|保湿护发配方"
+- generic "保湿护发素热卖榜第9名":
+  - text: 保湿护发素热卖榜第9名
+- generic: ¥
+- generic: "4"
+- generic: .
+- generic: "99"
+- generic: 已补1.83元
+- button
+- img "百亿补贴"
+- generic: 包邮
+- generic "已售4万+"
+- generic "7万+人种草"
+- generic: 京喜自营官方店
+- generic "Allowish进口护发素250g柔顺干枯毛躁修复顺滑光泽蛋白发膜持久留香男女":
+  - generic: 广告
+- img "全球购自营"
+- generic "Allowish进口护发素250g柔顺干枯毛躁修复顺滑光泽蛋白发膜持久留香男女"
+- generic: 柔顺轻盈
+- generic: "|1千+人加购"
+- generic: "|改善毛躁"
+- generic: "|修复干枯"
+- generic: ¥
+- generic: "179"
+- button
+- generic: 券满300减30
+- generic: 正品鉴别
+- generic "已售1万+"
+- generic: Allowish海外京东自营旗舰店
+- generic "【热销】fino芬浓银钻发膜200g":
+- img "自营"
+- text: 【热销】fino芬浓银钻发膜200g
+- generic "50-200元发膜热卖榜第10名":
+  - text: 50-200元发膜热卖榜第10名
+- generic: 深层修护
+- generic: "|修护受损"
+- generic: "|滋润秀发"
+- generic: "|发质宛若新生"
+- generic "50-200元发膜热卖榜第10名":
+  - text: 50-200元发膜热卖榜第10名
+- generic: ¥
+- generic: "88"
+- generic: 到手价
+- generic: ¥91
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 包邮
+- generic "已售300万+"
+- generic "2200+人复购"
+- generic: FINO芬浓京东自营旗舰店

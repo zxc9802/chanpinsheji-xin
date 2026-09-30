@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "image_files": 541,
+  "screen_records": 489,
+  "candidate_records": 303,
+  "html_pages": 21,
+  "checks": [
+    "image_decode_and_dimensions",
+    "all_source_images_mapped",
+    "source_urls_and_evidence_files",
+    "eligibility_filters",
+    "recipe_references",
+    "local_html_links"
+  ]
+}

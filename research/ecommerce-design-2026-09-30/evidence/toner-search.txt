@@ -1,0 +1,669 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 京东国际
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "【榜单推荐】第1.爽肤水B5缩孔":
+- img "自营"
+- text: 【榜单推荐】第1.爽肤水B5缩孔
+- generic "爽肤水好评榜第8名":
+  - text: 爽肤水好评榜第8名
+- generic: “
+- generic: 去黄提亮是让我比较惊喜的
+- generic: ”
+- generic: 进口原料
+- generic: "|热卖300W+"
+- generic: "|收缩毛孔TOPI"
+- generic: "|深层修护"
+- generic "爽肤水好评榜第8名":
+  - text: 爽肤水好评榜第8名
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满赠
+- generic: 满赠
+- generic: 包邮
+- generic "已售10万+"
+- generic "99%好评"
+- generic: 温博士美妆京东自营旗舰店
+- generic "颐莲（RELLET）【 张凌赫代言】补水喷雾保湿舒缓 300ml*2直播专享 妆前爽肤水":
+- img "自营"
+- text: 颐莲（RELLET）【 张凌赫代言】补水喷雾保湿舒缓 300ml*2直播专享 妆前爽肤水
+- generic: “
+- generic: 好用爱用还想用
+- generic: ”
+- generic: 温和亲肤
+- generic: "|补水喷雾"
+- generic: "|改善干燥"
+- generic: "|深层保湿"
+- generic: “
+- generic: 好用爱用还想用
+- generic: ”
+- generic: ¥
+- generic: "62"
+- generic: 到手价
+- generic: ¥69
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 限时立减7元
+- generic "已售100万+"
+- generic "1万+人复购"
+- generic: 颐莲（RELLET）京东自营旗舰店
+- generic "兰蔻大粉水400ml爽肤水保湿补水透润护肤品化妆品礼盒生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "兰蔻大粉水400ml爽肤水保湿补水透润护肤品化妆品礼盒生日礼物"
+- generic "爽肤水金榜第2名":
+  - text: 爽肤水金榜第2名
+- generic: 超80万人店内购买
+- generic: "|近7日热卖好货"
+- generic "领政府补贴减￥50"
+- generic "爽肤水金榜第2名":
+  - text: 爽肤水金榜第2名
+- generic: ¥
+- generic: "450"
+- generic: 补贴领后价
+- generic: ¥500
+- button
+- img "明日达"
+- img "政府补贴"
+- generic "已售400万+"
+- generic: 兰蔻京东自营旗舰店
+- generic "【不含酒精香精】芙丽芳丝爽肤水":
+- img "自营"
+- text: 【不含酒精香精】芙丽芳丝爽肤水
+- generic: “
+- generic: 芙丽芳丝不愧是大品牌，值得信赖
+- generic: ”
+- generic: 清透水感
+- generic: "|敏感肌"
+- generic: "|清爽保湿"
+- generic: "|肤质友好"
+- generic: “
+- generic: 芙丽芳丝不愧是大品牌，值得信赖
+- generic: ”
+- generic: ¥
+- generic: "109"
+- button
+- img "明日达"
+- generic: 2件减41
+- generic: 赠
+- generic "已售20万+"
+- generic "99%好评"
+- generic: 芙丽芳丝京东自营旗舰店
+- generic "兰蔻菁纯水150ml玫瑰精粹水护肤品化妆品礼盒生日礼物女友":
+  - generic: 广告
+- img "自营"
+- text: 兰蔻菁纯水150ml玫瑰精粹水护肤品化妆品礼盒生日礼物女友
+- generic: ¥
+- generic: "1120"
+- button
+- img "明日达"
+- generic "已售10万+"
+- generic: 兰蔻京东自营旗舰店
+- generic "【央妈力荐】TOP榜爽肤水第1名":
+- img "自营"
+- text: 【央妈力荐】TOP榜爽肤水第1名
+- generic "平衡肤质爽肤水热卖榜第1名":
+  - text: 平衡肤质爽肤水热卖榜第1名
+- generic: “
+- generic: 用着不粘腻质地清爽
+- generic: ”
+- generic: 去黄提亮修复
+- generic: "|1抹水润狂补水"
+- generic: "|央妈力荐TOP1"
+- generic: "|大容量装"
+- generic "平衡肤质爽肤水热卖榜第1名":
+  - text: 平衡肤质爽肤水热卖榜第1名
+- generic: ¥
+- generic: "29"
+- generic: .
+- generic: "5"
+- button
+- img "明日达"
+- img "京东超市"
+- img "国家补贴"
+- generic "已售10万+"
+- generic "99%好评"
+- generic: 谜草集（MICAOJI）京东自营旗舰店
+- generic "茵芙莎流金水200ml保湿美白祛斑":
+- img "自营"
+- text: 茵芙莎流金水200ml保湿美白祛斑
+- generic "美白爽肤水化妆水热卖榜第1名":
+  - text: 美白爽肤水化妆水热卖榜第1名
+- generic: “
+- generic: 对敏感肌肤和油痘肌比较友好
+- generic: ”
+- generic: 补水保湿
+- generic: "|祛斑美白"
+- generic: "|修护维稳"
+- generic: "|祛斑美白"
+- generic "美白爽肤水化妆水热卖榜第1名":
+  - text: 美白爽肤水化妆水热卖榜第1名
+- generic: ¥
+- generic: "115"
+- button
+- img "明日达"
+- generic "已售70万+"
+- generic "30天加购飙升5倍"
+- generic: 茵芙莎（IPSA）京东自营专区
+- generic "科颜氏金盏花水250ml植萃爽肤水":
+- img "自营"
+- text: 科颜氏金盏花水250ml植萃爽肤水
+- generic "爽肤水金榜第1名":
+  - text: 爽肤水金榜第1名
+- generic: “
+- generic: 抗炎好用的爽肤水
+- generic: ”
+- generic: 保湿维稳
+- generic: "|舒缓修红"
+- generic: "|净油控痘"
+- generic: "|清火控油专家"
+- generic "爽肤水金榜第1名":
+  - text: 爽肤水金榜第1名
+- generic: ¥
+- generic: "350"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售90万+"
+- generic "30天加购飙升5倍"
+- generic: 科颜氏Kiehl's京东自营旗舰店
+- generic "珀莱雅红宝石爽肤水2.0 抗皱保湿补水化妆水护肤品120ml生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅红宝石爽肤水2.0 抗皱保湿补水化妆水护肤品120ml生日礼物"
+- generic: 超1000万人关注店铺
+- generic: "|65万+护肤达人浏览"
+- generic: ¥
+- generic: "209"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满500减50
+- generic "已售20万+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "HBN发光水保湿补水提亮肤色"
+- img "自营"
+- text: HBN发光水保湿补水提亮肤色
+- generic "新锐国货爽肤水热卖榜第3名":
+  - text: 新锐国货爽肤水热卖榜第3名
+- generic: “
+- generic: 焕亮皮肤，温和不刺激
+- generic: ”
+- generic: 改善熬夜泛红
+- generic: "|妆前打底服帖"
+- generic: "|淡化黄皮暗沉"
+- generic: "|促渗技术吸收快"
+- generic "新锐国货爽肤水热卖榜第3名":
+  - text: 新锐国货爽肤水热卖榜第3名
+- generic: ¥
+- generic: "122"
+- generic: 到手价
+- generic: ¥144
+- button
+- img "明日达"
+- img "国家补贴"
+- generic: 官方直降10%
+- generic: 赠
+- generic "已售80万+"
+- generic "3200+人复购"
+- generic: HBN京东自营旗舰店
+- generic "芙丽芳丝（Freeplus）爽肤水柔润型30ml试用装":
+- img "自营"
+- text: 芙丽芳丝（Freeplus）爽肤水柔润型30ml试用装
+- generic: “
+- generic: 温和不刺激，清洁力也很足
+- generic: ”
+- generic: 享回购券
+- generic: "|会员福利"
+- generic: "|保湿修护"
+- generic: "|舒缓敏感肌"
+- generic: “
+- generic: 温和不刺激，清洁力也很足
+- generic: ”
+- generic: ¥
+- generic: "19"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售40万+"
+- generic "100+人复购"
+- generic: 芙丽芳丝京东自营旗舰店
+- generic "兰蔻全新大粉水400ml":
+- img "自营"
+- text: 兰蔻全新大粉水400ml
+- generic "爽肤水回购榜第1名":
+  - text: 爽肤水回购榜第1名
+- generic: “
+- generic: 保湿补水效果杠杠的
+- generic: ”
+- generic: 温和补水
+- generic: "|经典升级版"
+- generic: "|轻盈透薄"
+- generic: "|肤质改善"
+- generic "爽肤水回购榜第1名":
+  - text: 爽肤水回购榜第1名
+- generic: ¥
+- generic: "199"
+- generic: 已补16.28元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- img "国家补贴"
+- generic: 包邮
+- generic "已售30万+"
+- generic "2万+人复购"
+- generic: 1号会员店
+- generic "悦木之源（Origins）4.0菌菇爽肤水200ml护肤水灵芝精华水补水保湿护肤品生日礼":
+  - generic: 广告
+- img "自营"
+- generic "悦木之源（Origins）4.0菌菇爽肤水200ml护肤水灵芝精华水补水保湿护肤品生日礼"
+- generic: 100+人收藏
+- generic: "|3千+人已买"
+- generic: "|8千+店铺粉丝浏览"
+- generic: ¥
+- generic: "380"
+- button
+- img "明日达"
+- generic "已售60万+"
+- generic: Origins悦木之源京东自营旗舰店
+- generic "屈臣氏烟酰胺保湿水500ml"
+- img "自营"
+- text: 屈臣氏烟酰胺保湿水500ml
+- generic: “
+- generic: 好大一瓶，性价比高
+- generic: ”
+- generic: 更易吸收
+- generic: "|温和养护"
+- generic: "|深层补水"
+- generic: "|包裹成分直达"
+- generic: “
+- generic: 好大一瓶，性价比高
+- generic: ”
+- generic: ¥
+- generic: "20"
+- generic: .
+- generic: "5"
+- generic: 到手价
+- generic: ¥28.5
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金1元
+- generic: 限时立减7元
+- generic "已售20万+"
+- generic "3200+人复购"
+- generic: 屈臣氏（Watsons）京东自营旗舰店
+- text: 大家都在搜
+- generic: 30-40岁女人护肤品
+- generic: 补水喷雾
+- generic: 单瓶水
+- generic: 收缩毛孔
+- generic: lamer海蓝之谜
+- generic: 欧莱雅面膜礼盒
+- generic: 保湿补水爽肤水
+- generic "达尔肤（DR.WU）杏仁酸焕肤抛光精粹爽肤水200ml果酸控油去角质喷雾国庆节礼物":
+- img "自营"
+- text: 达尔肤（DR.WU）杏仁酸焕肤抛光精粹爽肤水200ml果酸控油去角质喷雾国庆节礼物
+- generic "嫩肤爽肤水化妆水热卖榜第2名":
+  - text: 嫩肤爽肤水化妆水热卖榜第2名
+- generic: “
+- generic: 修护维稳强韧屏障，舒缓退红快
+- generic: ”
+- generic: 控油去角质平闭口
+- generic: "|杏仁酸抛光爽肤水"
+- generic: "|抛光精粹化妆水"
+- generic: "|温和不刺激"
+- generic "领政府补贴减￥13.8"
+- generic "嫩肤爽肤水化妆水热卖榜第2名":
+  - text: 嫩肤爽肤水化妆水热卖榜第2名
+- generic: ¥
+- generic: "124"
+- generic: .
+- generic: "2"
+- generic: 补贴领后价
+- generic: ¥138
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- img "政府补贴"
+- generic: 满赠
+- generic: 赠
+- generic: 包邮
+- generic "已售10万+"
+- generic "2400+人复购"
+- generic: DR.WU达尔肤京东自营旗舰店
+- generic "海蓝之谜（LA MER）精萃水150ml精粹水精华液护肤品套装化妆品礼盒中秋礼品生日礼物":
+  - generic: 广告
+- img "自营"
+- text: 海蓝之谜（LA MER）精萃水150ml精粹水精华液护肤品套装化妆品礼盒中秋礼品生日礼物
+- generic "面部精华金榜第2名":
+  - text: 面部精华金榜第2名
+- generic: ¥
+- generic: "1377"
+- generic: 到手价
+- generic: ¥1530
+- button
+- img "明日达"
+- generic: 立减153元
+- generic "已售90万+"
+- generic: LA MER海蓝之谜京东自营旗舰店
+- generic "颐莲玻尿酸深层补水喷雾":
+- img "自营"
+- text: 颐莲玻尿酸深层补水喷雾
+- generic "爽肤水金榜第7名":
+  - text: 爽肤水金榜第7名
+- generic: “
+- generic: 质感和做工都远超预期
+- generic: ”
+- generic: 保湿
+- generic: "|温和无刺激"
+- generic: "|适用敏感皮肤"
+- generic: "|玻尿酸补水"
+- generic "爽肤水金榜第7名":
+  - text: 爽肤水金榜第7名
+- generic: ¥
+- generic: "72"
+- generic: 已补29.59元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 限时立减7元
+- generic: 包邮
+- generic "已售70万+"
+- generic "99%好评"
+- generic: 颐莲（RELLET）京东自营旗舰店
+- generic "毕生之研厚脸皮水3.0-205ml":
+- img "自营"
+- text: 毕生之研厚脸皮水3.0-205ml
+- generic: “
+- generic: 皮肤状态稳了，推荐试试
+- generic: ”
+- generic: 保湿淡红
+- generic: "|修护提亮"
+- generic: "|3.0升级"
+- generic: "|温和不刺激"
+- generic: “
+- generic: 皮肤状态稳了，推荐试试
+- generic: ”
+- generic: ¥
+- generic: "122"
+- generic: 到手价
+- generic: ¥147
+- button
+- img "明日达"
+- generic: 官方直降12%
+- generic: 赠
+- generic "已售20万+"
+- generic "99%好评"
+- generic: 毕生之研京东自营旗舰店
+- generic "科颜氏爽肤水 40ml":
+- img "自营"
+- text: 科颜氏爽肤水 40ml
+- generic: “
+- generic: 舒缓效果不错，涂完不油腻
+- generic: ”
+- generic: 接受者可拍
+- generic: "|临期清仓"
+- generic: "|29/4到期"
+- generic: "|收缩毛孔"
+- generic: “
+- generic: 舒缓效果不错，涂完不油腻
+- generic: ”
+- generic: ¥
+- generic: "14"
+- generic: .
+- generic: "9"
+- button
+- img "京东超市"
+- generic: 满赠
+- generic: 正品鉴别
+- generic: 包邮
+- generic "已售20万+"
+- generic "98%好评"
+- generic: 临期清仓专区
+- generic "薇诺娜舒敏保湿特护精萃水120ml爽肤水补水修护生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "薇诺娜舒敏保湿特护精萃水120ml爽肤水补水修护生日礼物"
+- generic: 近7日热销商品
+- generic: "|用感超舒适"
+- generic: "|25万+人加购"
+- generic: ¥
+- generic: "169"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售100万+"
+- generic: 薇诺娜WINONA京东自营旗舰店
+- generic "溪木源层孔菌精华水120ml":
+- img "自营"
+- text: 溪木源层孔菌精华水120ml
+- generic "嫩肤爽肤水化妆水热卖榜第6名":
+  - text: 嫩肤爽肤水化妆水热卖榜第6名
+- generic: “
+- generic: 吸收快，不黏腻，敏感肌用着没泛红
+- generic: ”
+- generic: 改善毛孔
+- generic: "|控油舒敏"
+- generic: "|即时控油"
+- generic: "|湿敷去油光"
+- generic "领政府补贴减￥9.9"
+- generic "嫩肤爽肤水化妆水热卖榜第6名":
+  - text: 嫩肤爽肤水化妆水热卖榜第6名
+- generic: ¥
+- generic: "89"
+- generic: .
+- generic: "1"
+- generic: 补贴领后价
+- generic: ¥109
+- button
+- img "明日达"
+- img "政府补贴"
+- generic: 首购礼金10元
+- generic: 券满319减10
+- generic "已售10万+"
+- generic "30天加购飙升5倍"
+- generic: 溪木源京东自营旗舰店
+- generic "珀莱雅水动力爽肤水135ml":
+- img "自营"
+- text: 珀莱雅水动力爽肤水135ml
+- generic: “
+- generic: 适合干皮，补水效果好
+- generic: ”
+- generic: 快速补水
+- generic: "|二次清洁"
+- generic: "|温和配方"
+- generic: "|清爽控油"
+- generic: “
+- generic: 适合干皮，补水效果好
+- generic: ”
+- generic: ¥
+- generic: "57"
+- generic: .
+- generic: "9"
+- generic: 已补5.86元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 赠
+- generic: 包邮
+- generic "已售200万+"
+- generic "30天种草飙升5倍"
+- generic: 珀莱雅京东自营旗舰店
+- generic "适乐肤（CeraVe）修护爽肤水200ml（补水保湿烟酰胺敏感肌修护护肤水男士女士湿敷)":
+- img "自营"
+- text: 适乐肤（CeraVe）修护爽肤水200ml（补水保湿烟酰胺敏感肌修护护肤水男士女士湿敷)
+- generic: “
+- generic: 温柔唤醒肌理，舒缓不平衡
+- generic: ”
+- generic: 1小时强韧屏障
+- generic: "|水感清爽质地"
+- generic: "|无酒精香精添加"
+- generic: "|中性pH值温和"
+- generic: “
+- generic: 温柔唤醒肌理，舒缓不平衡
+- generic: ”
+- generic: ¥
+- generic: "103"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售10万+"
+- generic "30天加购飙升5倍"
+- generic: CeraVe适乐肤京东自营旗舰店
+- generic "雅诗兰黛美白胶原水乳(胶原水200ml+白胶原乳100ml)护肤品套装生日礼物":
+  - generic: 广告
+- img "自营"
+- text: 雅诗兰黛美白胶原水乳(胶原水200ml+白胶原乳100ml)护肤品套装生日礼物
+- generic "护肤套装金榜第3名":
+  - text: 护肤套装金榜第3名
+- generic: 超1000万人关注店铺
+- generic: "|80万+人加购"
+- generic "护肤套装金榜第3名":
+  - text: 护肤套装金榜第3名
+- generic: ¥
+- generic: "1665"
+- button
+- img "明日达"
+- generic "已售10万+"
+- generic: Estee Lauder雅诗兰黛京东自营旗舰店
+- generic "珀莱雅双抗焕白净亮清透水160ml弹润透亮活力水爽肤水女补水保湿":
+- img "自营"
+- text: 珀莱雅双抗焕白净亮清透水160ml弹润透亮活力水爽肤水女补水保湿
+- generic: “
+- generic: 补水效果非常好
+- generic: ”
+- generic: 敏感肌适用
+- generic: "|脱羧肌肽嫩肤"
+- generic: "|烟酰胺提亮"
+- generic: "|麦角硫因抗氧化"
+- generic: “
+- generic: 补水效果非常好
+- generic: ”
+- generic: ¥
+- generic: "179"
+- generic: 到手价
+- generic: ¥199
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 券满500减50
+- generic: 赠
+- generic "已售3万+"
+- generic "1100+人复购"
+- generic: 珀莱雅京东自营旗舰店
+- generic "谷雨光感水150ml补水爽肤水美白提亮淡斑精华水护肤品生日礼物":
+- img "自营"
+- text: 谷雨光感水150ml补水爽肤水美白提亮淡斑精华水护肤品生日礼物
+- generic "新锐国货爽肤水热卖榜第4名":
+  - text: 新锐国货爽肤水热卖榜第4名
+- generic: “
+- generic: 包装精致，物流也很快
+- generic: ”
+- generic: 细腻肌肤
+- generic: "|保湿修护"
+- generic: "|减黄提亮"
+- generic: "|修护肌肤"
+- generic "新锐国货爽肤水热卖榜第4名":
+  - text: 新锐国货爽肤水热卖榜第4名
+- generic: ¥
+- generic: "162"
+- generic: 到手价
+- generic: ¥169
+- button
+- img "明日达"
+- generic: 限时立减7元
+- generic: 赠
+- generic "已售40万+"
+- generic "30天加购飙升5倍"
+- generic: 谷雨京东自营旗舰店
+- generic "可复美吨吨水120ml 保湿":
+- img "自营"
+- text: 可复美吨吨水120ml 保湿
+- generic: “
+- generic: 细腻清新生肤可用
+- generic: ”
+- generic: 提升皮肤光泽
+- generic: "|改善肌肤状态"
+- generic: "|持续水润"
+- generic: "|精华水质地"
+- generic: “
+- generic: 细腻清新生肤可用
+- generic: ”
+- generic: ¥
+- generic: "161"
+- generic: 到手价
+- generic: ¥199
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金18元
+- generic: 官方直降10%
+- generic: 券满300减20
+- generic "已售80万+"
+- generic "30天加购飙升5倍"
+- generic: 可复美京东自营旗舰店
+- generic "悦木之源（Origins）4.0菌菇精华爽肤水200ml灵芝补水舒缓喷雾保湿敷护肤生日礼送女友":
+  - generic: 广告
+- img "自营"
+- generic "悦木之源（Origins）4.0菌菇精华爽肤水200ml灵芝补水舒缓喷雾保湿敷护肤生日礼送女友"
+- generic: 近7日人气商品
+- generic: "|近30日人气商品"
+- generic: ¥
+- generic: "380"
+- button
+- img "明日达"
+- generic "已售60万+"
+- generic: Origins悦木之源京东自营旗舰店
+- generic "欧莱雅花蜜胶原小蜜罐精粹水130ml 紧致补水爽肤水护肤品礼物":
+- img "自营"
+- text: 欧莱雅花蜜胶原小蜜罐精粹水130ml 紧致补水爽肤水护肤品礼物
+- generic: “
+- generic: 温和不刺激，敏感肌安心用
+- generic: ”
+- generic: 深层补水
+- generic: "|紧致饱满"
+- generic: "|焕亮肌肤"
+- generic: "|重焕透亮"
+- generic: “
+- generic: 温和不刺激，敏感肌安心用
+- generic: ”
+- generic: ¥
+- generic: "92"
+- generic: 到手价
+- generic: ¥99
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 限时立减7元
+- generic "已售8万+"
+- generic "99%好评"
+- generic: 京东美妆自营旗舰店

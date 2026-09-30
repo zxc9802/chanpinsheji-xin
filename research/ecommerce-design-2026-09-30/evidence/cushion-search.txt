@@ -1,0 +1,685 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 京东国际
+- generic: 五金城
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "Mistine蜜丝婷夜光气垫限定bb霜遮瑕持妆控油贴肤防水汗一壳两芯生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "Mistine蜜丝婷夜光气垫限定bb霜遮瑕持妆控油贴肤防水汗一壳两芯生日礼物"
+- generic: 越夜越有光
+- generic: "|2万+人加购"
+- generic: "|1万+店铺老客浏览"
+- generic: ¥
+- generic: "114"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥129.9
+- button
+- img "明日达"
+- generic: 首购礼金15元
+- generic "已售3万+"
+- generic: Mistine京东自营旗舰店
+- generic "毛戈平鱼子气垫粉底液801白皙色10g防晒提亮遮瑕定妆生日礼物送女生":
+- img "自营"
+- text: 毛戈平鱼子气垫粉底液801白皙色10g防晒提亮遮瑕定妆生日礼物送女生
+- generic "毛戈平气垫BB霜热卖榜第1名":
+  - text: 毛戈平气垫BB霜热卖榜第1名
+- generic: “
+- generic: 包装高大上，涂在脸上很自然
+- generic: ”
+- generic: 奢润缎光肌
+- generic: "|防晒补妆二合一"
+- generic: "|细腻隐瑕疵"
+- generic: "|持久保湿"
+- generic "毛戈平气垫BB霜热卖榜第1名":
+  - text: 毛戈平气垫BB霜热卖榜第1名
+- generic: ¥
+- generic: "243"
+- generic: 到手价
+- generic: ¥270
+- button
+- img "明日达"
+- generic: 官方直降27元
+- generic "已售30万+"
+- generic "1000+人复购"
+- generic: 毛戈平（MAOGEPING）京东自营旗舰店
+- generic "欧莱雅【周也推荐】黑胖子气垫200自然偏白持妆生日礼物送女友":
+- img "自营"
+- text: 欧莱雅【周也推荐】黑胖子气垫200自然偏白持妆生日礼物送女友
+- generic "欧莱雅气垫BB霜热卖榜第1名":
+  - text: 欧莱雅气垫BB霜热卖榜第1名
+- generic: “
+- generic: 外观精美，质感高档
+- generic: ”
+- generic: 整日持久
+- generic: "|一拍遮瑕"
+- generic: "|适合自然白皮"
+- generic: "|控油哑光"
+- generic "欧莱雅气垫BB霜热卖榜第1名":
+  - text: 欧莱雅气垫BB霜热卖榜第1名
+- generic: ¥
+- generic: "219"
+- button
+- img "明日达"
+- generic: 券满270减20
+- generic: 赠
+- generic "已售80万+"
+- generic "1800+人复购"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "【NO.1气垫】YSL粉气垫B10":
+- img "自营"
+- text: 【NO.1气垫】YSL粉气垫B10
+- generic "气垫BB霜金榜第1名":
+  - text: 气垫BB霜金榜第1名
+- generic: “
+- generic: 干皮本命气垫，超级火的气垫之一
+- generic: ”
+- generic: 轻拍无瑕
+- generic: "|高定光感"
+- generic: "|细腻贴肤"
+- generic: "|轻薄透气"
+- generic "气垫BB霜金榜第1名":
+  - text: 气垫BB霜金榜第1名
+- generic: ¥
+- generic: "695"
+- button
+- img "明日达"
+- img "重磅新品"
+- generic: 赠
+- generic "已售100万+"
+- generic "6700+人复购"
+- generic: YSL圣罗兰京东自营旗舰店
+- generic "花西子玉养气垫遮瑕持久不脱妆服帖持妆控油bb霜粉粉底国庆出游礼物N25":
+  - generic: 广告
+- img "自营"
+- generic "花西子玉养气垫遮瑕持久不脱妆服帖持妆控油bb霜粉粉底国庆出游礼物N25"
+- generic: 本店气垫BB/BB霜热销第1名
+- generic: "|100人已回购"
+- generic: ¥
+- generic: "179"
+- generic: 已补20元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "重磅新品"
+- generic: 满赠
+- generic "已售20万+"
+- generic: 花西子京东自营旗舰店
+- generic "卡姿兰（Carslan）黑金气垫BB霜2.0遮瑕控油不脱粉底02柔肤色14.5g*3生日礼物送女友"
+- img "自营"
+- text: 卡姿兰（Carslan）黑金气垫BB霜2.0遮瑕控油不脱粉底02柔肤色14.5g*3生日礼物送女友
+- generic "卡姿兰气垫BB霜热卖榜第1名":
+  - text: 卡姿兰气垫BB霜热卖榜第1名
+- generic: “
+- generic: 气垫细腻贴合皮肤不卡粉
+- generic: ”
+- generic: 精华润妆
+- generic: "|遮瑕锁妆"
+- generic: "|轻雾无瑕"
+- generic: "|自然裸妆"
+- generic "卡姿兰气垫BB霜热卖榜第1名":
+  - text: 卡姿兰气垫BB霜热卖榜第1名
+- generic: ¥
+- generic: "159"
+- generic: 到手价
+- generic: ¥188
+- button
+- img "明日达"
+- generic: 官方直降15%
+- generic: 每300减30
+- generic: 赠
+- generic "已售50万+"
+- generic "600+人复购"
+- generic: 卡姿兰京东自营旗舰店
+- generic "欧莱雅黑胖子气垫200自然偏白遮瑕控油持妆生日礼物送女友":
+- img "自营"
+- text: 欧莱雅黑胖子气垫200自然偏白遮瑕控油持妆生日礼物送女友
+- generic "遮瑕气垫BB霜折扣榜第6名":
+  - text: 遮瑕气垫BB霜折扣榜第6名
+- generic: 高遮瑕力
+- generic: "|24H强持妆"
+- generic: "|多肤质适用"
+- generic: "|敏感肌避用"
+- generic "遮瑕气垫BB霜折扣榜第6名":
+  - text: 遮瑕气垫BB霜折扣榜第6名
+- generic: ¥
+- generic: "127"
+- generic: .
+- generic: "88"
+- generic: 已补96.33元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 券满270减20
+- generic: 包邮
+- generic "已售80万+"
+- generic "97%好评"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "欧莱雅黑胖子气垫200+替换芯":
+- img "自营"
+- text: 欧莱雅黑胖子气垫200+替换芯
+- generic "欧莱雅气垫BB霜热卖榜第3名":
+  - text: 欧莱雅气垫BB霜热卖榜第3名
+- generic: “
+- generic: 不用遮瑕膏只用气垫，能遮六七成
+- generic: ”
+- generic: 一拍即遮瑕
+- generic: "|控油不拔干"
+- generic: "|持妆一整天"
+- generic: "|正装加替换芯"
+- generic "欧莱雅气垫BB霜热卖榜第3名":
+  - text: 欧莱雅气垫BB霜热卖榜第3名
+- generic: ¥
+- generic: "132"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥139.9
+- button
+- img "明日达"
+- generic: 限时立减7元
+- generic "已售5万+"
+- generic "800+人复购"
+- generic: 京东美妆自营旗舰店
+- generic "肌肤之钥（CPB）光纱柔雾定妆蜜粉8gN1+方气垫15g（水光版）#I10象牙白生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "肌肤之钥（CPB）光纱柔雾定妆蜜粉8gN1+方气垫15g（水光版）#I10象牙白生日礼物"
+- generic: 店铺被20万人种草
+- generic: "|近30日人气商品"
+- generic: ¥
+- generic: "1200"
+- button
+- img "明日达"
+- generic "已售1000+"
+- generic: CPB肌肤之钥京东自营旗舰店
+- generic "爱敬三色星空黑气垫21#":
+- img "自营"
+- text: 爱敬三色星空黑气垫21#
+- generic "美白气垫BB霜热卖榜第1名":
+  - text: 美白气垫BB霜热卖榜第1名
+- generic: “
+- generic: 遮瑕好，防晒不错
+- generic: ”
+- generic: 持久不脱妆气垫
+- generic: "|遮瑕补妆"
+- generic: "|防晒SPF50+"
+- generic: "|防晒护肤"
+- generic "美白气垫BB霜热卖榜第1名":
+  - text: 美白气垫BB霜热卖榜第1名
+- generic: ¥
+- generic: "148"
+- generic: 到手价
+- generic: ¥158
+- button
+- img "明日达"
+- generic: 首购礼金10元
+- generic "已售100万+"
+- generic "11万+人种草"
+- generic: 爱敬(Age20's)京东自营旗舰店
+- generic "【央妈力荐】气垫榜单第1名":
+- img "自营"
+- text: 【央妈力荐】气垫榜单第1名
+- generic: “
+- generic: 水润好用不假白
+- generic: ”
+- generic: 姜乘澜推荐
+- generic: "|自营担保"
+- generic: "|防水防汗防蹭"
+- generic: "|72H持妆高遮"
+- generic: “
+- generic: 水润好用不假白
+- generic: ”
+- generic: ¥
+- generic: "79"
+- button
+- img "明日达"
+- generic "已售1000+"
+- generic "99%好评"
+- generic: 维特丝京东自营旗舰店
+- generic "【HOT】欧莱雅黑金气垫#W10":
+- img "自营"
+- text: 【HOT】欧莱雅黑金气垫#W10
+- generic "正装气垫BB热卖榜第2名":
+  - text: 正装气垫BB热卖榜第2名
+- generic: “
+- generic: 这个气垫非常滋润，涂在脸上不卡粉
+- generic: ”
+- generic: 清透奶油肌
+- generic: "|自然偏白肤色"
+- generic: "|高倍防晒"
+- generic: "|奶油滋润"
+- generic "正装气垫BB热卖榜第2名":
+  - text: 正装气垫BB热卖榜第2名
+- generic: ¥
+- generic: "299"
+- button
+- img "明日达"
+- generic: 满2件赠1件
+- generic: 赠
+- generic "已售30万+"
+- generic "2000+人复购"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "修可芙（SOCORSKIN）【黄子弘凡同款】3.0气垫云野限定气垫控油遮瑕持久不脱妆象牙色":
+  - generic: 广告
+- img "自营"
+- generic "修可芙（SOCORSKIN）【黄子弘凡同款】3.0气垫云野限定气垫控油遮瑕持久不脱妆象牙色"
+- generic: 1万+人加购
+- generic: "|3.0升级气垫"
+- generic: "|2千+人已买"
+- generic: ¥
+- generic: "149"
+- button
+- img "明日达"
+- generic "已售20万+"
+- generic: 修可芙 SOCORSKIN京东自营旗舰店
+- generic "圣罗兰 粉气垫B10 5g":
+- img "自营"
+- text: 圣罗兰 粉气垫B10 5g
+- generic "防晒气垫BB霜热卖榜第8名":
+  - text: 防晒气垫BB霜热卖榜第8名
+- generic: “
+- generic: 颜色不假白，看起来很自然
+- generic: ”
+- generic: 水感粉光亮肤
+- generic: "|轻垫设计便携"
+- generic: "|小规格易携带"
+- generic: "|水润光泽肌"
+- generic "防晒气垫BB霜热卖榜第8名":
+  - text: 防晒气垫BB霜热卖榜第8名
+- generic: ¥
+- generic: "109"
+- generic: 已补30元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "国家补贴"
+- generic: 包邮
+- generic "已售9万+"
+- generic "4万+人种草"
+- generic: 1号会员店
+- text: 大家都在搜
+- generic: ysl圣罗兰气垫
+- generic: 定妆气垫三合一
+- generic: 毛戈平气垫
+- generic: ysl圣罗兰
+- generic: 香奈儿气垫
+- generic: 毛戈平
+- generic: 不脱妆气垫
+- generic "欧莱雅黑胖子气垫亚麻限定版200自然偏白持妆生日礼物送女友":
+- img "自营"
+- text: 欧莱雅黑胖子气垫亚麻限定版200自然偏白持妆生日礼物送女友
+- generic "欧莱雅美妆金榜第5名":
+  - text: 欧莱雅美妆金榜第5名
+- generic: “
+- generic: 效果很好，女朋友特别喜欢用
+- generic: ”
+- generic: 亚洲肤色定制色号
+- generic: "|三重保湿因子"
+- generic: "|控油不拔干"
+- generic: "|微米级细腻遮瑕"
+- generic "欧莱雅美妆金榜第5名":
+  - text: 欧莱雅美妆金榜第5名
+- generic: ¥
+- generic: "219"
+- button
+- img "明日达"
+- generic: 券满270减20
+- generic: 赠
+- generic "已售80万+"
+- generic "100+人复购"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "花西子好气色气垫粉底灵芝精华遮瑕持久不脱妆干皮润贴国庆出游礼物N25":
+- img "自营"
+- text: 花西子好气色气垫粉底灵芝精华遮瑕持久不脱妆干皮润贴国庆出游礼物N25
+- generic "敏感肌适用气垫B霜B热卖榜第2名":
+  - text: 敏感肌适用气垫B霜B热卖榜第2名
+- generic: “
+- generic: 遮瑕强、妆感细腻
+- generic: ”
+- generic: 敏感肌可用
+- generic: "|60倍浓精华养肤"
+- generic: "|24h持妆润贴"
+- generic: "|敏感肌适用"
+- generic "敏感肌适用气垫B霜B热卖榜第2名":
+  - text: 敏感肌适用气垫B霜B热卖榜第2名
+- generic: ¥
+- generic: "199"
+- generic: 到手价
+- generic: ¥209
+- button
+- img "明日达"
+- img "重磅新品"
+- generic: 券满78减10
+- generic: 满赠
+- generic: 赠
+- generic "已售4万+"
+- generic "500+人好评"
+- generic: 花西子京东自营旗舰店
+- generic "卡姿兰（Carslan）黑金气垫BB霜2.0遮瑕控油不脱粉底01亮肤色14.5g*3生日礼物送女友":
+- img "自营"
+- text: 卡姿兰（Carslan）黑金气垫BB霜2.0遮瑕控油不脱粉底01亮肤色14.5g*3生日礼物送女友
+- generic "遮瑕气垫BB霜折扣榜第2名":
+  - text: 遮瑕气垫BB霜折扣榜第2名
+- generic: “
+- generic: 遮瑕效果很清透
+- generic: ”
+- generic: 精华润妆
+- generic: "|遮瑕锁妆"
+- generic: "|轻雾无瑕"
+- generic: "|革新底妆"
+- generic "遮瑕气垫BB霜折扣榜第2名":
+  - text: 遮瑕气垫BB霜折扣榜第2名
+- generic: ¥
+- generic: "118"
+- generic: 已补15.76元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 官方直降15%
+- generic: 每300减30
+- generic: 赠
+- generic: 包邮
+- generic "已售50万+"
+- generic "98%好评"
+- generic: 卡姿兰京东自营旗舰店
+- generic "Mistine蜜丝婷Keep2.0升级版气垫混皮遮瑕持久轻薄不闷肤生日礼物":
+- img "自营"
+- text: Mistine蜜丝婷Keep2.0升级版气垫混皮遮瑕持久轻薄不闷肤生日礼物
+- generic: “
+- generic: 气垫用起来不假白，均匀肤色
+- generic: ”
+- generic: 细腻遮瑕不厚重
+- generic: "|防蹭防水防汗"
+- generic: "|微光奶油肌妆效"
+- generic: "|八重养肤成分"
+- generic: “
+- generic: 气垫用起来不假白，均匀肤色
+- generic: ”
+- generic: ¥
+- generic: "143"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥169.9
+- button
+- img "明日达"
+- generic: 首购礼金19元
+- generic: 限时立减7元
+- generic: 赠
+- generic "已售10万+"
+- generic "95%好评"
+- generic: Mistine京东自营旗舰店
+- generic "【控油防水】修可芙小狐狸气垫":
+- img "自营"
+- text: 【控油防水】修可芙小狐狸气垫
+- generic "修可芙气垫BB霜热卖榜第2名":
+  - text: 修可芙气垫BB霜热卖榜第2名
+- generic: “
+- generic: 粉质细腻软糯，上脸轻薄服帖
+- generic: ”
+- generic: 遮瑕扒脸不卡粉
+- generic: "|秋冬服帖底妆"
+- generic: "|12小时持妆"
+- generic: "|象牙色调"
+- generic "修可芙气垫BB霜热卖榜第2名":
+  - text: 修可芙气垫BB霜热卖榜第2名
+- generic: ¥
+- generic: "121"
+- generic: 到手价
+- generic: ¥128
+- button
+- img "明日达"
+- generic: 限时立减7元
+- generic: 赠
+- generic "已售9万+"
+- generic "98%好评"
+- generic: 修可芙 SOCORSKIN京东自营旗舰店
+- generic "修可芙（SOCORSKIN）【黄子弘凡同款】豹纹气垫遮瑕粉底液持久不脱妆定妆油皮自然色":
+  - generic: 广告
+- img "自营"
+- generic "修可芙（SOCORSKIN）【黄子弘凡同款】豹纹气垫遮瑕粉底液持久不脱妆定妆油皮自然色"
+- generic: 1万+店铺老客浏览
+- generic: "|咖啡棕外壳"
+- generic: "|300+人收藏"
+- generic: ¥
+- generic: "121"
+- generic: 已补19.38元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 限时立减7元
+- generic "已售1万+"
+- generic: 修可芙 SOCORSKIN京东自营旗舰店
+- generic "YSL圣罗兰粉气垫 明彩粉光轻垫粉底液 B10 12g 气垫礼物送礼+OM泥膜套装":
+- img "自营"
+- text: YSL圣罗兰粉气垫 明彩粉光轻垫粉底液 B10 12g 气垫礼物送礼+OM泥膜套装
+- generic "气垫BB霜热卖榜第8名":
+  - text: 气垫BB霜热卖榜第8名
+- generic: “
+- generic: 遮瑕效果很好，妆容自然
+- generic: ”
+- generic: 细腻服帖
+- generic: "|清新妆效"
+- generic: "|颜色遮瑕"
+- generic: "|哑光效果"
+- generic "气垫BB霜热卖榜第8名":
+  - text: 气垫BB霜热卖榜第8名
+- generic: ¥
+- generic: "429"
+- button
+- img "明日达"
+- img "国家补贴"
+- generic: 包邮
+- generic "已售9万+"
+- generic "4万+人种草"
+- generic: 1号会员店
+- generic "蒂洛薇【官方正品】3.0保湿肽水晶气垫36H持妆遮瑕控油干皮象牙白36g":
+- img "自营"
+- text: 蒂洛薇【官方正品】3.0保湿肽水晶气垫36H持妆遮瑕控油干皮象牙白36g
+- generic "正装气垫BB热卖榜第1名":
+  - text: 正装气垫BB热卖榜第1名
+- generic: “
+- generic: 自然奶油肌妆效，性价比绝了
+- generic: ”
+- generic: 一拍遮瑕
+- generic: "|36H持妆控油"
+- generic: "|防水防汗"
+- generic: "|36H持妆"
+- generic "正装气垫BB热卖榜第1名":
+  - text: 正装气垫BB热卖榜第1名
+- generic: ¥
+- generic: "162"
+- generic: 到手价
+- generic: ¥169
+- button
+- img "明日达"
+- img "国家补贴"
+- generic: 限时立减7元
+- generic: 每300减30
+- generic "已售20万+"
+- generic "500+人复购"
+- generic: 蒂洛薇（DIROVO）京东自营旗舰店
+- generic "修可芙（SOCORSKIN）【自营官旗】黄子弘凡甜酷粉黑气垫定妆二合一遮瑕持久不脱妆粉底":
+- img "自营"
+- text: 修可芙（SOCORSKIN）【自营官旗】黄子弘凡甜酷粉黑气垫定妆二合一遮瑕持久不脱妆粉底
+- generic: “
+- generic: 产品质感：很细腻
+- generic: ”
+- generic: 清透服帖
+- generic: "|12小时高持妆"
+- generic: "|控油遮瑕底妆"
+- generic: "|清新自然"
+- generic: “
+- generic: 产品质感：很细腻
+- generic: ”
+- generic: ¥
+- generic: "121"
+- generic: 到手价
+- generic: ¥128
+- button
+- img "明日达"
+- generic: 限时立减7元
+- generic: 赠
+- generic "已售20万+"
+- generic "7600+人种草"
+- generic: 修可芙 SOCORSKIN京东自营旗舰店
+- generic "【2.0豹纹气垫】刘宇同款修可芙气垫24小时持久不脱妆遮瑕防水防蹭定妆油皮干皮象牙色女生礼物":
+  - generic: 广告
+- img "自营"
+- generic "【2.0豹纹气垫】刘宇同款修可芙气垫24小时持久不脱妆遮瑕防水防蹭定妆油皮干皮象牙色女生礼物"
+- generic: 柔焦半雾面
+- generic: "|3万+人加购"
+- generic: "|5千+人已买"
+- generic: ¥
+- generic: "121"
+- generic: 已补19.38元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 限时立减7元
+- generic "已售1万+"
+- generic: 修可芙 SOCORSKIN京东自营旗舰店
+- generic "美宝莲黑金气垫遮瑕水润02":
+- img "自营"
+- text: 美宝莲黑金气垫遮瑕水润02
+- generic "美宝莲气垫BB霜热卖榜第1名":
+  - text: 美宝莲气垫BB霜热卖榜第1名
+- generic: “
+- generic: 高保湿适合干性皮肤
+- generic: ”
+- generic: 升级面料更均匀
+- generic: "|镭射光泽包装"
+- generic: "|14小时超持久"
+- generic: "|巨遮瑕水润持妆"
+- generic "美宝莲气垫BB霜热卖榜第1名":
+  - text: 美宝莲气垫BB霜热卖榜第1名
+- generic: ¥
+- generic: "99"
+- generic: 到手价
+- generic: ¥113
+- button
+- img "明日达"
+- generic: 官方直降12%
+- generic: 满赠
+- generic: 满赠
+- generic "已售10万+"
+- generic "30天种草飙升5倍"
+- generic: 美宝莲京东自营旗舰店
+- generic "花西子玉容气垫小粉盒遮瑕持久不脱妆粉底液bb气垫正品超薄单层气垫N25":
+- img "自营"
+- text: 花西子玉容气垫小粉盒遮瑕持久不脱妆粉底液bb气垫正品超薄单层气垫N25
+- generic "水润气垫BB霜热卖榜第2名":
+  - text: 水润气垫BB霜热卖榜第2名
+- generic: “
+- generic: 很自然，很服帖
+- generic: ”
+- generic: 随行便携补妆
+- generic: "|敏感肌可用"
+- generic: "|匀肤强遮瑕"
+- generic: "|小粉盒便携"
+- generic "水润气垫BB霜热卖榜第2名":
+  - text: 水润气垫BB霜热卖榜第2名
+- generic: ¥
+- generic: "119"
+- generic: 已补10元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 券满78减10
+- generic: 满赠
+- generic: 赠
+- generic: 包邮
+- generic "已售60万+"
+- generic "600+人复购"
+- generic: 花西子京东自营旗舰店
+- generic "爱敬四色大师黑气垫bb霜遮瑕提亮持妆粉底混油21#14g*2送女友礼物":
+- img "自营"
+- text: 爱敬四色大师黑气垫bb霜遮瑕提亮持妆粉底混油21#14g*2送女友礼物
+- generic "气垫BB霜折扣榜第9名":
+  - text: 气垫BB霜折扣榜第9名
+- generic: “
+- generic: 粉质细腻，隐形毛孔打造水光肌
+- generic: ”
+- generic: 隔离防晒
+- generic: "|防晒SPF50+"
+- generic: "|遮瑕补妆"
+- generic: "|遮瑕提亮持妆"
+- generic "气垫BB霜折扣榜第9名":
+  - text: 气垫BB霜折扣榜第9名
+- generic: ¥
+- generic: "148"
+- generic: 到手价
+- generic: ¥158
+- button
+- img "明日达"
+- generic: 京东秒杀
+- generic: 首购礼金10元
+- generic "已售100万+"
+- generic "800+人复购"
+- generic: 爱敬(Age20's)京东自营旗舰店
+- generic "毛戈平鱼子气垫粉底液802自然色10g防晒提亮遮瑕定妆生日礼物送女生":
+- img "自营"
+- text: 毛戈平鱼子气垫粉底液802自然色10g防晒提亮遮瑕定妆生日礼物送女生
+- generic "自然色气垫BB霜B热卖榜第5名":
+  - text: 自然色气垫BB霜B热卖榜第5名
+- generic: “
+- generic: 好用不卡粉，不假白
+- generic: ”
+- generic: 奢润缎光肌
+- generic: "|防晒补妆二合一"
+- generic: "|细腻隐瑕疵"
+- generic: "|双色选择"
+- generic "自然色气垫BB霜B热卖榜第5名":
+  - text: 自然色气垫BB霜B热卖榜第5名
+- generic: ¥
+- generic: "243"
+- generic: 到手价
+- generic: ¥270
+- button
+- img "明日达"
+- generic: 官方直降27元
+- generic "已售30万+"
+- generic "4万+人种草"
+- generic: 毛戈平（MAOGEPING）京东自营旗舰店
+- generic "欧莱雅黑胖子气垫#320黄调偏白肤色 正装+替换芯 礼物送女友":
+- img "自营"
+- text: 欧莱雅黑胖子气垫#320黄调偏白肤色 正装+替换芯 礼物送女友
+- generic: “
+- generic: 实物美美哒，质量出乎意料
+- generic: ”
+- generic: 高遮瑕
+- generic: "|强持妆"
+- generic: "|保湿控油"
+- generic: "|妆效正装"
+- generic: “
+- generic: 实物美美哒，质量出乎意料
+- generic: ”
+- generic: ¥
+- generic: "132"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥139.9
+- button
+- img "明日达"
+- generic: 限时立减7元
+- generic "已售5万+"
+- generic "97%好评"
+- generic: 京东美妆自营旗舰店

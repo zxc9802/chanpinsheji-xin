@@ -1,0 +1,607 @@
+- generic: 更多
+- generic "橘朵（Judydoll）新升级大容量唇粉霜口红哑光隐唇纹N18百搭裸":
+  - generic: 广告
+- img "自营"
+- generic "橘朵（Judydoll）新升级大容量唇粉霜口红哑光隐唇纹N18百搭裸"
+- generic: 30万+人加购
+- generic: "|500人已回购"
+- generic: "|近30日热销商品"
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥59.8
+- button
+- img "明日达"
+- generic: 首购礼金3元
+- generic: 限时立减7元
+- generic: 券满119减40
+- generic "已售20万+"
+- generic: 橘朵京东自营旗舰店
+- generic "迪奥Dior魅惑丰唇蜜018乌龙奶茶唇釉唇膏口红滋润显色生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior魅惑丰唇蜜018乌龙奶茶唇釉唇膏口红滋润显色生日礼物送女友
+- generic "唇釉金榜第5名":
+  - text: 唇釉金榜第5名
+- generic: “
+- generic: 包装精致，拿在手里很有质感
+- generic: ”
+- generic: 滋润锁水
+- generic: "|保湿提气色"
+- generic: "|乌龙奶茶"
+- generic: "|粉嫩妆效"
+- generic "唇釉金榜第5名":
+  - text: 唇釉金榜第5名
+- generic: ¥
+- generic: "390"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售10万+"
+- generic "600+人复购"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥烈艳蓝金口红丝绒720 享礼袋":
+- img "自营"
+- text: 迪奥烈艳蓝金口红丝绒720 享礼袋
+- generic "口红金榜第2名":
+  - text: 口红金榜第2名
+- generic: “
+- generic: 一支口红能用2年以上
+- generic: ”
+- generic: 持妆显色
+- generic: "|丝绒质地"
+- generic: "|豆沙红棕色"
+- generic: "|细致妆效"
+- generic "口红金榜第2名":
+  - text: 口红金榜第2名
+- generic: ¥
+- generic: "420"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥Dior魅惑变色润唇膏001粉红色48小时水润护唇口红生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior魅惑变色润唇膏001粉红色48小时水润护唇口红生日礼物送女友
+- generic "唇釉金榜第1名":
+  - text: 唇釉金榜第1名
+- generic: “
+- generic: 千人千色超自然，薄涂透出嫩粉好气色
+- generic: ”
+- generic: 48小时水润
+- generic: "|粉红色"
+- generic: "|滋润护唇"
+- generic: "|滋润妆效"
+- generic "唇釉金榜第1名":
+  - text: 唇釉金榜第1名
+- generic: ¥
+- generic: "390"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售50万+"
+- generic "4500+人好评"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "YSL圣罗兰小金条口红1936琥珀柑茶哑光持久唇膏化妆品生日礼物女":
+  - generic: 广告
+- img "自营"
+- generic "YSL圣罗兰小金条口红1936琥珀柑茶哑光持久唇膏化妆品生日礼物女"
+- generic "口红金榜第1名":
+  - text: 口红金榜第1名
+- generic: 自信红棕
+- generic: "|新外观·限定礼盒"
+- generic: "|厚涂自信红棕"
+- generic "口红金榜第1名":
+  - text: 口红金榜第1名
+- generic: ¥
+- generic: "420"
+- button
+- img "明日达"
+- img "重磅新品"
+- img "国家补贴"
+- generic "已售100万+"
+- generic: YSL圣罗兰京东自营旗舰店
+- generic "【99成新】迪奥（DIOR)烈艳蓝金唇膏 丝绒 100 1.5g（非卖品）":
+- img "拍拍二手自营"
+- text: 【99成新】迪奥（DIOR)烈艳蓝金唇膏 丝绒 100 1.5g（非卖品）
+- generic: “
+- generic: 颜色是自己喜欢的
+- generic: ”
+- generic: 唇膏膏体
+- generic: "|迪奥烈艳蓝金"
+- generic: "|1.5g容量"
+- generic: "|成色如新"
+- generic: “
+- generic: 颜色是自己喜欢的
+- generic: ”
+- generic: ¥
+- generic: "62"
+- generic: .
+- generic: "9"
+- button
+- generic: 3件9折
+- generic "已售1万+"
+- generic "9000+人种草"
+- generic: 拍拍二手自营专区
+- generic "迪奥Dior【邓为推荐】烈艳蓝金口红丝绒772哑光唇膏生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior【邓为推荐】烈艳蓝金口红丝绒772哑光唇膏生日礼物送女友
+- generic "豆沙色系口红好评榜第1名":
+  - text: 豆沙色系口红好评榜第1名
+- generic: “
+- generic: 上唇丝滑，高端大气不张扬
+- generic: ”
+- generic: 干枯玫瑰
+- generic: "|持妆不脱色"
+- generic: "|高订色泽"
+- generic: "|时尚单品"
+- generic "豆沙色系口红好评榜第1名":
+  - text: 豆沙色系口红好评榜第1名
+- generic: ¥
+- generic: "420"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售100万+"
+- generic "2700+人好评"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥Dior魅惑丰唇蜜009玫瑰豆沙唇釉唇膏口红滋润显色生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior魅惑丰唇蜜009玫瑰豆沙唇釉唇膏口红滋润显色生日礼物送女友
+- generic: “
+- generic: Dior唇蜜质地水润不黏腻
+- generic: ”
+- generic: 丰盈水润
+- generic: "|玫瑰豆沙"
+- generic: "|水光嘟嘟唇"
+- generic: "|丰唇亮泽"
+- generic: “
+- generic: Dior唇蜜质地水润不黏腻
+- generic: ”
+- generic: ¥
+- generic: "390"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售10万+"
+- generic "98%好评"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "YSL圣罗兰黑管镜面爱心唇釉440清透淡粉口红滋润显气色化妆品生日礼物女":
+  - generic: 广告
+- img "自营"
+- generic "YSL圣罗兰黑管镜面爱心唇釉440清透淡粉口红滋润显气色化妆品生日礼物女"
+- generic: 镜面亮光
+- generic: "|生日礼物"
+- generic: "|持久显色"
+- generic: "|浓郁色泽"
+- generic: ¥
+- generic: "410"
+- button
+- img "明日达"
+- img "重磅新品"
+- img "国家补贴"
+- generic "已售90万+"
+- generic: YSL圣罗兰京东自营旗舰店
+- generic "迪奥Dior魅惑唇膏口红720豆沙红棕色滋润显色化妆品生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior魅惑唇膏口红720豆沙红棕色滋润显色化妆品生日礼物送女友
+- generic "口红热卖榜第10名":
+  - text: 口红热卖榜第10名
+- generic: “
+- generic: 质地细腻顺滑，无卡纹
+- generic: ”
+- generic: 镜光闪耀
+- generic: "|滋润双唇"
+- generic: "|豆沙红棕"
+- generic: "|经典豆沙红棕"
+- generic "口红热卖榜第10名":
+  - text: 口红热卖榜第10名
+- generic: ¥
+- generic: "400"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售20万+"
+- generic "800+人好评"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥Dior【邓为推荐】烈艳蓝金口红丝绒999哑光唇膏生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior【邓为推荐】烈艳蓝金口红丝绒999哑光唇膏生日礼物送女友
+- generic "口红好评榜第2名":
+  - text: 口红好评榜第2名
+- generic: “
+- generic: 质地润润的，方便随身携带
+- generic: ”
+- generic: 高订色泽
+- generic: "|传奇正红"
+- generic: "|经典色号"
+- generic: "|红色系色彩"
+- generic "口红好评榜第2名":
+  - text: 口红好评榜第2名
+- generic: ¥
+- generic: "420"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售100万+"
+- generic "3500+人复购"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥（Dior）烈艳蓝金唇膏 丝绒999 3.5g":
+- img "自营"
+- text: 迪奥（Dior）烈艳蓝金唇膏 丝绒999 3.5g
+- generic "迪奥口红热卖榜第6名":
+  - text: 迪奥口红热卖榜第6名
+- generic: “
+- generic: 效果很好，放水不掉色
+- generic: ”
+- generic: 经典色号
+- generic: "|丝绒质感"
+- generic: "|显色浓郁"
+- generic: "|时尚唇妆"
+- generic "迪奥口红热卖榜第6名":
+  - text: 迪奥口红热卖榜第6名
+- generic: ¥
+- generic: "319"
+- button
+- img "明日达"
+- img "国家补贴"
+- generic "已售9000+"
+- generic "8100+人种草"
+- generic: 1号会员店
+- generic "YSL圣罗兰小金条口红1966气场红棕哑光持久唇膏化妆品生日礼物女":
+  - generic: 广告
+- img "自营"
+- generic "YSL圣罗兰小金条口红1966气场红棕哑光持久唇膏化妆品生日礼物女"
+- generic: 新外观·限定礼盒
+- generic: "|皮革哑光"
+- generic: "|无法复刻的红棕"
+- generic "领政府补贴减￥42"
+- generic: 新外观·限定礼盒
+- generic: "|皮革哑光"
+- generic: "|无法复刻的红棕"
+- generic: ¥
+- generic: "378"
+- generic: 补贴领后价
+- generic: ¥420
+- button
+- img "明日达"
+- img "重磅新品"
+- img "政府补贴"
+- generic "已售100万+"
+- generic: YSL圣罗兰京东自营旗舰店
+- generic "迪奥Dior魅惑唇膏口红524蜜桃奶盖3.2g滋润显色化妆品生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior魅惑唇膏口红524蜜桃奶盖3.2g滋润显色化妆品生日礼物送女友
+- generic: “
+- generic: 口红比价滋润，吃点东西容易脱色
+- generic: ”
+- generic: 镜光闪耀
+- generic: "|滋润双唇"
+- generic: "|蜜桃奶盖"
+- generic: "|蜜桃奶盖"
+- generic: “
+- generic: 口红比价滋润，吃点东西容易脱色
+- generic: ”
+- generic: ¥
+- generic: "400"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售20万+"
+- generic "30天加购飙升5倍"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- text: 大家都在搜
+- generic: 香奈儿口红
+- generic: ysl圣罗兰口红
+- generic: 香奈儿不沾杯口红
+- generic: 纪梵希小羊皮
+- generic: 阿玛尼
+- generic: 华伦天奴
+- generic: 适合素颜的口红
+- generic "迪奥Dior烈艳蓝金口红缎光999唇膏口红化妆品滋润显色 生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior烈艳蓝金口红缎光999唇膏口红化妆品滋润显色 生日礼物送女友
+- generic "润泽镜面口红好评榜第4名":
+  - text: 润泽镜面口红好评榜第4名
+- generic: “
+- generic: 嘴巴上涂上挺漂亮的
+- generic: ”
+- generic: 滋润显色
+- generic: "|锻光质地"
+- generic: "|传奇正红"
+- generic: "|中秋礼优选"
+- generic "润泽镜面口红好评榜第4名":
+  - text: 润泽镜面口红好评榜第4名
+- generic: ¥
+- generic: "420"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售100万+"
+- generic "98%好评"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥Dior魅惑变色润唇膏004珊瑚色 滋润48小时护唇口红生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior魅惑变色润唇膏004珊瑚色 滋润48小时护唇口红生日礼物送女友
+- generic "粉色系唇釉热卖榜第2名":
+  - text: 粉色系唇釉热卖榜第2名
+- generic: “
+- generic: 薄涂显气色，厚涂自带气场
+- generic: ”
+- generic: 滋润护唇
+- generic: "|珊瑚色"
+- generic: "|48小时水润"
+- generic: "|滋润妆效"
+- generic "粉色系唇釉热卖榜第2名":
+  - text: 粉色系唇釉热卖榜第2名
+- generic: ¥
+- generic: "390"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售50万+"
+- generic "30天加购飙升5倍"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥Dior花漾烈艳口红香水礼盒装(丝绒999+花漾50ml)生日礼物送女友"
+- img "自营"
+- text: 迪奥Dior花漾烈艳口红香水礼盒装(丝绒999+花漾50ml)生日礼物送女友
+- generic "口红金榜第10名":
+  - text: 口红金榜第10名
+- generic: “
+- generic: 不会脱皮，适合淡妆
+- generic: ”
+- generic: 清新花香香水
+- generic: "|香水口红套装"
+- generic: "|传奇红唇"
+- generic: "|花漾甜香"
+- generic "口红金榜第10名":
+  - text: 口红金榜第10名
+- generic: ¥
+- generic: "1450"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售10万+"
+- generic "100+人复购"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥Dior烈艳蓝金口红丝绒100哑光唇膏滋润显色3.5g 生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior烈艳蓝金口红丝绒100哑光唇膏滋润显色3.5g 生日礼物送女友
+- generic "裸色系口红热卖榜第8名":
+  - text: 裸色系口红热卖榜第8名
+- generic: “
+- generic: 黄皮上嘴巨显白显温柔
+- generic: ”
+- generic: 杏仁奶茶
+- generic: "|持妆不脱色"
+- generic: "|丝绒质地"
+- generic: "|滋润唇感"
+- generic "裸色系口红热卖榜第8名":
+  - text: 裸色系口红热卖榜第8名
+- generic: ¥
+- generic: "420"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售100万+"
+- generic "98%好评"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥Dior魅惑唇膏口红527烟粉豆沙滋润显色唇膏化妆品 生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior魅惑唇膏口红527烟粉豆沙滋润显色唇膏化妆品 生日礼物送女友
+- generic "豆沙色系口红好评榜第7名":
+  - text: 豆沙色系口红好评榜第7名
+- generic: “
+- generic: 迪奥口红涂抹在嘴唇上很有质感
+- generic: ”
+- generic: 镜光闪耀
+- generic: "|烟粉豆沙"
+- generic: "|滋润双唇"
+- generic: "|润泽镜面光泽"
+- generic "豆沙色系口红好评榜第7名":
+  - text: 豆沙色系口红好评榜第7名
+- generic: ¥
+- generic: "400"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售20万+"
+- generic "30天种草飙升5倍"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥口红小样新品烈焰蓝金唇膏丝绒720哑光188魅惑丰唇蜜001 018 热卖推荐缎光999 传奇红唇【1.5g】中样":
+- generic: 迪奥口红小样新品烈焰蓝金唇膏丝绒720哑光188魅惑丰唇蜜001 018 热卖推荐缎光999 传奇红唇【1.5g】中样
+- generic: 白黄皮适宜
+- generic: "|缎光显白显色"
+- generic: "|深浅皆宜百搭"
+- generic: "|传奇正宫红"
+- generic: ¥
+- generic: "82"
+- button
+- img "安心品质"
+- generic: 包邮
+- generic "已售100+"
+- generic "100%好评"
+- generic: 埃斯泰劳德美妆专营店
+- generic "迪奥Dior烈艳蓝金口红双支礼盒丝绒(999+720)口红唇膏生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior烈艳蓝金口红双支礼盒丝绒(999+720)口红唇膏生日礼物送女友
+- generic "450元以上口红热卖榜第4名":
+  - text: 450元以上口红热卖榜第4名
+- generic: “
+- generic: 持色力优秀，不易沾杯脱色
+- generic: ”
+- generic: 丝绒质地
+- generic: "|显色持妆"
+- generic: "|明星色号"
+- generic: "|使用便捷"
+- generic "450元以上口红热卖榜第4名":
+  - text: 450元以上口红热卖榜第4名
+- generic: ¥
+- generic: "840"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥魅惑唇膏740 枫叶脏橘享礼袋":
+- img "自营"
+- text: 迪奥魅惑唇膏740 枫叶脏橘享礼袋
+- generic "水光润泽口红热卖榜第5名":
+  - text: 水光润泽口红热卖榜第5名
+- generic: “
+- generic: 口红颜色非常正义
+- generic: ”
+- generic: 镜光闪耀
+- generic: "|枫叶脏橘"
+- generic: "|滋润双唇"
+- generic: "|滋润唇部"
+- generic "水光润泽口红热卖榜第5名":
+  - text: 水光润泽口红热卖榜第5名
+- generic: ¥
+- generic: "400"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售20万+"
+- generic "30天加购飙升5倍"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥Dior魅惑丰唇蜜038杏茶色6ml唇釉唇膏口红滋润显色生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior魅惑丰唇蜜038杏茶色6ml唇釉唇膏口红滋润显色生日礼物送女友
+- generic "滋润唇釉热卖榜第2名":
+  - text: 滋润唇釉热卖榜第2名
+- generic: “
+- generic: 轻薄程度优良，使用体验好
+- generic: ”
+- generic: 丰盈水润
+- generic: "|杏茶色"
+- generic: "|水光嘟嘟唇"
+- generic: "|润泽效果"
+- generic "滋润唇釉热卖榜第2名":
+  - text: 滋润唇釉热卖榜第2名
+- generic: ¥
+- generic: "390"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售10万+"
+- generic "98%好评"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "古驰（GUCCI）口红礼盒绒雾217唇膏505大牌化妆品套装生日礼物女生新婚礼物 【热卖】绒雾208 蜜桃乌龙":
+  - generic: 广告
+- img "京东物流"
+- generic "古驰（GUCCI）口红礼盒绒雾217唇膏505大牌化妆品套装生日礼物女生新婚礼物 【热卖】绒雾208 蜜桃乌龙"
+- generic: 200+店铺会员已买
+- generic: "|4千+店铺会员浏览"
+- generic: ¥
+- generic: "209"
+- generic: 到手价
+- generic: ¥212
+- button
+- img "明日达"
+- img "送货上门"
+- generic: 券满10减3
+- generic "已售4万+"
+- generic: 超级店
+- generic: GUCCI古驰美妆专卖店
+- generic "思黛芙唇滋润持喷剂橘红色":
+- generic: 思黛芙唇滋润持喷剂橘红色
+- generic: 思黛芙唇
+- generic: "|不沾杯"
+- generic: "|温变口红"
+- generic: ¥
+- generic: "79"
+- generic: .
+- generic: "77"
+- generic: 到手价
+- generic: ¥88.63
+- button
+- generic: 立享9折
+- generic: 包邮
+- generic "1人看过"
+- generic "100%好评"
+- generic: 荟享医疗旗舰店
+- generic "迪奥Dior魅惑唇膏口红720豆沙红棕色3.2g(替换装)滋润生日礼物送女友":
+  - generic: 重庆预定
+- img "自营"
+- text: 迪奥Dior魅惑唇膏口红720豆沙红棕色3.2g(替换装)滋润生日礼物送女友
+- generic: “
+- generic: 外观设计时尚大方
+- generic: ”
+- generic: 豆沙红棕
+- generic: "|盈润持妆"
+- generic: "|闪耀显色"
+- generic: "|润泽色彩"
+- generic: “
+- generic: 外观设计时尚大方
+- generic: ”
+- generic: ¥
+- generic: "320"
+- button
+- generic: 赠
+- generic "已售20万+"
+- generic "6900+人种草"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "迪奥Dior烈艳蓝金口红丝绒777哑光唇膏化妆品显色 生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior烈艳蓝金口红丝绒777哑光唇膏化妆品显色 生日礼物送女友
+- generic: “
+- generic: 很喜欢这款颜色
+- generic: ”
+- generic: 持久锁色
+- generic: "|烈焰赤橘"
+- generic: "|丝绒质地"
+- generic: "|节日佳品"
+- generic: “
+- generic: 很喜欢这款颜色
+- generic: ”
+- generic: ¥
+- generic: "420"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售100万+"
+- generic "7600+人种草"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "YSL圣罗兰【重磅上新】水雾唇釉610日晒乌龙哑光柔雾口红生日礼物送女友":
+  - generic: 广告
+- img "自营"
+- generic "YSL圣罗兰【重磅上新】水雾唇釉610日晒乌龙哑光柔雾口红生日礼物送女友"
+- generic: 重磅上新
+- generic: "|礼物送女友"
+- generic: "|生日礼物"
+- generic: "|水雾唇釉"
+- generic: ¥
+- generic: "410"
+- button
+- img "明日达"
+- img "重磅新品"
+- img "国家补贴"
+- generic "已售4000+"
+- generic: YSL圣罗兰京东自营旗舰店
+- generic "迪奥Dior烈艳蓝金惊艳唇釉口红柔雾558滋润显色化妆品生日礼物送女友":
+- img "自营"
+- text: 迪奥Dior烈艳蓝金惊艳唇釉口红柔雾558滋润显色化妆品生日礼物送女友
+- generic "唇釉金榜第8名":
+  - text: 唇釉金榜第8名
+- generic: “
+- generic: 薄涂很日常 蛮持久
+- generic: ”
+- generic: 24H不脱色
+- generic: "|精准勾勒双唇"
+- generic: "|高订设计"
+- generic: "|柔雾显色"
+- generic "唇釉金榜第8名":
+  - text: 唇釉金榜第8名
+- generic: ¥
+- generic: "420"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售4000+"
+- generic "97%好评"
+- generic: DIOR迪奥美妆京东自营官方旗舰店

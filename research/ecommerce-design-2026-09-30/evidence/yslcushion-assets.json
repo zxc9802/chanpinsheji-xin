@@ -1,0 +1,440 @@
+{
+  "product_url": "https://item.jd.com/100032715986.html",
+  "captured_at": "2026-09-30",
+  "heat": [
+    "- generic: 买家评价(50万+)",
+    "- generic: 累计评价 50万+",
+    "- link \"9月『气垫BB霜金榜』TOP20\":",
+    "  - generic: 9月『气垫BB霜金榜』TOP20"
+  ],
+  "hero": [
+    {
+      "order": 1,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/518397/31/9029/94193/6aa6c851F4fe89a30/00832ee3e8619962.jpg.avif",
+      "path": "assets/yslcushion/hero-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/518397/31/9029/94193/6aa6c851F4fe89a30/00832ee3e8619962.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 2,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/522883/32/6961/180635/6aa6c850F7f6437f3/00832ee3e84ad9f1.jpg.avif",
+      "path": "assets/yslcushion/hero-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/522883/32/6961/180635/6aa6c850F7f6437f3/00832ee3e84ad9f1.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 3,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/335979/16/11169/115484/68c83129Fc5e397c5/bf4c81be51c8fb62.jpg.avif",
+      "path": "assets/yslcushion/hero-03.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/335979/16/11169/115484/68c83129Fc5e397c5/bf4c81be51c8fb62.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 4,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/347781/25/3905/145208/68c8312bF4d874a13/9d9398f9c137e8cf.jpg.avif",
+      "path": "assets/yslcushion/hero-04.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/347781/25/3905/145208/68c8312bF4d874a13/9d9398f9c137e8cf.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 5,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/286551/24/23291/90621/68ccf441F3b78464e/af4eeb766957dbb3.jpg.avif",
+      "path": "assets/yslcushion/hero-05.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/286551/24/23291/90621/68ccf441F3b78464e/af4eeb766957dbb3.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 6,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/380704/22/21771/221958/695a08e5F9b2aaec6/78077acb994c236b.jpg.avif",
+      "path": "assets/yslcushion/hero-06.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/380704/22/21771/221958/695a08e5F9b2aaec6/78077acb994c236b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 7,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/311182/39/11277/89530/68558983F9981aed1/3004e0c5e599d163.jpg.avif",
+      "path": "assets/yslcushion/hero-07.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/311182/39/11277/89530/68558983F9981aed1/3004e0c5e599d163.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 8,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/366683/19/5255/139016/6926d50cF879dc0d7/c3d1b418a71c5777.jpg.avif",
+      "path": "assets/yslcushion/hero-08.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/366683/19/5255/139016/6926d50cF879dc0d7/c3d1b418a71c5777.jpg.avif",
+      "preview_frame": 0
+    }
+  ],
+  "detail": [
+    {
+      "height": 300,
+      "order": 1,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/445752/2/7708/55059/6a1e767fF60a2a1f8/00d62ee12c7a4b5b.jpg.avif",
+      "width": 750,
+      "path": "assets/yslcushion/detail-01.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/445752/2/7708/55059/6a1e767fF60a2a1f8/00d62ee12c7a4b5b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 269,
+      "order": 2,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/410628/25/11072/22965/69ca208cF186c8983/00d62ee10dfcef7d.jpg.avif",
+      "width": 750,
+      "path": "assets/yslcushion/detail-02.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/410628/25/11072/22965/69ca208cF186c8983/00d62ee10dfcef7d.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 900,
+      "order": 3,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/531906/31/8353/100033/6aba710bFb29116e7/00d62ee384410fd4.jpg.avif",
+      "width": 750,
+      "path": "assets/yslcushion/detail-03.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/531906/31/8353/100033/6aba710bFb29116e7/00d62ee384410fd4.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 380,
+      "order": 4,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/512793/27/14268/91975/6aa260f9Fb9586551/00d646517c793dda.jpg.avif",
+      "width": 1125,
+      "path": "assets/yslcushion/detail-04.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/512793/27/14268/91975/6aa260f9Fb9586551/00d646517c793dda.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1800,
+      "order": 5,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/494412/29/15120/209889/6a848661F26999639/00d6316708905f35.jpg.avif",
+      "width": 790,
+      "path": "assets/yslcushion/detail-05.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/494412/29/15120/209889/6a848661F26999639/00d6316708905f35.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1640,
+      "order": 6,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/327172/34/21931/322175/68ccf50bFe7439c69/088ee682a02cb3eb.jpg.avif",
+      "width": 790,
+      "path": "assets/yslcushion/detail-06.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/327172/34/21931/322175/68ccf50bFe7439c69/088ee682a02cb3eb.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 2010,
+      "order": 7,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/333108/25/14977/159909/68ccf50cFa76a5498/36fdb375a3595384.jpg.avif",
+      "width": 790,
+      "path": "assets/yslcushion/detail-07.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/333108/25/14977/159909/68ccf50cFa76a5498/36fdb375a3595384.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 2050,
+      "order": 8,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/344692/39/5136/203921/68ccf50bFc2f11377/d09c70bf03903e0d.jpg.avif",
+      "width": 790,
+      "path": "assets/yslcushion/detail-08.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/344692/39/5136/203921/68ccf50bFc2f11377/d09c70bf03903e0d.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 2000,
+      "order": 9,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/100815/3/52446/193024/68ccf50cF3abfd185/6a6a36ada5cc0e0a.jpg.avif",
+      "width": 790,
+      "path": "assets/yslcushion/detail-09.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/100815/3/52446/193024/68ccf50cF3abfd185/6a6a36ada5cc0e0a.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1550,
+      "order": 10,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/336655/24/12659/151150/68ccf50bF3bd87419/5c2b0cb3b5dfa9e5.jpg.avif",
+      "width": 790,
+      "path": "assets/yslcushion/detail-10.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/336655/24/12659/151150/68ccf50bF3bd87419/5c2b0cb3b5dfa9e5.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1800,
+      "order": 11,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/329857/37/15136/160320/68ccf50cF7622551c/c8258490e3e7fe20.jpg.avif",
+      "width": 790,
+      "path": "assets/yslcushion/detail-11.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/329857/37/15136/160320/68ccf50cF7622551c/c8258490e3e7fe20.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1950,
+      "order": 12,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/328456/37/21940/124249/68ccf50bF117e0fde/2aaf6a9b9110b1dd.jpg.avif",
+      "width": 790,
+      "path": "assets/yslcushion/detail-12.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/328456/37/21940/124249/68ccf50bF117e0fde/2aaf6a9b9110b1dd.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1470,
+      "order": 13,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/336610/32/12796/139646/68ccf50bF4ef0439d/b06c2ee00470d67d.jpg.avif",
+      "width": 790,
+      "path": "assets/yslcushion/detail-13.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/336610/32/12796/139646/68ccf50bF4ef0439d/b06c2ee00470d67d.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 830,
+      "order": 14,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/404844/29/17131/61939/69bd1b90F8dd3a4d0/00d631633e0d831b.jpg.avif",
+      "width": 790,
+      "path": "assets/yslcushion/detail-14.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/404844/29/17131/61939/69bd1b90F8dd3a4d0/00d631633e0d831b.jpg.avif",
+      "preview_frame": 0
+    }
+  ],
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/avif",
+        "id": "c26f0d681efb420e",
+        "kind": "image",
+        "name": "3004e0c5e599d163.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/6c290acc-1900-4ceb-a6cf-820bf19c9cb8/c26f0d681efb420e.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/311182/39/11277/89530/68558983F9981aed1/3004e0c5e599d163.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "0c991608a33a95fc",
+        "kind": "image",
+        "name": "78077acb994c236b.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/6c290acc-1900-4ceb-a6cf-820bf19c9cb8/0c991608a33a95fc.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/380704/22/21771/221958/695a08e5F9b2aaec6/78077acb994c236b.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "c9c42dec5f640a79",
+        "kind": "image",
+        "name": "c3d1b418a71c5777.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/6c290acc-1900-4ceb-a6cf-820bf19c9cb8/c9c42dec5f640a79.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/366683/19/5255/139016/6926d50cF879dc0d7/c3d1b418a71c5777.jpg.avif"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/494412/29/15120/209889/6a848661F26999639/00d6316708905f35.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/f6a839ba6807c17c.avif",
+        "id": "f6a839ba6807c17c",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/522883/32/6961/180635/6aa6c850F7f6437f3/00832ee3e84ad9f1.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/84cd354e96779c6b.avif",
+        "id": "84cd354e96779c6b",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/404844/29/17131/61939/69bd1b90F8dd3a4d0/00d631633e0d831b.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/58aaa9cea0962237.avif",
+        "id": "58aaa9cea0962237",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/531906/31/8353/100033/6aba710bFb29116e7/00d62ee384410fd4.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/55c265329b86d534.avif",
+        "id": "55c265329b86d534",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/344692/39/5136/203921/68ccf50bFc2f11377/d09c70bf03903e0d.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/c5d384d61e4a5fa0.avif",
+        "id": "c5d384d61e4a5fa0",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/100815/3/52446/193024/68ccf50cF3abfd185/6a6a36ada5cc0e0a.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/71f67dc0e61fdc7e.avif",
+        "id": "71f67dc0e61fdc7e",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/445752/2/7708/55059/6a1e767fF60a2a1f8/00d62ee12c7a4b5b.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/ae007b37aaa1bd3d.avif",
+        "id": "ae007b37aaa1bd3d",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/329857/37/15136/160320/68ccf50cF7622551c/c8258490e3e7fe20.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/cb958dc54d0ba3bd.avif",
+        "id": "cb958dc54d0ba3bd",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/512793/27/14268/91975/6aa260f9Fb9586551/00d646517c793dda.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/39b65cf8192e2a1f.avif",
+        "id": "39b65cf8192e2a1f",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/336610/32/12796/139646/68ccf50bF4ef0439d/b06c2ee00470d67d.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/a014fe34851cbf1b.avif",
+        "id": "a014fe34851cbf1b",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/328456/37/21940/124249/68ccf50bF117e0fde/2aaf6a9b9110b1dd.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/f96c655d5e8d4977.avif",
+        "id": "f96c655d5e8d4977",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/347781/25/3905/145208/68c8312bF4d874a13/9d9398f9c137e8cf.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/f2f4dd0b1a384e6d.avif",
+        "id": "f2f4dd0b1a384e6d",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/335979/16/11169/115484/68c83129Fc5e397c5/bf4c81be51c8fb62.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/719444a4e453b8d2.avif",
+        "id": "719444a4e453b8d2",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/518397/31/9029/94193/6aa6c851F4fe89a30/00832ee3e8619962.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/e1e3b125ba9243d6.avif",
+        "id": "e1e3b125ba9243d6",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/336655/24/12659/151150/68ccf50bF3bd87419/5c2b0cb3b5dfa9e5.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/9ca2780e8e726356.avif",
+        "id": "9ca2780e8e726356",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/410628/25/11072/22965/69ca208cF186c8983/00d62ee10dfcef7d.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/9289a63922797025.avif",
+        "id": "9289a63922797025",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/286551/24/23291/90621/68ccf441F3b78464e/af4eeb766957dbb3.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/8920f63dd5fb1b52.avif",
+        "id": "8920f63dd5fb1b52",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/333108/25/14977/159909/68ccf50cFa76a5498/36fdb375a3595384.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/6ffea4859b48f439.avif",
+        "id": "6ffea4859b48f439",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/327172/34/21931/322175/68ccf50bFe7439c69/088ee682a02cb3eb.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/2871ef62c65a4605.avif",
+        "id": "2871ef62c65a4605",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      }
+    ],
+    "directoryPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/6c290acc-1900-4ceb-a6cf-820bf19c9cb8",
+    "failures": [
+      {
+        "contentType": null,
+        "id": "e1e3b125ba9243d6",
+        "name": "00832ee3e8619962.jpg.avif",
+        "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at https://storage.360buyimg.com/pubfree-basic/pc-risk/2.2.0/pc-core-disposal.js:1:9068\n    at new Promise (<anonymous>)\n    at window.fetch (https://storage.360buyimg.com/pubfree-basic/pc-risk/2.2.0/pc-core-disposal.js:1:8568)\n    at https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:106648\n    at f (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:60539)\n    at Generator.<anonymous> (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:61861)\n    at Generator.next (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:60947)\n    at fE (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:66407)\n    at a (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:66601)",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/518397/31/9029/94193/6aa6c851F4fe89a30/00832ee3e8619962.jpg.avif"
+      },
+      {
+        "contentType": null,
+        "id": "8920f63dd5fb1b52",
+        "name": "af4eeb766957dbb3.jpg.avif",
+        "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at https://storage.360buyimg.com/pubfree-basic/pc-risk/2.2.0/pc-core-disposal.js:1:9068\n    at new Promise (<anonymous>)\n    at window.fetch (https://storage.360buyimg.com/pubfree-basic/pc-risk/2.2.0/pc-core-disposal.js:1:8568)\n    at https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:106648\n    at f (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:60539)\n    at Generator.<anonymous> (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:61861)\n    at Generator.next (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:60947)\n    at fE (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:66407)\n    at a (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:66601)",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/286551/24/23291/90621/68ccf441F3b78464e/af4eeb766957dbb3.jpg.avif"
+      },
+      {
+        "contentType": null,
+        "id": "f2f4dd0b1a384e6d",
+        "name": "9d9398f9c137e8cf.jpg.avif",
+        "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at https://storage.360buyimg.com/pubfree-basic/pc-risk/2.2.0/pc-core-disposal.js:1:9068\n    at new Promise (<anonymous>)\n    at window.fetch (https://storage.360buyimg.com/pubfree-basic/pc-risk/2.2.0/pc-core-disposal.js:1:8568)\n    at https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:106648\n    at f (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:60539)\n    at Generator.<anonymous> (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:61861)\n    at Generator.next (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:60947)\n    at fE (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:66407)\n    at a (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:66601)",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/347781/25/3905/145208/68c8312bF4d874a13/9d9398f9c137e8cf.jpg.avif"
+      },
+      {
+        "contentType": null,
+        "id": "84cd354e96779c6b",
+        "name": "00832ee3e84ad9f1.jpg.avif",
+        "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at https://storage.360buyimg.com/pubfree-basic/pc-risk/2.2.0/pc-core-disposal.js:1:9068\n    at new Promise (<anonymous>)\n    at window.fetch (https://storage.360buyimg.com/pubfree-basic/pc-risk/2.2.0/pc-core-disposal.js:1:8568)\n    at https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:106648\n    at f (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:60539)\n    at Generator.<anonymous> (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:61861)\n    at Generator.next (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:60947)\n    at fE (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:66407)\n    at a (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:66601)",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/522883/32/6961/180635/6aa6c850F7f6437f3/00832ee3e84ad9f1.jpg.avif"
+      },
+      {
+        "contentType": null,
+        "id": "719444a4e453b8d2",
+        "name": "bf4c81be51c8fb62.jpg.avif",
+        "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at https://storage.360buyimg.com/pubfree-basic/pc-risk/2.2.0/pc-core-disposal.js:1:9068\n    at new Promise (<anonymous>)\n    at window.fetch (https://storage.360buyimg.com/pubfree-basic/pc-risk/2.2.0/pc-core-disposal.js:1:8568)\n    at https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:106648\n    at f (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:60539)\n    at Generator.<anonymous> (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:61861)\n    at Generator.next (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:60947)\n    at fE (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:66407)\n    at a (https://storage.360buyimg.com/dev-static/dra/probe-web/1.2.10/browser.js:1:66601)",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/335979/16/11169/115484/68c83129Fc5e397c5/bf4c81be51c8fb62.jpg.avif"
+      }
+    ],
+    "manifestPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/6c290acc-1900-4ceb-a6cf-820bf19c9cb8/manifest.json",
+    "summary": {
+      "downloadedCount": 3,
+      "elapsedMs": 48.64999999944121,
+      "failedCount": 5,
+      "requestedCount": 8
+    }
+  }
+}

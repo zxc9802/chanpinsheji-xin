@@ -1,0 +1,673 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 京东国际
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "和风雨男士洗面奶控油美白除螨深层清洁毛孔去黑头洁面乳200g*2":
+  - generic: 广告
+- img "自营"
+- generic "和风雨男士洗面奶控油美白除螨深层清洁毛孔去黑头洁面乳200g*2"
+- generic: 100+人收藏
+- generic: "|店铺被10万人种草"
+- generic: "|5千+人已买"
+- generic: ¥
+- generic: "93"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售20万+"
+- generic: 和风雨京东自营旗舰店
+- generic "欧莱雅复颜氨基酸洁面乳125ml 深层清洁温和洗面奶护肤品生日礼物":
+- img "自营"
+- text: 欧莱雅复颜氨基酸洁面乳125ml 深层清洁温和洗面奶护肤品生日礼物
+- generic: “
+- generic: 泡沫绵密如云朵，上脸温和不刺激
+- generic: ”
+- generic: 敏肌安心
+- generic: "|深层清洁"
+- generic: "|长效焕亮"
+- generic: "|125ml净装"
+- generic: “
+- generic: 泡沫绵密如云朵，上脸温和不刺激
+- generic: ”
+- generic: ¥
+- generic: "58"
+- generic: .
+- generic: "7"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售10万+"
+- generic "99%好评"
+- generic: 京东美妆自营旗舰店
+- generic "芙丽芳丝（Freeplus）洁面洗面奶霜氨基酸敏感肌男女士通用深层清洁保湿100g":
+- img "自营"
+- text: 芙丽芳丝（Freeplus）洁面洗面奶霜氨基酸敏感肌男女士通用深层清洁保湿100g
+- generic "洁面金榜第1名":
+  - text: 洁面金榜第1名
+- generic: “
+- generic: 很好用，洗的干净，而且不紧绷
+- generic: ”
+- generic: 高配比氨基酸
+- generic: "|金榜TOP"
+- generic: "|温和洁净"
+- generic: "|氨基酸洁面"
+- generic "洁面金榜第1名":
+  - text: 洁面金榜第1名
+- generic: ¥
+- generic: "94"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 赠
+- generic: 包邮
+- generic "已售800万+"
+- generic "30天加购飙升5倍"
+- generic: 芙丽芳丝京东自营旗舰店
+- generic "适乐肤（CeraVe）【油痘肌救星】水杨酸洁面473ml（男女士控油祛痘去黑头礼物）":
+- img "自营"
+- text: 适乐肤（CeraVe）【油痘肌救星】水杨酸洁面473ml（男女士控油祛痘去黑头礼物）
+- generic "洁面金榜第3名":
+  - text: 洁面金榜第3名
+- generic: “
+- generic: 洗完清爽不紧绷不假滑
+- generic: ”
+- generic: 改善黑头
+- generic: "|疏通毛孔"
+- generic: "|去角质闭口"
+- generic: "|清透无负担"
+- generic "洁面金榜第3名":
+  - text: 洁面金榜第3名
+- generic: ¥
+- generic: "158"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: CeraVe适乐肤京东自营旗舰店
+- generic "海洋至尊三棱镜控油祛痘洗面奶男150g 祛痘去黑头洁面男士护肤品":
+  - generic: 广告
+- img "自营"
+- text: 海洋至尊三棱镜控油祛痘洗面奶男150g 祛痘去黑头洁面男士护肤品
+- generic: 2万+店铺粉丝浏览
+- generic: "|近7日热销商品"
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "89"
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 2件7.5折
+- img "安心品质"
+- generic "已售80万+"
+- generic: 海洋至尊京东自营旗舰店
+- generic "至本舒颜修护洁面乳120g 温和清洁氨基酸表活保湿泡沫绵密洗面奶男女":
+- img "自营"
+- text: 至本舒颜修护洁面乳120g 温和清洁氨基酸表活保湿泡沫绵密洗面奶男女
+- generic "洁面金榜第6名":
+  - text: 洁面金榜第6名
+- generic: “
+- generic: 用了几天，暂时没啥副作用
+- generic: ”
+- generic: 敏弱肌适用
+- generic: "|丰柔泡沫"
+- generic: "|结晶型氨基酸系"
+- generic: "|绵密泡沫"
+- generic "洁面金榜第6名":
+  - text: 洁面金榜第6名
+- generic: ¥
+- generic: "55"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满赠
+- generic: 满赠
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 至本京东自营旗舰店
+- generic "珀莱雅细致肌密洁面【重磅上新】":
+- img "自营"
+- text: 珀莱雅细致肌密洁面【重磅上新】
+- generic: “
+- generic: 洗完清透舒服，不假滑不干脸
+- generic: ”
+- generic: 滋养紧肤
+- generic: "|温和清洁"
+- generic: "|缓解干燥"
+- generic: "|洗后不假滑"
+- generic: “
+- generic: 洗完清透舒服，不假滑不干脸
+- generic: ”
+- generic: ¥
+- generic: "65"
+- generic: 到手价
+- generic: ¥72.3
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 赠
+- generic: 包邮
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 珀莱雅京东自营旗舰店
+- generic "适乐肤（CeraVe）【油痘肌救星】水杨酸洁面236ml（男女士控油祛痘去黑头礼物）":
+- img "自营"
+- text: 适乐肤（CeraVe）【油痘肌救星】水杨酸洁面236ml（男女士控油祛痘去黑头礼物）
+- generic: “
+- generic: 洗后水润不紧绷，泡沫细腻易冲洗
+- generic: ”
+- generic: 疏通毛孔
+- generic: "|水杨酸"
+- generic: "|去角质"
+- generic: "|敏感肌适用"
+- generic: “
+- generic: 洗后水润不紧绷，泡沫细腻易冲洗
+- generic: ”
+- generic: ¥
+- generic: "108"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: CeraVe适乐肤京东自营旗舰店
+- generic "颐莲（RELLET）双管洁面100g*2双萃平衡调理洁面乳清油脂去毛孔送女生礼物":
+  - generic: 广告
+- img "自营"
+- generic "颐莲（RELLET）双管洁面100g*2双萃平衡调理洁面乳清油脂去毛孔送女生礼物"
+- generic: 5千+护肤党浏览
+- generic: "|4千+人加购"
+- generic: "|1万+人浏览"
+- generic: ¥
+- generic: "119"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满300减60
+- generic "已售2万+"
+- generic: 颐莲（RELLET）京东自营旗舰店
+- generic "【NO.1洁面】C咖清洁双管洗面奶":
+- img "自营"
+- text: 【NO.1洁面】C咖清洁双管洗面奶
+- generic "洁面热卖榜第4名":
+  - text: 洁面热卖榜第4名
+- generic: “
+- generic: 出油清洗得很干净，性价比不错
+- generic: ”
+- generic: 强控油持久清爽
+- generic: "|双管设计新升级"
+- generic: "|去黑头控油净透"
+- generic: "|热销4000万+"
+- generic "洁面热卖榜第4名":
+  - text: 洁面热卖榜第4名
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售100万+"
+- generic "1万+人好评"
+- generic: C咖京东自营旗舰店
+- generic "芙丽芳丝（Freeplus）氨基酸洗面奶 100g 温润绵密 深层清洁 控油保湿提亮肤色收缩毛孔":
+- img "自营"
+- text: 芙丽芳丝（Freeplus）氨基酸洗面奶 100g 温润绵密 深层清洁 控油保湿提亮肤色收缩毛孔
+- generic "洁面金榜第8名":
+  - text: 洁面金榜第8名
+- generic: “
+- generic: 保质期很长，有活动囤一支
+- generic: ”
+- generic: 控油保湿
+- generic: "|氨基酸洁面"
+- generic: "|适合多种肤质"
+- generic: "|收缩毛孔"
+- generic "洁面金榜第8名":
+  - text: 洁面金榜第8名
+- generic: ¥
+- generic: "71"
+- generic: .
+- generic: "48"
+- generic: 已补6.52元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- img "国家补贴"
+- generic: 包邮
+- generic "已售60万+"
+- generic "3万+人复购"
+- generic: 1号会员店
+- generic "芙丽芳丝洁面试用装":
+- img "自营"
+- text: 芙丽芳丝洁面试用装
+- generic: “
+- generic: 日常淡妆防晒，轻度清洁没问题
+- generic: ”
+- generic: 会员福利
+- generic: "|享回购券"
+- generic: "|新粉尝鲜"
+- generic: "|20g便携装"
+- generic: “
+- generic: 日常淡妆防晒，轻度清洁没问题
+- generic: ”
+- generic: ¥
+- generic: "19"
+- generic: .
+- generic: "9"
+- button
+- img "京东超市"
+- generic "已售800万+"
+- generic "98%好评"
+- generic: 芙丽芳丝京东自营旗舰店
+- generic "东洋之花洗面奶小绿泥洁面水杨酸洁面乳氨基酸深层清洁洁面保湿120g":
+  - generic: 广告
+- img "自营"
+- generic "东洋之花洗面奶小绿泥洁面水杨酸洁面乳氨基酸深层清洁洁面保湿120g"
+- generic: 近7日热销商品
+- generic: "|金榜国货之光"
+- generic: "|一洗控油净痘"
+- generic: ¥
+- generic: "39"
+- generic: .
+- generic: "99"
+- generic: 到手价
+- generic: ¥42.99
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic "已售1000+"
+- generic: 东洋之花护肤京东自营旗舰店
+- generic "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女护肤京东自营 保湿洁面泡沫150ml"
+- img "自营"
+- text: 珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女护肤京东自营 保湿洁面泡沫150ml
+- generic "洁面金榜第9名":
+  - text: 洁面金榜第9名
+- generic: “
+- generic: 很温和，适合敏感肌肤
+- generic: ”
+- generic: 氨基酸洗面奶
+- generic: "|舒缓修护"
+- generic: "|进口护肤品"
+- generic: "|肌肤舒适"
+- generic "洁面金榜第9名":
+  - text: 洁面金榜第9名
+- generic: ¥
+- generic: "89"
+- button
+- img "明日达"
+- generic: 满赠
+- generic: 满赠
+- generic "已售300万+"
+- generic "1万+人复购"
+- generic: 珂润京东自营旗舰店
+- text: 大家都在搜
+- generic: 女士洁面乳
+- generic: 美白淡斑洗面奶
+- generic: 氨基酸洗面奶
+- generic: 雅诗兰黛
+- generic: 后whoo天气丹
+- generic: 男士洗面奶
+- generic: 安热沙小金瓶
+- generic "【央妈力荐】TOP榜第1名洗面奶":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名洗面奶
+- generic "美白功效洁面热卖榜第2名":
+  - text: 美白功效洁面热卖榜第2名
+- generic: “
+- generic: 泡沫很多，出行必备超省心
+- generic: ”
+- generic: 温和清洁
+- generic: "|细致毛孔"
+- generic: "|自营担保"
+- generic: "|高配比氨基酸"
+- generic "美白功效洁面热卖榜第2名":
+  - text: 美白功效洁面热卖榜第2名
+- generic: ¥
+- generic: "58"
+- generic: .
+- generic: "51"
+- button
+- img "明日达"
+- generic: 京东秒杀
+- generic: 98买2件
+- img "安心品质"
+- generic "已售100万+"
+- generic "1万+人复购"
+- generic: 维特丝京东自营旗舰店
+- generic "必扬氨基酸洗面奶男女士控油保湿深层清洁不刺激洁面乳100g":
+  - generic: 广告
+- img "自营"
+- generic "必扬氨基酸洗面奶男女士控油保湿深层清洁不刺激洁面乳100g"
+- generic: 100+护肤达人加购
+- generic: "|无皂基配方"
+- generic: "|深层清洁"
+- generic: ¥
+- generic: "98"
+- img "京东超市"
+- generic "已售4000+"
+- generic "氨基酸洁面236ml-温和保湿舒缓":
+- img "自营"
+- text: 氨基酸洁面236ml-温和保湿舒缓
+- generic "70-150元洁面热卖榜第7名":
+  - text: 70-150元洁面热卖榜第7名
+- generic: “
+- generic: 大瓶装性价比拉满
+- generic: ”
+- generic: 呵护屏障
+- generic: "|洁净不拔干"
+- generic: "|清爽净颜"
+- generic: "|氨基酸洁面"
+- generic "70-150元洁面热卖榜第7名":
+  - text: 70-150元洁面热卖榜第7名
+- generic: ¥
+- generic: "93"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售80万+"
+- generic "30天加购飙升5倍"
+- generic: CeraVe适乐肤京东自营旗舰店
+- generic "薇诺娜特护洁面乳100g氨基酸补水洗面奶男女护肤品生日礼物":
+- img "自营"
+- text: 薇诺娜特护洁面乳100g氨基酸补水洗面奶男女护肤品生日礼物
+- generic "锁水洁面热卖榜第10名":
+  - text: 锁水洁面热卖榜第10名
+- generic: “
+- generic: 送了2个小样，出门带着方便
+- generic: ”
+- generic: 温和洁肤
+- generic: "|舒缓保湿"
+- generic: "|润泽保湿"
+- generic: "|柔嫩肤感"
+- generic "锁水洁面热卖榜第10名":
+  - text: 锁水洁面热卖榜第10名
+- generic: ¥
+- generic: "99"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售100万+"
+- generic "98%好评"
+- generic: 薇诺娜WINONA京东自营旗舰店
+- generic "【央妈力荐】TOP榜第1名洗面奶":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名洗面奶
+- generic "洁面金榜第4名":
+  - text: 洁面金榜第4名
+- generic: “
+- generic: 味道清爽，易清洗，不紧绷
+- generic: ”
+- generic: 自营担保
+- generic: "|金榜爆卖"
+- generic: "|无效全退"
+- generic: "|敏感肌适用"
+- generic "洁面金榜第4名":
+  - text: 洁面金榜第4名
+- generic: ¥
+- generic: "42"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 79买2件
+- img "安心品质"
+- generic: 包邮
+- generic "已售100万+"
+- generic "99%好评"
+- generic: 维特丝京东自营旗舰店
+- generic "薇肌萃美容院直发护肤品套装净爽清颜水祛痘精华洁面乳厚脸皮美容院同款 奢护肌底润养套":
+  - generic: 广告
+- generic "薇肌萃美容院直发护肤品套装净爽清颜水祛痘精华洁面乳厚脸皮美容院同款 奢护肌底润养套"
+- generic: 超10万人关注店铺
+- generic: "|回购热品"
+- generic: "|已售2000+"
+- generic: ¥
+- generic: "1070"
+- generic: .
+- generic: "4"
+- generic: 到手价
+- generic: ¥1438
+- button
+- generic: 立享8折
+- generic "已售1000+"
+- generic: 绽颜院线护肤品小店
+- generic "科颜氏（Kiehl's）高保湿小奶泡洁面75ml氨基酸洗面奶舒缓不绷脸国庆节礼物":
+- img "自营"
+- text: 科颜氏（Kiehl's）高保湿小奶泡洁面75ml氨基酸洗面奶舒缓不绷脸国庆节礼物
+- generic: “
+- generic: 清洁温柔不干涩
+- generic: ”
+- generic: 敏感肌适用
+- generic: "|绵密水感泡泡"
+- generic: "|专研氨基酸表活"
+- generic: "|无香无皂基配方"
+- generic: “
+- generic: 清洁温柔不干涩
+- generic: ”
+- generic: ¥
+- generic: "130"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售80万+"
+- generic "98%好评"
+- generic: 科颜氏Kiehl's京东自营旗舰店
+- generic "溪木源山茶花洁面泡沫150ml":
+- img "自营"
+- text: 溪木源山茶花洁面泡沫150ml
+- generic: “
+- generic: 泡沫丰富但是比较好清洗
+- generic: ”
+- generic: 舒缓保湿
+- generic: "|温和洁面"
+- generic: "|净澈毛孔"
+- generic: "|舒缓清洁"
+- generic: “
+- generic: 泡沫丰富但是比较好清洗
+- generic: ”
+- generic: ¥
+- generic: "54"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥59.8
+- button
+- img "明日达"
+- generic: 首购礼金5元
+- generic: 满赠
+- generic: 赠
+- generic "已售100万+"
+- generic "30天种草飙升5倍"
+- generic: 溪木源京东自营旗舰店
+- generic "欧莱雅复颜氨基酸洁面乳125ml清洁洗面奶男女护肤品生日礼物":
+- img "自营"
+- text: 欧莱雅复颜氨基酸洁面乳125ml清洁洗面奶男女护肤品生日礼物
+- generic: “
+- generic: 清洁力度强，对敏感肌使用极好
+- generic: ”
+- generic: 敏感肌适用
+- generic: "|氨基酸洁面"
+- generic: "|深层洁净"
+- generic: "|敏感肌适用"
+- generic: “
+- generic: 清洁力度强，对敏感肌使用极好
+- generic: ”
+- generic: ¥
+- generic: "84"
+- generic: .
+- generic: "15"
+- generic: 已补10.97元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 赠
+- generic: 包邮
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "维特丝氨基酸洗面奶男女士美白淡斑提亮肤色控油清洁毛孔祛痘黑头洁面乳 【温和美白】美白洁面乳共600g":
+  - generic: 广告
+- img "京东物流"
+- generic "维特丝氨基酸洗面奶男女士美白淡斑提亮肤色控油清洁毛孔祛痘黑头洁面乳 【温和美白】美白洁面乳共600g"
+- generic: 1千+店铺会员浏览
+- generic: "|15万+店铺老客浏览"
+- generic: ¥
+- generic: "69"
+- generic: 到手价
+- generic: ¥89
+- button
+- img "明日达"
+- img "送货上门"
+- img "京东超市"
+- generic: 首购礼金16元
+- generic: 券满69减4
+- generic "已售40万+"
+- generic: 维特丝官方旗舰店
+- generic "芙丽芳丝（Freeplus）洗面奶男女士氨基酸洁面乳生日礼物送男女朋友100g*2":
+- img "自营"
+- text: 芙丽芳丝（Freeplus）洗面奶男女士氨基酸洁面乳生日礼物送男女朋友100g*2
+- generic "洁面好评榜第4名":
+  - text: 洁面好评榜第4名
+- generic: “
+- generic: 京东自营值得信赖
+- generic: ”
+- generic: 高配比氨基酸
+- generic: "|洁面no.1"
+- generic: "|温和净润"
+- generic: "|男女皆宜"
+- generic "洁面好评榜第4名":
+  - text: 洁面好评榜第4名
+- generic: ¥
+- generic: "167"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥173.9
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 首购礼金6元
+- generic: 赠
+- generic: 包邮
+- generic "已售800万+"
+- generic "30天加购飙升5倍"
+- generic: 芙丽芳丝京东自营旗舰店
+- generic "【抗氧抗糖】RNW净颜洁面乳150g":
+- img "自营"
+- text: 【抗氧抗糖】RNW净颜洁面乳150g
+- generic "抗氧化洁面好评榜第3名":
+  - text: 抗氧化洁面好评榜第3名
+- generic: “
+- generic: 用完皮肤滑滑的，毛孔呼吸顺畅
+- generic: ”
+- generic: 去面部角质抛光
+- generic: "|抗糖抗氧化"
+- generic: "|保湿控油"
+- generic: "|深层清洁"
+- generic "抗氧化洁面好评榜第3名":
+  - text: 抗氧化洁面好评榜第3名
+- generic: ¥
+- generic: "69"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售20万+"
+- generic "97%好评"
+- generic: RNW如薇京东自营旗舰店
+- generic "逐本清欢绵柔洁面乳100g":
+- img "自营"
+- text: 逐本清欢绵柔洁面乳100g
+- generic "新锐国货洁面好评榜第8名":
+  - text: 新锐国货洁面好评榜第8名
+- generic: “
+- generic: 泡沫细腻又丰富，清洁力强但不紧绷
+- generic: ”
+- generic: 细密泡沫深层清洁
+- generic: "|温和不伤皮脂膜"
+- generic: "|柑橘香调舒缓身心"
+- generic: "|10倍绵柔奶泡"
+- generic "新锐国货洁面好评榜第8名":
+  - text: 新锐国货洁面好评榜第8名
+- generic: ¥
+- generic: "34"
+- generic: .
+- generic: "32"
+- generic: 到手价
+- generic: ¥39
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 立享8.8折
+- generic: 赠
+- generic "已售10万+"
+- generic "30天加购飙升5倍"
+- generic: 逐本京东自营旗舰店
+- generic "珀莱雅净澈焕颜洗面奶深层清洁毛孔洁面乳护肤品女友生日礼物":
+- img "自营"
+- text: 珀莱雅净澈焕颜洗面奶深层清洁毛孔洁面乳护肤品女友生日礼物
+- generic: “
+- generic: 油性皮肤洗得挺干净
+- generic: ”
+- generic: 温和亲肤
+- generic: "|清爽洁净"
+- generic: "|不拔干"
+- generic: "|深层清洁"
+- generic: “
+- generic: 油性皮肤洗得挺干净
+- generic: ”
+- generic: ¥
+- generic: "99"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满赠
+- generic: 赠
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 珀莱雅京东自营旗舰店
+- generic "兰蔻（LANCOME）极光净澈焕肤洁面洗面奶50ML深层清洁控油收缩毛孔提亮肤色护肤品":
+- img "全球购自营"
+- text: 兰蔻（LANCOME）极光净澈焕肤洁面洗面奶50ML深层清洁控油收缩毛孔提亮肤色护肤品
+- generic: 舒缓修复
+- generic: "|抗皱紧致"
+- generic: "|保湿滋润"
+- generic: "|舒缓柔滑"
+- generic: ¥
+- generic: "75"
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 包税
+- generic: 正品鉴别
+- generic: 包邮
+- generic "已售5000+"
+- generic "99%好评"
+- generic: 京东全球购美妆自营旗舰店

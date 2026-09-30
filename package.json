@@ -1,0 +1,20 @@
+{
+  "name": "verdant-packaging-atelier",
+  "version": "1.0.0",
+  "description": "青匣 · AI 包装设计智能体：上传产品文档，生成外包装与内包装三视图",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "jszip": "^3.10.2",
+    "mammoth": "^1.13.0",
+    "multer": "^2.4.0",
+    "pdf-parse": "^2.4.5"
+  }
+}

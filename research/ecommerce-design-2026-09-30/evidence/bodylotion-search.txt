@@ -1,0 +1,1288 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 京东国际
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "OLAY全新第三代超白瓶美白身体乳烟酰胺焕亮520g改善顽固色沉新老包装":
+  - generic: 广告
+- img "自营"
+- generic "OLAY全新第三代超白瓶美白身体乳烟酰胺焕亮520g改善顽固色沉新老包装"
+- generic "身体乳热卖榜第1名":
+  - text: 身体乳热卖榜第1名
+- generic: ¥
+- generic: "99"
+- generic: 到手价
+- generic: ¥109
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金10元
+- generic "已售4万+"
+- generic: 宝洁京东自营旗舰店
+- generic "OLAY保湿身体乳360g山茶花香":
+  - generic: 重庆预定
+- img "自营"
+- text: OLAY保湿身体乳360g山茶花香
+- generic "芳香型身体乳热卖榜第3名":
+  - text: 芳香型身体乳热卖榜第3名
+- generic: 轻盈不黏腻
+- generic: "|含面护精华"
+- generic: "|长效滋润"
+- generic: "|长效滋润肌肤"
+- generic "芳香型身体乳热卖榜第3名":
+  - text: 芳香型身体乳热卖榜第3名
+- generic: ¥
+- generic: "34"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥39.9
+- button
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 2件9折
+- generic "已售30万+"
+- generic "30天加购飙升5倍"
+- generic: 宝洁京东自营旗舰店
+- generic "OLAY全新超白瓶美白身体乳260g":
+- img "自营"
+- text: OLAY全新超白瓶美白身体乳260g
+- generic "花香型身体乳热卖榜第4名":
+  - text: 花香型身体乳热卖榜第4名
+- generic: 浮光栀子香
+- generic: "|7天白1度"
+- generic: "|改善顽固色沉"
+- generic: "|第三代超白瓶"
+- generic "花香型身体乳热卖榜第4名":
+  - text: 花香型身体乳热卖榜第4名
+- generic: ¥
+- generic: "84"
+- generic: 到手价
+- generic: ¥89
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 赠
+- generic "已售4万+"
+- generic "100+人好评"
+- generic: 宝洁京东自营旗舰店
+- generic "【无烟酰胺】丝塔芙大白罐保湿霜":
+- img "自营"
+- text: 【无烟酰胺】丝塔芙大白罐保湿霜
+- generic "乳霜热卖榜第1名":
+  - text: 乳霜热卖榜第1名
+- generic: 不含激素
+- generic: "|温和无香"
+- generic: "|宝宝树推荐"
+- generic: "|宝宝树金树奖"
+- generic "乳霜热卖榜第1名":
+  - text: 乳霜热卖榜第1名
+- generic: ¥
+- generic: "165"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售900万+"
+- generic "30天加购飙升5倍"
+- generic: 丝塔芙京东自营旗舰店
+- generic "烟酰胺美白身体乳400ml"
+- img "自营"
+- text: 烟酰胺美白身体乳400ml
+- generic: 清爽不粘腻
+- generic: "|滋润改善暗沉"
+- generic: "|温和水润焕亮"
+- generic: "|保湿滋润嫩肤"
+- generic: ¥
+- generic: "43"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满169享8.5折
+- generic "已售500万+"
+- generic "30天种草飙升5倍"
+- generic: 凡士林京东自营旗舰店
+- generic "妮维雅美白保湿身体乳400ml":
+- img "自营"
+- text: 妮维雅美白保湿身体乳400ml
+- generic "身体乳热卖榜第9名":
+  - text: 身体乳热卖榜第9名
+- generic: 天然VC美白
+- generic: "|72H长效滋养"
+- generic: "|速吸收不黏肤"
+- generic: "|孙颖莎同款"
+- generic "身体乳热卖榜第9名":
+  - text: 身体乳热卖榜第9名
+- generic: ¥
+- generic: "38"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥40.9
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 券满119享8.8折
+- generic: 赠
+- generic: 包邮
+- generic "已售200万+"
+- generic "30天加购飙升5倍"
+- generic: 妮维雅（NIVEA）京东自营旗舰店
+- generic "伊丽莎白雅顿绿茶身体乳500ml":
+- img "自营"
+- text: 伊丽莎白雅顿绿茶身体乳500ml
+- generic "身体乳热卖榜第8名":
+  - text: 身体乳热卖榜第8名
+- generic: 补水保湿
+- generic: "|清新怡人"
+- generic: "|绿茶精粹"
+- generic: "|大容量设计"
+- generic "身体乳热卖榜第8名":
+  - text: 身体乳热卖榜第8名
+- generic: ¥
+- generic: "54"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- generic: 京东秒杀
+- generic: 满赠
+- generic: 满赠
+- generic "已售40万+"
+- generic "30天种草飙升5倍"
+- generic: 伊丽莎白雅顿（Elizabeth Arden）京东自营专区
+- generic "适乐肤身体乳473ml":
+- img "自营"
+- text: 适乐肤身体乳473ml
+- generic "身体乳热卖榜第4名":
+  - text: 身体乳热卖榜第4名
+- generic: 长效保湿
+- generic: "|清爽不粘腻"
+- generic: "|修护屏障"
+- generic: "|水润透亮"
+- generic "身体乳热卖榜第4名":
+  - text: 身体乳热卖榜第4名
+- generic: ¥
+- generic: "83"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满赠
+- generic: 满赠
+- generic "已售30万+"
+- generic "6100+人好评"
+- generic: 适乐肤京东自营专区
+- generic "妮维雅（NIVEA）孙颖莎同款保湿防干燥身体乳深润滋润家庭囤货装1L吨吨桶":
+  - generic: 重庆预定
+  - generic: 广告
+- img "自营"
+- generic "妮维雅（NIVEA）孙颖莎同款保湿防干燥身体乳深润滋润家庭囤货装1L吨吨桶"
+- generic: 300+人浏览
+- generic: "|100+店铺老客浏览"
+- generic: ¥
+- generic: "89"
+- button
+- img "京东超市"
+- img "重磅新品"
+- generic: 满赠
+- generic "已售200万+"
+- generic: 妮维雅（NIVEA）京东自营旗舰店
+- generic "多芬身体乳300ml 滋养透亮":
+- img "自营"
+- text: 多芬身体乳300ml 滋养透亮
+- generic "多芬身体乳热卖榜第1名":
+  - text: 多芬身体乳热卖榜第1名
+- generic: 快速吸收
+- generic: "|均匀焕亮"
+- generic: "|滋润留香"
+- generic: "|持久留香"
+- generic "多芬身体乳热卖榜第1名":
+  - text: 多芬身体乳热卖榜第1名
+- generic: ¥
+- generic: "29"
+- generic: .
+- generic: "8"
+- button
+- img "百亿补贴"
+- img "京东超市"
+- generic: 赠
+- generic: 包邮
+- generic "已售70万+"
+- generic "30天加购飙升5倍"
+- generic: 联合利华京东自营旗舰店
+- generic "【央妈力荐】TOP榜第1名身体乳":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名身体乳
+- generic "补水身体乳好评榜第9名":
+  - text: 补水身体乳好评榜第9名
+- generic: 舒缓
+- generic: "|1095天"
+- generic "补水身体乳好评榜第9名":
+  - text: 补水身体乳好评榜第9名
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- img "新品"
+- generic: 满赠
+- generic: 满赠
+- generic "已售100+"
+- generic "1100+人种草"
+- generic: 馥诺诗（VICTORIA SAVOR）京东自营旗舰店
+- generic "【1瓶5效】7天美白不返黑":
+- img "自营"
+- text: 【1瓶5效】7天美白不返黑
+- generic "提亮肤色型身体乳热卖榜第2名":
+  - text: 提亮肤色型身体乳热卖榜第2名
+- generic: 12H持久留香
+- generic: "|14天匀净透亮"
+- generic: "|7天美白不返黑"
+- generic: "|抗氧VC加持"
+- generic "提亮肤色型身体乳热卖榜第2名":
+  - text: 提亮肤色型身体乳热卖榜第2名
+- generic: ¥
+- generic: "61"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥64.9
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 赠
+- generic: 包邮
+- generic "已售100万+"
+- generic "3800+人好评"
+- generic: 半亩花田京东自营旗舰店
+- generic "丝塔芙舒润保湿大白罐550g*2瓶 不含烟酰胺 面霜杨幂同款身体乳润肤霜":
+  - generic: 广告
+- img "自营"
+- generic "丝塔芙舒润保湿大白罐550g*2瓶 不含烟酰胺 面霜杨幂同款身体乳润肤霜"
+- generic: 7千+人收藏
+- generic: "|保湿效果不错"
+- generic: "|100万+人浏览"
+- generic: ¥
+- generic: "330"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售900万+"
+- generic: 丝塔芙京东自营旗舰店
+- generic "韩束美白身体乳保湿精华液250g":
+- img "自营"
+- text: 韩束美白身体乳保湿精华液250g
+- generic "美白身体乳热卖榜第5名":
+  - text: 美白身体乳热卖榜第5名
+- generic: 7天全身美白淡斑
+- generic: "|美白祛斑特证"
+- generic: "|美白不反黑"
+- generic: "|敏感肌可用"
+- generic "美白身体乳热卖榜第5名":
+  - text: 美白身体乳热卖榜第5名
+- generic: ¥
+- generic: "64"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥69.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 2件8.5折
+- generic: 赠
+- generic "已售7万+"
+- generic "2100+人好评"
+- generic: 韩束洗护京东自营旗舰店
+- generic "OLAY轻盈超白瓶美白身体乳260g":
+- img "自营"
+- text: OLAY轻盈超白瓶美白身体乳260g
+- generic "美白身体乳热卖榜第9名":
+  - text: 美白身体乳热卖榜第9名
+- generic: 夏日橙花香
+- generic: "|1抹舒缓干红热"
+- generic: "|14天水光透白"
+- generic: "|轻盈凝露质地"
+- generic "美白身体乳热卖榜第9名":
+  - text: 美白身体乳热卖榜第9名
+- generic: ¥
+- generic: "79"
+- generic: 到手价
+- generic: ¥84
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic "已售1万+"
+- generic "30天种草飙升5倍"
+- generic: 宝洁京东自营旗舰店
+- generic "强生牛奶润肤露身体乳500g":
+- img "自营"
+- text: 强生牛奶润肤露身体乳500g
+- generic "强生婴童护肤热卖榜第2名":
+  - text: 强生婴童护肤热卖榜第2名
+- generic: 水润轻薄
+- generic: "|全年可用"
+- generic: "|保湿强韧"
+- generic: "|温和适配"
+- generic "强生婴童护肤热卖榜第2名":
+  - text: 强生婴童护肤热卖榜第2名
+- generic: ¥
+- generic: "45"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售100万+"
+- generic "5900+人复购"
+- generic: 强生婴儿京东自营旗舰店
+- generic "韩方五谷凡士林身体乳果酸男女士补水保湿皮肤干燥止痒滋润持久留香72小时":
+  - generic: 抢购中
+  - generic: 广告
+- img "自营"
+- generic "韩方五谷凡士林身体乳果酸男女士补水保湿皮肤干燥止痒滋润持久留香72小时"
+- generic: 200+人已买
+- generic: "|近30日人气商品"
+- generic: "|无效包退"
+- generic: ¥
+- generic: "49"
+- generic: 到手价
+- generic: ¥52
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 券满99减10
+- generic "已售200+"
+- generic: 韩方五谷个护京东自营旗舰店
+- generic "半亩花田滋润修护身体乳400g":
+- img "自营"
+- text: 半亩花田滋润修护身体乳400g
+- generic "国产身体乳热卖榜第7名":
+  - text: 国产身体乳热卖榜第7名
+- generic: 72h保湿滋润
+- generic: "|12h持久留香"
+- generic: "|清爽不粘腻"
+- generic: "|速褪干燥痒感"
+- generic "国产身体乳热卖榜第7名":
+  - text: 国产身体乳热卖榜第7名
+- generic: ¥
+- generic: "47"
+- generic: .
+- generic: "9"
+- generic: 已补6.82元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 赠
+- generic: 包邮
+- generic "已售20万+"
+- generic "1900+人复购"
+- generic: 半亩花田京东自营旗舰店
+- generic "持证美白保湿夏季出游粉管280ml":
+- img "自营"
+- text: 持证美白保湿夏季出游粉管280ml
+- generic "紧致功效身体乳热卖榜第1名":
+  - text: 紧致功效身体乳热卖榜第1名
+- generic: 美白特证认证
+- generic: "|3秒吸收不黏"
+- generic: "|水光透白技术"
+- generic: "|水光透白"
+- generic "紧致功效身体乳热卖榜第1名":
+  - text: 紧致功效身体乳热卖榜第1名
+- generic: ¥
+- generic: "44"
+- generic: .
+- generic: "89"
+- generic: 到手价
+- generic: ¥49.89
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 券满169享8.5折
+- generic: 赠
+- generic: 包邮
+- generic "已售7万+"
+- generic "2100+人复购"
+- generic: 凡士林京东自营旗舰店
+- generic "适乐肤（CeraVe）C乳236ml（男士女士生日礼物保湿补水乳液身体乳面霜张凌赫同款）":
+- img "自营"
+- text: 适乐肤（CeraVe）C乳236ml（男士女士生日礼物保湿补水乳液身体乳面霜张凌赫同款）
+- generic "舒缓乳液面霜折扣榜第6名":
+  - text: 舒缓乳液面霜折扣榜第6名
+- generic: 长效保湿
+- generic: "|张凌赫同款"
+- generic: "|神酰C乳"
+- generic: "|肤质适宜"
+- generic "舒缓乳液面霜折扣榜第6名":
+  - text: 舒缓乳液面霜折扣榜第6名
+- generic: ¥
+- generic: "99"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售200万+"
+- generic "30天加购飙升5倍"
+- generic: CeraVe适乐肤京东自营旗舰店
+- generic "凡士林【秋冬必备】【爆款】身体乳清香保湿滋润修护缓解家庭必备400ml":
+  - generic: 广告
+- img "自营"
+- generic "凡士林【秋冬必备】【爆款】身体乳清香保湿滋润修护缓解家庭必备400ml"
+- generic: 70万+人加购
+- generic: "|35万+人已买"
+- generic: "|家庭必备"
+- generic: ¥
+- generic: "43"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满169享8.5折
+- generic "已售500万+"
+- generic: 凡士林京东自营旗舰店
+- generic "央媒推荐美白身体乳500g大瓶装":
+- img "自营"
+- text: 央媒推荐美白身体乳500g大瓶装
+- generic: 7天全身美白淡斑
+- generic: "|补水保湿止痒"
+- generic: "|美白祛斑特证"
+- generic: "|滋润干燥肌"
+- generic: ¥
+- generic: "93"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥98.8
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 2件8折
+- generic: 赠
+- generic: 包邮
+- generic "已售7万+"
+- generic "30天加购飙升5倍"
+- generic: 韩束洗护京东自营旗舰店
+- generic "妮维雅美白身体乳保湿200ml":
+- img "自营"
+- text: 妮维雅美白身体乳保湿200ml
+- generic "果香型身体乳热卖榜第3名":
+  - text: 果香型身体乳热卖榜第3名
+- generic: 清爽不粘腻
+- generic: "|温润透白"
+- generic: "|7天匀净嫩白"
+- generic: "|实力美白"
+- generic "果香型身体乳热卖榜第3名":
+  - text: 果香型身体乳热卖榜第3名
+- generic: ¥
+- generic: "17"
+- generic: .
+- generic: "08"
+- generic: 已补4.82元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 券满99减10
+- generic: 包邮
+- generic "已售200万+"
+- generic "30天加购飙升5倍"
+- generic: 妮维雅（NIVEA）京东自营旗舰店
+- generic "sakose凡士林果酸身体乳500ml":
+  - generic: 重庆预定
+- img "自营"
+- text: sakose凡士林果酸身体乳500ml
+- generic "嫩肤身体乳好评榜第4名":
+  - text: 嫩肤身体乳好评榜第4名
+- generic: 防干燥皲裂
+- generic: "|舒缓修护"
+- generic: "|72h持久保湿"
+- generic: "|抵御干燥"
+- generic "嫩肤身体乳好评榜第4名":
+  - text: 嫩肤身体乳好评榜第4名
+- generic: ¥
+- generic: "27"
+- generic: .
+- generic: "9"
+- generic: 已补10元
+- button
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 券满49享9折
+- generic: 赠
+- generic: 包邮
+- generic "已售70万+"
+- generic "5500+人复购"
+- generic: sakose京东自营旗舰店
+- generic "妮维雅（NIVEA）【孙颖莎同款】保湿滋润身体乳男士女士深润滋养乳液400ml*2礼物":
+  - generic: 广告
+- img "自营"
+- generic "妮维雅（NIVEA）【孙颖莎同款】保湿滋润身体乳男士女士深润滋养乳液400ml*2礼物"
+- generic: 7万+店铺老客浏览
+- generic: "|近7日人气商品"
+- generic: "|牛奶质地"
+- generic: ¥
+- generic: "79"
+- generic: .
+- generic: "9"
+- generic: 已补4.67元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 券满119享8.8折
+- generic "已售200万+"
+- generic: 妮维雅（NIVEA）京东自营旗舰店
+- generic "【央妈力荐】TOP榜第1名身体乳":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名身体乳
+- generic "维特丝身体乳热卖榜第1名":
+  - text: 维特丝身体乳热卖榜第1名
+- generic: 无效包退
+- generic: "|美白不反黑"
+- generic: "|清爽不油腻"
+- generic: "|真美白保湿"
+- generic "维特丝身体乳热卖榜第1名":
+  - text: 维特丝身体乳热卖榜第1名
+- generic: ¥
+- generic: "59"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 89买2件
+- generic: 满赠
+- generic "已售20万+"
+- generic "30天加购飙升5倍"
+- generic: 维特丝京东自营旗舰店
+- generic "宝玑米微醺冷霜200g霜降红釉香":
+- img "自营"
+- text: 宝玑米微醺冷霜200g霜降红釉香
+- generic "宝玑米身体乳热卖榜第1名":
+  - text: 宝玑米身体乳热卖榜第1名
+- generic: 一抹化水
+- generic: "|清爽留香"
+- generic: "|润而不黏"
+- generic: "|四季轻润"
+- generic "宝玑米身体乳热卖榜第1名":
+  - text: 宝玑米身体乳热卖榜第1名
+- generic: ¥
+- generic: "52"
+- generic: .
+- generic: "8"
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 满100减8
+- generic: 满赠
+- generic: 包邮
+- generic "已售10万+"
+- generic "100+人复购"
+- generic: 宝玑米京东自营旗舰店
+- generic "维密 丝绒花瓣身体乳236ML*1支":
+- img "自营"
+- text: 维密 丝绒花瓣身体乳236ML*1支
+- generic "维多利亚秘密身体乳热卖榜第1名":
+  - text: 维多利亚秘密身体乳热卖榜第1名
+- generic: 不易粘腻
+- generic: "|滋润保湿"
+- generic: "|花漾留香"
+- generic: "|轻盈润肤"
+- generic "维多利亚秘密身体乳热卖榜第1名":
+  - text: 维多利亚秘密身体乳热卖榜第1名
+- generic: ¥
+- generic: "124"
+- generic: 到手价
+- generic: ¥138
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 满414减44
+- generic: 满赠
+- generic "已售7万+"
+- generic "900+人复购"
+- generic: 维多利亚的秘密（Victoria's Secret）京东自营旗舰店
+- generic "果酸青柠罗勒保湿滋润280ml":
+- img "自营"
+- text: 果酸青柠罗勒保湿滋润280ml
+- generic: 烟酰胺焕亮肤色
+- generic: "|5重果酸精华"
+- generic: "|美白持证认证"
+- generic: "|持证美白"
+- generic: ¥
+- generic: "44"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥49.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 券满169享8.5折
+- generic: 赠
+- generic "已售7万+"
+- generic "300+人复购"
+- generic: 凡士林京东自营旗舰店
+- generic "半亩花田烟酰胺樱花VE精华身体乳":
+- img "自营"
+- text: 半亩花田烟酰胺樱花VE精华身体乳
+- generic "花香型身体乳热卖榜第10名":
+  - text: 花香型身体乳热卖榜第10名
+- generic: 补水易吸收不粘腻
+- generic: "|维生素E润肤精华"
+- generic: "|清甜樱花香"
+- generic: "|长效留香"
+- generic "花香型身体乳热卖榜第10名":
+  - text: 花香型身体乳热卖榜第10名
+- generic: ¥
+- generic: "29"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥30.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金1元
+- generic: 赠
+- generic "已售50万+"
+- generic "30天加购飙升5倍"
+- generic: 半亩花田京东自营旗舰店
+- generic "多芬沐浴露730g 白桃弹润":
+- img "自营"
+- text: 多芬沐浴露730g 白桃弹润
+- generic "舒缓沐浴露折扣榜第1名":
+  - text: 舒缓沐浴露折扣榜第1名
+- generic: 弹润水嫩
+- generic: "|嘭弹锁水"
+- generic: "|白桃白茶香"
+- generic: "|畅享沐浴"
+- generic "舒缓沐浴露折扣榜第1名":
+  - text: 舒缓沐浴露折扣榜第1名
+- generic: ¥
+- generic: "20"
+- generic: .
+- generic: "3"
+- generic: 到手价
+- generic: ¥32.9
+- button
+- img "明日达"
+- generic: 京东秒杀
+- generic: 首购礼金12元
+- generic: 券满99减10
+- generic: 满赠
+- generic "已售1000万+"
+- generic "30天种草飙升5倍"
+- generic: 联合利华京东自营旗舰店
+- generic "[全网爆款]舒肤佳沐浴露380g":
+- img "自营"
+- text: "[全网爆款]舒肤佳沐浴露380g"
+- generic: 5天净透焕亮
+- generic: "|持久留香"
+- generic: "|红石榴香"
+- generic: "|多种肤质适用"
+- generic: ¥
+- generic: "39"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 3件7.5折
+- generic: 满赠
+- generic "已售60万+"
+- generic "30天加购飙升5倍"
+- generic: 宝洁京东自营旗舰店
+- generic "舒肤佳健康净护沐浴露 650g*4(纯白+柠檬+薰衣草+樱花) 新旧包装随机":
+  - generic: 广告
+- img "自营"
+- generic "舒肤佳健康净护沐浴露 650g*4(纯白+柠檬+薰衣草+樱花) 新旧包装随机"
+- generic: ¥
+- generic: "74"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥84.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满21减10
+- generic: 券满199减20
+- generic "已售500万+"
+- generic: 宝洁京东自营旗舰店
+- generic "舒肤佳沐浴露 樱花香1kg":
+- img "自营"
+- text: 舒肤佳沐浴露 樱花香1kg
+- generic "花香型沐浴露热卖榜第3名":
+  - text: 花香型沐浴露热卖榜第3名
+- generic: 清新樱花
+- generic: "|清洁滋润"
+- generic: "|经典呵护"
+- generic: "|樱花芬芳"
+- generic "花香型沐浴露热卖榜第3名":
+  - text: 花香型沐浴露热卖榜第3名
+- generic: ¥
+- generic: "34"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售400万+"
+- generic "10万+人种草"
+- generic: 宝洁京东自营旗舰店
+- generic "【京东金榜】沐浴露热卖爆款":
+- img "自营"
+- text: 【京东金榜】沐浴露热卖爆款
+- generic "沐浴露金榜第2名":
+  - text: 沐浴露金榜第2名
+- generic: 清洁滋润
+- generic: "|纯白清香"
+- generic: "|经典呵护"
+- generic: "|限时赠装"
+- generic "沐浴露金榜第2名":
+  - text: 沐浴露金榜第2名
+- generic: ¥
+- generic: "34"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售700万+"
+- generic "4万+人好评"
+- generic: 宝洁京东自营旗舰店
+- generic "舒肤佳净透沐浴露红石榴780g":
+- img "自营"
+- text: 舒肤佳净透沐浴露红石榴780g
+- generic: 疏通毛孔
+- generic: "|净透肌肤"
+- generic: "|红石榴精粹"
+- generic: "|舒适体验"
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic: 满赠
+- generic "已售60万+"
+- generic "3万+人种草"
+- generic: 宝洁京东自营旗舰店
+- generic "舒肤佳专研健康祛痘沐浴露400g 积雪草水杨酸有效祛痘后背痘青少年男女":
+  - generic: 广告
+- img "自营"
+- generic "舒肤佳专研健康祛痘沐浴露400g 积雪草水杨酸有效祛痘后背痘青少年男女"
+- generic: 添加水杨酸
+- generic: "|9万+店铺老客浏览"
+- generic: "|泡沫超绵密"
+- generic: ¥
+- generic: "79"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic "已售7000+"
+- generic: 宝洁京东自营旗舰店
+- generic "力士幽莲魅肤沐浴乳550g":
+- img "自营"
+- text: 力士幽莲魅肤沐浴乳550g
+- generic "力士沐浴露热卖榜第8名":
+  - text: 力士沐浴露热卖榜第8名
+- generic: 持久留香
+- generic: "|幽莲魅肤"
+- generic: "|深层净护"
+- generic: "|依兰幽莲香氛"
+- generic "力士沐浴露热卖榜第8名":
+  - text: 力士沐浴露热卖榜第8名
+- generic: ¥
+- generic: "21"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥22.9
+- button
+- img "京东超市"
+- generic: 首购礼金1元
+- generic: 券满99减10
+- generic: 满赠
+- generic "已售200万+"
+- generic "30天加购飙升5倍"
+- generic: 联合利华京东自营旗舰店
+- generic "多芬沐浴露730g 深层营润":
+- img "自营"
+- text: 多芬沐浴露730g 深层营润
+- generic "沐浴露好评榜第2名":
+  - text: 沐浴露好评榜第2名
+- generic: 适合中性肌肤
+- generic: "|呵护干燥肌肤"
+- generic: "|深层莹润"
+- generic: "|经典爆款"
+- generic "沐浴露好评榜第2名":
+  - text: 沐浴露好评榜第2名
+- generic: ¥
+- generic: "20"
+- generic: .
+- generic: "3"
+- generic: 到手价
+- generic: ¥32.9
+- button
+- img "明日达"
+- generic: 京东秒杀
+- generic: 首购礼金12元
+- generic: 券满99减10
+- generic: 满赠
+- generic "已售1000万+"
+- generic "30天加购飙升5倍"
+- generic: 联合利华京东自营旗舰店
+- generic "【金榜TOP1】持久留香爆卖沐浴露":
+- img "自营"
+- text: 【金榜TOP1】持久留香爆卖沐浴露
+- generic: 滋润保湿
+- generic: "|持久留香"
+- generic: "|金榜热销"
+- generic: "|24H保湿"
+- generic: ¥
+- generic: "41"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥44.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 券满99减10
+- generic: 满赠
+- generic "已售60万+"
+- generic "30天加购飙升5倍"
+- generic: kuyura可悠然京东自营旗舰店
+- generic "舒肤佳净透沐浴露山茶花香氛570g添加角鲨烷柔滑持久留香男女士新老包装":
+  - generic: 广告
+- img "自营"
+- generic "舒肤佳净透沐浴露山茶花香氛570g添加角鲨烷柔滑持久留香男女士新老包装"
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic "已售500万+"
+- generic: 宝洁京东自营旗舰店
+- generic "舒肤佳爽肤沐浴露白桃乌龙香950g":
+- img "自营"
+- text: 舒肤佳爽肤沐浴露白桃乌龙香950g
+- generic "清爽沐浴露热卖榜第3名":
+  - text: 清爽沐浴露热卖榜第3名
+- generic: 白桃乌龙香
+- generic: "|清洁保湿"
+- generic: "|水润嫩滑"
+- generic: "|大瓶装更划算"
+- generic "清爽沐浴露热卖榜第3名":
+  - text: 清爽沐浴露热卖榜第3名
+- generic: ¥
+- generic: "39"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 2件9折
+- generic "已售10万+"
+- generic "600+人好评"
+- generic: 宝洁京东自营旗舰店
+- generic "[100w+已购]舒肤佳沐浴露570g":
+- img "自营"
+- text: "[100w+已购]舒肤佳沐浴露570g"
+- generic: 山茶花香
+- generic: "|5天净透柔滑"
+- generic: "|持久留香"
+- generic: "|添加角鲨烷"
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic: 赠
+- generic "已售70万+"
+- generic "700+人好评"
+- generic: 宝洁京东自营旗舰店
+- generic "威露士无花果沐浴露1L":
+- img "自营"
+- text: 威露士无花果沐浴露1L
+- generic: 持久留香
+- generic: "|弱酸性配方"
+- generic: "|清爽控油"
+- generic: "|持久留香"
+- generic: ¥
+- generic: "34"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic: 赠
+- generic "已售100万+"
+- generic "4400+人复购"
+- generic: 威露士京东自营旗舰店
+- generic "舒肤佳净透轻盈沐浴露570g*3(青竹龙井+云谷幽兰+空山烟雨) 男女士通用":
+  - generic: 广告
+- img "自营"
+- generic "舒肤佳净透轻盈沐浴露570g*3(青竹龙井+云谷幽兰+空山烟雨) 男女士通用"
+- generic: 添加植物精华
+- generic: "|700+护理达人加购"
+- generic: "|混合香型"
+- generic: ¥
+- generic: "129"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥139.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic: 券满199减20
+- generic "已售4万+"
+- generic: 宝洁京东自营旗舰店
+- generic "【赵露思同款】掌中花园沐浴露":
+- img "自营"
+- text: 【赵露思同款】掌中花园沐浴露
+- generic: 赵露思同款
+- generic: "|保湿滋润"
+- generic: "|温和清洁"
+- generic: "|Biu一次光感"
+- generic: ¥
+- generic: "78"
+- generic: .
+- generic: "99"
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 包邮
+- generic "已售1万+"
+- generic "1万+人种草"
+- generic: 掌中花园京东自营旗舰店
+- generic "【世界杯合作品牌】TOP沐浴露第1":
+- img "自营"
+- text: 【世界杯合作品牌】TOP沐浴露第1
+- generic "欧洲沐浴露热卖榜第4名":
+  - text: 欧洲沐浴露热卖榜第4名
+- generic: 瑞士奇华顿香氛
+- generic: "|欧洲原装进口"
+- generic: "|全网热销千万+"
+- generic: "|滋润保湿"
+- generic "欧洲沐浴露热卖榜第4名":
+  - text: 欧洲沐浴露热卖榜第4名
+- generic: ¥
+- generic: "59"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 79买2件
+- generic: 满赠
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 玛莉吉亚（MALIZIA）京东自营旗舰店
+- generic "舒肤佳焕肤红石榴沐浴露700g":
+- img "自营"
+- text: 舒肤佳焕肤红石榴沐浴露700g
+- generic: 净透细滑
+- generic: "|红石榴精粹"
+- generic: "|绵密泡沫"
+- generic: "|红石榴香"
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic: 赠
+- generic "已售50万+"
+- generic "30天加购飙升5倍"
+- generic: 宝洁京东自营旗舰店
+- generic "舒肤佳净透沐浴露乌木玫瑰香氛570g添加胜肽紧致持久留香男女士新老包装":
+  - generic: 广告
+- img "自营"
+- generic "舒肤佳净透沐浴露乌木玫瑰香氛570g添加胜肽紧致持久留香男女士新老包装"
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic "已售500万+"
+- generic: 宝洁京东自营旗舰店
+- generic "舒肤佳净透沐浴露青竹龙井香570g":
+- img "自营"
+- text: 舒肤佳净透沐浴露青竹龙井香570g
+- generic: 青竹龙井香
+- generic: "|添加绿茶精粹"
+- generic: "|5天清透丝滑肌"
+- generic: "|绿茶精粹添加"
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic "已售4万+"
+- generic "7万+人种草"
+- generic: 宝洁京东自营旗舰店
+- generic "[100w+已购]舒肤佳沐浴露570g*2":
+- img "自营"
+- text: "[100w+已购]舒肤佳沐浴露570g*2"
+- generic "沐浴露热卖榜第5名":
+  - text: 沐浴露热卖榜第5名
+- generic: 持久留香
+- generic: "|5天焕亮丝滑肌"
+- generic: "|混合香氛"
+- generic: "|多种肤质适用"
+- generic "沐浴露热卖榜第5名":
+  - text: 沐浴露热卖榜第5名
+- generic: ¥
+- generic: "79"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 2件9折
+- generic: 满赠
+- generic "已售70万+"
+- generic "30天加购飙升5倍"
+- generic: 宝洁京东自营旗舰店
+- generic "威露士精油玉龙茶香沐浴露":
+- img "自营"
+- text: 威露士精油玉龙茶香沐浴露
+- generic: 持久留香保湿
+- generic: "|15h长效去汗"
+- generic: "|天然植物精粹"
+- generic: "|滋润保湿"
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic: 赠
+- generic "已售30万+"
+- generic "5万+人种草"
+- generic: 威露士京东自营旗舰店
+- generic "舒肤佳健康净护沐浴露纯白清香650g+柠檬香650g 沐浴乳液 新旧包装随机":
+  - generic: 广告
+- img "自营"
+- generic "舒肤佳健康净护沐浴露纯白清香650g+柠檬香650g 沐浴乳液 新旧包装随机"
+- generic: ¥
+- generic: "37"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥39.8
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic "已售500万+"
+- generic: 宝洁京东自营旗舰店
+- generic "舒肤佳小蓝瓶铃兰香改善干痒570g":
+- img "自营"
+- text: 舒肤佳小蓝瓶铃兰香改善干痒570g
+- generic: 专研保护
+- generic: "|改善干痒"
+- generic: "|深入净澈"
+- generic: "|钠系洁净"
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic: 赠
+- generic "已售70万+"
+- generic "30天加购飙升5倍"
+- generic: 宝洁京东自营旗舰店
+- generic "舒肤佳沐浴露650g*3纯白柠檬樱花":
+- img "自营"
+- text: 舒肤佳沐浴露650g*3纯白柠檬樱花
+- generic "50-100元沐浴露热卖榜第1名":
+  - text: 50-100元沐浴露热卖榜第1名
+- generic: 混合香型
+- generic: "|清洁滋润"
+- generic: "|经典呵护"
+- generic: "|经典香型组合"
+- generic "50-100元沐浴露热卖榜第1名":
+  - text: 50-100元沐浴露热卖榜第1名
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic: 赠
+- generic "已售700万+"
+- generic "30天加购飙升5倍"
+- generic: 宝洁京东自营旗舰店
+- generic "力士植萃玉龙雨茶香550g":
+- img "自营"
+- text: 力士植萃玉龙雨茶香550g
+- generic "持久留香清香沐浴露热卖榜第10名":
+  - text: 持久留香清香沐浴露热卖榜第10名
+- generic: 深层洁净
+- generic: "|美肌透亮"
+- generic: "|高纯度果酸"
+- generic: "|玉龙雨茶香"
+- generic "持久留香清香沐浴露热卖榜第10名":
+  - text: 持久留香清香沐浴露热卖榜第10名
+- generic: ¥
+- generic: "28"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥29.9
+- button
+- img "京东超市"
+- generic: 首购礼金1元
+- generic: 券满99减10
+- generic: 满赠
+- generic "已售400万+"
+- generic "30天加购飙升5倍"
+- generic: 联合利华京东自营旗舰店
+- generic "OLAY流金沐浴露水光焕亮茶山栀子香添加烟酰胺流光因子500g 男女通用":
+  - generic: 广告
+- img "自营"
+- generic "OLAY流金沐浴露水光焕亮茶山栀子香添加烟酰胺流光因子500g 男女通用"
+- generic: 茶山栀子香
+- generic: "|2周肌肤水光透亮"
+- generic: "|深入滋润"
+- generic: ¥
+- generic: "44"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥49.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 券满99减10
+- generic "已售30万+"
+- generic: 宝洁京东自营旗舰店
+- generic "柏缇海盐净透沐浴露505ml"
+- img "自营"
+- text: 柏缇海盐净透沐浴露505ml
+- generic: 除螨祛痘
+- generic: "|持久留香"
+- generic: "|海盐控油"
+- generic: "|控油祛痘"
+- generic: ¥
+- generic: "43"
+- generic: .
+- generic: "7"
+- generic: 到手价
+- generic: ¥45.7
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 券满89享8.8折
+- generic: 满赠
+- generic "已售50万+"
+- generic "30天加购飙升5倍"
+- generic: 柏缇Pote京东自营旗舰店
+- generic "【行业销冠】沐浴露TOP第1名":
+- img "自营"
+- text: 【行业销冠】沐浴露TOP第1名
+- generic: 自营担保
+- generic: "|已售1000W+"
+- generic: "|无效全退"
+- generic: "|适用男女"
+- generic: ¥
+- generic: "59"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 89买2件
+- generic "已售2万+"
+- generic "2900+人好评"
+- generic: 馥诺诗（VICTORIA SAVOR）京东自营旗舰店
+- generic "诗裴丝沐浴露(隐欲之欢)500ml":
+- img "自营"
+- text: 诗裴丝沐浴露(隐欲之欢)500ml
+- generic: 特调情绪香氛
+- generic: "|深层保湿滋润"
+- generic: "|改善肌肤问题"
+- generic: "|洗一次香九日"
+- generic: ¥
+- generic: "45"
+- generic: .
+- generic: "5"
+- generic: 到手价
+- generic: ¥47.5
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 79买2件
+- generic "已售3万+"
+- generic "300+人好评"
+- generic: 诗裴丝Spes京东自营旗舰店

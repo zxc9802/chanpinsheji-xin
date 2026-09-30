@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>青匣 · 包装设计智能体</title>
+  <meta name="description" content="上传产品文档，AI 自动生成外包装与内包装三视图" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2323443A'/%3E%3Cpath d='M16 24 32 16l16 8v18L32 50 16 42z' fill='none' stroke='%23D8C592' stroke-width='2.5' stroke-linejoin='round'/%3E%3Cpath d='M16 24l16 8 16-8M32 32v18' fill='none' stroke='%23D8C592' stroke-width='2.5' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Noto+Serif+SC:wght@400;600;700;900&family=Tenor+Sans&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ─────────── 顶栏 ─────────── -->
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="青匣 首页">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M8 14 20 8l12 6v13L20 33 8 27z" />
+        <path d="M8 14l12 6 12-6M20 20v13" />
+        <path d="M20 8v4" class="leaf" />
+      </svg>
+      <span class="brand-cn">青匣</span>
+      <span class="brand-sep"></span>
+      <span class="brand-en">Verdant Atelier</span>
+    </a>
+    <nav class="topnav">
+      <a href="#studio" class="navlink">工作台</a>
+      <button class="navlink" id="openHistory" type="button">作品集 <sup id="historyCount"></sup></button>
+      <button class="navlink navlink-new" id="newProject" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>新建项目</button>
+    </nav>
+    <div class="status-pill" id="statusPill" title="模型连接状态">
+      <i></i><span>正在连接</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- ─────────── 首屏 ─────────── -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow reveal" style="--d: 0"><span class="reg-mark" aria-hidden="true"></span>AI Packaging Atelier — Vol.01</p>
+        <h1 class="display reveal" style="--d: 1">
+          一份产品文档<br />化作一件<em>值得珍藏</em><br />的包装
+        </h1>
+        <p class="lede reveal" style="--d: 2">
+          上传产品说明、卖点资料或 PRD，青匣会匹配参考库中的设计语言与结构，带着真实参考图，设计并渲染<strong>外包装</strong>与<strong>内包装</strong>两套完整三视图。
+        </p>
+        <div class="hero-cta reveal" style="--d: 3">
+          <a href="#studio" class="btn btn-primary"><span>开始设计</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
+          <button class="btn btn-ghost" type="button" data-action="try-sample">用示例文档体验</button>
+        </div>
+        <dl class="hero-stats reveal" style="--d: 4">
+          <div><dt>06<em>+1</em></dt><dd>张包装渲染</dd></div>
+          <div><dt>02</dt><dd>套三视图</dd></div>
+          <div><dt>03<em>′</em></dt><dd>分钟左右完成</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-stage reveal" style="--d: 2" aria-hidden="true">
+        <svg class="orbit" viewBox="0 0 600 600">
+          <ellipse cx="300" cy="330" rx="270" ry="92" />
+          <ellipse cx="300" cy="330" rx="210" ry="70" class="o2" />
+          <circle cx="300" cy="300" r="286" class="o3" />
+        </svg>
+        <div class="scene">
+          <div class="gift">
+            <div class="gift-lid">
+              <div class="face lid-top">
+                <div class="emblem">
+                  <svg viewBox="0 0 80 80">
+                    <circle cx="40" cy="40" r="34" />
+                    <circle cx="40" cy="40" r="29" class="thin" />
+                    <path d="M40 58c0-14 0-22 0-30M40 44c-8-2-13-8-14-16 8 1 13 6 14 16zM40 38c7-2 12-7 13-15-8 1-12 6-13 15z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="face lid-front"><span>VERDANT · 青匣 · N°01</span></div>
+              <div class="face lid-back"></div>
+              <div class="face lid-left"></div>
+              <div class="face lid-right"></div>
+            </div>
+            <div class="gift-base">
+              <div class="face base-front">
+                <div class="base-frame"></div>
+                <span class="base-title">青匣</span>
+                <span class="base-sub">PACKAGING ATELIER</span>
+              </div>
+              <div class="face base-back"></div>
+              <div class="face base-left"><span>FRONT · SIDE · BACK</span></div>
+              <div class="face base-right"><span>OUTER / INNER</span></div>
+              <div class="face base-bottom"></div>
+            </div>
+          </div>
+          <div class="gift-shadow"></div>
+        </div>
+        <span class="spec-tag t1"><i></i>Front 正视</span>
+        <span class="spec-tag t2"><i></i>Side 侧视</span>
+        <span class="spec-tag t3"><i></i>Back 背视</span>
+        <div class="dim dim-w"><span>240 mm</span></div>
+        <div class="dim dim-h"><span>150 mm</span></div>
+        <p class="stage-caption">N°01 — 天地盖礼盒 · 局部烫金 · 击凸 · 珠光特种纸</p>
+      </div>
+      <div class="hero-vertical" aria-hidden="true">Verdant · Packaging · Atelier · MMXXVI</div>
+    </section>
+
+    <!-- ─────────── 工作台 ─────────── -->
+    <section class="studio" id="studio">
+      <aside class="rail" aria-label="流程">
+        <ol>
+          <li data-rail="1" class="active"><span class="rail-num">01</span><span class="rail-cn">投递资料</span><span class="rail-en">Brief In</span></li>
+          <li data-rail="2"><span class="rail-num">02</span><span class="rail-cn">包装渲染</span><span class="rail-en">Render</span></li>
+          <li data-rail="3"><span class="rail-num">03</span><span class="rail-cn">交付提案</span><span class="rail-en">Deliver</span></li>
+        </ol>
+        <div class="rail-note">
+          <span class="reg-mark" aria-hidden="true"></span>
+          <p>三视图按「正视定调 → 侧/背延展」顺序生成，确保同一件包装的每个角度严丝合缝。</p>
+        </div>
+      </aside>
+
+      <div class="studio-main">
+        <!-- STEP 1 -->
+        <article class="panel" id="step1">
+          <i class="crop tl"></i><i class="crop tr"></i><i class="crop bl"></i><i class="crop br"></i>
+          <header class="panel-head">
+            <span class="panel-num">01</span>
+            <div>
+              <h2>投递产品资料</h2>
+              <p>上传文档后，点右下角「开始设计并出图」才会开始 · 风格与 Logo 可在开始前设置 · 支持 PDF / Word / PPT / Excel / Markdown / TXT</p>
+            </div>
+          </header>
+
+          <div class="upload-grid">
+            <label class="dropzone" id="dropzone" tabindex="0">
+              <input type="file" id="docInput" accept=".pdf,.docx,.pptx,.xlsx,.md,.markdown,.txt,.csv,.json,.html,.htm" hidden />
+              <svg class="dieline" viewBox="0 0 160 120" aria-hidden="true">
+                <path d="M50 10h60v25h40v50h-40v25H50V85H10V35h40z" class="cut" />
+                <path d="M50 35h60M50 85h60M50 35v50M110 35v50" class="fold" />
+              </svg>
+              <div class="dz-empty">
+                <strong>拖入产品文档</strong>
+                <span>或 <u>点击选择文件</u> · 最大 25MB</span>
+              </div>
+              <div class="dz-file" hidden>
+                <span class="file-ext" id="fileExt">PDF</span>
+                <span class="file-name" id="fileName"></span>
+                <span class="file-size" id="fileSize"></span>
+                <button type="button" class="file-clear" id="fileClear" aria-label="移除文件">×</button>
+              </div>
+            </label>
+
+            <div class="field paste-field">
+              <label for="pasteInput" class="field-label">补充 / 粘贴文字 <small>可选</small></label>
+              <textarea id="pasteInput" rows="6" placeholder="没有文档？直接粘贴产品介绍、卖点、规格、目标人群……&#10;有文档的话，也可以在这里补充你对包装的想法。"></textarea>
+            </div>
+
+            <div class="field refs-field">
+              <span class="field-label">产品图 / Logo 参考 <small>可选 · 最多 4 张</small></span>
+              <div class="refs" id="refs">
+                <label class="ref-add" tabindex="0">
+                  <input type="file" id="refInput" accept="image/png,image/jpeg,image/webp" multiple hidden />
+                  <span>＋</span><small>添加</small>
+                </label>
+              </div>
+              <p class="hint">请在点击「开始设计并出图」前添加。上传后，渲染会还原你的 Logo 与产品真实外形。</p>
+            </div>
+          </div>
+
+          <div class="adv">
+            <div class="adv-bar">
+              <p class="adv-summary" id="advSummary"></p>
+              <button class="adv-toggle" type="button" id="advToggle" aria-expanded="false" aria-controls="advOptions">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h9M19 7h1M4 17h1M11 17h9" /><circle cx="16" cy="7" r="2.4" /><circle cx="8" cy="17" r="2.4" /></svg>
+                <span>高级选项</span>
+                <i class="adv-badge" id="advBadge" hidden></i>
+                <svg class="adv-caret" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+              </button>
+            </div>
+            <div class="options" id="advOptions" hidden>
+              <div class="opt-block opt-wide">
+                <span class="opt-label"><b>风格方向</b><em>Style</em></span>
+                <div class="chips style-chips" id="styleChips"></div>
+              </div>
+              <div class="opt-block opt-wide">
+                <span class="opt-label"><b>外包装形态</b><em>Structure</em></span>
+                <div class="chips shape-chips" id="shapeChips"></div>
+              </div>
+              <div class="opt-block">
+                <span class="opt-label"><b>文案语言</b><em>Copy</em></span>
+                <div class="segmented" id="langSeg"></div>
+              </div>
+              <div class="opt-block">
+                <span class="opt-label"><b>渲染精度</b><em>Quality</em></span>
+                <div class="segmented" id="qualitySeg"></div>
+              </div>
+              <div class="opt-block">
+                <span class="opt-label"><b>主视觉全家福</b><em>Key Visual</em></span>
+                <label class="switch">
+                  <input type="checkbox" id="kvToggle" />
+                  <span class="switch-track"><span class="switch-thumb"></span></span>
+                  <span class="switch-text">额外生成一张 16:9 场景大片</span>
+                </label>
+              </div>
+              <div class="opt-block opt-wide">
+                <label class="opt-label" for="extraInput"><b>给设计师的话</b><em>Notes</em></label>
+                <input class="line-input" id="extraInput" placeholder="例如：希望更有东方感、主色保持浅绿、突出「敏感肌可用」、适合送礼……" />
+              </div>
+            </div>
+          </div>
+
+          <footer class="panel-foot">
+            <button class="btn btn-ghost" type="button" data-action="try-sample">用示例文档体验</button>
+            <button class="btn btn-primary btn-lg" type="button" id="analyzeBtn">
+              <span>开始设计并出图</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </button>
+          </footer>
+
+          <div class="working" id="analyzing" hidden>
+            <svg class="working-net" viewBox="0 0 220 170" aria-hidden="true">
+              <path d="M70 10h80v35h60v80h-60v35H70v-35H10V45h60z" class="cut" />
+              <path d="M70 45h80M70 125h80M70 45v80M150 45v80" class="fold" />
+            </svg>
+            <p class="working-title">青匣正在阅读你的产品</p>
+            <p class="working-msg" id="analyzingMsg">正在通读文档…</p>
+            <div class="working-bar"><i></i></div>
+          </div>
+        </article>
+
+        <!-- STEP 3 -->
+        <article class="panel panel-render" id="step3" hidden>
+          <i class="crop tl"></i><i class="crop tr"></i><i class="crop bl"></i><i class="crop br"></i>
+          <header class="panel-head">
+            <span class="panel-num">02</span>
+            <div>
+              <h2>包装渲染</h2>
+              <p id="renderSubtitle">外包装与内包装三视图</p>
+            </div>
+            <div class="panel-head-actions">
+              <button class="btn btn-ghost btn-sm" type="button" id="openBriefBtn">设计简报 · 自定义</button>
+              <button class="btn btn-ghost btn-sm" type="button" id="rerunBtn">全部重绘</button>
+            </div>
+          </header>
+
+          <!-- 平行方向：JEV 挑出的几个参考各出一张正视图，选定一个后补全其余视图 -->
+          <div class="directions" id="directions" hidden></div>
+
+          <div class="pipeline" id="pipeline">
+            <div class="pipe-node" data-stage="1">
+              <span class="pipe-roman">I</span>
+              <div><b>定调</b><small>外包装正视图</small></div>
+            </div>
+            <div class="pipe-line"><i></i></div>
+            <div class="pipe-node" data-stage="2">
+              <span class="pipe-roman">II</span>
+              <div><b>延展</b><small>侧视 · 背视 · 内包装</small></div>
+            </div>
+            <div class="pipe-line"><i></i></div>
+            <div class="pipe-node" data-stage="3">
+              <span class="pipe-roman">III</span>
+              <div><b>收官</b><small>内包装细节 · 主视觉</small></div>
+            </div>
+            <div class="pipe-meta">
+              <span class="pipe-timer" id="pipeTimer">00:00</span>
+              <span class="pipe-count" id="pipeCount">0 / 7</span>
+            </div>
+          </div>
+
+          <div id="gallery"></div>
+
+          <div class="deliver" id="deliver" hidden>
+            <div class="deliver-copy">
+              <span class="panel-num small">03</span>
+              <div>
+                <h3>交付提案</h3>
+                <p>一键导出排版好的提案板，或打包下载全部高清渲染图与设计简报。</p>
+              </div>
+            </div>
+            <div class="deliver-actions">
+              <button class="btn btn-ghost" type="button" id="boardBtn">导出提案板 PNG</button>
+              <a class="btn btn-primary" id="zipBtn" href="#" download><span>下载全部 ZIP</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v12M6 11l6 6 6-6M5 20h14" /></svg></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="site-foot">
+      <div class="cmyk" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </footer>
+  </main>
+
+  <!-- 设计简报：点击「开始设计并出图」后自动生成并内置，点击「设计简报」按钮打开自定义 -->
+  <div class="sheet" id="briefSheet" hidden>
+    <div class="sheet-mask" data-sheet="close"></div>
+    <article class="panel panel-brief" id="step2" role="dialog" aria-modal="true" aria-labelledby="briefTitle">
+      <header class="panel-head">
+        <div>
+          <h2 id="briefTitle">设计简报</h2>
+          <p>已根据你的资料自动生成 · 每一项都可以修改，改完点击「重新生成」· <span class="save-state" id="saveState">已同步</span></p>
+        </div>
+        <div class="panel-head-actions">
+          <button class="btn btn-ghost btn-sm" type="button" id="reanalyzeBtn">重新构思</button>
+          <button class="icon-btn" type="button" id="closeBrief" data-sheet="close" aria-label="关闭设计简报">×</button>
+        </div>
+      </header>
+      <div id="briefBody"></div>
+      <footer class="panel-foot">
+        <p class="foot-note" id="renderPlanNote"></p>
+        <button class="btn btn-primary btn-lg" type="button" id="generateBtn">
+          <span>按此简报重新生成</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+        </button>
+      </footer>
+    </article>
+  </div>
+
+  <!-- ─────────── 作品集抽屉 ─────────── -->
+  <div class="drawer-mask" id="drawerMask" hidden></div>
+  <aside class="drawer" id="historyDrawer" aria-hidden="true">
+    <header>
+      <div>
+        <p class="eyebrow">Archive</p>
+        <h3>作品集</h3>
+      </div>
+      <button class="icon-btn" type="button" id="closeHistory" aria-label="关闭">×</button>
+    </header>
+    <div class="drawer-list" id="historyList"></div>
+  </aside>
+
+  <!-- ─────────── 大图查看 ─────────── -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="icon-btn lb-close" type="button" data-lb="close" aria-label="关闭">×</button>
+    <button class="lb-nav prev" type="button" data-lb="prev" aria-label="上一张"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" /></svg></button>
+    <button class="lb-nav next" type="button" data-lb="next" aria-label="下一张"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" /></svg></button>
+    <figure class="lb-figure"><img id="lbImg" alt="" /></figure>
+    <aside class="lb-side">
+      <p class="lb-code" id="lbCode">A-01</p>
+      <h3 id="lbTitle">外包装 · 正视图</h3>
+      <p class="lb-en" id="lbEn">Outer · Front</p>
+      <div class="lb-versions" id="lbVersions"></div>
+      <div class="lb-actions">
+        <a class="btn btn-primary btn-sm" id="lbDownload" download><span>下载原图</span></a>
+        <button class="btn btn-primary btn-sm" type="button" data-lb="choose" hidden><span>选这个方向</span></button>
+        <button class="btn btn-ghost btn-sm" type="button" data-lb="regen">重绘这张</button>
+      </div>
+      <details class="lb-prompt">
+        <summary>查看渲染提示词</summary>
+        <pre id="lbPrompt"></pre>
+      </details>
+    </aside>
+  </div>
+
+  <!-- ─────────── 重绘弹窗 ─────────── -->
+  <div class="modal" id="regenModal" hidden>
+    <div class="modal-card">
+      <i class="crop tl"></i><i class="crop tr"></i><i class="crop bl"></i><i class="crop br"></i>
+      <p class="eyebrow">Revise</p>
+      <h3 id="regenTitle">重绘</h3>
+      <p class="modal-desc">写下修改意见会作为最高优先级执行；留空则按当前简报重新渲染一版。</p>
+      <textarea id="regenExtra" rows="4" placeholder="例如：烫金换成烫银；背景再明亮一些；正面文字再少一点；瓶身改为磨砂玻璃……"></textarea>
+      <div class="modal-actions">
+        <button class="btn btn-ghost btn-sm" type="button" data-modal="cancel">取消</button>
+        <button class="btn btn-primary btn-sm" type="button" data-modal="confirm"><span>开始重绘</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────── 确认弹窗 ─────────── -->
+  <div class="modal" id="confirmModal" role="alertdialog" aria-modal="true" aria-labelledby="confirmTitle" hidden>
+    <div class="modal-card">
+      <i class="crop tl"></i><i class="crop tr"></i><i class="crop bl"></i><i class="crop br"></i>
+      <p class="eyebrow" id="confirmEyebrow">Confirm</p>
+      <h3 id="confirmTitle">确认</h3>
+      <p class="modal-desc" id="confirmDesc"></p>
+      <div class="modal-actions">
+        <button class="btn btn-ghost btn-sm" type="button" data-confirm="no">取消</button>
+        <button class="btn btn-primary btn-sm" type="button" data-confirm="yes"><span id="confirmOk">确定</span></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

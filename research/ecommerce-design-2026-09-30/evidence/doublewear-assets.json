@@ -1,0 +1,667 @@
+{
+  "product_url": "https://item.jd.com/100022609938.html",
+  "captured_at": "2026-09-30",
+  "heat": [
+    "- generic: 买家评价(100万+)",
+    "- generic: 累计评价 100万+",
+    "- link \"9月『粉底液金榜』TOP20\":",
+    "  - generic: 9月『粉底液金榜』TOP20"
+  ],
+  "hero": [
+    {
+      "order": 1,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/539209/8/89/82524/6ab9cd23F68727d1b/008332032075c168.png.avif",
+      "path": "assets/doublewear/hero-01.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/539209/8/89/82524/6ab9cd23F68727d1b/008332032075c168.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 2,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/538000/35/1220/62265/6ab9c18dFc77858f6/00833203201f7fa0.png.avif",
+      "path": "assets/doublewear/hero-02.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/538000/35/1220/62265/6ab9c18dFc77858f6/00833203201f7fa0.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 3,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/513410/2/9849/61017/6a9abf33F124cc96e/0083320320f9281e.png.avif",
+      "path": "assets/doublewear/hero-03.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/513410/2/9849/61017/6a9abf33F124cc96e/0083320320f9281e.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 4,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/530971/2/7759/84802/6aba95d1Ff2a23f7c/00833203203c0611.png.avif",
+      "path": "assets/doublewear/hero-04.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/530971/2/7759/84802/6aba95d1Ff2a23f7c/00833203203c0611.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 5,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/507206/7/1959/59852/6a81bda9Ff2e67952/0083320320dfbd42.jpg.avif",
+      "path": "assets/doublewear/hero-05.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/507206/7/1959/59852/6a81bda9Ff2e67952/0083320320dfbd42.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 6,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/428204/13/14419/157949/69fb04f5Fb08cc257/00833203204a3c5b.jpg.avif",
+      "path": "assets/doublewear/hero-06.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/428204/13/14419/157949/69fb04f5Fb08cc257/00833203204a3c5b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 7,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/432880/12/869/43589/69fb04f5Ff3432553/0083320320a05a33.jpg.avif",
+      "path": "assets/doublewear/hero-07.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/432880/12/869/43589/69fb04f5Ff3432553/0083320320a05a33.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 8,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/430850/3/5654/61972/69fb04f5F8daef481/0083320320da1062.jpg.avif",
+      "path": "assets/doublewear/hero-08.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/430850/3/5654/61972/69fb04f5F8daef481/0083320320da1062.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 9,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/426793/15/19377/85351/69fb04f4Fffe00e7a/0083320320192874.jpg.avif",
+      "path": "assets/doublewear/hero-09.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/426793/15/19377/85351/69fb04f4Fffe00e7a/0083320320192874.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 10,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/465800/25/16902/277387/6a718a6dF7f58f3a8/0083320320c68fc1.png.avif",
+      "path": "assets/doublewear/hero-10.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/465800/25/16902/277387/6a718a6dF7f58f3a8/0083320320c68fc1.png.avif",
+      "preview_frame": 0
+    }
+  ],
+  "detail": [
+    {
+      "height": 300,
+      "order": 1,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/508262/22/1926/45044/6a83c352Fc8156213/00d62ee12cc5035d.png.avif",
+      "width": 750,
+      "path": "assets/doublewear/detail-01.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/508262/22/1926/45044/6a83c352Fc8156213/00d62ee12cc5035d.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 380,
+      "order": 2,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/538956/15/253/52774/6ab9c832Fe7571b8d/00d62ee17c3b4090.png.avif",
+      "width": 750,
+      "path": "assets/doublewear/detail-02.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/538956/15/253/52774/6ab9c832Fe7571b8d/00d62ee17c3b4090.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 700,
+      "order": 3,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/526812/9/10684/85740/6ab9b7e0F808820df/00d62ee2bc79119b.png.avif",
+      "width": 750,
+      "path": "assets/doublewear/detail-03.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/526812/9/10684/85740/6ab9b7e0F808820df/00d62ee2bc79119b.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 518,
+      "order": 4,
+      "url": "https://img30.360buyimg.com/imgzone/jfs/t1/316762/13/24423/58620/689c6262F206eefe2/3ff55f7250a2d655.jpg.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-04.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/imgzone/jfs/t1/316762/13/24423/58620/689c6262F206eefe2/3ff55f7250a2d655.jpg.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1200,
+      "order": 5,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/432878/12/3810/93083/69fde21fFd6b2d0a3/00832ee4b0c40caa.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-05.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/432878/12/3810/93083/69fde21fFd6b2d0a3/00832ee4b0c40caa.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 463,
+      "order": 6,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/429785/39/10258/17545/69fde21aF304482d6/00832ee1cf16774a.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-06.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/429785/39/10258/17545/69fde21aF304482d6/00832ee1cf16774a.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1642,
+      "order": 7,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/434382/7/182/2798278/00506501Fc9a751c3/00832ee66a6f6de3.gif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-07.jpg",
+      "source_frame_count": 12,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/434382/7/182/2798278/00506501Fc9a751c3/00832ee66a6f6de3.gif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 966,
+      "order": 8,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/432180/35/6500/1211473/00506501F49e31da9/00832ee3c65c675c.gif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-08.jpg",
+      "source_frame_count": 61,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/432180/35/6500/1211473/00506501F49e31da9/00832ee3c65c675c.gif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1200,
+      "order": 9,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/429913/37/11387/110780/69fde24bF440a3eab/00832ee4b0d612a4.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-09.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/429913/37/11387/110780/69fde24bF440a3eab/00832ee4b0d612a4.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 343,
+      "order": 10,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/431808/25/7218/29983/69fde248F7d5c3ef1/00832ee1573c48c4.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-10.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/431808/25/7218/29983/69fde248F7d5c3ef1/00832ee1573c48c4.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1200,
+      "order": 11,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/429721/26/12647/284888/69fde25fFa1b95e6f/00832ee4b097b956.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-11.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/429721/26/12647/284888/69fde25fFa1b95e6f/00832ee4b097b956.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 462,
+      "order": 12,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/427460/39/19961/131921/69fde25bF08a0292f/00832ee1ce0feef0.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-12.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/427460/39/19961/131921/69fde25bF08a0292f/00832ee1ce0feef0.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1219,
+      "order": 13,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/432040/32/7191/2850260/00506501F57350e36/00832ee4c379e867.gif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-13.jpg",
+      "source_frame_count": 23,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/432040/32/7191/2850260/00506501F57350e36/00832ee4c379e867.gif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1049,
+      "order": 14,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/423839/36/18087/47073/69fde27dF1ca6ae3f/00832ee4196724d3.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-14.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/423839/36/18087/47073/69fde27dF1ca6ae3f/00832ee4196724d3.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1200,
+      "order": 15,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/430354/10/11123/65587/69fde286Fed8359bc/00832ee4b09d579f.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-15.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/430354/10/11123/65587/69fde286Fed8359bc/00832ee4b09d579f.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 168,
+      "order": 16,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/428313/9/17546/11156/69fde283Fcc4748a8/00832ee0a86c89f8.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-16.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/428313/9/17546/11156/69fde283Fcc4748a8/00832ee0a86c89f8.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1200,
+      "order": 17,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/425559/19/14425/172260/69fde293F55ff2707/00832ee4b068bacb.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-17.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/425559/19/14425/172260/69fde293F55ff2707/00832ee4b068bacb.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 602,
+      "order": 18,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/427715/31/15539/20614/69fde28dFcf2f356d/00832ee25a6be63f.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-18.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/427715/31/15539/20614/69fde28dFcf2f356d/00832ee25a6be63f.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 964,
+      "order": 19,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/433475/36/2733/106780/69fde29bFa505d276/00832ee3c48a066d.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-19.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/433475/36/2733/106780/69fde29bFa505d276/00832ee3c48a066d.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1200,
+      "order": 20,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/429405/32/14318/65878/69fde2a4Fa3a27dad/00832ee4b0efed2e.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-20.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/429405/32/14318/65878/69fde2a4Fa3a27dad/00832ee4b0efed2e.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 361,
+      "order": 21,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/431408/39/7834/13804/69fde2a2F015f1db2/00832ee169dae719.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-21.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/431408/39/7834/13804/69fde2a2F015f1db2/00832ee169dae719.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1193,
+      "order": 22,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/430328/11/11824/74539/69fde2aeF2f99cdb5/00832ee4a946dc6c.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-22.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/430328/11/11824/74539/69fde2aeF2f99cdb5/00832ee4a946dc6c.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1200,
+      "order": 23,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/430195/14/9497/78808/69fde2b5Ff9cacf15/00832ee4b0838cbe.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-23.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/430195/14/9497/78808/69fde2b5Ff9cacf15/00832ee4b0838cbe.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 470,
+      "order": 24,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/429696/2/13309/76796/69fde2b5Fc1d72669/00832ee1d634a6dd.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-24.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/429696/2/13309/76796/69fde2b5Fc1d72669/00832ee1d634a6dd.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 1000,
+      "order": 25,
+      "url": "https://img14.360buyimg.com/cms/jfs/t1/479572/5/18015/104978/6a7188ecFfe11a2d4/00832ee3e8915afc.png.avif?getAvatar=1",
+      "width": 750,
+      "path": "assets/doublewear/detail-25.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img14.360buyimg.com/cms/jfs/t1/479572/5/18015/104978/6a7188ecFfe11a2d4/00832ee3e8915afc.png.avif?getAvatar=1",
+      "preview_frame": 0
+    },
+    {
+      "height": 862,
+      "order": 26,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/476202/21/6917/258290/6a4f064cFfbabc90e/00d62ee35ed4958a.png.avif",
+      "width": 750,
+      "path": "assets/doublewear/detail-26.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/476202/21/6917/258290/6a4f064cFfbabc90e/00d62ee35ed4958a.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 381,
+      "order": 27,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/289033/23/7285/36936/685cc36eF98a213e2/991089e06789a80c.png.avif",
+      "width": 750,
+      "path": "assets/doublewear/detail-27.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/289033/23/7285/36936/685cc36eF98a213e2/991089e06789a80c.png.avif",
+      "preview_frame": 0
+    }
+  ],
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/avif",
+        "id": "624eee13b9eb9c1f",
+        "kind": "image",
+        "name": "00833203201f7fa0.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1/624eee13b9eb9c1f.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/538000/35/1220/62265/6ab9c18dFc77858f6/00833203201f7fa0.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "1c4dc427f1ca830c",
+        "kind": "image",
+        "name": "008332032075c168.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1/1c4dc427f1ca830c.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/539209/8/89/82524/6ab9cd23F68727d1b/008332032075c168.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "4a34d6d49c0f75a4",
+        "kind": "image",
+        "name": "0083320320f9281e.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1/4a34d6d49c0f75a4.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/513410/2/9849/61017/6a9abf33F124cc96e/0083320320f9281e.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "3cce191490fc7ddc",
+        "kind": "image",
+        "name": "00833203203c0611.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1/3cce191490fc7ddc.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/530971/2/7759/84802/6aba95d1Ff2a23f7c/00833203203c0611.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "e2c0ceee01bda08e",
+        "kind": "image",
+        "name": "0083320320dfbd42.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1/e2c0ceee01bda08e.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/507206/7/1959/59852/6a81bda9Ff2e67952/0083320320dfbd42.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "9a4d2377227a1f0c",
+        "kind": "image",
+        "name": "00833203204a3c5b.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1/9a4d2377227a1f0c.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/428204/13/14419/157949/69fb04f5Fb08cc257/00833203204a3c5b.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "8308285282a14502",
+        "kind": "image",
+        "name": "0083320320a05a33.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1/8308285282a14502.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/432880/12/869/43589/69fb04f5Ff3432553/0083320320a05a33.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "b8ee45bdeb9b321a",
+        "kind": "image",
+        "name": "0083320320192874.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1/b8ee45bdeb9b321a.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/426793/15/19377/85351/69fb04f4Fffe00e7a/0083320320192874.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "b17d89dd570e5cc0",
+        "kind": "image",
+        "name": "0083320320c68fc1.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1/b17d89dd570e5cc0.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/465800/25/16902/277387/6a718a6dF7f58f3a8/0083320320c68fc1.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "a05adddec332c782",
+        "kind": "image",
+        "name": "0083320320da1062.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1/a05adddec332c782.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/430850/3/5654/61972/69fb04f5F8daef481/0083320320da1062.jpg.avif"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/526812/9/10684/85740/6ab9b7e0F808820df/00d62ee2bc79119b.png.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/43aadbbfc891a548.avif",
+        "id": "43aadbbfc891a548",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/476202/21/6917/258290/6a4f064cFfbabc90e/00d62ee35ed4958a.png.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/b87b584af3768f93.avif",
+        "id": "b87b584af3768f93",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/508262/22/1926/45044/6a83c352Fc8156213/00d62ee12cc5035d.png.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/6f43faacb843a9f7.avif",
+        "id": "6f43faacb843a9f7",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/289033/23/7285/36936/685cc36eF98a213e2/991089e06789a80c.png.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/3b8d37e20f2a60f4.avif",
+        "id": "3b8d37e20f2a60f4",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/538956/15/253/52774/6ab9c832Fe7571b8d/00d62ee17c3b4090.png.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/3424f7ec88142269.avif",
+        "id": "3424f7ec88142269",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/429696/2/13309/76796/69fde2b5Fc1d72669/00832ee1d634a6dd.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/7326d9d949d7b9e0.avif",
+        "id": "7326d9d949d7b9e0",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/432040/32/7191/2850260/00506501F57350e36/00832ee4c379e867.gif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/c7e63c0e38b2246d.avif",
+        "id": "c7e63c0e38b2246d",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/429721/26/12647/284888/69fde25fFa1b95e6f/00832ee4b097b956.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/47705fcd63e4c121.avif",
+        "id": "47705fcd63e4c121",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/429785/39/10258/17545/69fde21aF304482d6/00832ee1cf16774a.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/566b459a2e908ef8.avif",
+        "id": "566b459a2e908ef8",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/425559/19/14425/172260/69fde293F55ff2707/00832ee4b068bacb.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/62161cf182a4ceeb.avif",
+        "id": "62161cf182a4ceeb",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/429405/32/14318/65878/69fde2a4Fa3a27dad/00832ee4b0efed2e.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/b97a3b56d7c6ca30.avif",
+        "id": "b97a3b56d7c6ca30",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/431408/39/7834/13804/69fde2a2F015f1db2/00832ee169dae719.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/0dd65cefcafeaf61.avif",
+        "id": "0dd65cefcafeaf61",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/430328/11/11824/74539/69fde2aeF2f99cdb5/00832ee4a946dc6c.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/ec0ef1f42818a5a0.avif",
+        "id": "ec0ef1f42818a5a0",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/imgzone/jfs/t1/316762/13/24423/58620/689c6262F206eefe2/3ff55f7250a2d655.jpg.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/cd8fd39ce6a6e52b.avif",
+        "id": "cd8fd39ce6a6e52b",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/427715/31/15539/20614/69fde28dFcf2f356d/00832ee25a6be63f.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/cb91444c228c94a1.avif",
+        "id": "cb91444c228c94a1",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/428313/9/17546/11156/69fde283Fcc4748a8/00832ee0a86c89f8.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/d9c6de02924cbf23.avif",
+        "id": "d9c6de02924cbf23",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/427460/39/19961/131921/69fde25bF08a0292f/00832ee1ce0feef0.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/9472f3b5931b2bf5.avif",
+        "id": "9472f3b5931b2bf5",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/430195/14/9497/78808/69fde2b5Ff9cacf15/00832ee4b0838cbe.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/c1878d3a60cdfabe.avif",
+        "id": "c1878d3a60cdfabe",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/433475/36/2733/106780/69fde29bFa505d276/00832ee3c48a066d.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/aa7553f1a83feac3.avif",
+        "id": "aa7553f1a83feac3",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/432878/12/3810/93083/69fde21fFd6b2d0a3/00832ee4b0c40caa.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/75a16295a038619f.avif",
+        "id": "75a16295a038619f",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/434382/7/182/2798278/00506501Fc9a751c3/00832ee66a6f6de3.gif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/db802f5072261b1e.avif",
+        "id": "db802f5072261b1e",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/479572/5/18015/104978/6a7188ecFfe11a2d4/00832ee3e8915afc.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/b4de3b8072511bae.avif",
+        "id": "b4de3b8072511bae",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/430354/10/11123/65587/69fde286Fed8359bc/00832ee4b09d579f.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/fbc03a07c11522aa.avif",
+        "id": "fbc03a07c11522aa",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/423839/36/18087/47073/69fde27dF1ca6ae3f/00832ee4196724d3.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/d5be60dc99519d14.avif",
+        "id": "d5be60dc99519d14",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/432180/35/6500/1211473/00506501F49e31da9/00832ee3c65c675c.gif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/ef63aa52267155d4.avif",
+        "id": "ef63aa52267155d4",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/431808/25/7218/29983/69fde248F7d5c3ef1/00832ee1573c48c4.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/88620844b643e485.avif",
+        "id": "88620844b643e485",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img14.360buyimg.com/cms/jfs/t1/429913/37/11387/110780/69fde24bF440a3eab/00832ee4b0d612a4.png.avif?getAvatar=1",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/6df6d3467c8f8476.avif",
+        "id": "6df6d3467c8f8476",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      }
+    ],
+    "directoryPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1",
+    "failures": [],
+    "manifestPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/c3103edf-19e8-416a-892a-3f825e9ae0b1/manifest.json",
+    "summary": {
+      "downloadedCount": 10,
+      "elapsedMs": 76.0556669998914,
+      "failedCount": 0,
+      "requestedCount": 10
+    }
+  },
+  "detail_extraction": "ssd-modules plus rendered custom-code images in DOM order"
+}

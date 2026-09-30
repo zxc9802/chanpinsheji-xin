@@ -1,0 +1,661 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 京东国际
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "橘朵玩趣七色眼影自然色调新手适用适合日常妆容":
+  - generic: 广告
+- img "自营"
+- generic "橘朵玩趣七色眼影自然色调新手适用适合日常妆容"
+- generic "眼影热卖榜第5名":
+  - text: 眼影热卖榜第5名
+- generic: 近30日热销商品
+- generic: "|粉质超细腻"
+- generic: "|200人已回购"
+- generic "眼影热卖榜第5名":
+  - text: 眼影热卖榜第5名
+- generic: ¥
+- generic: "69"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥79.8
+- button
+- img "明日达"
+- generic: 首购礼金3元
+- generic: 限时立减7元
+- generic "已售20万+"
+- generic: 橘朵京东自营旗舰店
+- generic "新款学生党烟熏眼影日落与你":
+- img "京喜自营"
+- text: 新款学生党烟熏眼影日落与你
+- generic "眼影回购榜第2名":
+  - text: 眼影回购榜第2名
+- generic: “
+- generic: 新手我画的也好好看
+- generic: ”
+- generic: 珠光哑光
+- generic: "|九色盘"
+- generic: "|平价"
+- generic: "|九色眼影盘"
+- generic "眼影回购榜第2名":
+  - text: 眼影回购榜第2名
+- generic: ¥
+- generic: "7"
+- generic: .
+- generic: "9"
+- button
+- img "送货上门"
+- generic: 包邮
+- generic "已售10万+"
+- generic "2300+人好评"
+- generic: 京喜自营官方店
+- generic "3ce九宫格九色眼影盘秋风落叶OVERTAKE橘棕盘哑光生日礼物送女友":
+- img "自营"
+- text: 3ce九宫格九色眼影盘秋风落叶OVERTAKE橘棕盘哑光生日礼物送女友
+- generic "眼影盘热卖榜第2名":
+  - text: 眼影盘热卖榜第2名
+- generic: “
+- generic: 深棕眼线色真实好用
+- generic: ”
+- generic: 哑光偏光珠光质地
+- generic: "|九色百搭不挑肤"
+- generic: "|黄皮友好显温柔"
+- generic: "|清冷深邃高级感"
+- generic "眼影盘热卖榜第2名":
+  - text: 眼影盘热卖榜第2名
+- generic: ¥
+- generic: "199"
+- generic: 到手价
+- generic: ¥209
+- button
+- img "明日达"
+- generic: 立减10元
+- generic: 满赠
+- generic: 满赠
+- generic "已售90万+"
+- generic "30天加购飙升5倍"
+- generic: 3CE京东自营旗舰店
+- generic "四色奢彩眼影盘温柔粉棕七夕礼物":
+- img "自营"
+- text: 四色奢彩眼影盘温柔粉棕七夕礼物
+- generic "眼影盘热卖榜第8名":
+  - text: 眼影盘热卖榜第8名
+- generic: “
+- generic: 这个价格可以的吧
+- generic: ”
+- generic: 粉棕甜茶盘
+- generic: "|精妙四色搭配"
+- generic: "|天鹅绒般细腻质感"
+- generic: "|百搭组合"
+- generic "眼影盘热卖榜第8名":
+  - text: 眼影盘热卖榜第8名
+- generic: ¥
+- generic: "282"
+- generic: 已补10元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 限时立减7元
+- generic: 包邮
+- generic "已售10万+"
+- generic "30天加购飙升5倍"
+- generic: Charlotte Tilbury京东自营专区
+- generic "完美日记探险家12色动物眼影盘猫咪14g大地色粉质细腻高光生日礼物送女生":
+  - generic: 广告
+- img "自营"
+- generic "完美日记探险家12色动物眼影盘猫咪14g大地色粉质细腻高光生日礼物送女生"
+- generic: 礼物送女生
+- generic: "|人气眼影"
+- generic: "|超400万人关注店铺"
+- generic: ¥
+- generic: "97"
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "重磅新品"
+- generic: 满109减10
+- generic "已售90万+"
+- generic: 完美日记京东自营旗舰店
+- generic "卡姿兰十色眼影盘01甜酷奶咖"
+- img "自营"
+- text: 卡姿兰十色眼影盘01甜酷奶咖
+- generic "眼影盘热卖榜第4名":
+  - text: 眼影盘热卖榜第4名
+- generic: “
+- generic: 物美价廉颜值高
+- generic: ”
+- generic: 一盘画全妆
+- generic: "|新手全能盘"
+- generic: "|细腻显色好晕染"
+- generic: "|粉状妆感"
+- generic "眼影盘热卖榜第4名":
+  - text: 眼影盘热卖榜第4名
+- generic: ¥
+- generic: "99"
+- generic: 到手价
+- generic: ¥117
+- button
+- img "明日达"
+- generic: 官方直降15%
+- generic: 每300减30
+- generic: 赠
+- generic "已售30万+"
+- generic "30天加购飙升5倍"
+- generic: 卡姿兰京东自营旗舰店
+- generic "3ce哑光修容四色眼影燕麦拿铁":
+- img "自营"
+- text: 3ce哑光修容四色眼影燕麦拿铁
+- generic "眼影盘热卖榜第6名":
+  - text: 眼影盘热卖榜第6名
+- generic: “
+- generic: 上妆效果很好不晕染
+- generic: ”
+- generic: 细腻哑光质地
+- generic: "|小巧便携随行妆"
+- generic: "|全哑光高级感"
+- generic: "|温柔裸棕配色"
+- generic "眼影盘热卖榜第6名":
+  - text: 眼影盘热卖榜第6名
+- generic: ¥
+- generic: "80"
+- generic: 已补18.47元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 包邮
+- generic "已售20万+"
+- generic "30天加购飙升5倍"
+- generic: 3CE京东自营旗舰店
+- generic "3ce九宫格九色眼影盘秋风落叶#OVERTAKE橘棕盘 生日礼物送女友":
+- img "自营"
+- text: 3ce九宫格九色眼影盘秋风落叶#OVERTAKE橘棕盘 生日礼物送女友
+- generic "眼影盘热卖榜第7名":
+  - text: 眼影盘热卖榜第7名
+- generic: “
+- generic: 今年最适合的棕黄色橘色系
+- generic: ”
+- generic: 好评如潮
+- generic: "|九色百搭"
+- generic: "|解锁眼妆丰富层次"
+- generic: "|九色眼影盘"
+- generic "眼影盘热卖榜第7名":
+  - text: 眼影盘热卖榜第7名
+- generic: ¥
+- generic: "129"
+- button
+- img "明日达"
+- generic "已售3万+"
+- generic "300+人好评"
+- generic: 京东美妆自营旗舰店
+- generic "向日花五色卧蚕盘01#桃桃粉 眼影盘提亮珠光下至综合盘阴影眼影":
+  - generic: 广告
+- img "自营"
+- generic "向日花五色卧蚕盘01#桃桃粉 眼影盘提亮珠光下至综合盘阴影眼影"
+- generic: 500+美妆达人加购
+- generic: "|500+美妆控加购"
+- generic: ¥
+- generic: "29"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- generic: 2件9折
+- generic "已售800+"
+- generic: 向日花京东自营旗舰店
+- generic "唯资（VEECCI）丝带幻想十一色眼影盘一盘多用大地色眼影面部提亮 Y02温柔幻想":
+- img "自营"
+- text: 唯资（VEECCI）丝带幻想十一色眼影盘一盘多用大地色眼影面部提亮 Y02温柔幻想
+- generic: 大地十一色
+- generic: "|一盘多用"
+- generic: "|温柔显色"
+- generic: "|温柔幻想"
+- generic: ¥
+- generic: "39"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥47
+- button
+- img "明日达"
+- generic: 官方直降15%
+- generic: 赠
+- generic "已售9000+"
+- generic "96%好评"
+- generic: 唯资（VEECCI）美妆京东自营旗舰店
+- generic "酵色十二色眼影通勤百搭":
+- img "自营"
+- text: 酵色十二色眼影通勤百搭
+- generic "眼影回购榜第1名":
+  - text: 眼影回购榜第1名
+- generic: “
+- generic: 容易推开，日常能用
+- generic: ”
+- generic: 明星同款
+- generic: "|日常百搭"
+- generic: "|裸棕灰粉盘"
+- generic: "|便携设计"
+- generic "眼影回购榜第1名":
+  - text: 眼影回购榜第1名
+- generic: ¥
+- generic: "149"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售2万+"
+- generic "30天加购飙升5倍"
+- generic: Joocyee酵色京东自营旗舰店
+- generic "十二色梦想花园少女眼影":
+- img "京喜自营"
+- text: 十二色梦想花园少女眼影
+- generic: 持久不脱
+- generic: "|一盘多用"
+- generic: "|柔雾显色"
+- generic: "|烟粉玫瑰色调"
+- generic: ¥
+- generic: "9"
+- generic: .
+- generic: "7"
+- button
+- generic: 包邮
+- generic "300+人看过"
+- generic "100%好评"
+- generic: 京喜自营官方店
+- generic "完美日记云纱眼影面部综合盘16g腮红高光一盘多用粉质细腻生日礼物送女生":
+  - generic: 广告
+- img "自营"
+- generic "完美日记云纱眼影面部综合盘16g腮红高光一盘多用粉质细腻生日礼物送女生"
+- generic: 店铺被10万人种草
+- generic: "|1万+人已买"
+- generic: "|2千+人收藏"
+- generic: ¥
+- generic: "118"
+- generic: 到手价
+- generic: ¥135
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 官方直降12%
+- generic "已售90万+"
+- generic: 完美日记京东自营旗舰店
+- generic "花漾粉雾修容哑光提亮天选早八盘":
+- img "京喜自营"
+- text: 花漾粉雾修容哑光提亮天选早八盘
+- generic "特价眼影热卖榜第5名":
+  - text: 特价眼影热卖榜第5名
+- generic: 12色
+- generic: "|哑光"
+- generic: "|便携"
+- generic: "|粉系妆效"
+- generic "特价眼影热卖榜第5名":
+  - text: 特价眼影热卖榜第5名
+- generic: ¥
+- generic: "9"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥14.9
+- button
+- generic: 券满6减5
+- generic: 包邮
+- generic "已售2000+"
+- generic "91%好评"
+- generic: 京喜自营官方店
+- text: 大家都在搜
+- generic: 香奈儿眼影盘
+- generic: tf眼影
+- generic: 花知晓
+- generic: 纪梵希眼影盘
+- generic: 3ce眼影盘
+- generic: 眼影盘全妆一体
+- generic: 学生党化妆品
+- generic "花知晓天鹅芭蕾六色眼影哑光珠光眼影盘百搭送女友礼物 01白天鹅【热卖主推】":
+- generic: 花知晓天鹅芭蕾六色眼影哑光珠光眼影盘百搭送女友礼物 01白天鹅【热卖主推】
+- generic "粉色眼影热卖榜第4名":
+  - text: 粉色眼影热卖榜第4名
+- generic: “
+- generic: 眼影盘非常精致
+- generic: ”
+- generic: 古典艺术浮雕纹
+- generic: "|电镀银欧式画框"
+- generic: "|低温脱水珠光亮片"
+- generic: "|四亚两闪配色组合"
+- generic "粉色眼影热卖榜第4名":
+  - text: 粉色眼影热卖榜第4名
+- generic: ¥
+- generic: "99"
+- generic: 到手价
+- generic: ¥129
+- button
+- generic: 官方直降30元
+- generic: 券满150减20
+- generic: 假一赔四
+- generic: 包邮
+- generic "已售1万+"
+- generic "30天种草飙升5倍"
+- generic: 花知晓旗舰店
+- generic "施丹雅12色眼影盘ins哑光珠光大地色低饱和纯欲氛围感眼妆日常通勤#杏粉":
+  - generic: 广告
+- img "自营"
+- generic "施丹雅12色眼影盘ins哑光珠光大地色低饱和纯欲氛围感眼妆日常通勤#杏粉"
+- generic: 300+人收藏
+- generic: "|低饱和大地色"
+- generic: "|4千+人已买"
+- generic: ¥
+- generic: "26"
+- generic: 到手价
+- generic: ¥39
+- button
+- img "明日达"
+- generic: 首购礼金3元
+- generic: 限时立减7元
+- generic: 满20减3
+- generic "已售1万+"
+- generic: SEEDONVEUR 施丹雅化妆品京东自营旗舰店
+- generic "【央妈严选】七色眼影盘":
+- img "自营"
+- text: 【央妈严选】七色眼影盘
+- generic "闪光珠光眼影热卖榜第2名":
+  - text: 闪光珠光眼影热卖榜第2名
+- generic: “
+- generic: 颜色很正，上脸挺显气色的
+- generic: ”
+- generic: 自营担保
+- generic: "|全国销量第1名"
+- generic: "|不满意全退"
+- generic "闪光珠光眼影热卖榜第2名":
+  - text: 闪光珠光眼影热卖榜第2名
+- generic: ¥
+- generic: "49"
+- button
+- img "明日达"
+- generic: 69买2件
+- generic "已售1万+"
+- generic "100%好评"
+- generic: 韩方五谷个护京东自营旗舰店
+- generic "OneSpring眼影盘肿眼泡春夏水泥盘哑光珠光自然提亮 一盒装":
+- generic: OneSpring眼影盘肿眼泡春夏水泥盘哑光珠光自然提亮 一盒装
+- generic "60元以内眼影热卖榜第4名":
+  - text: 60元以内眼影热卖榜第4名
+- generic: “
+- generic: 买来练手不心疼
+- generic: ”
+- generic: 自然妆效适合肿眼
+- generic: "|哑光珠光自然提亮"
+- generic: "|十二色系丰富搭配"
+- generic: "|适合春夏季节使用"
+- generic "60元以内眼影热卖榜第4名":
+  - text: 60元以内眼影热卖榜第4名
+- generic: ¥
+- generic: "6"
+- generic: .
+- generic: "9"
+- button
+- generic: 包邮
+- generic "已售3000+"
+- generic "98%好评"
+- generic: 一枝春护肤旗舰店
+- generic "【20色大地哑光眼影】栗子20色眼影盘哑光大地色舞台妆马卡龙色系 栗子20色眼影【1盒】":
+- img "京喜自营"
+- text: 【20色大地哑光眼影】栗子20色眼影盘哑光大地色舞台妆马卡龙色系 栗子20色眼影【1盒】
+- generic "眼影回购榜第9名":
+  - text: 眼影回购榜第9名
+- generic: “
+- generic: 显色度很高，特别好看颜色
+- generic: ”
+- generic: 20色盘
+- generic: "|哑光"
+- generic: "|大地色"
+- generic: "|便携设计"
+- generic "眼影回购榜第9名":
+  - text: 眼影回购榜第9名
+- generic: ¥
+- generic: "6"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥11.9
+- button
+- generic: 券满6减5
+- generic: 包邮
+- generic "已售7万+"
+- generic "91%好评"
+- generic: 京喜自营官方店
+- generic "施丹雅ins九色眼影盘日常大地色眼影卧蚕珠光哑光眼影不飞粉#焦糖棕":
+  - generic: 广告
+- img "自营"
+- generic "施丹雅ins九色眼影盘日常大地色眼影卧蚕珠光哑光眼影不飞粉#焦糖棕"
+- generic: 2万+人加购
+- generic: "|1万+店铺老客浏览"
+- generic: "|大地色眼影"
+- generic: ¥
+- generic: "24"
+- generic: .
+- generic: "5"
+- generic: 已补3.5元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 限时立减7元
+- generic "已售1万+"
+- generic: SEEDONVEUR 施丹雅化妆品京东自营旗舰店
+- generic "novo九色眼影盘哑光大地色":
+- img "自营"
+- text: novo九色眼影盘哑光大地色
+- generic "眼影新品榜第6名":
+  - text: 眼影新品榜第6名
+- generic: 低饱和度自然妆效
+- generic: "|九色盘丰富搭配"
+- generic: "|哑光质感高级感"
+- generic: "|十四年调色"
+- generic "眼影新品榜第6名":
+  - text: 眼影新品榜第6名
+- generic: ¥
+- generic: "27"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥29.9
+- button
+- img "明日达"
+- img "新品"
+- generic: 首购礼金2元
+- generic: 券每满100减10
+- generic "400+人看过"
+- generic "100%好评"
+- generic: NOVO美妆京东自营旗舰店
+- generic "卡姿兰（Carslan）十色眼影盘一盘多用眼影腮红高光修容鼻影盘03#18g生日礼物送女友"
+- img "自营"
+- text: 卡姿兰（Carslan）十色眼影盘一盘多用眼影腮红高光修容鼻影盘03#18g生日礼物送女友
+- generic: “
+- generic: 容易晕染，适合新手
+- generic: ”
+- generic: 一盘画全妆
+- generic: "|细腻不飞粉"
+- generic: "|显色好晕染"
+- generic: "|百搭日常"
+- generic: “
+- generic: 容易晕染，适合新手
+- generic: ”
+- generic: ¥
+- generic: "99"
+- generic: 到手价
+- generic: ¥117
+- button
+- img "明日达"
+- generic: 官方直降15%
+- generic: 每300减30
+- generic: 赠
+- generic "已售30万+"
+- generic "30天加购飙升5倍"
+- generic: 卡姿兰京东自营旗舰店
+- generic "CANMAKE肯美 卧蚕眼影盘N01（清纯小白花）四色综合阴影细闪高光官方新手":
+- img "自营"
+- text: CANMAKE肯美 卧蚕眼影盘N01（清纯小白花）四色综合阴影细闪高光官方新手
+- generic: 自然幼态感
+- generic: "|清透日常"
+- generic: "|新手适用"
+- generic: "|细闪高光"
+- generic: ¥
+- generic: "69"
+- button
+- img "明日达"
+- generic: 每300减30
+- generic: 满赠
+- generic "已售2000+"
+- generic "97%好评"
+- generic: CANMAKE京东自营旗舰店
+- generic "新款九色眼影盘珠光亮晶晶哑光大地色学生党平价眼影烟熏眼影 3#青空之下":
+- img "京喜自营"
+- text: 新款九色眼影盘珠光亮晶晶哑光大地色学生党平价眼影烟熏眼影 3#青空之下
+- generic "眼影盘折扣榜第9名":
+  - text: 眼影盘折扣榜第9名
+- generic: “
+- generic: 非常好用，很上色
+- generic: ”
+- generic: 平价学生
+- generic: "|九色盘"
+- generic: "|珠光亮闪"
+- generic: "|珠光闪耀"
+- generic "眼影盘折扣榜第9名":
+  - text: 眼影盘折扣榜第9名
+- generic: ¥
+- generic: "4"
+- generic: 到手价
+- generic: ¥8
+- button
+- generic: 券满5减4
+- generic: 包邮
+- generic "已售10万+"
+- generic "1700+人种草"
+- generic: 京喜自营官方店
+- generic "3ce九宫格九色眼影盘微微烟紫#SOME DEF【芋泥盘】生日礼物送女友":
+- img "自营"
+- text: 3ce九宫格九色眼影盘微微烟紫#SOME DEF【芋泥盘】生日礼物送女友
+- generic "粉色系眼影好评榜第3名":
+  - text: 粉色系眼影好评榜第3名
+- generic: “
+- generic: 闪片清透不飞粉
+- generic: ”
+- generic: 好评如潮
+- generic: "|九色百搭"
+- generic: "|解锁眼妆丰富层次"
+- generic: "|垂眸温柔"
+- generic "粉色系眼影好评榜第3名":
+  - text: 粉色系眼影好评榜第3名
+- generic: ¥
+- generic: "129"
+- button
+- img "明日达"
+- generic "已售3万+"
+- generic "30天加购飙升5倍"
+- generic: 京东美妆自营旗舰店
+- generic "白日梦醒家四色眼影盘-蜜桃甜茶":
+- img "自营"
+- text: 白日梦醒家四色眼影盘-蜜桃甜茶
+- generic "粉色系眼影好评榜第9名":
+  - text: 粉色系眼影好评榜第9名
+- generic: “
+- generic: 颜色没有色差不伤皮肤
+- generic: ”
+- generic: 四色随心可选
+- generic: "|持色贴肤"
+- generic: "|细腻不飞粉"
+- generic: "|珠光哑光"
+- generic "粉色系眼影好评榜第9名":
+  - text: 粉色系眼影好评榜第9名
+- generic: ¥
+- generic: "17"
+- generic: 到手价
+- generic: ¥24
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 限时立减7元
+- generic: 满2件赠1件
+- generic: 满赠
+- generic: 包邮
+- generic "已售1万+"
+- generic "100+人好评"
+- generic: 白日梦醒家京东自营旗舰店
+- generic "everbab艾蓓拉素哑盘六色眼影综合盘大地色防水防汗不晕染不掉色全妆一体":
+- img "自营"
+- text: everbab艾蓓拉素哑盘六色眼影综合盘大地色防水防汗不晕染不掉色全妆一体
+- generic "哑光眼影热卖榜第7名":
+  - text: 哑光眼影热卖榜第7名
+- generic: “
+- generic: 显色效果挺好的
+- generic: ”
+- generic: 一盘化全妆
+- generic: "|朴灿烈代言款"
+- generic: "|清透伪素颜"
+- generic: "|素哑质感"
+- generic "哑光眼影热卖榜第7名":
+  - text: 哑光眼影热卖榜第7名
+- generic: ¥
+- generic: "59"
+- generic: 已补10元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 券满200减20
+- generic: 赠
+- generic: 包邮
+- generic "已售2万+"
+- generic "200+人好评"
+- generic: everbab艾蓓拉京东自营旗舰店
+- generic "向日花五色卧蚕盘04#莓果粉 眼影盘提亮珠光下至综合盘阴影眼影":
+  - generic: 广告
+- img "自营"
+- generic "向日花五色卧蚕盘04#莓果粉 眼影盘提亮珠光下至综合盘阴影眼影"
+- generic: 800+美妆达人浏览
+- generic: "|色系多样自由组合"
+- generic: ¥
+- generic: "29"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- generic: 2件9折
+- generic "已售800+"
+- generic: 向日花京东自营旗舰店
+- generic "橘朵（Judydoll）四色眼影盘淡妆通勤大地色生日礼物送女友30日常百搭色":
+- img "自营"
+- text: 橘朵（Judydoll）四色眼影盘淡妆通勤大地色生日礼物送女友30日常百搭色
+- generic: “
+- generic: 眼影很喜欢 值得购买
+- generic: ”
+- generic: 粉质细腻
+- generic: "|迷你便携"
+- generic: "|新手必备"
+- generic: "|自然高光"
+- generic: “
+- generic: 眼影很喜欢 值得购买
+- generic: ”
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "6"
+- generic: 到手价
+- generic: ¥59.8
+- button
+- img "明日达"
+- generic: 首购礼金3元
+- generic: 官方直降12%
+- generic: 2件9折
+- generic "已售10万+"
+- generic "30天加购飙升5倍"
+- generic: 橘朵京东自营旗舰店

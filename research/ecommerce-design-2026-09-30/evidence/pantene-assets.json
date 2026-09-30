@@ -1,0 +1,523 @@
+{
+  "product_url": "https://item.jd.com/100327980320.html",
+  "captured_at": "2026-09-30",
+  "heat": [
+    "- generic: 买家评价(20万+)",
+    "- generic: 累计评价 20万+",
+    "- link \"9月『洗发水金榜』TOP20\":",
+    "  - generic: 9月『洗发水金榜』TOP20"
+  ],
+  "hero": [
+    {
+      "order": 1,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/528480/11/5042/124300/6aafb0fcFe859afa7/0083320320f056f6.jpg.avif",
+      "path": "assets/pantene/hero-01.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/528480/11/5042/124300/6aafb0fcFe859afa7/0083320320f056f6.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 2,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408460/4/1752/117506/69c0ae65F210ccc52/00832ee2ee271c87.jpg.avif",
+      "path": "assets/pantene/hero-02.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408460/4/1752/117506/69c0ae65F210ccc52/00832ee2ee271c87.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 3,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/404694/26/21262/81133/69c0ae76F6d4643df/00832ee2ee969f6f.jpg.avif",
+      "path": "assets/pantene/hero-03.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/404694/26/21262/81133/69c0ae76F6d4643df/00832ee2ee969f6f.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 4,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/406087/40/8820/66180/69c0ae7cFbbc73eae/00832ee2eed1808b.jpg.avif",
+      "path": "assets/pantene/hero-04.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/406087/40/8820/66180/69c0ae7cFbbc73eae/00832ee2eed1808b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 5,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408498/6/1466/43608/69c0ae81Fe03ee736/00832ee2ee37f803.jpg.avif",
+      "path": "assets/pantene/hero-05.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408498/6/1466/43608/69c0ae81Fe03ee736/00832ee2ee37f803.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 6,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408028/8/4059/68051/69c0ae85Fb219cdf1/00832ee2ee5f166b.jpg.avif",
+      "path": "assets/pantene/hero-06.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408028/8/4059/68051/69c0ae85Fb219cdf1/00832ee2ee5f166b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 7,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/398501/1/18306/2588888/69b0d548Fe1775658/0083dacdac1b320a.jpg.avif",
+      "path": "assets/pantene/hero-07.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/398501/1/18306/2588888/69b0d548Fe1775658/0083dacdac1b320a.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 8,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/436495/9/19365/90747/6a0fc8f3Fc23de71e/0083320320231cdf.jpg.avif",
+      "path": "assets/pantene/hero-08.jpg",
+      "width": 1440,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/436495/9/19365/90747/6a0fc8f3Fc23de71e/0083320320231cdf.jpg.avif",
+      "preview_frame": 0
+    }
+  ],
+  "detail": [
+    {
+      "height": 380,
+      "order": 1,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/376265/4/9652/68516/693b7fdaFbdb5e402/00d62ee17c5e7939.jpg.avif",
+      "width": 750,
+      "path": "assets/pantene/detail-01.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/376265/4/9652/68516/693b7fdaFbdb5e402/00d62ee17c5e7939.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 781,
+      "order": 2,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/404595/3/20895/70155/69c0b429Ff78c0f74/00d631630dc464ae.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-02.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/404595/3/20895/70155/69c0b429Ff78c0f74/00d631630dc464ae.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 394,
+      "order": 3,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/408682/35/468/21253/69c0b428F1b36daa7/00d631618a971c32.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-03.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/408682/35/468/21253/69c0b428F1b36daa7/00d631618a971c32.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 981,
+      "order": 4,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/406302/1/14992/97461/69c0b429F66348354/00d63163d5f4166b.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-04.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/406302/1/14992/97461/69c0b429F66348354/00d63163d5f4166b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 360,
+      "order": 5,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/407367/25/6725/20465/69c0b428F4c3d1bf6/00d6316168b484e5.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-05.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/407367/25/6725/20465/69c0b428F4c3d1bf6/00d6316168b484e5.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1207,
+      "order": 6,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/406359/29/7406/195333/69c0b429F36b179b7/00d63164b774118a.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-06.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/406359/29/7406/195333/69c0b429F36b179b7/00d63164b774118a.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 241,
+      "order": 7,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/407186/31/9769/13143/69c0b428F06e2e3c4/00d63160f1fac9e0.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-07.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/407186/31/9769/13143/69c0b428F06e2e3c4/00d63160f1fac9e0.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1081,
+      "order": 8,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/407485/37/7876/205455/69c0b429F30f68862/00d6316439780aab.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-08.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/407485/37/7876/205455/69c0b429F30f68862/00d6316439780aab.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 525,
+      "order": 9,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/406221/20/15246/51232/69c0b429F3d2370b8/00d631620de0f616.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-09.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/406221/20/15246/51232/69c0b429F3d2370b8/00d631620de0f616.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 393,
+      "order": 10,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/405140/37/6826/15009/69c0b428Fc00cbeef/00d631618922ce3d.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-10.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/405140/37/6826/15009/69c0b428Fc00cbeef/00d631618922ce3d.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 944,
+      "order": 11,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/405767/24/17752/69684/69c0b429Fe19285a2/00d63163b0d8acc7.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-11.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/405767/24/17752/69684/69c0b429Fe19285a2/00d63163b0d8acc7.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 345,
+      "order": 12,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/403651/20/19205/13807/69c0b428F58d187c8/00d6316159de1252.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-12.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/403651/20/19205/13807/69c0b428F58d187c8/00d6316159de1252.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1014,
+      "order": 13,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/407011/29/10113/82752/69c0b429Ff183b7f1/00d63163f61822d1.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-13.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/407011/29/10113/82752/69c0b429Ff183b7f1/00d63163f61822d1.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1104,
+      "order": 14,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/408247/20/3508/106317/69c0b429F3ff36691/00d631645081163c.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-14.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/408247/20/3508/106317/69c0b429F3ff36691/00d631645081163c.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1920,
+      "order": 15,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/525576/6/12690/367965/6aba3559F2ad647dd/00d65a07805fa35f.jpg.avif",
+      "width": 1440,
+      "path": "assets/pantene/detail-15.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/525576/6/12690/367965/6aba3559F2ad647dd/00d65a07805fa35f.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 778,
+      "order": 16,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/408069/36/4066/58132/69c0b429Fde8255de/00d631630a6ea799.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-16.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/408069/36/4066/58132/69c0b429Fde8255de/00d631630a6ea799.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 632,
+      "order": 17,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/406251/15/14356/68670/69c0b429F117c1629/00d6316278a59c26.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-17.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/406251/15/14356/68670/69c0b429F117c1629/00d6316278a59c26.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1282,
+      "order": 18,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/407416/26/8250/238119/69c0b429Fa598b7f7/00d6316502952f06.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-18.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/407416/26/8250/238119/69c0b429Fa598b7f7/00d6316502952f06.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 501,
+      "order": 19,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/408484/6/1562/57267/69c0b429F9194f904/00d63161f5ee13bb.jpg.avif",
+      "width": 790,
+      "path": "assets/pantene/detail-19.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/408484/6/1562/57267/69c0b429F9194f904/00d63161f5ee13bb.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 510,
+      "order": 20,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/525945/26/9452/215089/6ab39b68Fd144130b/00d65041fe9f16d2.jpg.avif",
+      "width": 1284,
+      "path": "assets/pantene/detail-20.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/525945/26/9452/215089/6ab39b68Fd144130b/00d65041fe9f16d2.jpg.avif",
+      "preview_frame": 0
+    }
+  ],
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/avif",
+        "id": "9a31300617c2098b",
+        "kind": "image",
+        "name": "0083320320f056f6.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/9a31300617c2098b.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/528480/11/5042/124300/6aafb0fcFe859afa7/0083320320f056f6.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "47ac5d9e874bd50c",
+        "kind": "image",
+        "name": "00832ee2ee969f6f.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/47ac5d9e874bd50c.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/404694/26/21262/81133/69c0ae76F6d4643df/00832ee2ee969f6f.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "3006580c0ec3b5f9",
+        "kind": "image",
+        "name": "00832ee2eed1808b.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/3006580c0ec3b5f9.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/406087/40/8820/66180/69c0ae7cFbbc73eae/00832ee2eed1808b.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "61d79fbd96025891",
+        "kind": "image",
+        "name": "00832ee2ee271c87.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/61d79fbd96025891.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408460/4/1752/117506/69c0ae65F210ccc52/00832ee2ee271c87.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "55ce43b85b47cdf5",
+        "kind": "image",
+        "name": "00832ee2ee37f803.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/55ce43b85b47cdf5.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408498/6/1466/43608/69c0ae81Fe03ee736/00832ee2ee37f803.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "bd02711027601d19",
+        "kind": "image",
+        "name": "00832ee2ee5f166b.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/bd02711027601d19.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408028/8/4059/68051/69c0ae85Fb219cdf1/00832ee2ee5f166b.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "db83b9fb3115b006",
+        "kind": "image",
+        "name": "0083dacdac1b320a.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/db83b9fb3115b006.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/398501/1/18306/2588888/69b0d548Fe1775658/0083dacdac1b320a.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "451cde67ead15592",
+        "kind": "image",
+        "name": "0083320320231cdf.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/451cde67ead15592.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/436495/9/19365/90747/6a0fc8f3Fc23de71e/0083320320231cdf.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "2edcf202fd865698",
+        "kind": "image",
+        "name": "00d62ee17c5e7939.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/2edcf202fd865698.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/376265/4/9652/68516/693b7fdaFbdb5e402/00d62ee17c5e7939.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "ad677588d3a4b636",
+        "kind": "image",
+        "name": "00d631630dc464ae.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/ad677588d3a4b636.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/404595/3/20895/70155/69c0b429Ff78c0f74/00d631630dc464ae.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "4f4320cba6ff8030",
+        "kind": "image",
+        "name": "00d631618a971c32.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/4f4320cba6ff8030.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/408682/35/468/21253/69c0b428F1b36daa7/00d631618a971c32.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "7a37631f0f05ef90",
+        "kind": "image",
+        "name": "00d63163d5f4166b.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/7a37631f0f05ef90.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/406302/1/14992/97461/69c0b429F66348354/00d63163d5f4166b.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "3313c1a4de589e0c",
+        "kind": "image",
+        "name": "00d6316168b484e5.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/3313c1a4de589e0c.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/407367/25/6725/20465/69c0b428F4c3d1bf6/00d6316168b484e5.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "ae3c37be9f5a12ee",
+        "kind": "image",
+        "name": "00d63164b774118a.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/ae3c37be9f5a12ee.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/406359/29/7406/195333/69c0b429F36b179b7/00d63164b774118a.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "3507f2a1fbc2842f",
+        "kind": "image",
+        "name": "00d63160f1fac9e0.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/3507f2a1fbc2842f.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/407186/31/9769/13143/69c0b428F06e2e3c4/00d63160f1fac9e0.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "bd05cb6f40b4add2",
+        "kind": "image",
+        "name": "00d6316439780aab.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/bd05cb6f40b4add2.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/407485/37/7876/205455/69c0b429F30f68862/00d6316439780aab.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "732e99396025a91e",
+        "kind": "image",
+        "name": "00d631620de0f616.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/732e99396025a91e.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/406221/20/15246/51232/69c0b429F3d2370b8/00d631620de0f616.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "fd459a38db23f1ac",
+        "kind": "image",
+        "name": "00d631618922ce3d.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/fd459a38db23f1ac.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/405140/37/6826/15009/69c0b428Fc00cbeef/00d631618922ce3d.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "e99e43bebd9176ab",
+        "kind": "image",
+        "name": "00d6316159de1252.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/e99e43bebd9176ab.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/403651/20/19205/13807/69c0b428F58d187c8/00d6316159de1252.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "e8f8d0d671909546",
+        "kind": "image",
+        "name": "00d63163b0d8acc7.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/e8f8d0d671909546.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/405767/24/17752/69684/69c0b429Fe19285a2/00d63163b0d8acc7.jpg.avif"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/406251/15/14356/68670/69c0b429F117c1629/00d6316278a59c26.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/6d25dd79d1973b23.avif",
+        "id": "6d25dd79d1973b23",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/525576/6/12690/367965/6aba3559F2ad647dd/00d65a07805fa35f.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/814086825dd8a29c.avif",
+        "id": "814086825dd8a29c",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/525945/26/9452/215089/6ab39b68Fd144130b/00d65041fe9f16d2.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/619137837ffc960d.avif",
+        "id": "619137837ffc960d",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/408484/6/1562/57267/69c0b429F9194f904/00d63161f5ee13bb.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/3a81b88bf66e8540.avif",
+        "id": "3a81b88bf66e8540",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/408247/20/3508/106317/69c0b429F3ff36691/00d631645081163c.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/8d2a543f02538e96.avif",
+        "id": "8d2a543f02538e96",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/408069/36/4066/58132/69c0b429Fde8255de/00d631630a6ea799.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/d446870b48809194.avif",
+        "id": "d446870b48809194",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/407416/26/8250/238119/69c0b429Fa598b7f7/00d6316502952f06.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/bbab73d4bcab7bd3.avif",
+        "id": "bbab73d4bcab7bd3",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/407011/29/10113/82752/69c0b429Ff183b7f1/00d63163f61822d1.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/b9e208b5bd20e7be.avif",
+        "id": "b9e208b5bd20e7be",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      }
+    ],
+    "directoryPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1",
+    "failures": [],
+    "manifestPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/3279b364-0abc-4ee7-b344-3e603547dae1/manifest.json",
+    "summary": {
+      "downloadedCount": 20,
+      "elapsedMs": 520.8473750000121,
+      "failedCount": 0,
+      "requestedCount": 20
+    }
+  }
+}

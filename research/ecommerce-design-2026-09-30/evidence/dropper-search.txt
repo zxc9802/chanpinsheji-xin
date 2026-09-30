@@ -1,0 +1,468 @@
+- generic: 更多
+- generic "雅诗兰黛小棕复活水100ml精华修护抗皱化妆品礼盒护肤套装生日礼物送女友":
+  - generic: 广告
+- img "自营"
+- text: 雅诗兰黛小棕复活水100ml精华修护抗皱化妆品礼盒护肤套装生日礼物送女友
+- generic: ¥
+- generic: "510"
+- button
+- img "明日达"
+- generic "已售100万+"
+- generic: Estee Lauder雅诗兰黛京东自营旗舰店
+- generic "雅诗兰黛小棕瓶精华50ml":
+- img "自营"
+- text: 雅诗兰黛小棕瓶精华50ml
+- generic "面部精华金榜第4名":
+  - text: 面部精华金榜第4名
+- generic: “
+- generic: 保湿效果超持久，一整天都水润润的
+- generic: ”
+- generic: 细胞自噬再生
+- generic: "|根源修护"
+- generic: "|紧致淡纹"
+- generic: "|温和配方"
+- generic "面部精华金榜第4名":
+  - text: 面部精华金榜第4名
+- generic: ¥
+- generic: "998"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售100万+"
+- generic "30天种草飙升5倍"
+- generic: Estee Lauder雅诗兰黛京东自营旗舰店
+- generic "雅诗兰黛第七代小棕瓶精华100ml":
+- img "全球购自营"
+- text: 雅诗兰黛第七代小棕瓶精华100ml
+- generic "送女友进口好礼热卖榜第3名":
+  - text: 送女友进口好礼热卖榜第3名
+- generic: “
+- generic: 0酒精0香精0矿物油敏敏期用安心
+- generic: ”
+- generic: 紧致淡纹
+- generic: "|强韧屏障"
+- generic: "|修护抗老"
+- generic: "|多肤质适用"
+- generic "送女友进口好礼热卖榜第3名":
+  - text: 送女友进口好礼热卖榜第3名
+- generic: ¥
+- generic: "538"
+- generic: 到手价
+- generic: ¥588
+- button
+- generic: 包税
+- generic: 券满500减50
+- generic: 券满2000减200
+- generic: 正品鉴别
+- generic: 品质溯源
+- generic "已售10万+"
+- generic "300+人复购"
+- generic: 京东全球购美妆自营旗舰店
+- generic "雅诗兰黛护肤品4件套七夕礼物":
+- img "全球购"
+- text: 雅诗兰黛护肤品4件套七夕礼物
+- generic: 焕亮透润苹果肌
+- generic: "|抗初老细腻肤质"
+- generic: "|快速吸收不粘腻"
+- generic: "|抗老去黄淡化细纹"
+- generic: ¥
+- generic: "1829"
+- generic: 到手价
+- generic: ¥1859
+- button
+- generic: 满100减30
+- generic: 品质溯源
+- generic "已售8000+"
+- generic "400+人种草"
+- generic: Fresh Pantry海外旗舰店
+- generic "雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹 特润修护肌活精华露面部精华 买50ml 享110ml":
+  - generic: 广告
+- generic "雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹 特润修护肌活精华露面部精华 买50ml 享110ml"
+- generic: 本店面部精华热销第3名
+- generic: "|10万+人浏览"
+- generic: ¥
+- generic: "998"
+- button
+- generic "已售2万+"
+- generic: 丝芙兰官方旗舰店
+- generic "雅诗兰黛Esteelauder特润修护小棕瓶精华 紧致抗皱面部护肤品生日礼物女 100ml*2瓶":
+- img "全球购"
+- text: 雅诗兰黛Esteelauder特润修护小棕瓶精华 紧致抗皱面部护肤品生日礼物女 100ml*2瓶
+- generic: 丰盈弹润
+- generic: "|呵护肌肤屏障"
+- generic: "|淡纹嫩肤"
+- generic: "|屏障呵护"
+- generic: ¥
+- generic: "1059"
+- button
+- generic: 包邮
+- generic "已售500+"
+- generic "97%好评"
+- generic: 兴美国际海外专营店
+- generic "雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹 特润修护肌活面部精华露 【热卖】 买50ml 享110ml":
+- generic: 雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹 特润修护肌活面部精华露 【热卖】 买50ml 享110ml
+- generic: “
+- generic: 挺好的，已经用了
+- generic: ”
+- generic: 2小时快速修护
+- generic: "|3天抗熬夜疲老"
+- generic: "|33%修护屏障"
+- generic: "|淡纹精华"
+- generic: “
+- generic: 挺好的，已经用了
+- generic: ”
+- generic: ¥
+- generic: "998"
+- button
+- generic: 包邮
+- generic "57条评价"
+- generic "1900+人种草"
+- generic: 丝芙兰官方旗舰店
+- generic "雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹 特润修护肌活精华露面部精华 75ml":
+- generic: 雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹 特润修护肌活精华露面部精华 75ml
+- generic: 促生胶原蛋白
+- generic: "|清润琥珀质地"
+- generic: "|36项专利律波肽"
+- generic: "|敏感肌适用"
+- generic: ¥
+- generic: "1275"
+- button
+- generic: 包邮
+- generic "已售2万+"
+- generic "30天加购飙升5倍"
+- generic: 丝芙兰官方旗舰店
+- generic "雅诗兰黛小棕复活水200ml精华液修护抗皱保湿化妆品礼盒护肤套装生日礼物":
+  - generic: 广告
+- img "自营"
+- text: 雅诗兰黛小棕复活水200ml精华液修护抗皱保湿化妆品礼盒护肤套装生日礼物
+- generic: 2万+店铺老客浏览
+- generic: "|近30日人气商品"
+- generic: ¥
+- generic: "950"
+- button
+- img "明日达"
+- generic "已售100万+"
+- generic: Estee Lauder雅诗兰黛京东自营旗舰店
+- generic "雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹特润修护肌活面部精华露 【热卖】 买50ml 享110ml":
+- generic: 雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹特润修护肌活面部精华露 【热卖】 买50ml 享110ml
+- generic: 7代小棕瓶配方
+- generic: "|2小时快速修护"
+- generic: "|3天抗熬夜疲老"
+- generic: "|淡纹抗皱"
+- generic: ¥
+- generic: "998"
+- button
+- generic: 包邮
+- generic "已售100+"
+- generic "2600+人种草"
+- generic: 丝芙兰官方旗舰店
+- generic "雅诗兰黛（Estee Lauder）抗衰老三件套装水乳面霜红石榴智妍五件套护肤品礼盒送女朋友礼物 【抗衰老4件套】洁面+原生液+面霜+小棕瓶眼霜":
+  - generic: 重庆预定
+- img "全球购"
+- text: 雅诗兰黛（Estee Lauder）抗衰老三件套装水乳面霜红石榴智妍五件套护肤品礼盒送女朋友礼物 【抗衰老4件套】洁面+原生液+面霜+小棕瓶眼霜
+- generic: 抗衰老全脸紧致
+- generic: "|小棕瓶眼霜修护"
+- generic: "|多维科技抗初老"
+- generic: "|原生液保湿焕亮"
+- generic: ¥
+- generic: "1259"
+- generic: 到手价
+- generic: ¥1289
+- button
+- generic: 满100减30
+- generic: 品质溯源
+- generic "已售8000+"
+- generic "98%好评"
+- generic: Fresh Pantry海外旗舰店
+- generic "雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹 特润修护肌活精华露面部精华 买75ml享135ml":
+- generic: 雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹 特润修护肌活精华露面部精华 买75ml享135ml
+- generic: 淡化细纹
+- generic: "|抵御刺激"
+- generic: "|强韧屏障"
+- generic: "|淡纹修护"
+- generic: ¥
+- generic: "1275"
+- button
+- generic: 包邮
+- generic "已售2万+"
+- generic "30天加购飙升5倍"
+- generic: 丝芙兰官方旗舰店
+- generic "雅诗兰黛Esteelauder美白胶原水乳套装小棕瓶精华眼霜抗衰老美白护肤品 胶原水+美白胶原乳液":
+  - generic: 广告
+- img "全球购"
+- generic "雅诗兰黛Esteelauder美白胶原水乳套装小棕瓶精华眼霜抗衰老美白护肤品 胶原水+美白胶原乳液"
+- generic: 淡纹嫩白
+- generic: "|重塑肌肤"
+- generic: "|700+护肤达人加购"
+- generic: ¥
+- generic: "899"
+- generic: 到手价
+- generic: ¥929
+- button
+- generic: 首购礼金30元
+- generic "已售600+"
+- generic: 兴美国际海外专营店
+- generic "雅诗兰黛（Estee Lauder）智妍胶原水乳套装小棕瓶精华眼霜面霜紧致抗皱护肤品生日礼物女士 5件套 水+乳+精华+眼霜+滋润面霜":
+- img "全球购"
+- text: 雅诗兰黛（Estee Lauder）智妍胶原水乳套装小棕瓶精华眼霜面霜紧致抗皱护肤品生日礼物女士 5件套 水+乳+精华+眼霜+滋润面霜
+- generic: 组合多样
+- generic: "|改善细纹"
+- generic: "|紧致肌肤"
+- generic: "|深透焕颜"
+- generic: ¥
+- generic: "2079"
+- button
+- generic: 包邮
+- generic "已售400+"
+- generic "100%好评"
+- generic: IIIB WONDERFULBEAUTY海外旗舰店
+- text: 大家都在搜
+- generic: 小棕瓶100ml
+- generic: 30-40岁女人护肤品
+- generic: 小棕瓶50ml
+- generic: 海蓝之谜
+- generic: 精华抗衰老
+- generic: 雅诗兰黛三件套装
+- generic: 小棕瓶面霜
+- generic "雅诗兰黛（Estee Lauder）护肤三件套装小棕瓶精华智妍面霜送女友生日礼物 精华50ml+原生液200ml+面霜75ml":
+- img "全球购"
+- text: 雅诗兰黛（Estee Lauder）护肤三件套装小棕瓶精华智妍面霜送女友生日礼物 精华50ml+原生液200ml+面霜75ml
+- generic: 正品保障
+- generic: "|近30天人气商品"
+- generic: "|深层滋养"
+- generic: "|精华补水"
+- generic: ¥
+- generic: "1504"
+- generic: 到手价
+- generic: ¥1519
+- button
+- generic: 券满500减15
+- generic: 包邮
+- generic "400+人看过"
+- generic "100%好评"
+- generic: INCOROY个人护理海外专营店
+- generic "雅诗兰黛修护礼盒(棕瓶50ml+樱花水200ml+胶原霜50ml)护肤品套装生日礼物":
+  - generic: 广告
+- img "自营"
+- text: 雅诗兰黛修护礼盒(棕瓶50ml+樱花水200ml+胶原霜50ml)护肤品套装生日礼物
+- generic: 100万+人浏览
+- generic: "|紧致淡纹"
+- generic: "|深层滋养"
+- generic: ¥
+- generic: "2953"
+- button
+- img "明日达"
+- generic "已售20万+"
+- generic: Estee Lauder雅诗兰黛京东自营旗舰店
+- generic "雅诗兰黛修护礼盒(棕瓶50ml+原生液200ml+胶原霜50ml)护肤品套装生日礼物":
+- img "自营"
+- text: 雅诗兰黛修护礼盒(棕瓶50ml+原生液200ml+胶原霜50ml)护肤品套装生日礼物
+- generic: “
+- generic: 礼盒装涵盖水精华眼霜面霜
+- generic: ”
+- generic: 干皮救星
+- generic: "|焕肤修护"
+- generic: "|紧致淡纹"
+- generic: "|护肤组合"
+- generic: “
+- generic: 礼盒装涵盖水精华眼霜面霜
+- generic: ”
+- generic: ¥
+- generic: "2953"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售20万+"
+- generic "200+人复购"
+- generic: Estee Lauder雅诗兰黛京东自营旗舰店
+- generic "雅诗兰黛（Estee Lauder）抗蓝光眼霜 小棕瓶精华 淡化细纹提拉紧致黑眼圈生日礼物新年女 小棕瓶眼霜15ml":
+- img "全球购"
+- text: 雅诗兰黛（Estee Lauder）抗蓝光眼霜 小棕瓶精华 淡化细纹提拉紧致黑眼圈生日礼物新年女 小棕瓶眼霜15ml
+- generic: 长效保湿
+- generic: "|王牌眼霜"
+- generic: "|淡纹亮眼"
+- generic: ¥
+- generic: "249"
+- button
+- generic "61条评价"
+- generic "100%好评"
+- generic: HM盈美海外专营店
+- generic "雅诗兰黛特润修护肌活精华小棕瓶眼霜(买15ml享30ml)送女友生日礼物":
+- img "自营"
+- text: 雅诗兰黛特润修护肌活精华小棕瓶眼霜(买15ml享30ml)送女友生日礼物
+- generic: “
+- generic: 可以帮我去除黑眼圈
+- generic: ”
+- generic: 眼周4区精准修护
+- generic: "|轻盈凝胶质地"
+- generic: "|淡褪3色黑眼圈"
+- generic: "|专利律波肽成分"
+- generic: “
+- generic: 可以帮我去除黑眼圈
+- generic: ”
+- generic: ¥
+- generic: "439"
+- generic: 到手价
+- generic: ¥446
+- button
+- img "明日达"
+- img "国家补贴"
+- generic: 限时立减7元
+- generic "已售7万+"
+- generic "300+人复购"
+- generic: 美妆优选京东自营专区
+- generic "Estee Lauder【香港行貨】小棕瓶潔面30ml海外进口 京东自营":
+  - generic: 广告
+- img "全球购自营"
+- generic "Estee Lauder【香港行貨】小棕瓶潔面30ml海外进口 京东自营"
+- generic: 600+人浏览
+- generic: "|200+护肤达人浏览"
+- generic: ¥
+- generic: "58"
+- button
+- generic: 3件9折
+- generic "已售1万+"
+- generic: 京東香港美妝自營旗艦店
+- generic "雅诗兰黛（Estee Lauder）小棕瓶眼霜精华 套装礼盒面霜 化妆品彩妆美妆礼盒大礼包节日礼物 小棕瓶眼霜+七代小棕瓶精华100ml"
+- img "全球购"
+- text: 雅诗兰黛（Estee Lauder）小棕瓶眼霜精华 套装礼盒面霜 化妆品彩妆美妆礼盒大礼包节日礼物 小棕瓶眼霜+七代小棕瓶精华100ml
+- generic: 深层补水
+- generic: "|经典配方"
+- generic: "|保湿锁水"
+- generic: "|一瓶多效"
+- generic: ¥
+- generic: "983"
+- generic: 到手价
+- generic: ¥1008
+- button
+- generic: 首购礼金10元
+- generic: 满99减5
+- generic "已售100+"
+- generic "100%好评"
+- generic: 海享购海外旗舰店
+- generic "雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹 特润修护肌活精华露面部精华 【买50ml享110ml】":
+- generic: 雅诗兰黛（Estee Lauder） 小棕瓶精华淡纹 特润修护肌活精华露面部精华 【买50ml享110ml】
+- generic: 2小时快速修护
+- generic: "|36项全球专利"
+- generic: "|3天抗熬夜疲老"
+- generic: "|100%优质"
+- generic: ¥
+- generic: "998"
+- button
+- generic: 包邮
+- generic "已售2万+"
+- generic "97%好评"
+- generic: 丝芙兰官方旗舰店
+- generic "雅诗兰黛小棕瓶眼霜5ml*3":
+- img "自营"
+- text: 雅诗兰黛小棕瓶眼霜5ml*3
+- generic: “
+- generic: 质地细腻，推开顺滑吸收快
+- generic: ”
+- generic: 胶原促生抗细纹
+- generic: "|自由基智感防御"
+- generic: "|淡化3色黑眼圈"
+- generic: "|2周速褪眼纹"
+- generic: “
+- generic: 质地细腻，推开顺滑吸收快
+- generic: ”
+- generic: ¥
+- generic: "199"
+- generic: 到手价
+- generic: ¥206
+- button
+- img "明日达"
+- img "国家补贴"
+- generic: 限时立减7元
+- generic "已售7万+"
+- generic "200+人复购"
+- generic: 美妆优选京东自营专区
+- generic "雅诗兰黛（Estee Lauder）智妍胶原水乳套装小棕瓶精华眼霜面霜紧致抗皱护肤品生日礼物女士 3件套 胶原水+胶原乳+小棕瓶眼霜":
+  - generic: 广告
+- img "全球购"
+- generic "雅诗兰黛（Estee Lauder）智妍胶原水乳套装小棕瓶精华眼霜面霜紧致抗皱护肤品生日礼物女士 3件套 胶原水+胶原乳+小棕瓶眼霜"
+- generic: 800+人加购
+- generic: "|2千+护肤党浏览"
+- generic: ¥
+- generic: "1199"
+- button
+- generic "已售400+"
+- generic: IIIB WONDERFULBEAUTY海外旗舰店
+- generic "雅诗兰黛小棕瓶2件套"
+- img "全球购"
+- text: 雅诗兰黛小棕瓶2件套
+- generic: 紧致眼袋
+- generic: "|淡纹抗老"
+- generic: "|平滑眼周"
+- generic: "|原装进口"
+- generic: ¥
+- generic: "819"
+- generic: 到手价
+- generic: ¥869
+- button
+- generic: 满100减50
+- generic: 包邮
+- generic "25人看过"
+- generic "100%好评"
+- generic: Fresh Pantry海外旗舰店
+- generic "雅诗兰黛眼面三部曲乳霜":
+- img "自营"
+- text: 雅诗兰黛眼面三部曲乳霜
+- generic: 紧致淡纹
+- generic: "|嘭弹透亮"
+- generic: "|润亮修护"
+- generic: "|臻享高定包装"
+- generic: ¥
+- generic: "2225"
+- button
+- generic "已售20万+"
+- generic "30天加购飙升5倍"
+- generic: Estee Lauder雅诗兰黛京东自营旗舰店
+- generic "雅诗兰黛（Estee Lauder）小棕瓶精华樱花原生液智妍面霜套装礼物 小棕瓶100ml+樱花水200ml+面霜75ml"
+- img "全球购"
+- text: 雅诗兰黛（Estee Lauder）小棕瓶精华樱花原生液智妍面霜套装礼物 小棕瓶100ml+樱花水200ml+面霜75ml
+- generic: 近30天人气商品
+- generic: "|正品保证"
+- generic: "|已售1万+"
+- generic: "|樱花原生液"
+- generic: ¥
+- generic: "2159"
+- generic: 到手价
+- generic: ¥2169
+- button
+- generic: 首购礼金10元
+- generic: 包邮
+- generic "76人看过"
+- generic "100%好评"
+- generic: TESINO海外专营店
+- generic "雅诗兰黛（Estee Lauder）七代特润修护小棕瓶面部精华液礼物 50ML":
+  - generic: 广告
+- img "全球购"
+- generic "雅诗兰黛（Estee Lauder）七代特润修护小棕瓶面部精华液礼物 50ML"
+- generic: 近30天人气商品
+- generic: "|已售1万+"
+- generic: "|4千+人浏览"
+- generic: ¥
+- generic: "325"
+- generic: 到手价
+- generic: ¥335
+- button
+- generic: 首购礼金10元
+- generic "1000+人看过"
+- generic: TESINO海外专营店
+- generic "雅诗兰黛（Estee Lauder）小棕瓶眼霜保湿修护黑眼圈紧致眼部抗皱精华抗蓝光 15ml *2"
+- img "全球购"
+- text: 雅诗兰黛（Estee Lauder）小棕瓶眼霜保湿修护黑眼圈紧致眼部抗皱精华抗蓝光 15ml *2
+- generic: 保湿
+- generic: "|多种肤质适用"
+- generic: "|眼霜"
+- generic: ¥
+- generic: "559"
+- generic: 到手价
+- generic: ¥599
+- button
+- generic: 券满500减40
+- generic: 券满1000减80
+- generic "1人看过"
+- generic "100%好评"
+- generic: 西西可里美妆护肤海外专营店

@@ -1,0 +1,490 @@
+﻿商品ID,品牌,品类,图组,语义屏序,内容角色,标题,原始切片序,画面观察,适配状态,必需资料,来源页
+proya,珀莱雅,精华,main,1,活动/赠品,产品与到手权益,1,银白瓶居中，上方销量宣称，下方价格和赠品条。,仅研究保留,current_offer_terms,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,main,2,活动/赠品,会员赠品表,2,红粉背景、多档会员礼与多件产品网格。,仅研究保留,current_offer_terms,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,main,3,产品凸显,白底单品,3,银白泵瓶完整正面、白底、充分留白。,构图可用,,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,main,4,效果/证据,人物与效果数字,4,人物持瓶与多项效果数字并置。,仅研究保留,product_specific_evidence,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,main,5,原理解释,双通路示意,5,金色球体和路径文字解释两条作用通路。,需产品资料,verified_mechanism,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,main,6,成分/香调,成分组合,6,三枚金橙球体、飘带与成分名称组成信息组。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,main,7,效果/证据,报告汇总,7,多份检测报告和功效数字拼合。,仅研究保留,product_specific_evidence,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,1,活动/赠品,其他产品活动横幅,1,红宝石面霜预售横幅，属于跨商品活动。,仅研究保留,current_offer_terms,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,2,活动/赠品,会员赠品,2,红粉色礼赠和门槛表。,仅研究保留,current_offer_terms,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,3,产品凸显,产品主视觉,3,银白瓶身搭配金橙轨道与大标题。,构图可用,,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,4,规格/标签,产品基础信息,4,灰白底规格信息表。,需产品资料,verified_specs_and_label,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,5,需求/痛点,肤况与环境需求,5,生活环境图标和多个皮肤局部图。,需产品资料,target_user_needs,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,6,效果/证据,效果总览,"6,7",模特与分时段、多维度效果数字。,仅研究保留,product_specific_evidence,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,7,原理解释,科学通路与验证,"8,9",金色微观球体过渡到荧光图和柱形图。,仅研究保留,verified_mechanism,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,8,成分/香调,成分矩阵,10,金色球体、成分分组和弧线形成配方总览。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,9,效果/证据,分项效果实证,"11,12,13",皮肤模型、显微图、实验对照和数据。,仅研究保留,product_specific_evidence,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,10,效果/证据,温和性报告,14,多份报告与检测标记。,仅研究保留,product_specific_evidence,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,11,质地/使用感,质地与肤感,15,琥珀色凝胶近景，旁边有使用感及测试数字。,需产品资料,texture_reference,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,12,结构/多角度,泵头与启用步骤,16,双腔结构爆炸图及按压、摇匀、涂抹步骤。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,13,版本/升级,新旧版本比较,17,两代瓶型并列，五组升级信息。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,14,使用方法,补充装和小样用法,18,拆装、替换和小瓶使用的连续示意。,需产品资料,confirmed_instructions,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,15,系列/选型,产品家族,19,同系列瓶罐在台座上组合。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,16,疑问解答,购买前疑问,20,多个问答信息块。,需产品资料,verified_faq,https://item.jd.com/100012655872.html
+proya,珀莱雅,精华,detail,17,说明/脚注,数据来源说明,21,密集脚注解释前文宣称。,仅研究保留,claim_sources,https://item.jd.com/100012655872.html
+pantene,潘婷,洗发水,main,1,活动/赠品,产品与价格赠品,1,粉瓶与桃、茶，叠加数字卖点和底部权益条。,仅研究保留,current_offer_terms,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,main,2,效果/证据,秀发效果,2,长发模特突出柔顺发丝。,仅研究保留,product_specific_evidence,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,main,3,成分/香调,白桃乌龙香调,3,桃子、气泡与分层香调信息。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,main,4,系列/选型,洗护组合,4,洗、护、免洗三个真实产品构成步骤组合。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,main,5,成分/香调,配方科技,5,粉色微观球体与金色 PRO-V 胶囊。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,main,6,系列/选型,系列选型,6,金色多层台架陈列不同瓶型和配方。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,main,7,规格/标签,背标实拍,7,白底背面标签。,需产品资料,verified_specs_and_label,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,main,8,产品凸显,果香产品主视觉,8,粉瓶和桃子配件，容量文字简洁。,构图可用,,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,1,品牌/背书,集团店铺横幅,1,多品牌店铺入口横幅。,仅研究保留,authorized_brand_material,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,2,需求/痛点,油头干发需求,2,头皮与发尾的双问题对照。,需产品资料,target_user_needs,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,3,产品凸显,产品登场,"3,4",短标题后接漂浮粉瓶、桃与水流。,构图可用,,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,4,成分/香调,香调展开,"5,6",香调标题、层级说明接桃子与气泡特写。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,5,效果/证据,柔顺效果,"7,8,9",效果标题、长发模特和发丝前后对比。,仅研究保留,product_specific_evidence,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,6,成分/香调,配方展开,"10,11",配方标题接微观球体与金色胶囊。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,7,质地/使用感,泡沫使用感,"12,13",标题接瓶体、水流和大面积泡沫。,需产品资料,texture_reference,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,8,使用方法,洗护三步,14,三种产品按使用顺序排列。,需产品资料,confirmed_instructions,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,9,系列/选型,五款对照表,15,发质、成分、香型等列在同一比较表内。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,10,系列/选型,系列陈列,"16,17",滋润、轻润、控油系列跨两张台架图。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,11,品牌/背书,品牌故事,18,山景与品牌历史信息。,仅研究保留,authorized_brand_material,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,12,说明/脚注,宣称脚注,19,密集数据来源说明。,仅研究保留,claim_sources,https://item.jd.com/100327980320.html
+pantene,潘婷,洗发水,detail,13,品牌/背书,集团页尾,20,蓝色集团标识页尾。,仅研究保留,authorized_brand_material,https://item.jd.com/100327980320.html
+fino,FINO 芬浓,发膜,main,1,品牌/背书,产品与销量背书,1,红罐、银色环境、销量宣称和人物小图。,仅研究保留,authorized_brand_material,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,main,2,系列/选型,洗护家族,2,三排产品及洗护分类。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,main,3,质地/使用感,奶霜托起红罐,3,罐体居中，奶霜涂抹作为前景，旁有利益点。,需产品资料,texture_reference,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,main,4,使用方法,冲洗和养护方法,4,真人头发与连续用法提示。,需产品资料,confirmed_instructions,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,main,5,成分/香调,花果香调,5,罐体搭配花朵和水果元素。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,main,6,成分/香调,珍珠配方视觉,6,大颗珍珠状液滴与成分标题。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,main,7,原理解释,发丝修护示意,7,发丝剖面、球体与配方数字。,需产品资料,verified_mechanism,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,main,8,系列/选型,红罐银罐选型,8,两款并排解释差别。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,1,品牌/背书,其他产品代言横幅,1,男性代言和另一洗发产品。,仅研究保留,authorized_brand_material,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,2,系列/选型,洗护系列,2,三行不同瓶罐的系列产品。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,3,产品凸显,红罐主视觉,3,红盖银罐配奶霜与利益点。,构图可用,,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,4,品牌/背书,销量宣称,4,红底销量第一文字；不作为独立热度证据。,仅研究保留,authorized_brand_material,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,5,系列/选型,红银两款比较,5,按发质需求并列两种发膜。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,6,需求/痛点,受损发质需求,"6,7",需求标题接受损发丝近景。,需产品资料,target_user_needs,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,7,原理解释,修护原理,"8,9",效果数字标题接发丝截面和球体图。,需产品资料,verified_mechanism,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,8,成分/香调,核心成分,"10,11",配方标题接珍珠液滴与配方说明。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,9,成分/香调,复合成分,"12,13",成分球体跨两张切片延续。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,10,效果/证据,发丝效果与数据,14,顺滑发丝和效果数字。,仅研究保留,product_specific_evidence,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,11,使用方法,冲洗与深护两种用法,"15,16",头发使用示范，后续接深度养护方式。,需产品资料,confirmed_instructions,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,12,成分/香调,香调与感官,"17,18",标题接罐体、花果与香调结构。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,13,版本/升级,新旧包装识别,"19,20",正面变化接背标对照，帮助核对版本。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,14,规格/标签,包装正背面,"21,22",正背罐实拍及放大背标。,需产品资料,verified_specs_and_label,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,15,说明/脚注,销量说明来源,23,红色说明条与脚注。,仅研究保留,claim_sources,https://item.jd.com/100000388929.html
+fino,FINO 芬浓,发膜,detail,16,品牌/背书,母公司介绍,24,公司建筑与标识。,仅研究保留,authorized_brand_material,https://item.jd.com/100000388929.html
+safeguard,舒肤佳,沐浴露,main,1,活动/赠品,代言促销,1,粉瓶、人物小图与价格条。,仅研究保留,current_offer_terms,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,main,2,活动/赠品,多香型活动,2,不同颜色瓶体与活动信息。,仅研究保留,current_offer_terms,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,main,3,版本/升级,新旧包装,3,两代瓶型并排说明随机发货。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,main,4,产品凸显,红石榴主视觉,4,粉瓶置于奶油色空间，前景是石榴。,构图可用,,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,main,5,原理解释,清洁原理,5,倾斜瓶与液滴、油污示意。,需产品资料,verified_mechanism,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,main,6,成分/香调,果酸/原料表达,6,石榴和金色球体。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,main,7,使用场景,浴室香氛,7,台面瓶体，远处柔焦人物。,需产品资料,confirmed_use_scenario,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,main,8,规格/标签,正背标签,8,前后包装和标签放大。,需产品资料,verified_specs_and_label,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,main,9,规格/标签,规格卡,9,单瓶与 570g 容量信息。,需产品资料,verified_specs_and_label,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,1,品牌/背书,集团店铺入口,1,集团多品牌横幅。,仅研究保留,authorized_brand_material,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,2,版本/升级,版本提示,2,新旧泵瓶并列。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,3,产品凸显,香氛产品首屏,3,粉色泵瓶与红石榴，奶油色背景。,构图可用,,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,4,需求/痛点,皮肤需求,4,三组皮肤局部与配方升级标题。,需产品资料,target_user_needs,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,5,使用场景,沐浴与放松,"5,6",沐浴人物、产品图标，随后是日常放松人物。,仅研究保留,confirmed_use_scenario,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,6,原理解释,清洁机理,"7,8",倾斜瓶液滴接皮肤模块对照。,需产品资料,verified_mechanism,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,7,成分/香调,石榴原料,9,果实与金色微观球体。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,8,效果/证据,抗氧化实验,10,绿色显微对照和效果信息。,仅研究保留,product_specific_evidence,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,9,使用场景,香氛体验,11,瓶体在台面、远处人物和柔光。,需产品资料,confirmed_use_scenario,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,10,效果/证据,香氛测试与奖项,12,奖项和实验图。,仅研究保留,product_specific_evidence,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,11,成分/香调,本 SKU 香调,13,红石榴单瓶、果实与前中后调。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,12,系列/选型,其他香型,"14,15",山茶、木质玫瑰等不同瓶色和对应素材。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,13,质地/使用感,泡沫与手持,16,手持泵瓶、泡沫和使用感图标。,需产品资料,texture_reference,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,14,效果/证据,消费者与报告,"17,18",人物反馈比例和多份报告放大。,仅研究保留,product_specific_evidence,https://item.jd.com/100007961027.html
+safeguard,舒肤佳,沐浴露,detail,15,系列/选型,系列延展,"19,20",其他花香产品与对应场景。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100007961027.html
+cerave,CeraVe 适乐肤,身体乳,main,1,优势总览,蓝白产品与优势,1,泵瓶位于透明矩形框，旁边利益点与数字。,需产品资料,confirmed_benefits,https://item.jd.com/100076190975.html
+cerave,CeraVe 适乐肤,身体乳,main,2,优势总览,三项优势,2,左侧三个图标与文字，右侧产品。,需产品资料,confirmed_benefits,https://item.jd.com/100076190975.html
+cerave,CeraVe 适乐肤,身体乳,main,3,版本/升级,新旧版本,3,新旧正背包装并列说明。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100076190975.html
+cerave,CeraVe 适乐肤,身体乳,main,4,质地/使用感,质地与技术,4,上部蓝色凝胶、下部微囊技术图。,需产品资料,texture_reference,https://item.jd.com/100076190975.html
+cerave,CeraVe 适乐肤,身体乳,main,5,规格/标签,背标核对,5,背面标签加放大视图。,需产品资料,verified_specs_and_label,https://item.jd.com/100076190975.html
+cerave,CeraVe 适乐肤,身体乳,main,6,产品凸显,白底泵瓶,6,纯白背景、完整正面泵瓶。,构图可用,,https://item.jd.com/100076190975.html
+cerave,CeraVe 适乐肤,身体乳,detail,1,优势总览,首屏产品与利益,1,蓝白乳霜背景、瓶体与盾牌等信息。,需产品资料,confirmed_benefits,https://item.jd.com/100076190975.html
+cerave,CeraVe 适乐肤,身体乳,detail,2,原理解释,屏障与成分体系,"2,3",皮肤截面、三种神经酰胺及技术卡；第三切片上沿延续前屏。,需产品资料,verified_mechanism,https://item.jd.com/100076190975.html
+cerave,CeraVe 适乐肤,身体乳,detail,3,使用方法,不同使用场景,"3,4",编号场景跨图延续，含身体、面部与叠加用法；原页特殊美容场景不迁移。,需产品资料,confirmed_instructions,https://item.jd.com/100076190975.html
+cerave,CeraVe 适乐肤,身体乳,detail,4,疑问解答,常见疑问,"4,5",问答从第四切片底部延续至第五。,需产品资料,verified_faq,https://item.jd.com/100076190975.html
+cerave,CeraVe 适乐肤,身体乳,detail,5,规格/标签,真实标签和背面,"5,6",第五切片下部与第六短切片组成正背包装区。,需产品资料,verified_specs_and_label,https://item.jd.com/100076190975.html
+zhuben,逐本,卸妆油,main,1,活动/赠品,到手权益,1,小瓶居中，大面积买赠和价格条。,仅研究保留,current_offer_terms,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,main,2,产品凸显,林间产品,2,绿瓶斜倚木头与白花，右侧三个利益点。,构图可用,,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,main,3,原理解释,三技术概览,3,皮肤剖面及配方小图三层组合。,需产品资料,verified_mechanism,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,main,4,成分/香调,脂质系统,4,绿色网膜背景，下方四个植物原料块。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,main,5,质地/使用感,超水感体验,5,绿瓶、透明水流、网膜与人物小图。,需产品资料,texture_reference,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,main,6,规格/标签,产品信息表,6,白底规格、成分和说明密集表格。,需产品资料,verified_specs_and_label,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,1,活动/赠品,便携装与储值活动,"1,2",小包装促销接会员充值条。,仅研究保留,current_offer_terms,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,2,系列/选型,洁颜膏跨品推荐,3,另一罐装产品与多品矩阵。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,3,系列/选型,洁颜油家族,"4,5",四种颜色泵瓶成组，按肤况分型。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,4,产品凸显,云檀本品亮相,6,绿瓶倚木，白花衬托，右侧利益点。,构图可用,,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,5,原理解释,三种卸妆技术,"7,8,9",破膜、吸色、多极性油脂依次呈现；第九切片底部开始测试。,需产品资料,verified_mechanism,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,6,效果/证据,彩妆卸除实测,"9,10,11,12",多个彩妆/防晒示例、局部前后对照及反馈数字。,仅研究保留,product_specific_evidence,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,7,成分/香调,脂质与舒缓配方,"13,14",透明网膜与植物原料卡，接三组成分球体。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,8,效果/证据,屏障测试,"15,16",组织图、柱形图、面部局部与效果数字。,仅研究保留,product_specific_evidence,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,9,质地/使用感,乳化体验,"16,17",新段标题后接人物持瓶与乳化粒径说明。,需产品资料,texture_reference,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,10,效果/证据,温和性证据,"18,19",显微图、图表和多份报告。,仅研究保留,product_specific_evidence,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,11,质地/使用感,水感使用感,"20,21",通透瓶和流动液体，后接透气网膜与人物。,需产品资料,texture_reference,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,12,原理解释,黑头与油光,"21,22,23",段落标题接毛孔/油脂剖面和实测数据；含不可借用的实验结果。,仅研究保留,verified_mechanism,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,13,成分/香调,云檀香调,"23,24,25",标题后接瓶、木头、植物，最后是前中后调说明。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,14,使用方法,卸妆三步,"25,26",取油、溶妆、冲洗的线稿步骤。,需产品资料,confirmed_instructions,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,15,系列/选型,分肤质选型,"26,27,28",四种真实产品分行说明。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,16,结构/多角度,泵头锁扣,"29,30",取卡、开锁、按压与锁片复位的真实手部演示。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,17,疑问解答,卸妆疑问,"30,31",四类常见使用问题跨切片延续。,需产品资料,verified_faq,https://item.jd.com/100018503398.html
+zhuben,逐本,卸妆油,detail,18,说明/脚注,宣称脚注,"31,32",页尾测试与数据来源。,仅研究保留,claim_sources,https://item.jd.com/100018503398.html
+anessa,安热沙,防晒,main,1,活动/赠品,代言与赠品首图,1,金瓶和人物配蓝天背景，底部多瓶买赠。,仅研究保留,current_offer_terms,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,main,2,优势总览,三点升级,2,大瓶居右，左边三段优势，底部乳液飞溅。,需产品资料,confirmed_benefits,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,main,3,质地/使用感,肤感与乳液,3,白色乳液飞溅与四组百分比。,需产品资料,texture_reference,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,main,4,原理解释,双技术防护,4,环形箭头、环境图标与皮肤膜层。,需产品资料,verified_mechanism,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,main,5,效果/证据,防水实验,5,第三方测试图表与时长、防晒数字。,仅研究保留,product_specific_evidence,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,main,6,效果/证据,专利证明,6,三份专利文件。,仅研究保留,product_specific_evidence,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,main,7,原理解释,环境响应,7,三层皮肤与防晒膜示意箭头。,需产品资料,verified_mechanism,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,main,8,系列/选型,系列购买攻略,8,八格不同用途的真实产品。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,main,9,规格/标签,真实标签,9,外包装背标与生产信息。,需产品资料,verified_specs_and_label,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,1,产品凸显,小金瓶亮相,1,金瓶、蓝色膜层弧面与防晒数字。,构图可用,,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,2,版本/升级,产品升级,2,新旧金瓶与两项升级卡片。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,3,需求/痛点,防晒与肤感难题,"2,3",油厚粘局部图，水汗热等环境图标。,需产品资料,target_user_needs,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,4,效果/证据,肤感与比较实证,"3,4,5,6",标题、乳液飞溅、比例图与涂抹对照跨切片。,仅研究保留,product_specific_evidence,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,5,原理解释,防晒膜自修复,"6,7,8",面部动作后接颗粒、膜层、显微及数据对照。,仅研究保留,verified_mechanism,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,6,原理解释,环境响应与证明,"9,10,11",皮肤膜层示意、第三方防水测试与专利文件。,仅研究保留,verified_mechanism,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,7,原理解释,贴肤耐摩擦,"11,12",颗粒接触皮肤的左右示意。,需产品资料,verified_mechanism,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,8,优势总览,防晒等级,12,蓝底光线、箭头和 SPF/PA 信息。,需产品资料,confirmed_benefits,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,9,成分/香调,护肤成分,13,三角形大球体与多枚植物小球。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,10,使用场景,适用场景,"14,15",面部近景后接休闲、城市与户外场景，底部套组。,需产品资料,confirmed_use_scenario,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,11,使用方法,正确使用,"16,17",摇匀、护肤顺序与三步涂抹图。,需产品资料,confirmed_instructions,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,12,疑问解答,使用疑问,17,新旧款差异及卸除问题的两张卡片。,需产品资料,verified_faq,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,13,规格/标签,实物包装,18,盒与瓶的正背面。,需产品资料,verified_specs_and_label,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,14,品牌/背书,产品历史与研发,"18,19,20",包装演进时间线、实验室及研发建筑。,仅研究保留,authorized_brand_material,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,15,品牌/背书,环境主张,"20,21",海洋与生态主张。,仅研究保留,authorized_brand_material,https://item.jd.com/100034791606.html
+anessa,安热沙,防晒,detail,16,系列/选型,家族选型表,21,页尾全系列产品比较。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100034791606.html
+loreal,欧莱雅,面膜,main,1,活动/赠品,片数与套装,1,银色托盘、单袋和多片组合，顶部买赠大字。,仅研究保留,current_offer_terms,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,main,2,成分/香调,两组配方,2,紫色液滴、滴管与两组重点成分。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,main,3,成分/香调,三角配方阵,3,三个紫色球体按三角形分组。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,main,4,规格/标签,背面信息,4,紫色背标与规格文字。,需产品资料,verified_specs_and_label,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,1,版本/升级,升级速览,1,旧袋与新袋并列，两条升级信息。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,2,产品凸显,面膜主视觉,2,托盘、分区袋、膜布和配方形象；底部含不可迁移的数字。,构图可用,,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,3,成分/香调,重点成分,3,紫色分子与滴管突出两组配方。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,4,成分/香调,三重配方及实证,4,三球分层成分，下方接报告和荧光对照。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,5,效果/证据,温和性证据,5,六个无添加图标、报告及测试数字。,仅研究保留,product_specific_evidence,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,6,效果/证据,分时段效果,"6,7",面部模型后接多组功效数字。,仅研究保留,product_specific_evidence,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,7,结构/多角度,膜液分离设计,8,双区袋置于托盘，标出精华区与膜体区。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,8,原理解释,膜布机制,9,唤醒、锁水、服帖、承载力四段示意与对照。,需产品资料,verified_mechanism,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,9,使用方法,四步使用,10,折、挤、按、敷四格真实操作。,需产品资料,confirmed_instructions,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,10,使用场景,不同使用情境,11,产品放入日常和季节场景的四格图。,需产品资料,confirmed_use_scenario,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,11,疑问解答,产品疑问,12,五条问答以细线框集中呈现。,需产品资料,verified_faq,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,12,版本/升级,版本对比,13,新旧包装加升级对照表。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,13,说明/脚注,宣称来源,14,集中脚注。,仅研究保留,claim_sources,https://item.jd.com/100308183035.html
+loreal,欧莱雅,面膜,detail,14,规格/标签,背标与规格,15,真实背面标签。,需产品资料,verified_specs_and_label,https://item.jd.com/100308183035.html
+freeplus,芙丽芳丝,洁面乳,main,1,活动/赠品,代言与活动,1,人物、产品、销量宣称及价格赠品集中在首图。,仅研究保留,current_offer_terms,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,main,2,品牌/背书,排名背书,2,金色奖杯和多张榜单卡片。,仅研究保留,authorized_brand_material,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,main,3,活动/赠品,会员权益,3,蓝色四格优惠券与会员礼。,仅研究保留,current_offer_terms,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,main,4,产品凸显,气泡托起软管,4,打开管盖的白色软管置于粉蓝大气泡，单品轮廓清楚。,构图可用,,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,main,5,成分/香调,配方与晶体,5,软管、泡沫与配方比例，辅以晶体示意。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,main,6,优势总览,三项清洁优势,6,软管与泡沫旁排列三项短利益点。,需产品资料,confirmed_benefits,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,main,7,结构/多角度,开封与外盒,7,管盖和纸盒并列，解释包装状态与环保信息。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,main,8,规格/标签,正面与盒标,8,单品正面和纸盒标签侧面并置。,需产品资料,verified_specs_and_label,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,main,9,规格/标签,使用及标签信息,9,集中列出用法、注意事项和产品信息。,需产品资料,verified_specs_and_label,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,1,活动/赠品,代言和多品活动,"1,2",人物横幅后接多 SKU 价格与赠品表。,仅研究保留,current_offer_terms,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,2,品牌/背书,奖项与热销背书,"3,4,5",黑金横幅、金色舞台与榜单/评价拼贴连续出现。,仅研究保留,authorized_brand_material,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,3,系列/选型,三款洁面选型,6,三列比较肤质、质地与不同洁面产品。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,4,产品凸显,洁面产品登场,7,白色软管悬在粉蓝泡泡上，旁有标题与数字。,构图可用,,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,5,效果/证据,效果总览,8,人物肤感照片与多项百分比。,仅研究保留,product_specific_evidence,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,6,原理解释,配方与结晶机制,9,两块信息解释配方比例和结晶示意。,需产品资料,verified_mechanism,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,7,成分/香调,两类成分分工,10,蓝粉球体区分两类成分与配比。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,8,品牌/背书,研发与演示封面,11,研发历史文字和人物手持产品的视频封面。,仅研究保留,authorized_brand_material,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,9,效果/证据,实验和肤况对比,"12,13",泡沫界面、皮肤对比及柱形图说明效果。,仅研究保留,product_specific_evidence,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,10,质地/使用感,挤出膏体,14,打开软管口挤出白色膏体，辅以三项肤感说明。,需产品资料,texture_reference,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,11,质地/使用感,膏体与配方说明,15,大面积白色膏体抹痕，下方为无添加类宣称。,需产品资料,texture_reference,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,12,品牌/背书,环保宣称,16,绿色原料和包装环境信息。,仅研究保留,authorized_brand_material,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,13,结构/多角度,管盖与纸盒状态,17,近看管盖和外盒开封状态。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,14,使用方法,系列护理四步,18,四件系列产品依次排成使用流程。,需产品资料,confirmed_instructions,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,15,疑问解答,购买前问答,19,三个问答块集中回应常见疑问。,需产品资料,verified_faq,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,16,品牌/背书,获奖陈列,20,奖项与陈列台组合。,仅研究保留,authorized_brand_material,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,17,规格/标签,包装信息,21,单品正面与盒背标签供核对。,需产品资料,verified_specs_and_label,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,18,品牌/背书,品牌故事,22,气泡与品牌理念图文。,仅研究保留,authorized_brand_material,https://item.jd.com/758086.html
+freeplus,芙丽芳丝,洁面乳,detail,19,效果/证据,安全说明文件,23,品牌公司说明文件。,仅研究保留,product_specific_evidence,https://item.jd.com/758086.html
+loccitane,欧舒丹,护手霜,main,1,活动/赠品,礼盒促销,1,打开的黄色四支礼盒，叠加活动条。,仅研究保留,current_offer_terms,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,main,2,活动/赠品,会员权益,2,两步会员礼和优惠券。,仅研究保留,current_offer_terms,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,main,3,系列/选型,礼盒版本,3,多种盒装组合与发货提示。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,main,4,版本/升级,杏仁款新旧包装,4,绿色软管新旧设计并列。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,main,5,产品凸显,单支建筑感构图,5,绿色软管立于棕色拱形几何布景前。,构图可用,,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,main,6,质地/使用感,樱花膏体上手,6,手部挤出膏体，搭配粉色软管与数字。,需产品资料,texture_reference,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,main,7,质地/使用感,玫瑰款手部使用,7,双手、玫瑰软管与肤感信息。,需产品资料,texture_reference,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,main,8,成分/香调,乳木果原料,8,软管立于木块，前景有坚果及原料比例。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,main,9,使用场景,三个日常情境,9,送礼、随身携带和居家涂抹三联图。,需产品资料,confirmed_use_scenario,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,main,10,品牌/背书,店铺服务,10,正品、会员和配送图标。,仅研究保留,authorized_brand_material,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,1,品牌/背书,授权文件,1,品牌授权书。,仅研究保留,authorized_brand_material,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,2,活动/赠品,直播与跨品活动,"2,3",人物直播广告后接多品类促销。,仅研究保留,current_offer_terms,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,3,系列/选型,礼盒发货版本,4,一行礼盒组合对照。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,4,产品凸显,开盒首屏,5,黄色礼盒展开四支软管，置于石材台面。,需产品资料,"real_sku_assets_and_differences,matching_multiview_or_structure_assets",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,5,使用场景,送给不同对象,6,两组打开的礼盒分别对应朋友和爱人。,需产品资料,confirmed_use_scenario,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,6,结构/多角度,盒体与封装,7,黄色盒体、金色缎带与封装细节。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,7,成分/香调,明黄香型香型屏,8,黄色软管、明黄圆形和植物元素。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,8,成分/香调,乳木果香型屏,9,斜放软管与棕色坚果。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,9,成分/香调,樱花香型屏,10,浅粉软管和花瓣。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,10,成分/香调,玫瑰香型屏,11,粉色软管配玫瑰花。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,11,成分/香调,白樱花香型屏,12,白色软管配浅粉渐变与花朵。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,12,成分/香调,白薰衣草香型屏,13,水彩紫背景、白色软管与花枝。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,13,成分/香调,杏仁香型屏,14,绿色软管，浅黄底与坚果花朵。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,14,成分/香调,马鞭草香型屏,15,绿色软管搭配柠檬、叶片和石面。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,15,成分/香调,薰衣草香型屏,16,紫色花枝、石块与软管。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,16,成分/香调,绿野奇境香型屏,17,叶片、柑橘与白色软管。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,17,成分/香调,橙花兰花香型屏,18,淡金底、橙花与浅色软管。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,18,成分/香调,桂花香型屏,19,杏黄色底与黄色花朵。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,19,成分/香调,乳木果玫瑰香型屏,20,粉色软管、玫瑰和乳木果。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,20,成分/香调,绮梦樱花香型屏,21,珊瑚色软管配花果。 标题、香调和肤感信息形成独立一屏；属于系列其他 SKU 时须重新核对。,需产品资料,"confirmed_ingredients_or_scent,real_sku_assets_and_differences",https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,21,使用场景,手持礼盒,22,双手拿黄色礼盒，长投影突出礼赠仪式感。,需产品资料,confirmed_use_scenario,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,22,结构/多角度,礼盒内装,23,打开的空盒与内部空间。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,23,活动/赠品,其他沐浴产品,24,补充装沐浴产品广告。,仅研究保留,current_offer_terms,https://item.jd.com/100081396648.html
+loccitane,欧舒丹,护手霜,detail,24,品牌/背书,品牌与服务收尾,25,品牌历史、礼袋、配送及服务说明拼合。,仅研究保留,authorized_brand_material,https://item.jd.com/100081396648.html
+avene,雅漾,喷雾,main,1,活动/赠品,活动主图,1,多瓶和赠品配珊瑚橙活动块。,仅研究保留,current_offer_terms,https://item.jd.com/200868.html
+avene,雅漾,喷雾,main,2,活动/赠品,规格促销,2,不同容量与权益对比。,仅研究保留,current_offer_terms,https://item.jd.com/200868.html
+avene,雅漾,喷雾,main,3,活动/赠品,会员礼,3,优惠券与会员方格。,仅研究保留,current_offer_terms,https://item.jd.com/200868.html
+avene,雅漾,喷雾,main,4,使用场景,日常与特殊人群场景,4,日常四宫格及母婴图片混排；只取符合目标产品的日常部分。,需产品资料,confirmed_use_scenario,https://item.jd.com/200868.html
+avene,雅漾,喷雾,main,5,成分/香调,瓶内水源示意,5,喷雾罐截面内绘水和岩石，下方为矿物信息。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/200868.html
+avene,雅漾,喷雾,main,6,效果/证据,补水测试,6,人物闭眼与效果比例。,仅研究保留,product_specific_evidence,https://item.jd.com/200868.html
+avene,雅漾,喷雾,main,7,品牌/背书,奖杯与榜单,7,金色奖杯式排名海报。,仅研究保留,authorized_brand_material,https://item.jd.com/200868.html
+avene,雅漾,喷雾,main,8,规格/标签,背面标签,8,瓶背及标签文字。,需产品资料,verified_specs_and_label,https://item.jd.com/200868.html
+avene,雅漾,喷雾,main,9,版本/升级,新旧瓶体,9,两个版本并列。,需产品资料,old_new_assets_and_facts,https://item.jd.com/200868.html
+avene,雅漾,喷雾,main,10,品牌/背书,研发介绍,10,白大褂人物与品牌研究文字。,仅研究保留,authorized_brand_material,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,1,活动/赠品,跨产品活动,"1,2",琥珀色新品及多 SKU 优惠。,仅研究保留,current_offer_terms,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,2,品牌/背书,奖项横幅,3,黑金奖项横幅。,仅研究保留,authorized_brand_material,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,3,产品凸显,手持喷雾首屏,4,手握白色罐体，浅粉白底，旁有功效比例。,构图可用,,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,4,效果/证据,特殊人群护理,5,婴幼儿图片与临床数据。,仅研究保留,product_specific_evidence,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,5,品牌/背书,水源由来,6,山体水循环和研究设施示意。,仅研究保留,authorized_brand_material,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,6,效果/证据,文献证据,7,多本期刊封面及证据文字。,仅研究保留,product_specific_evidence,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,7,成分/香调,水源与矿物,8,罐体截面展示水和岩石，三项矿物信息表。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,8,使用场景,日常四场景,9,分格展示日常使用时刻；场景用途须来自本品资料。,需产品资料,confirmed_use_scenario,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,9,使用场景,母婴及特殊使用,10,母婴和特殊护理情境。,仅研究保留,confirmed_use_scenario,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,10,效果/证据,人物效果数据,11,笑脸人物与补水比例。,仅研究保留,product_specific_evidence,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,11,效果/证据,测试标题与结果,"12,13",测试标题接护理人员、受试者与百分比。,仅研究保留,product_specific_evidence,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,12,品牌/背书,护理中心,14,设施建筑照片。,仅研究保留,authorized_brand_material,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,13,品牌/背书,中心护理项目,15,浸浴、冲淋、湿敷和蒸汽等专业护理项目，不能当作喷雾商品普通用法。,仅研究保留,authorized_brand_material,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,14,疑问解答,适用问题,16,珊瑚橙边框内三组问答。,需产品资料,verified_faq,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,15,系列/选型,进阶搭配,17,喷雾与四种真实系列产品组合。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,16,说明/脚注,资料来源,18,密集脚注。,仅研究保留,claim_sources,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,17,品牌/背书,授权书,19,品牌授权文件。,仅研究保留,authorized_brand_material,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,18,品牌/背书,实验室故事,20,皮肤局部背景上的四项品牌信息。,仅研究保留,authorized_brand_material,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,19,品牌/背书,中心服务,21,护理中心与人物拼图。,仅研究保留,authorized_brand_material,https://item.jd.com/200868.html
+avene,雅漾,喷雾,detail,20,品牌/背书,集团时间线,22,人物、历史照片与年份纵向排列。,仅研究保留,authorized_brand_material,https://item.jd.com/200868.html
+kiehls,科颜氏,面霜,main,1,活动/赠品,产品与礼赠,1,黄色展示窗内白罐、小样与活动信息。,仅研究保留,current_offer_terms,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,main,2,活动/赠品,会员优惠,2,黄色边框内优惠券和入会礼。,仅研究保留,current_offer_terms,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,main,3,质地/使用感,开盖冰淇淋质地,3,白罐置于大面积膏体抹痕，左侧三项肤感。,需产品资料,texture_reference,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,main,4,使用场景,室内外情境,4,蓝底上的拍立得式场景照片与产品。,需产品资料,confirmed_use_scenario,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,main,5,规格/标签,规格说明,5,产品信息卡与规格标签。,需产品资料,verified_specs_and_label,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,1,品牌/背书,品牌授权,1,授权证书。,仅研究保留,authorized_brand_material,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,2,活动/赠品,优惠与多品推荐,"2,3",优惠条和多品礼赠网格。,仅研究保留,current_offer_terms,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,3,系列/选型,赠品版本,4,不同赠品的随机发货公告。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,4,品牌/背书,活动服务,5,礼赠、售后与保质期说明。,仅研究保留,authorized_brand_material,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,5,版本/升级,包装版本公告,"6,7",两条白罐版本差异与发货说明。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,6,产品凸显,冰蓝白罐主视觉,8,白罐悬于金属器物与冰雪元素之间。,构图可用,,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,7,品牌/背书,历史与热销,9,山景前有销量宣称和品牌时间线。,仅研究保留,authorized_brand_material,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,8,需求/痛点,干纹需求,10,人物面部放大镜、皮肤剖面和干纹问题。,需产品资料,target_user_needs,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,9,成分/香调,保湿配方矩阵,11,冰晶、原料球体与皮肤模块呈现配方。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,10,效果/证据,效果验证,12,人物持罐与三项效果比例。,仅研究保留,product_specific_evidence,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,11,使用方法,三种使用方式,13,切片上部为膏体和妆前、日常、厚敷三种方式。,需产品资料,confirmed_instructions,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,12,使用场景,室内外四种需求,13,同一切片下部用蓝底剪贴照片连接空调房、换季、烈日和户外活动。,需产品资料,confirmed_use_scenario,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,13,系列/选型,面霜三款对比,14,白、红、蓝罐三列比较；下部含密集脚注。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,14,品牌/背书,环保项目,15,绿色图标解释品牌环保项目。,仅研究保留,authorized_brand_material,https://item.jd.com/100022610088.html
+kiehls,科颜氏,面霜,detail,15,品牌/背书,防伪及售后,16,防伪标记与产品服务说明。,仅研究保留,authorized_brand_material,https://item.jd.com/100022610088.html
+lancome,兰蔻,化妆水,main,1,活动/赠品,套装权益,1,红色礼盒内正装和小样，叠加购买权益。,仅研究保留,current_offer_terms,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,main,2,结构/多角度,限定礼盒,2,盒与手提袋并排，侧光突出红色纹理。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,main,3,品牌/背书,代言主视觉,3,人物手持粉瓶。,仅研究保留,authorized_brand_material,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,main,4,成分/香调,三种核心成分,4,右侧三枚粉色透明球，左侧配方说明。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,main,5,效果/证据,补水数据,5,人物旁排列即时和持续补水百分比。,仅研究保留,product_specific_evidence,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,main,6,产品凸显,简洁单瓶,6,白底粉色长瓶，少量透明液体边缘，左侧数字说明。,构图可用,,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,main,7,规格/标签,产品标签,7,白底黑字规格和成分信息。,需产品资料,verified_specs_and_label,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,1,活动/赠品,多款套装活动,1,红色礼盒组成六宫格活动表。,仅研究保留,current_offer_terms,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,2,品牌/背书,活动及售后,2,服务规则。,仅研究保留,authorized_brand_material,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,3,品牌/背书,代言首屏,3,人物持瓶，左侧竖排品牌大字。,仅研究保留,authorized_brand_material,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,4,需求/痛点,两类肤况需求,4,两个面部局部图对应缺水和泛红。,需产品资料,target_user_needs,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,5,产品凸显,粉瓶阵列,5,多只同款粉瓶在白底错落排布，前后景形成节奏。,构图可用,,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,6,效果/证据,补水实证,6,人物及两项补水比例。,仅研究保留,product_specific_evidence,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,7,效果/证据,泛红效果,7,热成像和皮肤前后对比。,仅研究保留,product_specific_evidence,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,8,成分/香调,成分三球,8,粉色球体对应三类原料，旁有机制和比例文字。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,9,优势总览,配方说明,9,单瓶左侧为无添加、天然来源和 pH 等信息。,需产品资料,confirmed_benefits,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,10,品牌/背书,售后规则,10,标识、防伪和服务说明。,仅研究保留,authorized_brand_material,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,11,品牌/背书,品牌授权,11,品牌授权横幅。,仅研究保留,authorized_brand_material,https://item.jd.com/100011480214.html
+lancome,兰蔻,化妆水,detail,12,品牌/背书,礼盒提醒,12,礼盒礼袋的文字提醒。,仅研究保留,authorized_brand_material,https://item.jd.com/100011480214.html
+kerastase,卡诗,护发精油,main,1,活动/赠品,到手赠品,1,金瓶与小样礼盒，粉色背景和价格条。,仅研究保留,current_offer_terms,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,main,2,活动/赠品,会员礼,2,多档赠品和入会步骤。,仅研究保留,current_offer_terms,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,main,3,效果/证据,人物效果,3,人物手持精油，旁列修护和光泽数字。,仅研究保留,product_specific_evidence,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,main,4,成分/香调,山茶花原料,4,半幅山茶花特写与培育、采撷、萃取三个说明。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,main,5,成分/香调,香调组合,5,手持精油，花、木等元素竖向排出前中后调。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,main,6,品牌/背书,品牌及服务,6,黑白人物群像、会员及配送标识。,仅研究保留,authorized_brand_material,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,main,7,规格/标签,两版标签,7,两张标签并排。,需产品资料,verified_specs_and_label,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,main,8,规格/标签,独立标签,8,另一张完整标签。,需产品资料,verified_specs_and_label,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,1,版本/升级,包装说明,2,三个外盒包装细节版本对照。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,2,系列/选型,赠品版本,3,两种小瓶及随机发货文字。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,3,版本/升级,正装版本,4,正装瓶及两种配方版本说明。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,4,产品凸显,第一组金瓶登场,5,白底金色泵瓶，投影与标题突出产品。,构图可用,,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,5,成分/香调,原料来源,6,山茶花大特写和三步来源说明。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,6,原理解释,内部修护,7,花瓣、金球和发丝截面显微对比。,需产品资料,verified_mechanism,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,7,原理解释,外部光泽,8,泵瓶置于乳白柔缎，两项技术标签。,需产品资料,verified_mechanism,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,8,效果/证据,专利说明,9,产品旁展示专利证书。,仅研究保留,product_specific_evidence,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,9,效果/证据,分时效果,10,人物持瓶与分时效果列表。,仅研究保留,product_specific_evidence,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,10,效果/证据,发丝对照,11,两张背面头发照片及反馈比例。,仅研究保留,product_specific_evidence,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,11,质地/使用感,轻润油体,12,金瓶被透明金色油体环绕。,需产品资料,texture_reference,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,12,使用方法,滴匀揉顺四步,13,掌心取用、搓匀、揉发与顺发的四格图。,需产品资料,confirmed_instructions,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,13,成分/香调,木质香调,14,手持瓶和三种植物元素，底部香调表。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,14,品牌/背书,用户口碑,15,人物头像与引语。,仅研究保留,authorized_brand_material,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,15,使用方法,护理四步,16,洗、护、头皮、秀发四件真实产品依次排列。,需产品资料,confirmed_instructions,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,16,结构/多角度,替换芯,17,人物持瓶下方是三步拆卸替换示意；只适配确有替换结构的产品。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,17,疑问解答,第一组问答,18,版本差异、黏腻感和发质问题。,需产品资料,verified_faq,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,18,说明/脚注,第一组脚注,19,密集来源说明。,仅研究保留,claim_sources,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,19,产品凸显,第二组金瓶登场,20,金瓶贴近白墙，左侧暖色投影。,构图可用,,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,20,成分/香调,第二组原料,21,花朵近景与来源说明。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,21,成分/香调,第二组配方,22,花瓣与金色球体解释复配原料。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,22,原理解释,导入机制,23,金色透明球体和导入示意。,需产品资料,verified_mechanism,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,23,原理解释,长效技术,24,柔缎、金瓶与两个技术信息块。,需产品资料,verified_mechanism,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,24,效果/证据,第二组专利,25,证书与瓶体。,仅研究保留,product_specific_evidence,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,25,效果/证据,第二组分时效果,26,人物持瓶与多日效果文字。,仅研究保留,product_specific_evidence,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,26,效果/证据,第二组发丝对比,27,分栏前后发丝图。,仅研究保留,product_specific_evidence,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,27,质地/使用感,第二组油体,28,油体环绕直立瓶身。,需产品资料,texture_reference,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,28,成分/香调,第二组香调,29,手持瓶、植物排列和香调表。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,29,使用场景,多用途场景,30,单瓶上方三列文字对应日常、造型和染烫。,需产品资料,confirmed_use_scenario,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,30,使用方法,第二组四步,31,掌心、双手和发丝连续操作图。,需产品资料,confirmed_instructions,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,31,品牌/背书,第二组口碑,32,人物头像与评价引语。,仅研究保留,authorized_brand_material,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,32,使用方法,第二组护理搭配,33,四件系列产品横排。,需产品资料,confirmed_instructions,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,33,疑问解答,第二组问答,34,用量、质地与适用发质。,需产品资料,verified_faq,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,34,说明/脚注,第二组脚注,35,集中数据来源。,仅研究保留,claim_sources,https://item.jd.com/100112283355.html
+kerastase,卡诗,护发精油,detail,35,品牌/背书,溯源入口,36,品牌产品溯源查询条。,仅研究保留,authorized_brand_material,https://item.jd.com/100112283355.html
+doublewear,雅诗兰黛,粉底液,main,1,活动/赠品,手持产品权益,1,手持粉底瓶，左侧标题和赠品小图。,仅研究保留,current_offer_terms,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,main,2,活动/赠品,礼赠内容,2,正装、小样与礼盒袋分两层。,仅研究保留,current_offer_terms,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,main,3,系列/选型,底妆搭配,3,粉底与妆前、气垫等真实产品配对。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,main,4,活动/赠品,会员四格,4,四项会员权益。,仅研究保留,current_offer_terms,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,main,5,品牌/背书,人物主视觉,5,人物与全球排名宣称。,仅研究保留,authorized_brand_material,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,main,6,产品凸显,轻纱粉底瓶,6,倾斜瓶体悬在米白轻纱之间，旁列三项利益点。,构图可用,,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,main,7,色号/试色,色号瓶阵,7,不同肤色粉底瓶形成阶梯，左侧色号文字。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,main,8,版本/升级,两代对比,8,新旧瓶与升级信息并列。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,main,9,系列/选型,底妆家族,9,不同底妆产品陈列在米色台座上。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,main,10,规格/标签,标签信息,10,白底标签配深蓝边框。,需产品资料,verified_specs_and_label,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,1,品牌/背书,品牌授权,1,授权文件。,仅研究保留,authorized_brand_material,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,2,活动/赠品,会员权益,2,三块会员说明。,仅研究保留,current_offer_terms,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,3,活动/赠品,跨品活动,3,六款底妆/彩妆活动。,仅研究保留,current_offer_terms,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,4,品牌/背书,礼袋与售后,4,礼盒、活动和售后公告。,仅研究保留,authorized_brand_material,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,5,产品凸显,新一代产品首屏,5,多只粉底瓶在灰白背景错落排布，顶部有品牌、升级与持妆标题。,构图可用,,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,6,品牌/背书,升级引题,6,静态画面下部提出持妆升级问题；来源包含动画素材，未把动画首帧当成全部动态内容。,仅研究保留,authorized_brand_material,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,7,产品凸显,持妆主视觉,7,轻纱托起倾斜瓶，标题与持妆膜说明从上而下展开。,构图可用,,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,8,原理解释,控油颗粒,8,奶油底上的透明球体与颗粒技术说明。,需产品资料,verified_mechanism,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,9,成分/香调,水油配方,9,海藻、白色粉末与配方名称，上下接到实验图片。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,10,效果/证据,控油实测,"9,10",两张切片接成皮肤油光时序对比。,仅研究保留,product_specific_evidence,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,11,妆效展示,柔雾妆效,11,人像与肤色圆形局部，突出妆面效果。,需产品资料,product_specific_makeup_assets,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,12,质地/使用感,粉质近景,12,大片粉底抹痕与粉体细度、延展性文字。,需产品资料,texture_reference,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,13,使用方法,三步上妆,13,三张眼周/脸颊刷涂照片与分层上妆说明。,需产品资料,confirmed_instructions,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,14,优势总览,配方适用说明,14,瓶体、米色抹痕和六项配方说明。,需产品资料,confirmed_benefits,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,15,色号/试色,色彩体系引入,15,单瓶放在粉底抹痕上，标题说明色彩系列。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,16,品牌/背书,研发数据,16,技术年份、肤色数据等短条。,仅研究保留,authorized_brand_material,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,17,色号/试色,脸颊多色试色,17,同一人脸颊上并排多条粉底色号。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,18,色号/试色,冷暖与明度坐标,18,C/N/W 列和深浅行组成色号表。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,19,品牌/背书,研发与人物,19,多人合照与研发数字。,仅研究保留,authorized_brand_material,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,20,版本/升级,新旧配方对比,"20,21",新旧瓶配左右信息列，跨切片延续。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,21,系列/选型,底妆家族,22,台座上的粉底、气垫、蜜粉和妆前产品。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,22,疑问解答,肤质版本色号问答,23,三条问答说明适用肤质、新旧差异与选色。,需产品资料,verified_faq,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,23,说明/脚注,数据脚注,24,密集来源。,仅研究保留,claim_sources,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,24,规格/标签,瓶身和标签,25,白底正装瓶与中文标签。,需产品资料,verified_specs_and_label,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,25,品牌/背书,重复服务公告,26,原页末尾再次出现礼袋及售后说明。,仅研究保留,authorized_brand_material,https://item.jd.com/100022609938.html
+doublewear,雅诗兰黛,粉底液,detail,26,系列/选型,重复赠品公告,27,原页末尾再次出现赠品版本对照。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100022609938.html
+yslcushion,圣罗兰,气垫,main,1,活动/赠品,礼盒组合,1,粉盒、正装与小样置于礼盒中。,仅研究保留,current_offer_terms,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,main,2,结构/多角度,礼盒礼袋,2,盒袋、卡片组合与金属纹理。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,main,3,品牌/背书,代言持盒,3,人物拿气垫盒，银灰背景。,仅研究保留,authorized_brand_material,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,main,4,妆效展示,脸部妆效比较,4,同一张脸用斜线分区，旁列三个妆效点。,需产品资料,product_specific_makeup_assets,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,main,5,色号/试色,两款热门色号,5,两个人脸配色号、肤色说明。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,main,6,系列/选型,底妆搭配,6,粉气垫与粉底液放在粉色心形底上。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,main,7,品牌/背书,正品与配送,7,人物、服务卡和图标。,仅研究保留,authorized_brand_material,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,main,8,规格/标签,产品标签,8,色号、规格与成分标签。,需产品资料,verified_specs_and_label,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,1,品牌/背书,授权,1,人物授权横幅。,仅研究保留,authorized_brand_material,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,2,活动/赠品,会员入口,2,会员权益横幅。,仅研究保留,current_offer_terms,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,3,活动/赠品,跨品推荐,3,不同彩妆与香水的推荐拼图。,仅研究保留,current_offer_terms,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,4,品牌/背书,品牌活动横幅,4,手持气垫配活动标题。,仅研究保留,authorized_brand_material,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,5,品牌/背书,代言首屏,5,人物持粉盒占据整屏。,仅研究保留,authorized_brand_material,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,6,产品凸显,绗缝盒体特写,6,粉金圆盒置于同色皮革绗缝面，突出外观轮廓与材质。,构图可用,,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,7,质地/使用感,网面与粉质,7,网状粉芯及膏体微距，下方有局部拍涂图。,需产品资料,texture_reference,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,8,妆效展示,遮瑕与叠涂,8,脸部斜分对照，下方两张上妆照片。,需产品资料,product_specific_makeup_assets,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,9,优势总览,水感与使用感,9,圆盒浮于水波，下方局部肤感图片及使用情境。,需产品资料,confirmed_benefits,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,10,妆效展示,光泽妆面,10,大幅人脸侧面展示光泽。,需产品资料,product_specific_makeup_assets,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,11,结构/多角度,替换内芯,11,中央闭盒周围排开四个打开的内芯。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,12,色号/试色,色号选择,12,两张热门色号人像，下方为冷暖与明度坐标。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,13,系列/选型,粉黑两款对照,13,两个打开的圆盒，下面比较肤质、妆效和遮瑕等。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100032715986.html
+yslcushion,圣罗兰,气垫,detail,14,品牌/背书,售后说明,14,标签、防伪与盒体示意。,仅研究保留,authorized_brand_material,https://item.jd.com/100032715986.html
+ysllip,圣罗兰,口红,main,1,活动/赠品,口红礼盒,1,单支口红置于粉色礼盒中。,仅研究保留,current_offer_terms,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,main,2,活动/赠品,礼赠组合,2,礼盒、卡片和赠品组。,仅研究保留,current_offer_terms,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,main,3,品牌/背书,人物与口红,3,人物持管、深色背景和热销宣称。,仅研究保留,authorized_brand_material,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,main,4,色号/试色,1936 薄厚涂,4,同一唇部中线两侧分别展示薄涂和厚涂。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,main,5,色号/试色,全色阵列,5,二十支不同膏体色的口红在金色背景分层排布。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,main,6,品牌/背书,品牌服务,6,人物与配送、正品标识。,仅研究保留,authorized_brand_material,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,main,7,规格/标签,规格标签,7,色号 1936、2.2g 与成分文字。,需产品资料,verified_specs_and_label,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,1,品牌/背书,授权,1,人物与授权说明。,仅研究保留,authorized_brand_material,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,2,活动/赠品,会员入口,2,会员横幅。,仅研究保留,current_offer_terms,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,3,活动/赠品,跨品推荐,3,口红、气垫和香水推荐块。,仅研究保留,current_offer_terms,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,4,品牌/背书,1988 灵感,4,人物肖像与品牌年份故事。,仅研究保留,authorized_brand_material,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,5,色号/试色,1988 薄厚涂,5,黑底，两张唇部试色并排；属于其他色号。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,6,品牌/背书,1936 灵感,6,黑底金属铭牌与人物持管，接下一张切片。,仅研究保留,authorized_brand_material,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,7,色号/试色,1936 薄厚涂,7,同款色号标题、描述与两张唇部试色。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,8,品牌/背书,1977 灵感,8,金色背景人物与年份铭牌。,仅研究保留,authorized_brand_material,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,9,色号/试色,1977 薄厚涂,9,两张唇部图展示不同涂法；其他色号。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,10,品牌/背书,1966 灵感,10,黑色服装人物与年份铭牌。,仅研究保留,authorized_brand_material,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,11,色号/试色,1966 薄厚涂,11,黑底红唇对照；其他色号。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,12,品牌/背书,314 人物,12,金色墙面前的人物肖像。,仅研究保留,authorized_brand_material,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,13,色号/试色,314 薄厚涂,13,两张茶棕色唇部试色；其他色号。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,14,色号/试色,全色阵列,14,金色台面上的二十色口红。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,15,色号/试色,28 与 25 色号,15,两行交错排产品和唇部试色。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,16,色号/试色,32 与 35 色号,16,延续两行产品与唇部图。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,17,产品凸显,黑金管体,17,闭合与打开的两支口红并立，暖金背景。,需产品资料,matching_multiview_or_structure_assets,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,18,系列/选型,唇妆家族,18,五种唇部产品与质地、显色等对比列。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100259348596.html
+ysllip,圣罗兰,口红,detail,19,品牌/背书,售后,19,盒体标识与售后文字。,仅研究保留,authorized_brand_material,https://item.jd.com/100259348596.html
+threece,3CE,眼影,main,1,活动/赠品,活动主图,1,盘体、礼赠和价格密集排列。,仅研究保留,current_offer_terms,https://item.jd.com/100026267026.html
+threece,3CE,眼影,main,2,活动/赠品,会员权益,2,积分和优惠券。,仅研究保留,current_offer_terms,https://item.jd.com/100026267026.html
+threece,3CE,眼影,main,3,妆效展示,本品眼妆局部,3,左侧盘体缩略图，右侧大幅眼部近景。,需产品资料,product_specific_makeup_assets,https://item.jd.com/100026267026.html
+threece,3CE,眼影,main,4,优势总览,三项使用优势,4,粉末背景上人物持盘与三个利益点。,需产品资料,confirmed_benefits,https://item.jd.com/100026267026.html
+threece,3CE,眼影,main,5,妆效展示,橘棕盘全脸妆容,5,人物持本品盘，展示整体妆容。,需产品资料,product_specific_makeup_assets,https://item.jd.com/100026267026.html
+threece,3CE,眼影,main,6,色号/试色,深棕哑光盘,6,另一款 SMOOTHER 盘与人脸。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100026267026.html
+threece,3CE,眼影,main,7,色号/试色,芋泥盘,7,另一款 SOME DEF 盘与粉紫妆面。,需产品资料,verified_shades_and_swatch_assets,https://item.jd.com/100026267026.html
+threece,3CE,眼影,detail,1,活动/赠品,会员横幅,1,积分与入会礼。,仅研究保留,current_offer_terms,https://item.jd.com/100026267026.html
+threece,3CE,眼影,detail,2,活动/赠品,跨品活动,2,多件彩妆与礼盒。,仅研究保留,current_offer_terms,https://item.jd.com/100026267026.html
+threece,3CE,眼影,detail,3,版本/升级,九宫格改版,3,新旧背标和包装细节对照。,需产品资料,old_new_assets_and_facts,https://item.jd.com/100026267026.html
+threece,3CE,眼影,detail,4,系列/选型,眼颊套装,4,人物下方放开盖眼影盘与圆形腮红。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100026267026.html
+threece,3CE,眼影,detail,5,活动/赠品,腮红跨品广告,5,粉色衣物人物和腮红近景，属于其他商品。,仅研究保留,current_offer_terms,https://item.jd.com/100026267026.html
+threece,3CE,眼影,detail,6,妆效展示,本品整体妆容,6,同一长图上部为人物、九宫格产品与粉末肌理。,需产品资料,product_specific_makeup_assets,https://item.jd.com/100026267026.html
+threece,3CE,眼影,detail,7,使用方法,四步眼妆教程,6,同一长图下部以盘内编号关联上眼皮打底、眼中叠加、眼尾加深和下眼睑等操作及眼部图。,需产品资料,"confirmed_instructions,verified_shades_and_swatch_assets",https://item.jd.com/100026267026.html
+threece,3CE,眼影,detail,8,规格/标签,色号背标,7,OVERTAKE、8.1g 与成分标签。,需产品资料,verified_specs_and_label,https://item.jd.com/100026267026.html
+threece,3CE,眼影,detail,9,品牌/背书,售后说明,8,开封、封装与退换相关文字。,仅研究保留,authorized_brand_material,https://item.jd.com/100026267026.html
+missdior,迪奥,香水,main,1,产品凸显,白底透明瓶,1,玻璃方瓶、粉色液体与银色蝴蝶结，白底有柔影。,构图可用,,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,main,2,活动/赠品,会员赠礼,2,白底礼赠规则。,仅研究保留,current_offer_terms,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,main,3,产品凸显,花束中的香水,3,瓶体倾斜嵌入粉白花束，中心标签清楚。,构图可用,,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,main,4,成分/香调,花卉近景,4,粉白花朵特写，承接香调与情绪。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,main,5,使用场景,礼赠比例趣味,5,大手递礼盒给小比例人物，白底长投影。,需产品资料,confirmed_use_scenario,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,main,6,规格/标签,产品标签一,6,白框内成分、容量和生产信息。,需产品资料,verified_specs_and_label,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,main,7,规格/标签,产品标签二,7,另一版本标签，需核对对应商品。,需产品资料,verified_specs_and_label,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,detail,1,品牌/背书,品牌授权,1,黑底授权条。,仅研究保留,authorized_brand_material,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,detail,2,活动/赠品,会员礼,2,三项会员专属礼遇。,仅研究保留,current_offer_terms,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,detail,3,系列/选型,礼盒组合,3,香水与唇妆等真实组合。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,detail,4,品牌/背书,品牌人物首屏,4,人物拿瓶，粉色背景和品牌宣言。,仅研究保留,authorized_brand_material,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,detail,5,产品凸显,花束主视觉,5,长图上半瓶体置于花束，标题简洁。,构图可用,,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,detail,6,成分/香调,花卉与香调,5,同一长图下半花朵特写，接香调描述。,需产品资料,confirmed_ingredients_or_scent,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,detail,7,系列/选型,四款香水对照,6,四列香水与对应花卉，香氛强度点阵帮助选型。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,detail,8,使用场景,礼赠时刻,7,大手递礼盒、小人物及留白。,需产品资料,confirmed_use_scenario,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,detail,9,品牌/背书,正品与服务,8,黑底服务标识和说明。,仅研究保留,authorized_brand_material,https://item.jd.com/100055252121.html
+missdior,迪奥,香水,detail,10,说明/脚注,温馨提示,9,页面文字提示。,仅研究保留,claim_sources,https://item.jd.com/100055252121.html
+advancednight,雅诗兰黛,精华,main,1,活动/赠品,套装礼赠,1,蓝色礼盒内正装与小样，底部权益条。,仅研究保留,current_offer_terms,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,main,2,活动/赠品,赠品与包装,2,分上下两区展示小样和礼盒袋。,仅研究保留,current_offer_terms,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,main,3,系列/选型,水与精华组合,3,两件产品在高低蓝色台座上。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,main,4,活动/赠品,会员权益,4,四格会员说明。,仅研究保留,current_offer_terms,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,main,5,产品凸显,深蓝琥珀瓶,5,棕色滴管瓶放大，背景红色光线，右侧数字。,构图可用,,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,main,6,原理解释,液滴解释机制,6,滴管滴出金色大液滴，四周是机制信息。,需产品资料,verified_mechanism,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,main,7,质地/使用感,滴管质地,7,滴管和两滴琥珀液体置于圆形器皿。,需产品资料,texture_reference,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,main,8,系列/选型,配套修护体系,8,水与精华同框，下方发光台面。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,main,9,规格/标签,产品标签,9,白底标签置于深蓝边框内。,需产品资料,verified_specs_and_label,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,1,品牌/背书,品牌授权,1,授权文件。,仅研究保留,authorized_brand_material,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,2,活动/赠品,尝鲜活动,2,护理水与试用权益。,仅研究保留,current_offer_terms,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,3,活动/赠品,跨品活动,3,多种瓶罐活动网格。,仅研究保留,current_offer_terms,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,4,品牌/背书,礼赠及售后,4,规则公告。,仅研究保留,authorized_brand_material,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,5,需求/痛点,多种肤况问题,5,三个皮肤局部方格对应纹、暗、红，下方承接需求。,需产品资料,target_user_needs,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,6,产品凸显,产品主视觉,6,大幅琥珀瓶与斜向红光，右侧优势数字列。,构图可用,,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,7,原理解释,科技机制总览,7,滴管、金色液滴与连接线解释多项机制。,需产品资料,verified_mechanism,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,8,原理解释,微观修护路径,8,液体表面与下方微观结构，旁列机制信息。,需产品资料,verified_mechanism,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,9,效果/证据,面部效果,9,人物侧脸及多项效果数字。,仅研究保留,product_specific_evidence,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,10,效果/证据,实验与前后对照,10,荧光显微图和泛红皮肤前后对比。,仅研究保留,product_specific_evidence,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,11,效果/证据,专业护理场景证据,11,人脸网格模型与专业项目相关数字。,仅研究保留,product_specific_evidence,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,12,质地/使用感,琥珀质地,12,滴管悬在圆形器皿上，两滴液体和质地文字。,需产品资料,texture_reference,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,13,系列/选型,系列搭配,13,精华与护理水成组，深蓝发光台面。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,14,品牌/背书,产品迭代史,14,多代小棕瓶沿上升时间线排列。,仅研究保留,authorized_brand_material,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,15,说明/脚注,来源脚注,15,密集来源说明。,仅研究保留,claim_sources,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,16,规格/标签,产品与背标,16,瓶、外盒和多张标签共同核对。,需产品资料,verified_specs_and_label,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,17,品牌/背书,售后重复公告,17,礼袋、活动和标签防伪说明。,仅研究保留,authorized_brand_material,https://item.jd.com/100022610146.html
+advancednight,雅诗兰黛,精华,detail,18,系列/选型,赠品版本,18,多种小样的随机发货公告。,需产品资料,real_sku_assets_and_differences,https://item.jd.com/100022610146.html

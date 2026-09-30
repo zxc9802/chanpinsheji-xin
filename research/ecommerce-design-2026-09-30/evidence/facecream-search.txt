@@ -1,0 +1,673 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 京东国际
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "[NO.1抗皱面霜]OLAY超红瓶滋润50g":
+  - generic: 广告
+- img "自营"
+- generic "[NO.1抗皱面霜]OLAY超红瓶滋润50g"
+- generic: 拉紧蛋白网
+- generic: "|修护力更强"
+- generic: "|中秋节礼物"
+- generic: ¥
+- generic: "339"
+- button
+- img "明日达"
+- img "京东超市"
+- img "重磅新品"
+- generic "已售100万+"
+- generic: OLAY玉兰油京东自营旗舰店
+- generic "适乐肤（CeraVe）特润C霜85g（保湿补水防干裂干燥男士女士面霜身体乳张凌赫同款）":
+- img "自营"
+- text: 适乐肤（CeraVe）特润C霜85g（保湿补水防干裂干燥男士女士面霜身体乳张凌赫同款）
+- generic "抗初老乳液面霜热卖榜第8名":
+  - text: 抗初老乳液面霜热卖榜第8名
+- generic: “
+- generic: 以后估计会经常性购买
+- generic: ”
+- generic: 呵护屏障
+- generic: "|张凌赫同款"
+- generic: "|高保湿"
+- generic: "|保湿速效"
+- generic "抗初老乳液面霜热卖榜第8名":
+  - text: 抗初老乳液面霜热卖榜第8名
+- generic: ¥
+- generic: "71"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售200万+"
+- generic "9万+人种草"
+- generic: CeraVe适乐肤京东自营旗舰店
+- generic "珀莱雅红宝石面霜轻润款4.0 50g 抗皱紧致淡化细纹乳液面霜保湿":
+- img "自营"
+- text: 珀莱雅红宝石面霜轻润款4.0 50g 抗皱紧致淡化细纹乳液面霜保湿
+- generic "中性肤质适用乳液面霜热卖榜第1名":
+  - text: 中性肤质适用乳液面霜热卖榜第1名
+- generic: “
+- generic: 保湿不油腻，淡纹提亮
+- generic: ”
+- generic: 抗皱紧致
+- generic: "|重磅上新"
+- generic: "|速充胶原"
+- generic: "|细腻肤感"
+- generic "中性肤质适用乳液面霜热卖榜第1名":
+  - text: 中性肤质适用乳液面霜热卖榜第1名
+- generic: ¥
+- generic: "289"
+- generic: 到手价
+- generic: ¥322
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 券满500减50
+- generic: 赠
+- generic "已售300万+"
+- generic "3万+人好评"
+- generic: 珀莱雅京东自营旗舰店
+- generic "珂润（Curel）补水保湿舒缓修护敏感肌男女士进口护肤品 生日礼物 保湿面霜40g"
+- img "自营"
+- text: 珂润（Curel）补水保湿舒缓修护敏感肌男女士进口护肤品 生日礼物 保湿面霜40g
+- generic "珂润乳液面霜热卖榜第1名":
+  - text: 珂润乳液面霜热卖榜第1名
+- generic: “
+- generic: 连续买了没断过，敏感肌放心用
+- generic: ”
+- generic: 舒缓修护
+- generic: "|补水保湿"
+- generic: "|神经酰胺护理"
+- generic: "|舒缓修护"
+- generic "珂润乳液面霜热卖榜第1名":
+  - text: 珂润乳液面霜热卖榜第1名
+- generic: ¥
+- generic: "145"
+- button
+- img "明日达"
+- generic: 满赠
+- generic: 满赠
+- generic "已售100万+"
+- generic "6500+人复购"
+- generic: 珂润京东自营旗舰店
+- generic "珀莱雅红宝石面霜滋润4.0 50g抗皱紧致淡纹细纹保湿乳液面霜":
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅红宝石面霜滋润4.0 50g抗皱紧致淡纹细纹保湿乳液面霜"
+- generic: 95万+店铺粉丝浏览
+- generic: "|紧致淡纹"
+- generic: "|淡化细纹"
+- generic: ¥
+- generic: "289"
+- generic: 到手价
+- generic: ¥322
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 券满500减50
+- generic "已售300万+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "欧莱雅小蜜罐面霜4.0轻盈版60ml"
+- img "自营"
+- text: 欧莱雅小蜜罐面霜4.0轻盈版60ml
+- generic: “
+- generic: 滋润度高，脸上不会觉得干
+- generic: ”
+- generic: 清透润肤
+- generic: "|混油推荐"
+- generic: "|全新升级"
+- generic: "|热销榜单"
+- generic: “
+- generic: 滋润度高，脸上不会觉得干
+- generic: ”
+- generic: ¥
+- generic: "132"
+- generic: 到手价
+- generic: ¥139
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 限时立减7元
+- generic "已售10万+"
+- generic "200+人复购"
+- generic: 京东美妆自营旗舰店
+- generic "科颜氏（Kiehl's）全新第三代高保湿面霜50ml补水保湿滋润护肤品国庆节礼物":
+- img "自营"
+- text: 科颜氏（Kiehl's）全新第三代高保湿面霜50ml补水保湿滋润护肤品国庆节礼物
+- generic "乳液面霜金榜第6名":
+  - text: 乳液面霜金榜第6名
+- generic: “
+- generic: 换季起皮泛红都能稳住
+- generic: ”
+- generic: 强韧肌肤屏障
+- generic: "|滋润修护"
+- generic: "|持久保湿"
+- generic: "|肤质舒缓"
+- generic "乳液面霜金榜第6名":
+  - text: 乳液面霜金榜第6名
+- generic: ¥
+- generic: "315"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售200万+"
+- generic "30天种草飙升5倍"
+- generic: 科颜氏Kiehl's京东自营旗舰店
+- generic "珀莱雅紧致肌密面霜【重磅升级】":
+- img "自营"
+- text: 珀莱雅紧致肌密面霜【重磅升级】
+- generic "修复乳液面霜热卖榜第4名":
+  - text: 修复乳液面霜热卖榜第4名
+- generic: “
+- generic: 吸收快不搓泥，后续上妆服帖
+- generic: ”
+- generic: 淡化细纹
+- generic: "|紧致肌肤"
+- generic: "|弹润滋养"
+- generic: "|全新升级"
+- generic "修复乳液面霜热卖榜第4名":
+  - text: 修复乳液面霜热卖榜第4名
+- generic: ¥
+- generic: "69"
+- generic: 到手价
+- generic: ¥76.7
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 满140减19
+- generic: 满赠
+- generic "已售400万+"
+- generic "3900+人复购"
+- generic: 珀莱雅京东自营旗舰店
+- generic "欧莱雅小蜜罐面霜30ml滋润版4.0":
+- img "自营"
+- text: 欧莱雅小蜜罐面霜30ml滋润版4.0
+- generic: “
+- generic: 保湿吸收好，控油效果好
+- generic: ”
+- generic: 超分子重组胶原
+- generic: "|玻色因PRO抗皱"
+- generic: "|四大胜肽紧致"
+- generic: "|饱满弹润"
+- generic: “
+- generic: 保湿吸收好，控油效果好
+- generic: ”
+- generic: ¥
+- generic: "28"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥35.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 限时立减7元
+- generic "已售10万+"
+- generic "98%好评"
+- generic: 京东美妆自营旗舰店
+- generic "丝塔芙大白罐保湿身体乳霜":
+- img "自营"
+- text: 丝塔芙大白罐保湿身体乳霜
+- generic: “
+- generic: 不油不腻还会继续回购
+- generic: ”
+- generic: 宝宝树推荐
+- generic: "|不含激素"
+- generic: "|温和无香"
+- generic: "|多重功效"
+- generic: “
+- generic: 不油不腻还会继续回购
+- generic: ”
+- generic: ¥
+- generic: "89"
+- button
+- img "明日达"
+- generic "已售900万+"
+- generic "3万+人复购"
+- generic: 丝塔芙京东自营旗舰店
+- generic "珀莱雅（PROYA）红宝石面霜3.0 抗皱淡化细纹 保湿面霜（轻盈型25g*2）生日礼物":
+- img "自营"
+- text: 珀莱雅（PROYA）红宝石面霜3.0 抗皱淡化细纹 保湿面霜（轻盈型25g*2）生日礼物
+- generic: “
+- generic: 第二天起来脸上滑滑软软的
+- generic: ”
+- generic: 专利环肽稳定抗皱
+- generic: "|轻盈质地油皮适用"
+- generic: "|抗皱淡纹紧致弹润"
+- generic: "|油皮适用"
+- generic: “
+- generic: 第二天起来脸上滑滑软软的
+- generic: ”
+- generic: ¥
+- generic: "76"
+- generic: .
+- generic: "5"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售8万+"
+- generic "98%好评"
+- generic: 京东美妆自营旗舰店
+- generic "【速修红敏】理肤泉王牌B5修护霜":
+- img "自营"
+- text: 【速修红敏】理肤泉王牌B5修护霜
+- generic "积雪草乳液面霜热卖榜第1名":
+  - text: 积雪草乳液面霜热卖榜第1名
+- generic: “
+- generic: 质地不是很厚重但也不属于轻薄一类
+- generic: ”
+- generic: 重塑肌肤屏障
+- generic: "|即刻抗应激"
+- generic: "|内修外御"
+- generic: "|印痕淡化"
+- generic "积雪草乳液面霜热卖榜第1名":
+  - text: 积雪草乳液面霜热卖榜第1名
+- generic: ¥
+- generic: "86"
+- generic: 到手价
+- generic: ¥102
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降15%
+- generic "已售400万+"
+- generic "98%好评"
+- generic: 理肤泉京东自营旗舰店
+- generic "珀莱雅源力面霜50g 修护抗皱舒缓胶原乳液盈润型护肤品生日礼物送男女友":
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅源力面霜50g 修护抗皱舒缓胶原乳液盈润型护肤品生日礼物送男女友"
+- generic: 丝润奶霜
+- generic: "|生日礼物"
+- generic: "|敏感肌维稳"
+- generic: "|吸收超快"
+- generic: ¥
+- generic: "239"
+- generic: 到手价
+- generic: ¥266
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 券满500减50
+- generic "已售50万+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "【无烟酰胺】丝塔芙大白罐保湿霜":
+- img "自营"
+- text: 【无烟酰胺】丝塔芙大白罐保湿霜
+- generic "乳液面霜金榜第1名":
+  - text: 乳液面霜金榜第1名
+- generic: “
+- generic: 抹上脸一推就开，吸油也快
+- generic: ”
+- generic: 不含激素
+- generic: "|温和无香"
+- generic: "|宝宝树推荐"
+- generic: "|宝宝树金树奖"
+- generic "乳液面霜金榜第1名":
+  - text: 乳液面霜金榜第1名
+- generic: ¥
+- generic: "165"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售900万+"
+- generic "7万+人复购"
+- generic: 丝塔芙京东自营旗舰店
+- text: 大家都在搜
+- generic: 面霜35岁以上
+- generic: 面霜保湿儿童
+- generic: 抗老面霜
+- generic: 美白淡斑面霜
+- generic: 郁美净
+- generic: 男士保湿面霜
+- generic: 欧莱雅面膜礼盒
+- generic "欧莱雅小蜜罐轻乳霜15ml":
+- img "自营"
+- text: 欧莱雅小蜜罐轻乳霜15ml
+- generic: “
+- generic: 涂上脸水水的，很保湿
+- generic: ”
+- generic: 四重胜肽抗老化
+- generic: "|直补胶原重塑弹嫩"
+- generic: "|麦卢卡花蜜润养"
+- generic: "|抗皱紧致"
+- generic: “
+- generic: 涂上脸水水的，很保湿
+- generic: ”
+- generic: ¥
+- generic: "17"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥24.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 限时立减7元
+- generic "已售100万+"
+- generic "6100+人好评"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "珀莱雅源力面霜50g 修护紧致舒缓胶原乳液轻盈型护肤品生日礼物送男女友":
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅源力面霜50g 修护紧致舒缓胶原乳液轻盈型护肤品生日礼物送男女友"
+- generic: 35万+人加购
+- generic: "|敏感肌适用"
+- generic: "|4小时褪红焕亮"
+- generic: ¥
+- generic: "239"
+- generic: 到手价
+- generic: ¥266
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 券满500减50
+- generic "已售50万+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "适乐肤C霜身体乳面霜454g":
+- img "自营"
+- text: 适乐肤C霜身体乳面霜454g
+- generic "舒缓型身体乳热卖榜第4名":
+  - text: 舒缓型身体乳热卖榜第4名
+- generic: “
+- generic: 吸收快，清爽不油腻
+- generic: ”
+- generic: 修护屏障
+- generic: "|快速吸收"
+- generic: "|保湿滋润"
+- generic: "|神经酰胺配方"
+- generic "舒缓型身体乳热卖榜第4名":
+  - text: 舒缓型身体乳热卖榜第4名
+- generic: ¥
+- generic: "91"
+- generic: .
+- generic: "9"
+- button
+- generic: 京东秒杀
+- generic: 满赠
+- generic: 满赠
+- generic "已售30万+"
+- generic "3500+人复购"
+- generic: 适乐肤京东自营专区
+- generic "【央妈力荐】TOP榜第1名面霜":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名面霜
+- generic "嫩白乳液面霜热卖榜第1名":
+  - text: 嫩白乳液面霜热卖榜第1名
+- generic: “
+- generic: 肌肤水润透亮不粘腻
+- generic: ”
+- generic: 自营担保
+- generic: "|美白淡斑"
+- generic: "|30天无效全退"
+- generic: "|美白祛斑"
+- generic "嫩白乳液面霜热卖榜第1名":
+  - text: 嫩白乳液面霜热卖榜第1名
+- generic: ¥
+- generic: "52"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥59.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 限时立减7元
+- generic: 满69减30
+- generic "已售60万+"
+- generic "2万+人复购"
+- generic: 维特丝京东自营旗舰店
+- generic "适乐肤（CeraVe）修护C霜454g（保湿补水防干裂干燥男女士面霜身体乳张凌赫同款）":
+- img "自营"
+- text: 适乐肤（CeraVe）修护C霜454g（保湿补水防干裂干燥男女士面霜身体乳张凌赫同款）
+- generic: “
+- generic: 涂开不黏腻吸收快
+- generic: ”
+- generic: 全家分享装
+- generic: "|张凌赫同款"
+- generic: "|冬季润肤"
+- generic: "|适合男女"
+- generic: “
+- generic: 涂开不黏腻吸收快
+- generic: ”
+- generic: ¥
+- generic: "160"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售200万+"
+- generic "2500+人复购"
+- generic: CeraVe适乐肤京东自营旗舰店
+- generic "【热卖80万+件】欧莱雅小蜜罐":
+- img "自营"
+- text: 【热卖80万+件】欧莱雅小蜜罐
+- generic "抗皱乳液面霜热卖榜第1名":
+  - text: 抗皱乳液面霜热卖榜第1名
+- generic: “
+- generic: 香味清淡，是冬天的不二选择
+- generic: ”
+- generic: 四大胜肽
+- generic: "|超分子重组胶原"
+- generic: "|抗老紧致"
+- generic: "|60ml容量装"
+- generic "抗皱乳液面霜热卖榜第1名":
+  - text: 抗皱乳液面霜热卖榜第1名
+- generic: ¥
+- generic: "339"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售100万+"
+- generic "4400+人复购"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "丝塔芙舒缓修护四维面霜45ml":
+- img "自营"
+- text: 丝塔芙舒缓修护四维面霜45ml
+- generic "熬夜护肤乳液面霜热卖榜第1名":
+  - text: 熬夜护肤乳液面霜热卖榜第1名
+- generic: “
+- generic: 真空包装干净卫生，性价比高
+- generic: ”
+- generic: 维生素B5
+- generic: "|神经酰胺"
+- generic: "|积雪草叶提取物"
+- generic: "|深层修护"
+- generic "熬夜护肤乳液面霜热卖榜第1名":
+  - text: 熬夜护肤乳液面霜热卖榜第1名
+- generic: ¥
+- generic: "158"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 2件减10
+- generic: 赠
+- generic "已售40万+"
+- generic "98%好评"
+- generic: 丝塔芙京东自营旗舰店
+- generic "【镇店修护乳霜CP】C乳+C霜"
+- img "自营"
+- text: 【镇店修护乳霜CP】C乳+C霜
+- generic: “
+- generic: 用后没有刺痛，第二天皮肤状态很好
+- generic: ”
+- generic: 张凌赫同款
+- generic: "|长效保湿修护"
+- generic: "|保湿滋润"
+- generic: "|深层滋润"
+- generic: “
+- generic: 用后没有刺痛，第二天皮肤状态很好
+- generic: ”
+- generic: ¥
+- generic: "153"
+- button
+- img "明日达"
+- img "京东超市"
+- img "重磅新品"
+- generic: 赠
+- generic "已售200万+"
+- generic "3万+人种草"
+- generic: CeraVe适乐肤京东自营旗舰店
+- generic "【TOP榜面霜】保湿补水强润霜":
+- img "自营"
+- text: 【TOP榜面霜】保湿补水强润霜
+- generic "男士乳液面霜热卖榜第1名":
+  - text: 男士乳液面霜热卖榜第1名
+- generic: “
+- generic: 质地轻薄不厚重，涂抹后滋润不油腻
+- generic: ”
+- generic: 清爽好吸收
+- generic: "|双重玻尿酸"
+- generic: "|补水保湿"
+- generic: "|有效锁水"
+- generic "男士乳液面霜热卖榜第1名":
+  - text: 男士乳液面霜热卖榜第1名
+- generic: ¥
+- generic: "69"
+- generic: 已补16.86元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 包邮
+- generic "已售600万+"
+- generic "30天加购飙升5倍"
+- generic: 欧莱雅男士京东自营旗舰店
+- generic "兰蔻菁纯面霜30ml轻盈版套装化妆品礼盒护肤品":
+  - generic: 广告
+- img "自营"
+- generic "兰蔻菁纯面霜30ml轻盈版套装化妆品礼盒护肤品"
+- generic "兰蔻品牌金榜第7名":
+  - text: 兰蔻品牌金榜第7名
+- generic: ¥
+- generic: "1650"
+- button
+- img "明日达"
+- img "国家补贴"
+- generic "已售50万+"
+- generic: 兰蔻京东自营旗舰店
+- generic "【官方正品】欧莱雅轻盈小蜜罐":
+- img "自营"
+- text: 【官方正品】欧莱雅轻盈小蜜罐
+- generic "玻色因乳液面霜热卖榜第1名":
+  - text: 玻色因乳液面霜热卖榜第1名
+- generic: “
+- generic: 质地轻盈，吸收较快
+- generic: ”
+- generic: 重磅第二代
+- generic: "|胶原促生"
+- generic: "|重塑原生弹嫩亮"
+- generic: "|护肤新体验"
+- generic "玻色因乳液面霜热卖榜第1名":
+  - text: 玻色因乳液面霜热卖榜第1名
+- generic: ¥
+- generic: "242"
+- generic: .
+- generic: "1"
+- generic: 已补26.9元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 赠
+- generic: 包邮
+- generic "已售100万+"
+- generic "1300+人复购"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "科颜氏 高保湿面霜50ml":
+- img "自营"
+- text: 科颜氏 高保湿面霜50ml
+- generic "水杨酸乳液面霜热卖榜第3名":
+  - text: 水杨酸乳液面霜热卖榜第3名
+- generic: “
+- generic: 清爽不油腻，还很滋润
+- generic: ”
+- generic: 水杨酸护理
+- generic: "|适合缺水"
+- generic: "|补水舒缓"
+- generic: "|维生素E滋养"
+- generic "水杨酸乳液面霜热卖榜第3名":
+  - text: 水杨酸乳液面霜热卖榜第3名
+- generic: ¥
+- generic: "149"
+- generic: 已补60元
+- button
+- img "百亿补贴"
+- img "京东超市"
+- img "国家补贴"
+- generic: 包邮
+- generic "已售10万+"
+- generic "99%好评"
+- generic: 1号会员店
+- generic "欧莱雅小蜜罐面霜4.0滋润版60ml":
+- img "自营"
+- text: 欧莱雅小蜜罐面霜4.0滋润版60ml
+- generic: “
+- generic: 香味温和高级，性价比超高
+- generic: ”
+- generic: 润而不腻
+- generic: "|全新升级"
+- generic: "|干皮挚爱"
+- generic: "|滋润版型"
+- generic: “
+- generic: 香味温和高级，性价比超高
+- generic: ”
+- generic: ¥
+- generic: "132"
+- generic: 到手价
+- generic: ¥139
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 限时立减7元
+- generic "已售10万+"
+- generic "98%好评"
+- generic: 京东美妆自营旗舰店
+- generic "兰蔻塑颜精雕面霜50ml提拉紧致胶原护肤品化妆品":
+  - generic: 广告
+- img "自营"
+- generic "兰蔻塑颜精雕面霜50ml提拉紧致胶原护肤品化妆品"
+- generic "兰蔻品牌金榜第6名":
+  - text: 兰蔻品牌金榜第6名
+- generic "领政府补贴减￥87"
+- generic "兰蔻品牌金榜第6名":
+  - text: 兰蔻品牌金榜第6名
+- generic: ¥
+- generic: "783"
+- generic: 补贴领后价
+- generic: ¥870
+- button
+- img "明日达"
+- img "政府补贴"
+- generic "已售30万+"
+- generic: 兰蔻京东自营旗舰店
+- generic "科颜氏（Kiehl's）高保湿清爽霜7ML":
+- img "自营"
+- text: 科颜氏（Kiehl's）高保湿清爽霜7ML
+- generic: 适合旅行携带
+- generic: "|乳液面霜类"
+- generic: "|清爽保湿"
+- generic: "|7毫升便携装"
+- generic: ¥
+- generic: "69"
+- button
+- img "明日达"
+- generic "已售2000+"
+- generic "93%好评"
+- generic: 科颜氏Kiehl's京东自营旗舰店

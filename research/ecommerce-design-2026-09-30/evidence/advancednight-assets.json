@@ -1,0 +1,508 @@
+{
+  "product_url": "https://item.jd.com/100022610146.html",
+  "captured_at": "2026-09-30",
+  "heat": [
+    "- generic: 买家评价(100万+)",
+    "- generic: 累计评价 100万+",
+    "- link \"9月『面部精华金榜』TOP20\":",
+    "  - generic: 9月『面部精华金榜』TOP20"
+  ],
+  "hero": [
+    {
+      "order": 1,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/526027/30/14253/134414/6abba29cF6368271d/00832ee3e8328780.png.avif",
+      "path": "assets/advancednight/hero-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/526027/30/14253/134414/6abba29cF6368271d/00832ee3e8328780.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 2,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/529076/11/10237/75617/6abba29dFe8d4859c/00832ee3e8ba125b.png.avif",
+      "path": "assets/advancednight/hero-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/529076/11/10237/75617/6abba29dFe8d4859c/00832ee3e8ba125b.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 3,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/508811/18/13088/75265/6a9aebf5Feceb8012/00832ee3e8b23637.png.avif",
+      "path": "assets/advancednight/hero-03.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/508811/18/13088/75265/6a9aebf5Feceb8012/00832ee3e8b23637.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 4,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/523750/23/13886/97169/6aba96bfF501ce6bf/00832ee3e8f1f190.png.avif",
+      "path": "assets/advancednight/hero-04.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/523750/23/13886/97169/6aba96bfF501ce6bf/00832ee3e8f1f190.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 5,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/531922/13/3135/123721/6ab0a327Fc607f259/00832ee3e8f7bb24.png.avif",
+      "path": "assets/advancednight/hero-05.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/531922/13/3135/123721/6ab0a327Fc607f259/00832ee3e8f7bb24.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 6,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/525429/32/10385/168317/6ab0a325F85687966/00832ee3e8aacd89.png.avif",
+      "path": "assets/advancednight/hero-06.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/525429/32/10385/168317/6ab0a325F85687966/00832ee3e8aacd89.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 7,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/522155/3/10629/89519/6ab0a324F0be2df6f/00832ee3e89331a3.png.avif",
+      "path": "assets/advancednight/hero-07.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/522155/3/10629/89519/6ab0a324F0be2df6f/00832ee3e89331a3.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 8,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/533761/32/741/126170/6ab0a323Feadd419a/00832ee3e8c0f6a6.png.avif",
+      "path": "assets/advancednight/hero-08.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/533761/32/741/126170/6ab0a323Feadd419a/00832ee3e8c0f6a6.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 9,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/523566/38/1830/120688/6aa0be19F0f5e82c0/00832ee3e8449ed9.png.avif",
+      "path": "assets/advancednight/hero-09.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/523566/38/1830/120688/6aa0be19F0f5e82c0/00832ee3e8449ed9.png.avif",
+      "preview_frame": 0
+    }
+  ],
+  "detail": [
+    {
+      "height": 300,
+      "order": 1,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/508262/22/1926/45044/6a83c352Fc8156213/00d62ee12cc5035d.png.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-01.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/508262/22/1926/45044/6a83c352Fc8156213/00d62ee12cc5035d.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 314,
+      "order": 2,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/520426/22/13262/41937/6ab9c832Fb40a8f99/00d62ee13ad65159.png.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-02.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/520426/22/13262/41937/6ab9c832Fb40a8f99/00d62ee13ad65159.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 700,
+      "order": 3,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/522127/36/14513/103116/6ab9b7e3F016b46dd/00d62ee2bcd97184.png.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-03.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/522127/36/14513/103116/6ab9b7e3F016b46dd/00d62ee2bcd97184.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 518,
+      "order": 4,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/172019/27/42769/38787/65eebbf1Fe3d8eec0/9cea2317be259962.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-04.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/172019/27/42769/38787/65eebbf1Fe3d8eec0/9cea2317be259962.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1012,
+      "order": 5,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/518697/13/14544/114380/6ab09ed0F01298717/00d62ee3f4ba95d5.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-05.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/518697/13/14544/114380/6ab09ed0F01298717/00d62ee3f4ba95d5.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1363,
+      "order": 6,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/532293/27/2075/137945/6ab09ed1F07517c2b/00d62ee553af47ae.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-06.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/532293/27/2075/137945/6ab09ed1F07517c2b/00d62ee553af47ae.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1427,
+      "order": 7,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/531208/9/3273/202530/6ab09ed2F792fb8bb/00d62ee593b0d565.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-07.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/531208/9/3273/202530/6ab09ed2F792fb8bb/00d62ee593b0d565.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1641,
+      "order": 8,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/519080/5/12575/163178/6ab09ed1Fb09b6bf3/00d62ee6695a261c.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-08.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/519080/5/12575/163178/6ab09ed1Fb09b6bf3/00d62ee6695a261c.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1271,
+      "order": 9,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/528428/19/6677/71233/6ab09ed1F067f2270/00d62ee4f79d9d24.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-09.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/528428/19/6677/71233/6ab09ed1F067f2270/00d62ee4f79d9d24.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1358,
+      "order": 10,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/526383/40/6678/140865/6ab09ed1F12c1cbdd/00d62ee54e8274f0.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-10.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/526383/40/6678/140865/6ab09ed1F12c1cbdd/00d62ee54e8274f0.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1138,
+      "order": 11,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/524252/25/9599/128941/6ab09ed1F80508b60/00d62ee472751594.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-11.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/524252/25/9599/128941/6ab09ed1F80508b60/00d62ee472751594.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1179,
+      "order": 12,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/528767/29/6434/77606/6ab09ed1Fe6863052/00d62ee49b34f20b.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-12.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/528767/29/6434/77606/6ab09ed1Fe6863052/00d62ee49b34f20b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1201,
+      "order": 13,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/527972/13/7300/128135/6ab09ed1F25fb07a1/00d62ee4b191b8ce.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-13.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/527972/13/7300/128135/6ab09ed1F25fb07a1/00d62ee4b191b8ce.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1116,
+      "order": 14,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/532854/11/1483/92808/6ab09ed1F3908fb2e/00d62ee45c6deb0a.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-14.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/532854/11/1483/92808/6ab09ed1F3908fb2e/00d62ee45c6deb0a.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 816,
+      "order": 15,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/532518/14/2213/172053/6ab09ed1Fe2bdf05f/00d62ee3308355c1.jpg.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-15.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/532518/14/2213/172053/6ab09ed1Fe2bdf05f/00d62ee3308355c1.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1093,
+      "order": 16,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/488413/36/11684/188243/6a70491eFc47003b2/00d62ee445a590ba.png.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-16.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/488413/36/11684/188243/6a70491eFc47003b2/00d62ee445a590ba.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 862,
+      "order": 17,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/476202/21/6917/258290/6a4f064cFfbabc90e/00d62ee35ed4958a.png.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-17.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/476202/21/6917/258290/6a4f064cFfbabc90e/00d62ee35ed4958a.png.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 381,
+      "order": 18,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/289033/23/7285/36936/685cc36eF98a213e2/991089e06789a80c.png.avif",
+      "width": 750,
+      "path": "assets/advancednight/detail-18.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/289033/23/7285/36936/685cc36eF98a213e2/991089e06789a80c.png.avif",
+      "preview_frame": 0
+    }
+  ],
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/avif",
+        "id": "d7af7f0a013c6fe3",
+        "kind": "image",
+        "name": "00832ee3e8b23637.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/d7af7f0a013c6fe3.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/508811/18/13088/75265/6a9aebf5Feceb8012/00832ee3e8b23637.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "a24fee472dbb3e78",
+        "kind": "image",
+        "name": "00832ee3e8f7bb24.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/a24fee472dbb3e78.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/531922/13/3135/123721/6ab0a327Fc607f259/00832ee3e8f7bb24.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "5033687656ba814d",
+        "kind": "image",
+        "name": "00832ee3e8f1f190.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/5033687656ba814d.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/523750/23/13886/97169/6aba96bfF501ce6bf/00832ee3e8f1f190.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "076db7f0639d2905",
+        "kind": "image",
+        "name": "00832ee3e8328780.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/076db7f0639d2905.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/526027/30/14253/134414/6abba29cF6368271d/00832ee3e8328780.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "e51dab664f82cca5",
+        "kind": "image",
+        "name": "00832ee3e8ba125b.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/e51dab664f82cca5.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/529076/11/10237/75617/6abba29dFe8d4859c/00832ee3e8ba125b.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "adfb82ccc41c40e5",
+        "kind": "image",
+        "name": "00832ee3e8c0f6a6.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/adfb82ccc41c40e5.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/533761/32/741/126170/6ab0a323Feadd419a/00832ee3e8c0f6a6.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "2b223b937ffdacef",
+        "kind": "image",
+        "name": "00832ee3e89331a3.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/2b223b937ffdacef.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/522155/3/10629/89519/6ab0a324F0be2df6f/00832ee3e89331a3.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "b0256ac5d6b119f9",
+        "kind": "image",
+        "name": "00832ee3e8aacd89.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/b0256ac5d6b119f9.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/525429/32/10385/168317/6ab0a325F85687966/00832ee3e8aacd89.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "65843af6c640e1ed",
+        "kind": "image",
+        "name": "00832ee3e8449ed9.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/65843af6c640e1ed.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/523566/38/1830/120688/6aa0be19F0f5e82c0/00832ee3e8449ed9.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "6f43faacb843a9f7",
+        "kind": "image",
+        "name": "00d62ee12cc5035d.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/6f43faacb843a9f7.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/508262/22/1926/45044/6a83c352Fc8156213/00d62ee12cc5035d.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "cf50709a0721d3a1",
+        "kind": "image",
+        "name": "00d62ee2bcd97184.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/cf50709a0721d3a1.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/522127/36/14513/103116/6ab9b7e3F016b46dd/00d62ee2bcd97184.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "ff4a3114a96bb0d7",
+        "kind": "image",
+        "name": "9cea2317be259962.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/ff4a3114a96bb0d7.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/172019/27/42769/38787/65eebbf1Fe3d8eec0/9cea2317be259962.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "89a6e960ae1793e0",
+        "kind": "image",
+        "name": "00d62ee3f4ba95d5.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/89a6e960ae1793e0.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/518697/13/14544/114380/6ab09ed0F01298717/00d62ee3f4ba95d5.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "d1ee4c5326ffed96",
+        "kind": "image",
+        "name": "00d62ee553af47ae.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/d1ee4c5326ffed96.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/532293/27/2075/137945/6ab09ed1F07517c2b/00d62ee553af47ae.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "ba6790b361cf245b",
+        "kind": "image",
+        "name": "00d62ee593b0d565.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/ba6790b361cf245b.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/531208/9/3273/202530/6ab09ed2F792fb8bb/00d62ee593b0d565.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "5e78c733fe10f376",
+        "kind": "image",
+        "name": "00d62ee6695a261c.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/5e78c733fe10f376.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/519080/5/12575/163178/6ab09ed1Fb09b6bf3/00d62ee6695a261c.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "162838f4794737ff",
+        "kind": "image",
+        "name": "00d62ee4f79d9d24.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/162838f4794737ff.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/528428/19/6677/71233/6ab09ed1F067f2270/00d62ee4f79d9d24.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "63a8a6d8042eead9",
+        "kind": "image",
+        "name": "00d62ee54e8274f0.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/63a8a6d8042eead9.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/526383/40/6678/140865/6ab09ed1F12c1cbdd/00d62ee54e8274f0.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "b87b584af3768f93",
+        "kind": "image",
+        "name": "00d62ee35ed4958a.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/b87b584af3768f93.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/476202/21/6917/258290/6a4f064cFfbabc90e/00d62ee35ed4958a.png.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "03245af19f877763",
+        "kind": "image",
+        "name": "00d62ee472751594.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/03245af19f877763.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/524252/25/9599/128941/6ab09ed1F80508b60/00d62ee472751594.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "780d339d99025338",
+        "kind": "image",
+        "name": "00d62ee49b34f20b.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/780d339d99025338.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/528767/29/6434/77606/6ab09ed1Fe6863052/00d62ee49b34f20b.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "3b8d37e20f2a60f4",
+        "kind": "image",
+        "name": "991089e06789a80c.png.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/3b8d37e20f2a60f4.avif",
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/289033/23/7285/36936/685cc36eF98a213e2/991089e06789a80c.png.avif"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/488413/36/11684/188243/6a70491eFc47003b2/00d62ee445a590ba.png.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/426a2aaefe42a4a5.avif",
+        "id": "426a2aaefe42a4a5",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/532518/14/2213/172053/6ab09ed1Fe2bdf05f/00d62ee3308355c1.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/4797cdb648ab91ce.avif",
+        "id": "4797cdb648ab91ce",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/520426/22/13262/41937/6ab9c832Fb40a8f99/00d62ee13ad65159.png.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/2273a3605c148a1d.avif",
+        "id": "2273a3605c148a1d",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/527972/13/7300/128135/6ab09ed1F25fb07a1/00d62ee4b191b8ce.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/9c43ca105fd342a8.avif",
+        "id": "9c43ca105fd342a8",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/532854/11/1483/92808/6ab09ed1F3908fb2e/00d62ee45c6deb0a.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/09c75bd43a694c61.avif",
+        "id": "09c75bd43a694c61",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      }
+    ],
+    "directoryPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194",
+    "failures": [],
+    "manifestPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/59f407c9-19fc-4508-9486-326a75483194/manifest.json",
+    "summary": {
+      "downloadedCount": 22,
+      "elapsedMs": 214.05558400042355,
+      "failedCount": 0,
+      "requestedCount": 22
+    }
+  }
+}

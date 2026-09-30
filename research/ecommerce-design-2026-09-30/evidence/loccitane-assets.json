@@ -1,0 +1,632 @@
+{
+  "product_url": "https://item.jd.com/100081396648.html",
+  "captured_at": "2026-09-30",
+  "heat": [
+    "- generic: 买家评价(20万+)",
+    "- generic: 累计评价 20万+",
+    "- link \"保湿护手霜热卖榜·第3名\":",
+    "  - generic: 保湿护手霜热卖榜·第3名"
+  ],
+  "hero": [
+    {
+      "order": 1,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/540137/35/468/132817/6abcb582F35515988/00832ee3e8b0535b.jpg.avif",
+      "path": "assets/loccitane/hero-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/540137/35/468/132817/6abcb582F35515988/00832ee3e8b0535b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 2,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/537024/16/2392/113627/6ab9dbfbF5f11981a/00832ee3e8ca7cb2.jpg.avif",
+      "path": "assets/loccitane/hero-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/537024/16/2392/113627/6ab9dbfbF5f11981a/00832ee3e8ca7cb2.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 3,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/534540/7/6392/52449/6abcbb2aF44be8099/00832ee3e854f24d.jpg.avif",
+      "path": "assets/loccitane/hero-03.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/534540/7/6392/52449/6abcbb2aF44be8099/00832ee3e854f24d.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 4,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408912/38/19666/84587/69cb7dcfF42c90bcb/00832ee3e8255ceb.jpg.avif",
+      "path": "assets/loccitane/hero-04.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408912/38/19666/84587/69cb7dcfF42c90bcb/00832ee3e8255ceb.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 5,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/412524/26/2616/92552/69cb7dcfF0320a72d/00832ee3e8ce7afa.jpg.avif",
+      "path": "assets/loccitane/hero-05.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/412524/26/2616/92552/69cb7dcfF0320a72d/00832ee3e8ce7afa.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 6,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/501707/31/9622/63439/6a86e153F602cf27f/00832583202ba816.jpg.avif",
+      "path": "assets/loccitane/hero-06.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/501707/31/9622/63439/6a86e153F602cf27f/00832583202ba816.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 7,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/387444/16/9208/62030/6969b34dF7d63bfb1/00832ee3e8aac451.jpg.avif",
+      "path": "assets/loccitane/hero-07.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/387444/16/9208/62030/6969b34dF7d63bfb1/00832ee3e8aac451.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 8,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/445509/13/8004/87747/6a1e876eFe377b365/008325832010fb1b.jpg.avif",
+      "path": "assets/loccitane/hero-08.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/445509/13/8004/87747/6a1e876eFe377b365/008325832010fb1b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 9,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/386255/27/11991/117513/6968d7baF88a246c9/00832ee3e8c1759e.jpg.avif",
+      "path": "assets/loccitane/hero-09.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/386255/27/11991/117513/6968d7baF88a246c9/00832ee3e8c1759e.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "order": 10,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/378680/28/21790/63434/696065a1F19051c10/e47f0636488fed64.jpg.avif",
+      "path": "assets/loccitane/hero-10.jpg",
+      "width": 1080,
+      "height": 1440,
+      "source_frame_count": 1,
+      "converted_source_url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/378680/28/21790/63434/696065a1F19051c10/e47f0636488fed64.jpg.avif",
+      "preview_frame": 0
+    }
+  ],
+  "detail": [
+    {
+      "height": 322,
+      "order": 1,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/380613/11/1243/80009/693a5f9aF7ea3d444/6dae93dc1c75a8b4.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-01.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/380613/11/1243/80009/693a5f9aF7ea3d444/6dae93dc1c75a8b4.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 469,
+      "order": 2,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/524437/3/14504/110956/6abcb3bfF6f76b3a4/00d64651d570e2f5.jpg.avif",
+      "width": 1125,
+      "path": "assets/loccitane/detail-02.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/524437/3/14504/110956/6abcb3bfF6f76b3a4/00d64651d570e2f5.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 900,
+      "order": 3,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/537792/25/3914/182890/6abcb3bfF5d89b710/00d62ee384d7ba9d.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-03.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/537792/25/3914/182890/6abcb3bfF5d89b710/00d62ee384d7ba9d.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 400,
+      "order": 4,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/529987/23/10011/38691/6abcc3e1F1d8a1da6/00d646519087d209.jpg.avif",
+      "width": 1125,
+      "path": "assets/loccitane/detail-04.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/529987/23/10011/38691/6abcc3e1F1d8a1da6/00d646519087d209.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1551,
+      "order": 5,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/525762/28/987/174803/6aa290ffF84b09aa0/00d63f660f249674.jpg.avif",
+      "width": 1014,
+      "path": "assets/loccitane/detail-05.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/525762/28/987/174803/6aa290ffF84b09aa0/00d63f660f249674.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1627,
+      "order": 6,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/520730/1/6890/204906/6aa29109F3c0cdeaf/00d63c765b6d8f61.jpg.avif",
+      "width": 967,
+      "path": "assets/loccitane/detail-06.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/520730/1/6890/204906/6aa29109F3c0cdeaf/00d63c765b6d8f61.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1268,
+      "order": 7,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/497339/2/4168/143207/6a73f40dF416e5b75/00d62ee4f4784ff2.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-07.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/497339/2/4168/143207/6a73f40dF416e5b75/00d62ee4f4784ff2.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1200,
+      "order": 8,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/496864/2/5799/84779/6a73f40dFcc7a23f3/00d62ee4b0ab7f17.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-08.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/496864/2/5799/84779/6a73f40dFcc7a23f3/00d62ee4b0ab7f17.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1202,
+      "order": 9,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/507083/9/5245/86938/6a87c2c6F8a8b9bad/00d62ee4b2195e86.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-09.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/507083/9/5245/86938/6a87c2c6F8a8b9bad/00d62ee4b2195e86.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1204,
+      "order": 10,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/482463/13/15694/182235/6a73f40dFf6aa5a89/00d62ee4b4799cdb.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-10.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/482463/13/15694/182235/6a73f40dFf6aa5a89/00d62ee4b4799cdb.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1199,
+      "order": 11,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/496264/18/4889/138576/6a73f40dF80e58a0f/00d62ee4afa4e634.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-11.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/496264/18/4889/138576/6a73f40dF80e58a0f/00d62ee4afa4e634.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1202,
+      "order": 12,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/486241/6/12854/93960/6a73f40dFa4470822/00d62ee4b277c9a7.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-12.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/486241/6/12854/93960/6a73f40dFa4470822/00d62ee4b277c9a7.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1200,
+      "order": 13,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/487037/19/11496/98614/6a73f40dFb4f50b09/00d62ee4b01b1343.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-13.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/487037/19/11496/98614/6a73f40dFb4f50b09/00d62ee4b01b1343.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1200,
+      "order": 14,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/500694/35/717/85882/6a73f40dF22d3d810/00d62ee4b03f5a09.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-14.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/500694/35/717/85882/6a73f40dF22d3d810/00d62ee4b03f5a09.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1191,
+      "order": 15,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/489482/40/12346/138320/6a73f40dFd5758569/00d62ee4a716ce00.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-15.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/489482/40/12346/138320/6a73f40dFd5758569/00d62ee4a716ce00.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1240,
+      "order": 16,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/495002/11/7077/176067/6a73f40dF5f4ea087/00d62ee4d89df756.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-16.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/495002/11/7077/176067/6a73f40dF5f4ea087/00d62ee4d89df756.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1215,
+      "order": 17,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/499322/36/2643/133902/6a73f40dF9f4dcd59/00d62ee4bf542774.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-17.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/499322/36/2643/133902/6a73f40dF9f4dcd59/00d62ee4bf542774.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1192,
+      "order": 18,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/496780/1/4851/125277/6a73f40dF644fdbc8/00d62ee4a84b1b34.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-18.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/496780/1/4851/125277/6a73f40dF644fdbc8/00d62ee4a84b1b34.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1224,
+      "order": 19,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/493093/6/6836/136598/6a73f40dF8b9e3039/00d62ee4c8e68fc8.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-19.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/493093/6/6836/136598/6a73f40dF8b9e3039/00d62ee4c8e68fc8.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1184,
+      "order": 20,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/499743/7/2412/123714/6a73f40dF49da0748/00d62ee4a09cd28a.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-20.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/499743/7/2412/123714/6a73f40dF49da0748/00d62ee4a09cd28a.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1207,
+      "order": 21,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/497224/38/5327/174171/6a73f40dF292a2b86/00d62ee4b70f7e3d.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-21.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/497224/38/5327/174171/6a73f40dF292a2b86/00d62ee4b70f7e3d.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1197,
+      "order": 22,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/493649/13/5573/85388/6a73f40dF001d6f92/00d62ee4ad756e7b.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-22.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/493649/13/5573/85388/6a73f40dF001d6f92/00d62ee4ad756e7b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1000,
+      "order": 23,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/519589/38/1252/59003/6a97e4dcF490412ce/00d62ee3e8039c8b.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-23.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/519589/38/1252/59003/6a97e4dcF490412ce/00d62ee3e8039c8b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 512,
+      "order": 24,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/408584/21/14095/91627/69cce9caFbdd7b8f6/00d6465200a00e3b.jpg.avif",
+      "width": 1125,
+      "path": "assets/loccitane/detail-24.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/408584/21/14095/91627/69cce9caFbdd7b8f6/00d6465200a00e3b.jpg.avif",
+      "preview_frame": 0
+    },
+    {
+      "height": 1705,
+      "order": 25,
+      "url": "https://img30.360buyimg.com/sku/jfs/t1/413029/11/5939/274234/69ccf062Fb0ae48f4/00d62ee6a974347c.jpg.avif",
+      "width": 750,
+      "path": "assets/loccitane/detail-25.jpg",
+      "source_frame_count": 1,
+      "converted_source_url": "https://img30.360buyimg.com/sku/jfs/t1/413029/11/5939/274234/69ccf062Fb0ae48f4/00d62ee6a974347c.jpg.avif",
+      "preview_frame": 0
+    }
+  ],
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/avif",
+        "id": "0d8d61b5068ed176",
+        "kind": "image",
+        "name": "00832ee3e8c1759e.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90/0d8d61b5068ed176.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/386255/27/11991/117513/6968d7baF88a246c9/00832ee3e8c1759e.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "3c99b53f37128326",
+        "kind": "image",
+        "name": "008325832010fb1b.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90/3c99b53f37128326.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/445509/13/8004/87747/6a1e876eFe377b365/008325832010fb1b.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "429eb3b9de2a7e71",
+        "kind": "image",
+        "name": "00832ee3e8ce7afa.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90/429eb3b9de2a7e71.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/412524/26/2616/92552/69cb7dcfF0320a72d/00832ee3e8ce7afa.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "d869726be8fb7c1a",
+        "kind": "image",
+        "name": "00832ee3e8255ceb.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90/d869726be8fb7c1a.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/408912/38/19666/84587/69cb7dcfF42c90bcb/00832ee3e8255ceb.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "b9a501e3464d0de2",
+        "kind": "image",
+        "name": "00832583202ba816.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90/b9a501e3464d0de2.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/501707/31/9622/63439/6a86e153F602cf27f/00832583202ba816.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "68779ee069812202",
+        "kind": "image",
+        "name": "e47f0636488fed64.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90/68779ee069812202.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/378680/28/21790/63434/696065a1F19051c10/e47f0636488fed64.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "fdc6a0c8e6300772",
+        "kind": "image",
+        "name": "00832ee3e8aac451.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90/fdc6a0c8e6300772.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/387444/16/9208/62030/6969b34dF7d63bfb1/00832ee3e8aac451.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "9a64d6ab77623d25",
+        "kind": "image",
+        "name": "00832ee3e8b0535b.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90/9a64d6ab77623d25.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/540137/35/468/132817/6abcb582F35515988/00832ee3e8b0535b.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "9758d630b02f3b88",
+        "kind": "image",
+        "name": "00832ee3e854f24d.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90/9758d630b02f3b88.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/534540/7/6392/52449/6abcbb2aF44be8099/00832ee3e854f24d.jpg.avif"
+      },
+      {
+        "contentType": "image/avif",
+        "id": "c0e2d7570d506450",
+        "kind": "image",
+        "name": "00832ee3e8ca7cb2.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90/c0e2d7570d506450.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/537024/16/2392/113627/6ab9dbfbF5f11981a/00832ee3e8ca7cb2.jpg.avif"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/496864/2/5799/84779/6a73f40dFcc7a23f3/00d62ee4b0ab7f17.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/0b69f5e08d247ae2.avif",
+        "id": "0b69f5e08d247ae2",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/493649/13/5573/85388/6a73f40dF001d6f92/00d62ee4ad756e7b.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/d6051b7efa55e9d6.avif",
+        "id": "d6051b7efa55e9d6",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/529987/23/10011/38691/6abcc3e1F1d8a1da6/00d646519087d209.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/ef43d4c49ce0e129.avif",
+        "id": "ef43d4c49ce0e129",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/520730/1/6890/204906/6aa29109F3c0cdeaf/00d63c765b6d8f61.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/3c527ee7dd91abaf.avif",
+        "id": "3c527ee7dd91abaf",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/525762/28/987/174803/6aa290ffF84b09aa0/00d63f660f249674.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/6c06fd7ebf438d54.avif",
+        "id": "6c06fd7ebf438d54",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/482463/13/15694/182235/6a73f40dFf6aa5a89/00d62ee4b4799cdb.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/0c9a4d6e600546ea.avif",
+        "id": "0c9a4d6e600546ea",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/499322/36/2643/133902/6a73f40dF9f4dcd59/00d62ee4bf542774.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/71ebdaca38a12cf8.avif",
+        "id": "71ebdaca38a12cf8",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/380613/11/1243/80009/693a5f9aF7ea3d444/6dae93dc1c75a8b4.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/9d934f247fc4ee5e.avif",
+        "id": "9d934f247fc4ee5e",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/496264/18/4889/138576/6a73f40dF80e58a0f/00d62ee4afa4e634.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/22071a7c96739e61.avif",
+        "id": "22071a7c96739e61",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/408584/21/14095/91627/69cce9caFbdd7b8f6/00d6465200a00e3b.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/db0a77d64175c11c.avif",
+        "id": "db0a77d64175c11c",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/537792/25/3914/182890/6abcb3bfF5d89b710/00d62ee384d7ba9d.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/80161784c964a11d.avif",
+        "id": "80161784c964a11d",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/497224/38/5327/174171/6a73f40dF292a2b86/00d62ee4b70f7e3d.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/9a6c2e2f2ebaf344.avif",
+        "id": "9a6c2e2f2ebaf344",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/496780/1/4851/125277/6a73f40dF644fdbc8/00d62ee4a84b1b34.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/91079aa2c36a0b0e.avif",
+        "id": "91079aa2c36a0b0e",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/500694/35/717/85882/6a73f40dF22d3d810/00d62ee4b03f5a09.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/0d572f7c475ef507.avif",
+        "id": "0d572f7c475ef507",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/493093/6/6836/136598/6a73f40dF8b9e3039/00d62ee4c8e68fc8.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/6ec8080311fb1356.avif",
+        "id": "6ec8080311fb1356",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/507083/9/5245/86938/6a87c2c6F8a8b9bad/00d62ee4b2195e86.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/e274a7e8fab36364.avif",
+        "id": "e274a7e8fab36364",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/495002/11/7077/176067/6a73f40dF5f4ea087/00d62ee4d89df756.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/9ccea25daee7f919.avif",
+        "id": "9ccea25daee7f919",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/519589/38/1252/59003/6a97e4dcF490412ce/00d62ee3e8039c8b.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/8712abd3e4c49025.avif",
+        "id": "8712abd3e4c49025",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/524437/3/14504/110956/6abcb3bfF6f76b3a4/00d64651d570e2f5.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/5614221550e7d5e6.avif",
+        "id": "5614221550e7d5e6",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/497339/2/4168/143207/6a73f40dF416e5b75/00d62ee4f4784ff2.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/d55c27eba5f3e4f3.avif",
+        "id": "d55c27eba5f3e4f3",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/487037/19/11496/98614/6a73f40dFb4f50b09/00d62ee4b01b1343.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/e405cf9388d0840e.avif",
+        "id": "e405cf9388d0840e",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/486241/6/12854/93960/6a73f40dFa4470822/00d62ee4b277c9a7.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/307fe514c4e3b82e.avif",
+        "id": "307fe514c4e3b82e",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/413029/11/5939/274234/69ccf062Fb0ae48f4/00d62ee6a974347c.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/accd4c45d06f866a.avif",
+        "id": "accd4c45d06f866a",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/489482/40/12346/138320/6a73f40dFd5758569/00d62ee4a716ce00.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/e74ce480e3ccbb65.avif",
+        "id": "e74ce480e3ccbb65",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      },
+      {
+        "url": "https://img30.360buyimg.com/sku/jfs/t1/499743/7/2412/123714/6a73f40dF49da0748/00d62ee4a09cd28a.jpg.avif",
+        "path": "/Users/a123/Desktop/产品设计+详情图/research/ecommerce-design-2026-09-30/assets/originals/ee9f17a8aab0cc14.avif",
+        "id": "ee9f17a8aab0cc14",
+        "kind": "image",
+        "acquisition": "public_asset_url_observed_in_dom"
+      }
+    ],
+    "directoryPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90",
+    "failures": [],
+    "manifestPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/7b431885-9363-425b-a3e7-1e1770b3bb90/manifest.json",
+    "summary": {
+      "downloadedCount": 10,
+      "elapsedMs": 123.12108299974352,
+      "failedCount": 0,
+      "requestedCount": 10
+    }
+  }
+}

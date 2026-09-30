@@ -1,0 +1,632 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 拍拍二手
+- generic: 品牌
+- generic: 京东国际
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "迪奥Dior【会员女士香氛星品尝鲜礼】花漾1ml+真我女士1ml":
+- img "自营"
+- text: 迪奥Dior【会员女士香氛星品尝鲜礼】花漾1ml+真我女士1ml
+- generic "香水回购榜第2名":
+  - text: 香水回购榜第2名
+- generic: “
+- generic: 香味还原度高，真我优雅大气
+- generic: ”
+- generic: 会员专属回购券
+- generic: "|双香调组合装"
+- generic: "|限量9000份"
+- generic: "|花漾淡香1ml装"
+- generic "香水回购榜第2名":
+  - text: 香水回购榜第2名
+- generic: ¥
+- generic: "21"
+- button
+- generic: 包邮
+- generic "已售20万+"
+- generic "97%好评"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "名创优品（MINISO）香体喷雾淡香香氛空气清新剂生日礼物山谷百合100ml":
+- img "自营"
+- text: 名创优品（MINISO）香体喷雾淡香香氛空气清新剂生日礼物山谷百合100ml
+- generic "名创优品香水热卖榜第1名":
+  - text: 名创优品香水热卖榜第1名
+- generic: “
+- generic: 留香持久，整天自带香气
+- generic: ”
+- generic: 多场景适用
+- generic: "|植物提取成分"
+- generic: "|清新淡雅花香"
+- generic: "|便携小瓶装"
+- generic "名创优品香水热卖榜第1名":
+  - text: 名创优品香水热卖榜第1名
+- generic: ¥
+- generic: "9"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- generic "已售30万+"
+- generic "9800+人种草"
+- generic: 名创优品京东自营旗舰店
+- generic "迪奥Dior真我女士淡香氛50ml香水花香调香氛持久留香生日礼物送女友":
+  - generic: 广告
+- img "自营"
+- generic "迪奥Dior真我女士淡香氛50ml香水花香调香氛持久留香生日礼物送女友"
+- generic: 6千+美妆达人已买
+- generic: "|本真优雅"
+- generic: ¥
+- generic: "1030"
+- button
+- img "明日达"
+- generic "已售10万+"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "古驰（GUCCI）竹韵女性淡香水礼盒30ml木质花香调 生日礼物送女友送老婆":
+  - generic: 重庆预定
+- img "自营"
+- text: 古驰（GUCCI）竹韵女性淡香水礼盒30ml木质花香调 生日礼物送女友送老婆
+- generic "香水热卖榜第5名":
+  - text: 香水热卖榜第5名
+- generic: “
+- generic: 送人自用都非常适合
+- generic: ”
+- generic: 生日礼物
+- generic: "|木质花香调"
+- generic: "|持久留香"
+- generic: "|女士香水"
+- generic "领政府补贴减￥29.7"
+- generic "香水热卖榜第5名":
+  - text: 香水热卖榜第5名
+- generic: ¥
+- generic: "267"
+- generic: .
+- generic: "3"
+- generic: 已补22元
+- button
+- img "百亿补贴"
+- img "政府补贴"
+- generic: 赠
+- generic: 品质溯源
+- generic "已售20万+"
+- generic "2000+人复购"
+- generic: 京东美妆礼品自营旗舰店
+- generic "CHANEL【官方正品】香奈儿邂逅柔情系列香水 女士 持久留香 生日礼物 邂逅柔情淡香水 清新花香调 50ml":
+  - generic: 广告
+- generic "CHANEL【官方正品】香奈儿邂逅柔情系列香水 女士 持久留香 生日礼物 邂逅柔情淡香水 清新花香调 50ml"
+- generic: ¥
+- generic: "1010"
+- button
+- generic "8万+人看过"
+- generic: CHANEL香奈儿官方旗舰店 香水与美容品
+- generic "【央妈力荐】香水TOP榜第1名":
+- img "自营"
+- text: 【央妈力荐】香水TOP榜第1名
+- generic "茶香调香水热卖榜第1名":
+  - text: 茶香调香水热卖榜第1名
+- generic: “
+- generic: 清新自然不甜腻
+- generic: ”
+- generic: 千问大数据推荐
+- generic: "|香水热卖第1名"
+- generic: "|明星同款"
+- generic: "|豆包大数据推荐"
+- generic "茶香调香水热卖榜第1名":
+  - text: 茶香调香水热卖榜第1名
+- generic: ¥
+- generic: "48"
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 包邮
+- generic "已售90万+"
+- generic "5300+人好评"
+- generic: IDX京东自营旗舰店
+- generic "冰希黎（Boitown）幻彩鎏金香水女士淡香水留香持久花香调生日礼物送女朋友闺蜜":
+- img "自营"
+- text: 冰希黎（Boitown）幻彩鎏金香水女士淡香水留香持久花香调生日礼物送女朋友闺蜜
+- generic "香水热卖榜第10名":
+  - text: 香水热卖榜第10名
+- generic: “
+- generic: 留香时间超长，早上喷晚上仍能闻到
+- generic: ”
+- generic: 热销爆款
+- generic: "|明星同款"
+- generic: "|精美礼盒"
+- generic: "|花香奶香调香"
+- generic "香水热卖榜第10名":
+  - text: 香水热卖榜第10名
+- generic: ¥
+- generic: "147"
+- generic: 到手价
+- generic: ¥176
+- button
+- img "明日达"
+- generic: 首购礼金11元
+- generic: 官方直降10%
+- generic: 赠
+- generic "已售50万+"
+- generic "3200+人好评"
+- generic: 冰希黎（Boitown）京东自营旗舰店
+- generic "烟雨茉莉香水栀子花女士淡香体香持久留香自然清新迷人学生党室内 茉莉":
+- img "京喜自营"
+- text: 烟雨茉莉香水栀子花女士淡香体香持久留香自然清新迷人学生党室内 茉莉
+- generic "香精parfum香水热卖榜第1名":
+  - text: 香精parfum香水热卖榜第1名
+- generic: “
+- generic: 购物体验很棒，值得一试
+- generic: ”
+- generic: 持久留香
+- generic: "|学生党爱"
+- generic: "|自然清新"
+- generic: "|持久留香"
+- generic "香精parfum香水热卖榜第1名":
+  - text: 香精parfum香水热卖榜第1名
+- generic: ¥
+- generic: "5"
+- generic: .
+- generic: "99"
+- button
+- generic: 包邮
+- generic "已售4万+"
+- generic "1万+人种草"
+- generic: 京喜自营官方店
+- generic "迪奥Dior迪奥小姐花漾淡香水30ml花香留香香氛享礼盒生日礼物送女友":
+  - generic: 广告
+- img "自营"
+- generic "迪奥Dior迪奥小姐花漾淡香水30ml花香留香香氛享礼盒生日礼物送女友"
+- generic "香水金榜第1名":
+  - text: 香水金榜第1名
+- generic: 超40万人店内购买
+- generic: "|200人已回购"
+- generic: "|礼物送女友"
+- generic "香水金榜第1名":
+  - text: 香水金榜第1名
+- generic: ¥
+- generic: "770"
+- button
+- img "明日达"
+- generic "已售40万+"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "名创优品（MINISO）俏女孩女士香水女士香氛淡香送女朋友生日礼物女纪念日礼物30ml":
+- img "自营"
+- text: 名创优品（MINISO）俏女孩女士香水女士香氛淡香送女朋友生日礼物女纪念日礼物30ml
+- generic: “
+- generic: 留香时间长，味道浓淡适宜
+- generic: ”
+- generic: 淡雅花香中调
+- generic: "|少女感透明瓶身"
+- generic: "|温暖木香后调"
+- generic: "|清新柑橘前调"
+- generic: “
+- generic: 留香时间长，味道浓淡适宜
+- generic: ”
+- generic: ¥
+- generic: "9"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥16.9
+- button
+- img "明日达"
+- generic: 限时立减7元
+- generic "已售10万+"
+- generic "7800+人种草"
+- generic: 名创优品京东自营旗舰店
+- generic "COACH蔻驰淡香水女士30ml礼盒":
+- img "自营"
+- text: COACH蔻驰淡香水女士30ml礼盒
+- generic "香水金榜第4名":
+  - text: 香水金榜第4名
+- generic: “
+- generic: 瓶身设计高级感满满
+- generic: ”
+- generic: 优雅女性香水
+- generic: "|精选礼盒"
+- generic: "|花果香调淡香氛"
+- generic: "|30ml便携"
+- generic "香水金榜第4名":
+  - text: 香水金榜第4名
+- generic: ¥
+- generic: "298"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥318.9
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 立减20元
+- generic: 满赠
+- generic: 赠
+- generic: 包邮
+- generic "已售50万+"
+- generic "17万+人种草"
+- generic: 蔻驰香氛京东自营旗舰店
+- generic "香水试香花漾甜心5ml":
+- img "京喜自营"
+- text: 香水试香花漾甜心5ml
+- generic: “
+- generic: 香水小瓶很方便
+- generic: ”
+- generic: 持久留香
+- generic: "|男女通用"
+- generic: "|高级大牌"
+- generic: "|五毫升装"
+- generic: “
+- generic: 香水小瓶很方便
+- generic: ”
+- generic: ¥
+- generic: "5"
+- generic: .
+- generic: "2"
+- button
+- generic: 包邮
+- generic "已售60万+"
+- generic "93%好评"
+- generic: 京喜自营官方店
+- generic "潘海利根【唯一官方】兽首香氛香水/淡香精75ml节日礼物送男友男生鹿首 乔治勋爵的悲剧75ml":
+  - generic: 广告
+- img "京东物流"
+- generic "潘海利根【唯一官方】兽首香氛香水/淡香精75ml节日礼物送男友男生鹿首 乔治勋爵的悲剧75ml"
+- generic: 400+店铺会员已买
+- generic: "|2万+人加购"
+- generic: "|1千+人已买"
+- generic: ¥
+- generic: "2580"
+- button
+- img "明日达"
+- img "送货上门"
+- generic "已售1000+"
+- generic: Penhaligon's潘海利根官方旗舰店
+- generic "迪香儿套装三件套1盒":
+- img "京喜自营"
+- text: 迪香儿套装三件套1盒
+- generic "持久留香香水热卖榜第1名":
+  - text: 持久留香香水热卖榜第1名
+- generic: “
+- generic: 留香持久到第二天还能闻到
+- generic: ”
+- generic: 90ml
+- generic: "|三件套"
+- generic: "|品牌礼盒"
+- generic: "|女士日常香氛"
+- generic "国家补贴 最高减￥1500"
+- generic "持久留香香水热卖榜第1名":
+  - text: 持久留香香水热卖榜第1名
+- generic: ¥
+- generic: "30"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥35.9
+- button
+- img "国家补贴"
+- generic: 券满6减5
+- generic: 包邮
+- generic "已售6000+"
+- generic "1万+人种草"
+- generic: 京喜自营官方店
+- text: 大家都在搜
+- generic: 香奈儿女士香水
+- generic: 香水沐浴露
+- generic: ysl圣罗兰香水
+- generic: 范思哲
+- generic: 正品大牌持久香水
+- generic: 女士香水
+- generic: 爱马仕
+- generic "Calvin Kleinckone香水卡雷优中性淡香水100ml生日礼物节日礼物送男女友老婆"
+- img "自营"
+- text: Calvin Kleinckone香水卡雷优中性淡香水100ml生日礼物节日礼物送男女友老婆
+- generic "清新香调香水好评榜第2名":
+  - text: 清新香调香水好评榜第2名
+- generic: “
+- generic: 香气优雅持久，前调清新
+- generic: ”
+- generic: 清新柑橘
+- generic: "|自由无束"
+- generic: "|经典中性香"
+- generic: "|节日佳品"
+- generic "清新香调香水好评榜第2名":
+  - text: 清新香调香水好评榜第2名
+- generic: ¥
+- generic: "238"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 赠
+- generic: 包邮
+- generic "已售20万+"
+- generic "900+人好评"
+- generic: Calvin Klein香氛京东自营旗舰店
+- generic "CHANEL【官方正品】香奈儿五号香水(经典) N5香水 持久留香 生日礼物 五号香水(经典) 花香调 100ml":
+  - generic: 广告
+- generic "CHANEL【官方正品】香奈儿五号香水(经典) N5香水 持久留香 生日礼物 五号香水(经典) 花香调 100ml"
+- generic: 官方正品
+- generic: "|300+人收藏"
+- generic: "|1千+店铺粉丝浏览"
+- generic: ¥
+- generic: "1800"
+- button
+- generic "1万+人看过"
+- generic: CHANEL香奈儿官方旗舰店 香水与美容品
+- generic "名创优品俏女孩香水50ml":
+- img "自营"
+- text: 名创优品俏女孩香水50ml
+- generic "名创优品香水热卖榜第2名":
+  - text: 名创优品香水热卖榜第2名
+- generic: “
+- generic: 香味还是很少女
+- generic: ”
+- generic: 按压喷头
+- generic: "|简约小方瓶"
+- generic: "|混合花香调"
+- generic: "|持久淡香"
+- generic "名创优品香水热卖榜第2名":
+  - text: 名创优品香水热卖榜第2名
+- generic: ¥
+- generic: "15"
+- generic: 到手价
+- generic: ¥22
+- button
+- img "明日达"
+- generic: 限时立减7元
+- generic "已售10万+"
+- generic "30天加购飙升5倍"
+- generic: 名创优品京东自营旗舰店
+- generic "YSL圣罗兰明星香水体验礼":
+- img "自营"
+- text: YSL圣罗兰明星香水体验礼
+- generic: “
+- generic: 质量非常好，与卖家描述的完全一致
+- generic: ”
+- generic: 多规格灵活选择
+- generic: "|可填充喷雾便捷"
+- generic: "|气场花香调张扬"
+- generic: "|墨黑棱镜瓶身"
+- generic: “
+- generic: 质量非常好，与卖家描述的完全一致
+- generic: ”
+- generic: ¥
+- generic: "51"
+- generic: 到手价
+- generic: ¥58
+- button
+- generic: 限时立减7元
+- generic "已售1万+"
+- generic "99%好评"
+- generic: YSL圣罗兰京东自营旗舰店
+- generic "古驰（GUCCI）【会员专享】星品香氛试用装20元会员回购优享礼":
+- img "自营"
+- text: 古驰（GUCCI）【会员专享】星品香氛试用装20元会员回购优享礼
+- generic: “
+- generic: 给人一种优雅的感觉
+- generic: ”
+- generic: 热卖试用
+- generic: "|奶油香草"
+- generic: "|抢先体验"
+- generic: “
+- generic: 给人一种优雅的感觉
+- generic: ”
+- generic: ¥
+- generic: "13"
+- generic: 到手价
+- generic: ¥20
+- button
+- generic: 限时立减7元
+- generic "已售5万+"
+- generic "98%好评"
+- generic: 古驰（GUCCI）美妆京东自营旗舰店
+- generic "迪奥Dior迪奥小姐花漾淡香水50ml花香留香香氛享礼盒生日礼物送女友":
+  - generic: 广告
+- img "自营"
+- generic "迪奥Dior迪奥小姐花漾淡香水50ml花香留香香氛享礼盒生日礼物送女友"
+- generic: 85万+美妆达人浏览
+- generic: "|高订蝴蝶结"
+- generic: "|玫瑰香调"
+- generic: ¥
+- generic: "1030"
+- button
+- img "明日达"
+- generic "已售40万+"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "【高级经典】栀子花香水持久留香":
+- img "自营"
+- text: 【高级经典】栀子花香水持久留香
+- generic: “
+- generic: 清香高级，适合夏天使用
+- generic: ”
+- generic: 精致包装
+- generic: "|高级淡香"
+- generic: "|持久留香"
+- generic: "|精致包装"
+- generic: “
+- generic: 清香高级，适合夏天使用
+- generic: ”
+- generic: ¥
+- generic: "9"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 2件9折
+- generic "已售10万+"
+- generic "3300+人好评"
+- generic: 佰萃莱京东自营旗舰店
+- generic "自由之水女士香水5ml1支"
+- img "京喜自营"
+- text: 自由之水女士香水5ml1支
+- generic: “
+- generic: 这款香水比较持久
+- generic: ”
+- generic: 正品试香
+- generic: "|持久留香"
+- generic: "|5ml小样"
+- generic: "|持久留香"
+- generic: “
+- generic: 这款香水比较持久
+- generic: ”
+- generic: ¥
+- generic: "5"
+- generic: .
+- generic: "4"
+- button
+- generic: 包邮
+- generic "已售10万+"
+- generic "1万+人种草"
+- generic: 京喜自营官方店
+- generic "宝格丽（BVLGARI）奢享明星香氛1.5ml*4（白茶+大吉岭茶+沐光玫香+空谷之雨）+100券":
+- img "自营"
+- text: 宝格丽（BVLGARI）奢享明星香氛1.5ml*4（白茶+大吉岭茶+沐光玫香+空谷之雨）+100券
+- generic "宝格丽香水热卖榜第3名":
+  - text: 宝格丽香水热卖榜第3名
+- generic: “
+- generic: 香味十足，携带方便
+- generic: ”
+- generic: 人气香型
+- generic: "|精美礼袋"
+- generic: "|迷你便携"
+- generic: "|奢享体验"
+- generic "宝格丽香水热卖榜第3名":
+  - text: 宝格丽香水热卖榜第3名
+- generic: ¥
+- generic: "72"
+- generic: 已补21元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 限时立减7元
+- generic: 赠
+- generic: 包邮
+- generic "已售5万+"
+- generic "100+人复购"
+- generic: 宝格丽香氛京东自营官方旗舰店
+- generic "迪奥Dior真我女士香氛50ml花香调留香香水香氛礼盒装生日礼物送女友":
+  - generic: 广告
+- img "自营"
+- generic "迪奥Dior真我女士香氛50ml花香调留香香水香氛礼盒装生日礼物送女友"
+- generic "香水金榜第6名":
+  - text: 香水金榜第6名
+- generic: 生日礼物
+- generic: "|馥郁繁花"
+- generic: "|10万+美妆达人加购"
+- generic "香水金榜第6名":
+  - text: 香水金榜第6名
+- generic: ¥
+- generic: "1250"
+- button
+- img "明日达"
+- generic "已售10万+"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "【央妈首推】玉龙茶香水第1名":
+- img "自营"
+- text: 【央妈首推】玉龙茶香水第1名
+- generic: 复合香调
+- generic: "|伯爵茶"
+- generic: "|5年"
+- generic: ¥
+- generic: "69"
+- button
+- img "明日达"
+- img "新品"
+- generic "已售90万+"
+- generic "99%好评"
+- generic: IDX京东自营旗舰店
+- generic "古驰（GUCCI）【会员专享】星品香氛试用装20元会员回购优享礼":
+- img "自营"
+- text: 古驰（GUCCI）【会员专享】星品香氛试用装20元会员回购优享礼
+- generic: “
+- generic: 留香持久，很喜欢后调
+- generic: ”
+- generic: 热卖试用
+- generic: "|抢先体验"
+- generic: "|星品香氛"
+- generic: "|二十元回购"
+- generic: “
+- generic: 留香持久，很喜欢后调
+- generic: ”
+- generic: ¥
+- generic: "13"
+- generic: 到手价
+- generic: ¥20
+- button
+- img "明日达"
+- generic: 限时立减7元
+- generic "已售5万+"
+- generic "98%好评"
+- generic: 古驰（GUCCI）美妆京东自营旗舰店
+- generic "香水小样5ml 14支装":
+- img "京喜自营"
+- text: 香水小样5ml 14支装
+- generic: “
+- generic: 每天可以喷不同的香水
+- generic: ”
+- generic: 男女通用
+- generic: "|持久留香"
+- generic: "|高级大牌"
+- generic: "|多样调香选择"
+- generic "国家补贴 最高减￥1500"
+- generic: “
+- generic: 每天可以喷不同的香水
+- generic: ”
+- generic: ¥
+- generic: "34"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥39.9
+- button
+- img "国家补贴"
+- generic: 券满6减5
+- generic: 包邮
+- generic "已售60万+"
+- generic "93%好评"
+- generic: 京喜自营官方店
+- generic "潘海利根【唯一官方】兽首香氛香水/淡香精75ml节日礼物送男友男生鹿首 【淡香精】乔治勋爵的悲剧75ml":
+  - generic: 广告
+- generic "潘海利根【唯一官方】兽首香氛香水/淡香精75ml节日礼物送男友男生鹿首 【淡香精】乔治勋爵的悲剧75ml"
+- generic: 店铺被6千人种草
+- generic: "|600+美妆达人浏览"
+- generic: ¥
+- generic: "3200"
+- button
+- generic "已售1000+"
+- generic: Penhaligon's潘海利根官方旗舰店
+- generic "【央妈力荐】女士香水礼盒第1名":
+- img "自营"
+- text: 【央妈力荐】女士香水礼盒第1名
+- generic "花香调香水好评榜第1名":
+  - text: 花香调香水好评榜第1名
+- generic: “
+- generic: 性价比很高，送人自用都可
+- generic: ”
+- generic: 好评榜第1名
+- generic: "|复购榜第一名"
+- generic: "|豆包大数据推荐"
+- generic: "|香水热卖第1名"
+- generic "花香调香水好评榜第1名":
+  - text: 花香调香水好评榜第1名
+- generic: ¥
+- generic: "57"
+- generic: .
+- generic: "2"
+- button
+- img "明日达"
+- generic: 京东秒杀
+- generic "已售90万+"
+- generic "1万+人种草"
+- generic: IDX京东自营旗舰店

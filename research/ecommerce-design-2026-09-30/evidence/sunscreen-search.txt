@@ -1,0 +1,582 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "珀莱雅（PROYA）【刘亦菲同款】盾护防晒50ml 防水防汗防晒霜军训高倍":
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅（PROYA）【刘亦菲同款】盾护防晒50ml 防水防汗防晒霜军训高倍"
+- generic "防晒热卖榜第9名":
+  - text: 防晒热卖榜第9名
+- generic: 20万+人已买
+- generic: "|店铺被100万人种草"
+- generic "防晒热卖榜第9名":
+  - text: 防晒热卖榜第9名
+- generic: ¥
+- generic: "169"
+- generic: 到手价
+- generic: ¥188
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 官方直降10%
+- generic: 券满500减50
+- generic "已售100万+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "Mistine蜜丝婷【品牌TOP1】防晒":
+- img "自营"
+- text: Mistine蜜丝婷【品牌TOP1】防晒
+- generic "防晒热卖榜第1名":
+  - text: 防晒热卖榜第1名
+- generic: 通勤防晒
+- generic: "|保湿补水"
+- generic: "|防晒隔离紫外线"
+- generic: "|SPF50+"
+- generic "防晒热卖榜第1名":
+  - text: 防晒热卖榜第1名
+- generic: ¥
+- generic: "59"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 2件减30
+- generic: 赠
+- generic "已售400万+"
+- generic "30天加购飙升5倍"
+- generic: Mistine京东自营旗舰店
+- generic "欧莱雅小金管防晒霜（30ml+15ml)经典版 SPF50+护肤品生日礼礼物":
+- img "自营"
+- text: 欧莱雅小金管防晒霜（30ml+15ml)经典版 SPF50+护肤品生日礼礼物
+- generic: 轻盈不粘腻
+- generic: "|全波段防护"
+- generic: "|高倍防晒力"
+- generic: "|高倍防护"
+- generic: ¥
+- generic: "69"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售10万+"
+- generic "30天加购飙升5倍"
+- generic: 京东美妆自营旗舰店
+- generic "【热卖400万+件】欧莱雅小金管":
+- img "自营"
+- text: 【热卖400万+件】欧莱雅小金管
+- generic "防晒金榜第5名":
+  - text: 防晒金榜第5名
+- generic: 干皮适用
+- generic: "|PA++++"
+- generic: "|高倍防护"
+- generic: "|小金管设计"
+- generic "防晒金榜第5名":
+  - text: 防晒金榜第5名
+- generic: ¥
+- generic: "143"
+- generic: .
+- generic: "1"
+- generic: 已补15.9元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 赠
+- generic: 包邮
+- generic "已售600万+"
+- generic "30天加购飙升5倍"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "安热沙（Anessa）防晒霜小金瓶60ml 安耐晒防晒霜王嘉尔同款 生日礼物男女通用":
+- img "全球购自营"
+- text: 安热沙（Anessa）防晒霜小金瓶60ml 安耐晒防晒霜王嘉尔同款 生日礼物男女通用
+- generic "防晒金榜第1名":
+  - text: 防晒金榜第1名
+- generic: 防水防汗
+- generic: "|高倍防晒"
+- generic: "|质地轻薄"
+- generic: "|持久防晒"
+- generic "防晒金榜第1名":
+  - text: 防晒金榜第1名
+- generic: ¥
+- generic: "90"
+- generic: 已补9元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 包税
+- generic: 正品鉴别
+- generic: 包邮
+- generic "已售400万+"
+- generic "30天加购飙升5倍"
+- generic: 安热沙海外京东自营旗舰店
+- generic "防晒霜防水防汗防晒小金瓶SPF50军训隔离紫外线面部全身正品 小金瓶美白隔离防晒霜60g*1瓶"
+- img "京喜自营"
+- text: 防晒霜防水防汗防晒小金瓶SPF50军训隔离紫外线面部全身正品 小金瓶美白隔离防晒霜60g*1瓶
+- generic: 美白隔离
+- generic: "|高倍防晒"
+- generic: "|防水防汗"
+- generic: "|面部全身可用"
+- generic: ¥
+- generic: "25"
+- generic: .
+- generic: "89"
+- button
+- generic: 包邮
+- generic "已售8万+"
+- generic "2800+人好评"
+- generic: 京喜自营官方店
+- generic "【金榜力荐】TOP榜第1名防晒霜":
+- img "自营"
+- text: 【金榜力荐】TOP榜第1名防晒霜
+- generic "防晒热卖榜第6名":
+  - text: 防晒热卖榜第6名
+- generic: 自营担保
+- generic: "|防晒霜第1名"
+- generic: "|30天无效全退"
+- generic: "|越晒越白"
+- generic "防晒热卖榜第6名":
+  - text: 防晒热卖榜第6名
+- generic: ¥
+- generic: "47"
+- generic: .
+- generic: "47"
+- button
+- img "明日达"
+- generic: 京东秒杀
+- generic: 69买2件
+- img "安心品质"
+- generic: 包邮
+- generic "已售30万+"
+- generic "30天加购飙升5倍"
+- generic: 维特丝京东自营旗舰店
+- generic "安热沙（Anessa）采销直播间小金瓶防晒霜60mL防晒霜京东自营京东自营":
+- img "自营"
+- text: 安热沙（Anessa）采销直播间小金瓶防晒霜60mL防晒霜京东自营京东自营
+- generic "防晒金榜第2名":
+  - text: 防晒金榜第2名
+- generic: 防水防汗
+- generic: "|高倍防晒"
+- generic: "|无惧光老"
+- generic: "|中性肤质"
+- generic "防晒金榜第2名":
+  - text: 防晒金榜第2名
+- generic: ¥
+- generic: "208"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 安热沙京东自营旗舰店
+- generic "珀莱雅【会员尝鲜礼】轻享阳光超膜银管沁柔防晒乳5ml 户外防晒霜":
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅【会员尝鲜礼】轻享阳光超膜银管沁柔防晒乳5ml 户外防晒霜"
+- generic: 超1000万人关注店铺
+- generic: "|200人已回购"
+- generic: ¥
+- generic: "7"
+- generic: .
+- generic: "9"
+- button
+- img "京东超市"
+- generic "已售8000+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "欧莱雅外御内护防晒小金管7.5ml户外学生军训会员专享生日礼物":
+- img "自营"
+- text: 欧莱雅外御内护防晒小金管7.5ml户外学生军训会员专享生日礼物
+- generic: 敏感肌适用
+- generic: "|防水防汗配方"
+- generic: "|清透不粘腻"
+- generic: "|轻薄乳液质地"
+- generic: ¥
+- generic: "9"
+- generic: .
+- generic: "9"
+- generic: 已补3元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 包邮
+- generic "已售600万+"
+- generic "2万+人种草"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "Mistine蜜丝婷防晒霜素颜小粉帽防紫外线高倍隔离遮瑕60ml军训男女通用":
+- img "自营"
+- text: Mistine蜜丝婷防晒霜素颜小粉帽防紫外线高倍隔离遮瑕60ml军训男女通用
+- generic "保湿护肤防晒热卖榜第9名":
+  - text: 保湿护肤防晒热卖榜第9名
+- generic: 防晒美白双特证
+- generic: "|保湿水润"
+- generic: "|轻盈通透"
+- generic: "|男女通用"
+- generic "保湿护肤防晒热卖榜第9名":
+  - text: 保湿护肤防晒热卖榜第9名
+- generic: ¥
+- generic: "69"
+- generic: 到手价
+- generic: ¥79
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金10元
+- generic: 赠
+- generic "已售9万+"
+- generic "30天加购飙升5倍"
+- generic: Mistine京东自营旗舰店
+- generic "珀莱雅轻享阳光盾护防晒50ml SPF50+PA++++ 防水防汗防紫外线 高倍防晒":
+- img "自营"
+- text: 珀莱雅轻享阳光盾护防晒50ml SPF50+PA++++ 防水防汗防紫外线 高倍防晒
+- generic: PA++++
+- generic: "|超膜科技"
+- generic: "|专研空气膜"
+- generic: "|防紫外线"
+- generic: ¥
+- generic: "79"
+- button
+- img "明日达"
+- img "京东超市"
+- img "国家补贴"
+- generic "已售1万+"
+- generic "30天种草飙升5倍"
+- generic: 1号会员店
+- generic "Mistine蜜丝婷防晒霜小黄帽面部水感养肤防水汗60ml*2军训男女通用":
+  - generic: 广告
+- img "自营"
+- generic "Mistine蜜丝婷防晒霜小黄帽面部水感养肤防水汗60ml*2军训男女通用"
+- generic "防晒金榜第3名":
+  - text: 防晒金榜第3名
+- generic: 店铺被20万人种草
+- generic: "|3万+人收藏"
+- generic "防晒金榜第3名":
+  - text: 防晒金榜第3名
+- generic: ¥
+- generic: "123"
+- generic: .
+- generic: "5"
+- generic: 到手价
+- generic: ¥128.5
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic "已售400万+"
+- generic: Mistine京东自营旗舰店
+- generic "蜜丝婷小黄帽防晒霜40ml":
+- img "自营"
+- text: 蜜丝婷小黄帽防晒霜40ml
+- generic "防晒热卖榜第7名":
+  - text: 防晒热卖榜第7名
+- generic: 保湿呵护
+- generic: "|全面防护"
+- generic: "|PA+++保护"
+- generic: "|强力防晒"
+- generic "防晒热卖榜第7名":
+  - text: 防晒热卖榜第7名
+- generic: ¥
+- generic: "39"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- img "国家补贴"
+- generic "已售50万+"
+- generic "30天加购飙升5倍"
+- generic: 1号会员店
+- generic "欧莱雅美颜遮瑕防晒40ml":
+- img "自营"
+- text: 欧莱雅美颜遮瑕防晒40ml
+- generic: 自然遮瑕
+- generic: "|高倍防晒"
+- generic: "|PA++++"
+- generic: "|SPF50+"
+- generic: ¥
+- generic: "79"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售600万+"
+- generic "30天种草飙升5倍"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "美康粉黛高倍水感防晒精华乳100g":
+- img "自营"
+- text: 美康粉黛高倍水感防晒精华乳100g
+- generic: 四大专利技术
+- generic: "|全光谱防晒"
+- generic: "|水感乳液精华"
+- generic: "|A+防晒力"
+- generic: ¥
+- generic: "89"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售30万+"
+- generic "2万+人种草"
+- generic: 美康粉黛京东自营旗舰店
+- generic "珀莱雅（PROYA）【刘亦菲同款】超膜银管沁柔防晒50ml妆前通勤防晒霜":
+  - generic: 广告
+- img "自营"
+- generic "珀莱雅（PROYA）【刘亦菲同款】超膜银管沁柔防晒50ml妆前通勤防晒霜"
+- generic: 30万+店铺老客浏览
+- generic: "|30万+人加购"
+- generic: "|中秋节礼物"
+- generic: ¥
+- generic: "199"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满500减50
+- generic "已售100万+"
+- generic: 珀莱雅京东自营旗舰店
+- generic "安热沙（Anessa）智感倍护防晒乳20mL小金瓶高倍防晒霜京东自营":
+- img "自营"
+- text: 安热沙（Anessa）智感倍护防晒乳20mL小金瓶高倍防晒霜京东自营
+- generic: 防水防汗
+- generic: "|无惧光老"
+- generic: "|高倍防晒"
+- generic: "|汗水无忧"
+- generic: ¥
+- generic: "74"
+- generic: 到手价
+- generic: ¥78
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金4元
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 安热沙京东自营旗舰店
+- generic "薇诺娜清透防晒乳50g":
+- img "自营"
+- text: 薇诺娜清透防晒乳50g
+- generic: 无酒精无香精
+- generic: "|医美后适用推荐"
+- generic: "|清透裸感不黏腻"
+- generic: "|全光谱抗紫外线"
+- generic: ¥
+- generic: "69"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售20万+"
+- generic "30天加购飙升5倍"
+- generic: 京东美妆自营旗舰店
+- generic "【央妈力荐】TOP榜第1名防晒霜":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名防晒霜
+- generic: 30天无效全退
+- generic: "|自营担保"
+- generic: "|高倍防晒"
+- generic: "|清爽不粘腻"
+- generic: ¥
+- generic: "59"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 69买2件
+- img "安心品质"
+- generic "已售30万+"
+- generic "30天加购飙升5倍"
+- generic: 维特丝京东自营旗舰店
+- generic "Mistine蜜丝婷防晒水喷雾小凉喷SPF50+美白清爽保湿80ml军训男女通用":
+  - generic: 广告
+- img "自营"
+- generic "Mistine蜜丝婷防晒水喷雾小凉喷SPF50+美白清爽保湿80ml军训男女通用"
+- generic: 300+护肤达人收藏
+- generic: "|10万+店铺老客浏览"
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 2件减39
+- generic "已售8万+"
+- generic: Mistine京东自营旗舰店
+- generic "柳丝木户外美白高倍防晒霜 50g":
+- img "自营"
+- text: 柳丝木户外美白高倍防晒霜 50g
+- generic: 无需卸妆洁面
+- generic: "|养防一体防护"
+- generic: "|防水防汗配方"
+- generic: "|美白不反黑"
+- generic: ¥
+- generic: "59"
+- button
+- img "明日达"
+- generic: 满赠
+- generic: 赠
+- generic "已售10万+"
+- generic "30天加购飙升5倍"
+- generic: 柳丝木（Ositree）美妆京东自营旗舰店
+- generic "大宝水感多效防晒露50g高倍防晒霜军训防水防汗防紫外线护面部护肤品":
+- img "自营"
+- text: 大宝水感多效防晒露50g高倍防晒霜军训防水防汗防紫外线护面部护肤品
+- generic: 轻薄不油
+- generic: "|高倍防晒"
+- generic: "|12.5h长效"
+- generic: "|防水防汗"
+- generic: ¥
+- generic: "34"
+- generic: .
+- generic: "9"
+- generic: 已补5元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 2件9折
+- generic: 赠
+- generic: 包邮
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 大宝京东自营旗舰店
+- generic "安热沙小金瓶防晒霜60ml":
+- img "自营"
+- text: 安热沙小金瓶防晒霜60ml
+- generic: 小金瓶便携
+- generic: "|高倍防护"
+- generic: "|60ml大容量"
+- generic: "|++++防晒力"
+- generic: ¥
+- generic: "95"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售2万+"
+- generic "2万+人种草"
+- generic: 安热沙京东自营专区
+- generic "Mistine蜜丝婷小黄帽高倍防晒霜60ml*2军训敏感肌防晒乳【泰版】男女通用":
+  - generic: 广告
+- img "全球购自营"
+- generic "Mistine蜜丝婷小黄帽高倍防晒霜60ml*2军训敏感肌防晒乳【泰版】男女通用"
+- generic: 超1万人店内购买
+- generic: "|成膜超快"
+- generic: "|防晒伤"
+- generic: ¥
+- generic: "123"
+- generic: 已补48.42元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 首购礼金5元
+- generic: 券满500减50
+- generic: 正品鉴别
+- generic "已售50万+"
+- generic: Mistine海外京东自营旗舰店
+- generic "【央妈力荐】TOP榜防晒霜第一名":
+- img "自营"
+- text: 【央妈力荐】TOP榜防晒霜第一名
+- generic: 高倍防晒
+- generic: "|防水防汗"
+- generic: "|触肤成膜"
+- generic: "|亲肤舒适"
+- generic: ¥
+- generic: "49"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 69买2件
+- generic "已售50万+"
+- generic "30天加购飙升5倍"
+- generic: 维特丝京东自营旗舰店
+- generic "Mistine蜜丝婷 新版小黄帽防晒霜乳60ml 水感养肤高倍防晒户外 随机发货":
+- img "自营"
+- text: Mistine蜜丝婷 新版小黄帽防晒霜乳60ml 水感养肤高倍防晒户外 随机发货
+- generic: 60ml容量
+- generic: "|水感质地"
+- generic: "|清爽成膜快"
+- generic: "|PA++++防护"
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- img "国家补贴"
+- generic "已售50万+"
+- generic "1900+人复购"
+- generic: 1号会员店
+- generic "【屈臣氏同款】防晒霜第1名":
+- img "自营"
+- text: 【屈臣氏同款】防晒霜第1名
+- generic: 自营担保
+- generic: "|无效全退"
+- generic: "|美白防晒"
+- generic: "|暴晒不黑"
+- generic: ¥
+- generic: "49"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 包邮
+- generic "已售4000+"
+- generic "700+人好评"
+- generic: 馥诺诗（VICTORIA SAVOR）京东自营旗舰店
+- generic "雅漾（Avene）倍护水润防晒乳50ML SPF50+小金刚高倍防晒霜防水防汗户外军训":
+  - generic: 广告
+- img "自营"
+- generic "雅漾（Avene）倍护水润防晒乳50ML SPF50+小金刚高倍防晒霜防水防汗户外军训"
+- generic: 100人已回购
+- generic: "|小金刚"
+- generic: "|近30日热销商品"
+- generic: ¥
+- generic: "89"
+- generic: .
+- generic: "01"
+- generic: 到手价
+- generic: ¥98.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满20享9折
+- generic: 券满329享8折
+- generic "已售10万+"
+- generic: 雅漾京东自营旗舰店
+- generic "【军训专用】防晒霜热销第1名":
+- img "自营"
+- text: 【军训专用】防晒霜热销第1名
+- generic "婴童护肤热卖榜第4名":
+  - text: 婴童护肤热卖榜第4名
+- generic: 商超热卖
+- generic: "|0过敏不刺激"
+- generic: "|透气不闷痘"
+- generic: "|高倍防晒"
+- generic "国家补贴 最高减￥1000"
+- generic "婴童护肤热卖榜第4名":
+  - text: 婴童护肤热卖榜第4名
+- generic: ¥
+- generic: "25"
+- generic: .
+- generic: "5"
+- generic: 到手价
+- generic: ¥28.5
+- button
+- img "明日达"
+- img "京东超市"
+- img "国家补贴"
+- generic: 首购礼金3元
+- generic "已售2000+"
+- generic "1万+人种草"
+- generic: DOSCOO京东自营旗舰店

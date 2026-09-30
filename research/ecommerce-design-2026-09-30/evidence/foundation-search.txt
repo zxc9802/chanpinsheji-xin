@@ -1,0 +1,644 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 京东国际
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "雅诗兰黛第二代DW持妆粉底液17#1W1暖调偏白色30ml化妆品护肤品生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "雅诗兰黛第二代DW持妆粉底液17#1W1暖调偏白色30ml化妆品护肤品生日礼物"
+- generic "粉底液热卖榜第1名":
+  - text: 粉底液热卖榜第1名
+- generic: 近30日热销商品
+- generic: "|100万+店铺老客浏览"
+- generic "粉底液热卖榜第1名":
+  - text: 粉底液热卖榜第1名
+- generic: ¥
+- generic: "490"
+- button
+- img "明日达"
+- generic "已售100万+"
+- generic: Estee Lauder雅诗兰黛京东自营旗舰店
+- generic "YSL圣罗兰恒久粉底液体验礼":
+- img "自营"
+- text: YSL圣罗兰恒久粉底液体验礼
+- generic: “
+- generic: 自带高级缎面柔光妆效
+- generic: ”
+- generic: 轻盈慕斯不卡粉
+- generic: "|控油持妆不脱妆"
+- generic: "|整日持妆不斑驳"
+- generic: "|雾面柔焦无瑕感"
+- generic: “
+- generic: 自带高级缎面柔光妆效
+- generic: ”
+- generic: ¥
+- generic: "9"
+- generic: .
+- generic: "9"
+- button
+- generic "已售1万+"
+- generic "600+人复购"
+- generic: YSL圣罗兰京东自营旗舰店
+- generic "DW粉底液dw沁水持妆粉底油皮干皮遮瑕保湿持久控油不脱妆30ml全新款":
+- img "自营"
+- text: DW粉底液dw沁水持妆粉底油皮干皮遮瑕保湿持久控油不脱妆30ml全新款
+- generic "粉底液折扣榜第9名":
+  - text: 粉底液折扣榜第9名
+- generic: “
+- generic: 遮瑕力强，防水防汗
+- generic: ”
+- generic: 持久不脱妆
+- generic: "|服帖不卡粉"
+- generic: "|贴肤持妆不假面"
+- generic: "|高遮瑕不脱妆"
+- generic "粉底液折扣榜第9名":
+  - text: 粉底液折扣榜第9名
+- generic: ¥
+- generic: "105"
+- generic: 到手价
+- generic: ¥128
+- button
+- img "明日达"
+- generic: 首购礼金10元
+- generic: 官方直降10%
+- generic "已售2000+"
+- generic "99%好评"
+- generic: DW美妆京东自营旗舰店
+- generic "【混油挚爱】兰蔻持妆粉底液30ml":
+- img "自营"
+- text: 【混油挚爱】兰蔻持妆粉底液30ml
+- generic "粉底液金榜第2名":
+  - text: 粉底液金榜第2名
+- generic: “
+- generic: 粉质细腻，上脸轻薄服帖
+- generic: ”
+- generic: 整日持色不脱妆
+- generic: "|动态贴肤不卡粉"
+- generic: "|敏感肌适用配方"
+- generic: "|轻薄透气不闷痘"
+- generic "领政府补贴减￥49"
+- generic "粉底液金榜第2名":
+  - text: 粉底液金榜第2名
+- generic: ¥
+- generic: "441"
+- generic: 补贴领后价
+- generic: ¥490
+- button
+- img "明日达"
+- img "政府补贴"
+- generic: 赠
+- generic "已售90万+"
+- generic "30天加购飙升5倍"
+- generic: 兰蔻京东自营旗舰店
+- generic "卡姿兰小奶猫粉底液02干皮本命":
+- img "自营"
+- text: 卡姿兰小奶猫粉底液02干皮本命
+- generic "粉底液热卖榜第2名":
+  - text: 粉底液热卖榜第2名
+- generic: “
+- generic: 多次回购，不卡粉
+- generic: ”
+- generic: 服帖不卡粉
+- generic: "|24H奶润"
+- generic: "|干皮救星"
+- generic: "|细致毛孔"
+- generic "粉底液热卖榜第2名":
+  - text: 粉底液热卖榜第2名
+- generic: ¥
+- generic: "89"
+- generic: 到手价
+- generic: ¥99
+- button
+- img "明日达"
+- generic: 立减10元
+- generic: 每300减30
+- generic: 赠
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 卡姿兰京东自营旗舰店
+- generic "Mistine蜜丝婷蓝盾粉底液遮瑕持久控油保湿提亮混干油皮生日礼物送女友":
+- img "自营"
+- text: Mistine蜜丝婷蓝盾粉底液遮瑕持久控油保湿提亮混干油皮生日礼物送女友
+- generic "Mistine粉底液热卖榜第1名":
+  - text: Mistine粉底液热卖榜第1名
+- generic: “
+- generic: 粉质细腻好推开，自然雾面妆感
+- generic: ”
+- generic: 混合皮适用
+- generic: "|服帖不卡粉"
+- generic: "|36H持妆控油"
+- generic: "|遮瑕效果"
+- generic "Mistine粉底液热卖榜第1名":
+  - text: Mistine粉底液热卖榜第1名
+- generic: ¥
+- generic: "47"
+- generic: 到手价
+- generic: ¥59
+- button
+- img "明日达"
+- generic: 首购礼金5元
+- generic: 限时立减7元
+- generic: 赠
+- generic "已售200万+"
+- generic "30天加购飙升5倍"
+- generic: Mistine京东自营旗舰店
+- generic "雅诗兰黛（Estee Lauder）三代沁水粉底液#61 1C0冷象牙白30ml干皮遮瑕底妆生日礼物送女友":
+- img "全球购自营"
+- text: 雅诗兰黛（Estee Lauder）三代沁水粉底液#61 1C0冷象牙白30ml干皮遮瑕底妆生日礼物送女友
+- generic "粉底液金榜第10名":
+  - text: 粉底液金榜第10名
+- generic: 水感不粘
+- generic: "|轻覆无暇"
+- generic: "|强化屏障"
+- generic: "|提亮瓷肌"
+- generic "粉底液金榜第10名":
+  - text: 粉底液金榜第10名
+- generic: ¥
+- generic: "229"
+- generic: .
+- generic: "9"
+- button
+- generic: 包税
+- generic: 正品鉴别
+- generic "已售2万+"
+- generic "30天加购飙升5倍"
+- generic: 京东全球购美妆自营旗舰店
+- generic "NARS【派样返券】超方瓶尝鲜盒":
+- img "自营"
+- text: NARS【派样返券】超方瓶尝鲜盒
+- generic "清透奶油肌粉底液热卖榜第2名":
+  - text: 清透奶油肌粉底液热卖榜第2名
+- generic: 敏肌持妆安心
+- generic: "|抗氧精粹焕亮"
+- generic: "|中性自然白肤色"
+- generic: "|明星色高适配"
+- generic "清透奶油肌粉底液热卖榜第2名":
+  - text: 清透奶油肌粉底液热卖榜第2名
+- generic: ¥
+- generic: "65"
+- button
+- generic "已售4000+"
+- generic "93%好评"
+- generic: NARS京东自营旗舰店
+- generic "修可芙（SOCORSKIN）【高遮瑕】黄子弘凡同款橡皮擦粉底液遮瑕持久防水不脱妆不卡粉女":
+  - generic: 广告
+- img "自营"
+- generic "修可芙（SOCORSKIN）【高遮瑕】黄子弘凡同款橡皮擦粉底液遮瑕持久防水不脱妆不卡粉女"
+- generic: 7万+人加购
+- generic: "|1万+人已买"
+- generic: "|1千+人收藏"
+- generic: "|高遮瑕"
+- generic: ¥
+- generic: "131"
+- generic: 到手价
+- generic: ¥138
+- button
+- img "明日达"
+- generic: 限时立减7元
+- generic "已售20万+"
+- generic: 修可芙 SOCORSKIN京东自营旗舰店
+- generic "卡姿兰（Carslan）【2.0重磅升级】黑磁粉底液遮瑕控油持久防汗不脱妆混合皮P02 30g"
+- img "自营"
+- text: 卡姿兰（Carslan）【2.0重磅升级】黑磁粉底液遮瑕控油持久防汗不脱妆混合皮P02 30g
+- generic "粉底液热卖榜第7名":
+  - text: 粉底液热卖榜第7名
+- generic: “
+- generic: 找到一款贵价的替代品
+- generic: ”
+- generic: 磨皮遮瑕持妆
+- generic: "|全新2代重磅上市"
+- generic: "|只吸坏油不吸好油"
+- generic: "|轻薄透气"
+- generic "领政府补贴减￥15.9"
+- generic "粉底液热卖榜第7名":
+  - text: 粉底液热卖榜第7名
+- generic: ¥
+- generic: "143"
+- generic: .
+- generic: "1"
+- generic: 补贴领后价
+- generic: ¥188
+- button
+- img "明日达"
+- img "政府补贴"
+- generic: 官方直降15%
+- generic: 每300减30
+- generic "已售20万+"
+- generic "30天加购飙升5倍"
+- generic: 卡姿兰京东自营旗舰店
+- generic "YSL圣罗兰恒久粉底液LC2自然白皙油皮天菜整日持妆遮瑕防晒生日礼物女":
+- img "自营"
+- text: YSL圣罗兰恒久粉底液LC2自然白皙油皮天菜整日持妆遮瑕防晒生日礼物女
+- generic "粉底液金榜第3名":
+  - text: 粉底液金榜第3名
+- generic: “
+- generic: 粉质细腻顺滑，一层遮盖痘印毛孔
+- generic: ”
+- generic: 高级雾面
+- generic: "|油皮天菜"
+- generic: "|超薄无瑕"
+- generic: "|恒久无瑕"
+- generic "领政府补贴减￥67"
+- generic "粉底液金榜第3名":
+  - text: 粉底液金榜第3名
+- generic: ¥
+- generic: "603"
+- generic: 补贴领后价
+- generic: ¥670
+- button
+- img "明日达"
+- img "政府补贴"
+- generic: 赠
+- generic "已售40万+"
+- generic "30天加购飙升5倍"
+- generic: YSL圣罗兰京东自营旗舰店
+- generic "粉底液持久不脱妆不卡粉防汗持妆":
+- img "京喜自营"
+- text: 粉底液持久不脱妆不卡粉防汗持妆
+- generic: 防水防汗
+- generic: "|持久不脱妆"
+- generic: "|柔雾亲肤"
+- generic: "|柔雾亲肤"
+- generic: ¥
+- generic: "4"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥9.9
+- button
+- generic: 券满6减5
+- generic: 包邮
+- generic "已售7000+"
+- generic "3600+人种草"
+- generic: 京喜自营官方店
+- generic "彩棠【全新升级2.0】小圆管混油持妆粉底液遮瑕持久30ml#100生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "彩棠【全新升级2.0】小圆管混油持妆粉底液遮瑕持久30ml#100生日礼物"
+- generic: 3千+人收藏
+- generic: "|店铺被10万人种草"
+- generic: "|全新升级"
+- generic: ¥
+- generic: "219"
+- button
+- img "明日达"
+- generic: 满赠
+- generic "已售30万+"
+- generic: 彩棠京东自营旗舰店
+- generic "彩棠2.0混油持妆粉底液110":
+- img "自营"
+- text: 彩棠2.0混油持妆粉底液110
+- generic "新锐国货粉底液热卖榜第2名":
+  - text: 新锐国货粉底液热卖榜第2名
+- generic: “
+- generic: 妆感清透又持久
+- generic: ”
+- generic: 24H分区控妆
+- generic: "|天黑脸不黑"
+- generic: "|柔雾持妆"
+- generic: "|柔滑细腻"
+- generic "新锐国货粉底液热卖榜第2名":
+  - text: 新锐国货粉底液热卖榜第2名
+- generic: ¥
+- generic: "219"
+- button
+- img "明日达"
+- generic: 满赠
+- generic: 赠
+- generic "已售30万+"
+- generic "30天加购飙升5倍"
+- generic: 彩棠京东自营旗舰店
+- text: 大家都在搜
+- generic: 毛戈平粉底液
+- generic: ysl圣罗兰
+- generic: 强力遮瑕
+- generic: 气垫
+- generic: 花间颂
+- generic: 三合一粉底液
+- generic: 毛戈平
+- generic "悠宜（unny club）锁采粉底液30ml遮瑕持久控油不脱妆混油油皮n01自然色生日礼物":
+- img "自营"
+- text: 悠宜（unny club）锁采粉底液30ml遮瑕持久控油不脱妆混油油皮n01自然色生日礼物
+- generic "细致毛孔粉底液热卖榜第10名":
+  - text: 细致毛孔粉底液热卖榜第10名
+- generic: 提亮修饰
+- generic: "|油皮亲妈"
+- generic: "|控油持妆"
+- generic: "|提亮肤色"
+- generic "细致毛孔粉底液热卖榜第10名":
+  - text: 细致毛孔粉底液热卖榜第10名
+- generic: ¥
+- generic: "69"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- generic: 赠
+- generic "已售50万+"
+- generic "30天加购飙升5倍"
+- generic: unny club悠宜京东自营旗舰店
+- generic "M.A.C【会员专享】魅可星品体验礼无瑕粉底液5ml-N12返20元回购券":
+- img "自营"
+- text: M.A.C【会员专享】魅可星品体验礼无瑕粉底液5ml-N12返20元回购券
+- generic "多种肤质适用粉底液热卖榜第3名":
+  - text: 多种肤质适用粉底液热卖榜第3名
+- generic: 轻薄透气不闷肤
+- generic: "|色号随机惊喜礼"
+- generic: "|敏感肌适用配方"
+- generic: "|长效持妆不脱妆"
+- generic "多种肤质适用粉底液热卖榜第3名":
+  - text: 多种肤质适用粉底液热卖榜第3名
+- generic: ¥
+- generic: "65"
+- button
+- img "明日达"
+- generic "已售50万+"
+- generic "96%好评"
+- generic: MAC魅可京东自营旗舰店
+- generic "NARS【星品尝鲜】超方瓶粉底液L1.5体验装 粉底液派样":
+- img "自营"
+- text: NARS【星品尝鲜】超方瓶粉底液L1.5体验装 粉底液派样
+- generic "NARS粉底液热卖榜第5名":
+  - text: NARS粉底液热卖榜第5名
+- generic: 4重高能抗氧精粹
+- generic: "|不挑肤况不挑技巧"
+- generic: "|敏肌持妆也安心"
+- generic: "|高适配明星色号"
+- generic "NARS粉底液热卖榜第5名":
+  - text: NARS粉底液热卖榜第5名
+- generic: ¥
+- generic: "63"
+- generic: 到手价
+- generic: ¥70
+- button
+- generic: 限时立减7元
+- generic: 赠
+- generic "已售4万+"
+- generic "94%好评"
+- generic: NARS京东自营旗舰店
+- generic "【当/次日达】PL粉底液":
+- img "自营"
+- text: 【当/次日达】PL粉底液
+- generic: “
+- generic: 粉底液质量超预期，实物美美哒
+- generic: ”
+- generic: 防水耐汗
+- generic: "|24h控油持妆"
+- generic: "|原生遮瑕"
+- generic: "|蹭不掉持妆"
+- generic: “
+- generic: 粉底液质量超预期，实物美美哒
+- generic: ”
+- generic: ¥
+- generic: "138"
+- button
+- img "明日达"
+- generic: 每300减30
+- generic: 赠
+- generic "已售80万+"
+- generic "30天种草飙升5倍"
+- generic: Passional Lover京东自营旗舰店
+- generic "欧莱雅黑胖子粉底液300N":
+- img "自营"
+- text: 欧莱雅黑胖子粉底液300N
+- generic "欧莱雅粉底液热卖榜第1名":
+  - text: 欧莱雅粉底液热卖榜第1名
+- generic: “
+- generic: 夏天不会很热，不会很厚重
+- generic: ”
+- generic: 36H长效持妆
+- generic: "|超分子烟酰胺"
+- generic: "|控油不拔干"
+- generic: "|轻雾无粉感"
+- generic "欧莱雅粉底液热卖榜第1名":
+  - text: 欧莱雅粉底液热卖榜第1名
+- generic: ¥
+- generic: "199"
+- button
+- img "明日达"
+- generic: 券满270减20
+- generic: 赠
+- generic "已售9000+"
+- generic "99%好评"
+- generic: 欧莱雅京东自营官方旗舰店
+- generic "迪奥Dior锁妆无瑕粉底液柔润亮泽0N30ml遮瑕防晒化妆品生日礼物送女友":
+  - generic: 广告
+- img "自营"
+- generic "迪奥Dior锁妆无瑕粉底液柔润亮泽0N30ml遮瑕防晒化妆品生日礼物送女友"
+- generic: 高倍防护
+- generic: "|10万+美妆控浏览"
+- generic: "|生日礼物"
+- generic: ¥
+- generic: "660"
+- button
+- img "明日达"
+- generic "已售5万+"
+- generic: DIOR迪奥美妆京东自营官方旗舰店
+- generic "卡姿兰（Carslan）小夜猫粉底液遮瑕持久保湿控油不脱妆油皮02#象牙色30g生日礼物女":
+- img "自营"
+- text: 卡姿兰（Carslan）小夜猫粉底液遮瑕持久保湿控油不脱妆油皮02#象牙色30g生日礼物女
+- generic "防水防汗粉底液热卖榜第1名":
+  - text: 防水防汗粉底液热卖榜第1名
+- generic: “
+- generic: 粉质细腻水润，上脸瞬间融合
+- generic: ”
+- generic: 混油皮推荐
+- generic: "|持妆不拔干"
+- generic: "|控油抗暗沉"
+- generic: "|生日馈赠"
+- generic "防水防汗粉底液热卖榜第1名":
+  - text: 防水防汗粉底液热卖榜第1名
+- generic: ¥
+- generic: "89"
+- generic: 到手价
+- generic: ¥102
+- button
+- img "明日达"
+- generic: 官方直降12%
+- generic: 每300减30
+- generic: 赠
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 卡姿兰京东自营旗舰店
+- generic "恋火（Passional Lover）PL蹭不掉粉底液4.0持妆遮瑕不脱妆不卡粉BB霜出游必备#01象牙白":
+- img "自营"
+- text: 恋火（Passional Lover）PL蹭不掉粉底液4.0持妆遮瑕不脱妆不卡粉BB霜出游必备#01象牙白
+- generic "粉底液金榜第5名":
+  - text: 粉底液金榜第5名
+- generic: “
+- generic: 持妆效果不输大牌粉底液
+- generic: ”
+- generic: 热销100w+
+- generic: "|服帖不卡粉"
+- generic: "|24H持妆控油"
+- generic: "|混油皮适用"
+- generic "粉底液金榜第5名":
+  - text: 粉底液金榜第5名
+- generic: ¥
+- generic: "138"
+- button
+- img "明日达"
+- generic: 每300减30
+- generic: 赠
+- generic "已售80万+"
+- generic "98%好评"
+- generic: Passional Lover京东自营旗舰店
+- generic "Mistine蜜丝婷金盾粉底液遮瑕持久定妆控油油皮挚爱生日礼物送女友":
+- img "自营"
+- text: Mistine蜜丝婷金盾粉底液遮瑕持久定妆控油油皮挚爱生日礼物送女友
+- generic: “
+- generic: 混油皮上脸清爽不闷痘
+- generic: ”
+- generic: 24H控油锁妆
+- generic: "|油皮官配"
+- generic: "|细腻服帖"
+- generic: "|金盾遮瑕"
+- generic: “
+- generic: 混油皮上脸清爽不闷痘
+- generic: ”
+- generic: ¥
+- generic: "29"
+- generic: 到手价
+- generic: ¥36
+- button
+- img "明日达"
+- generic: 限时立减7元
+- generic "已售200万+"
+- generic "30天加购飙升5倍"
+- generic: Mistine京东自营旗舰店
+- generic "彩棠【全新升级2.0】小圆管混干持妆粉底液遮瑕保湿30ml#110N生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "彩棠【全新升级2.0】小圆管混干持妆粉底液遮瑕保湿30ml#110N生日礼物"
+- generic: 遮瑕超自然
+- generic: "|55万+人浏览"
+- generic: "|2千+人收藏"
+- generic: ¥
+- generic: "219"
+- button
+- img "明日达"
+- generic: 满赠
+- generic "已售10万+"
+- generic: 彩棠京东自营旗舰店
+- generic "卡姿兰（Carslan）4.0升级小混猫粉底液遮瑕持久不脱妆服帖P02 30g 生日礼物送女友"
+- img "自营"
+- text: 卡姿兰（Carslan）4.0升级小混猫粉底液遮瑕持久不脱妆服帖P02 30g 生日礼物送女友
+- generic "滋润保湿粉底液热卖榜第1名":
+  - text: 滋润保湿粉底液热卖榜第1名
+- generic: “
+- generic: 赠送小样和试用装，很贴心
+- generic: ”
+- generic: 24H持妆抗暗
+- generic: "|4.0新升级"
+- generic: "|柔润扒脸"
+- generic: "|升级配方细腻"
+- generic "滋润保湿粉底液热卖榜第1名":
+  - text: 滋润保湿粉底液热卖榜第1名
+- generic: ¥
+- generic: "119"
+- generic: 到手价
+- generic: ¥140
+- button
+- img "明日达"
+- generic: 官方直降15%
+- generic: 每300减30
+- generic: 赠
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 卡姿兰京东自营旗舰店
+- generic "恋火（Passional Lover）【会员试用】PL蹭不掉粉底液2.5ml（4.0升级版）自然色粉底液小样":
+- img "自营"
+- text: 恋火（Passional Lover）【会员试用】PL蹭不掉粉底液2.5ml（4.0升级版）自然色粉底液小样
+- generic: “
+- generic: 妆感清透自然，打造通透水光肌
+- generic: ”
+- generic: 透气0粉感
+- generic: "|24H磨皮隐瑕"
+- generic: "|5重锁色科技"
+- generic: "|智能控油技术"
+- generic: “
+- generic: 妆感清透自然，打造通透水光肌
+- generic: ”
+- generic: ¥
+- generic: "7"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- generic: 满赠
+- generic "已售80万+"
+- generic "98%好评"
+- generic: Passional Lover京东自营旗舰店
+- generic "【央妈力荐】TOP榜第1名粉底液":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名粉底液
+- generic "粉底液好评榜第1名":
+  - text: 粉底液好评榜第1名
+- generic: “
+- generic: 轻薄透气好推开
+- generic: ”
+- generic: 全网热销千万
+- generic: "|控油不卡粉不斑驳"
+- generic: "|豆包大数据推荐"
+- generic: "|72H持妆遮瑕"
+- generic "粉底液好评榜第1名":
+  - text: 粉底液好评榜第1名
+- generic: ¥
+- generic: "59"
+- button
+- img "明日达"
+- generic: 满90减49
+- generic "已售30万+"
+- generic "30天加购飙升5倍"
+- generic: 韩方五谷个护京东自营旗舰店
+- generic "美宝莲Fitme粉底液水润版110":
+- img "自营"
+- text: 美宝莲Fitme粉底液水润版110
+- generic "美宝莲粉底液热卖榜第1名":
+  - text: 美宝莲粉底液热卖榜第1名
+- generic: “
+- generic: 质地轻盈，包装很好，很有质感
+- generic: ”
+- generic: 经典版
+- generic: "|干皮救星"
+- generic: "|水润不卡粉"
+- generic: "|针对干皮"
+- generic "美宝莲粉底液热卖榜第1名":
+  - text: 美宝莲粉底液热卖榜第1名
+- generic: ¥
+- generic: "76"
+- generic: 已补12.73元
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 满赠
+- generic: 赠
+- generic: 包邮
+- generic "已售60万+"
+- generic "1100+人好评"
+- generic: 美宝莲京东自营旗舰店
+- generic "雅诗兰黛沁水粉底液尝鲜礼 (沁水61#1ml*2+沁水63#1ml)":
+- img "自营"
+- text: 雅诗兰黛沁水粉底液尝鲜礼 (沁水61#1ml*2+沁水63#1ml)
+- generic: 套装类
+- generic: "|旅行装"
+- generic: ¥
+- generic: "54"
+- button
+- generic "已售900+"
+- generic "100%好评"
+- generic: Estee Lauder雅诗兰黛京东自营旗舰店

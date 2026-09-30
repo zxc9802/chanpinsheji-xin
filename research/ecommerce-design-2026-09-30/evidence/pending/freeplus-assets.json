@@ -1,0 +1,38 @@
+{
+  "product_url": "https://item.jd.com/758086.html",
+  "captured_at": "2026-09-30",
+  "heat": [
+    "- generic: 买家评价(500万+)",
+    "- generic: 累计评价 500万+",
+    "- link \"9月『洁面金榜』TOP20\":",
+    "  - generic: 9月『洁面金榜』TOP20"
+  ],
+  "hero": [
+    {
+      "order": 1,
+      "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/531831/25/7223/116360/6ab8e546F82ba591d/00832ee3e8edeaab.jpg.avif"
+    }
+  ],
+  "detail": [],
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/avif",
+        "id": "8e1b5d1336daf702",
+        "kind": "image",
+        "name": "00832ee3e8edeaab.jpg.avif",
+        "path": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/d93dd43e-224f-4768-96a6-3f242ab25731/8e1b5d1336daf702.avif",
+        "url": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/531831/25/7223/116360/6ab8e546F82ba591d/00832ee3e8edeaab.jpg.avif"
+      }
+    ],
+    "directoryPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/d93dd43e-224f-4768-96a6-3f242ab25731",
+    "failures": [],
+    "manifestPath": "/var/folders/bp/9ys3pc214j3cyvm_0l8gwghm0000gn/T/browser-use/assets/d93dd43e-224f-4768-96a6-3f242ab25731/manifest.json",
+    "summary": {
+      "downloadedCount": 1,
+      "elapsedMs": 291.3504579998553,
+      "failedCount": 0,
+      "requestedCount": 1
+    }
+  }
+}

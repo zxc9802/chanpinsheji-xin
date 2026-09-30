@@ -1,0 +1,742 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic "润发护发精油小金瓶100ml 免洗":
+- img "自营"
+- text: 润发护发精油小金瓶100ml 免洗
+- generic "护发润发精华热卖榜第1名":
+  - text: 护发润发精华热卖榜第1名
+- generic: “
+- generic: 用起来真的很顺滑
+- generic: ”
+- generic: 修护受损发丝
+- generic: "|抚平毛躁"
+- generic: "|高纯度椰子油"
+- generic: "|璀璨闪耀"
+- generic "护发润发精华热卖榜第1名":
+  - text: 护发润发精华热卖榜第1名
+- generic: ¥
+- generic: "69"
+- generic: .
+- generic: "7"
+- generic: 到手价
+- generic: ¥72.7
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 赠
+- generic "已售600万+"
+- generic "30天加购飙升5倍"
+- generic: 欧莱雅美发京东自营旗舰店
+- generic "【雪松玫瑰香】潘婷奇迹精油":
+- img "自营"
+- text: 【雪松玫瑰香】潘婷奇迹精油
+- generic "修护润发精华热卖榜第4名":
+  - text: 修护润发精华热卖榜第4名
+- generic: “
+- generic: 香味好闻，持久留香
+- generic: ”
+- generic: 雪松玫瑰香
+- generic: "|3秒吸收不粘腻"
+- generic: "|即刻柔顺亮"
+- generic: "|三秒吸收"
+- generic "修护润发精华热卖榜第4名":
+  - text: 修护润发精华热卖榜第4名
+- generic: ¥
+- generic: "74"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥79.8
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 2件9折
+- generic: 赠
+- generic "已售40万+"
+- generic "4400+人复购"
+- generic: 宝洁京东自营旗舰店
+- generic "Off&Relax沁盈柔亮护发精华油50ml or润发柔顺改善毛躁损伤男女士通用":
+  - generic: 广告
+- img "自营"
+- generic "Off&Relax沁盈柔亮护发精华油50ml or润发柔顺改善毛躁损伤男女士通用"
+- generic: 清爽不黏手
+- generic: "|小分子速渗技术"
+- generic: "|2千+人收藏"
+- generic: ¥
+- generic: "144"
+- generic: 到手价
+- generic: ¥149
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 满赠
+- generic "已售6万+"
+- generic: Off&Relax京东自营旗舰店
+- generic "卡诗山茶花护发精油30ml":
+- img "自营"
+- text: 卡诗山茶花护发精油30ml
+- generic "修护润发精华热卖榜第1名":
+  - text: 修护润发精华热卖榜第1名
+- generic: “
+- generic: 用完一瓶你会无限回购
+- generic: ”
+- generic: 修护
+- generic: "|柔顺"
+- generic: "|滋养"
+- generic: "|深泽亮泽"
+- generic "修护润发精华热卖榜第1名":
+  - text: 修护润发精华热卖榜第1名
+- generic: ¥
+- generic: "223"
+- generic: 已补13元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金7元
+- generic: 赠
+- generic: 包邮
+- generic "已售100万+"
+- generic "1万+人复购"
+- generic: 卡诗Kerastase京东自营旗舰店
+- generic "KIMTRUE且初香水级护发精油喷雾 无花果香80ml柔顺修复礼物":
+  - generic: 广告
+- img "自营"
+- generic "KIMTRUE且初香水级护发精油喷雾 无花果香80ml柔顺修复礼物"
+- generic: 近30日热销商品
+- generic: "|30万+人浏览"
+- generic: ¥
+- generic: "84"
+- generic: 到手价
+- generic: ¥89
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 满赠
+- generic "已售8万+"
+- generic: KIMTRUE且初京东自营旗舰店
+- generic "且初爆款无花果发油80ml":
+- img "自营"
+- text: 且初爆款无花果发油80ml
+- generic "女士润发精华热卖榜第5名":
+  - text: 女士润发精华热卖榜第5名
+- generic: “
+- generic: 无花果的味道非常好闻
+- generic: ”
+- generic: 一抹轻盈柔顺
+- generic: "|强韧修护发芯"
+- generic: "|清爽不厚重"
+- generic: "|无甲醛添加"
+- generic "女士润发精华热卖榜第5名":
+  - text: 女士润发精华热卖榜第5名
+- generic: ¥
+- generic: "63"
+- generic: 到手价
+- generic: ¥69
+- button
+- img "明日达"
+- img "京东超市"
+- img "重磅新品"
+- generic: 首购礼金6元
+- generic: 赠
+- generic "已售80万+"
+- generic "2600+人复购"
+- generic: KIMTRUE且初京东自营旗舰店
+- generic "fino护发精油70ml":
+- img "自营"
+- text: fino护发精油70ml
+- generic "保湿润发精华热卖榜第6名":
+  - text: 保湿润发精华热卖榜第6名
+- generic: “
+- generic: 物流超级快，包装用心无破损
+- generic: ”
+- generic: 柔顺润泽
+- generic: "|深层修护"
+- generic: "|保湿护发"
+- generic: "|透润美容液"
+- generic "保湿润发精华热卖榜第6名":
+  - text: 保湿润发精华热卖榜第6名
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥51.8
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 包邮
+- generic "已售4万+"
+- generic "30天加购飙升5倍"
+- generic: FINO芬浓京东自营旗舰店
+- generic "【全网爆火】王炸单品一抹柔顺":
+- img "自营"
+- text: 【全网爆火】王炸单品一抹柔顺
+- generic: “
+- generic: 隔天起来头发也很柔顺
+- generic: ”
+- generic: 抚平毛躁
+- generic: "|顺滑亮泽"
+- generic: "|免洗不油腻"
+- generic: "|修护受损发质"
+- generic: “
+- generic: 隔天起来头发也很柔顺
+- generic: ”
+- generic: ¥
+- generic: "72"
+- generic: .
+- generic: "7"
+- button
+- img "明日达"
+- generic: 京东秒杀
+- generic "已售100万+"
+- generic "30天种草飙升5倍"
+- generic: 施华蔻京东自营旗舰店
+- generic "免洗护发精油套组（小金+小红）":
+- img "自营"
+- text: 免洗护发精油套组（小金+小红）
+- generic: “
+- generic: 用完头发顺滑有光泽
+- generic: ”
+- generic: 修护受损发丝
+- generic: "|抚平毛躁"
+- generic: "|秀发顺滑亮"
+- generic: "|双瓶组合装"
+- generic: “
+- generic: 用完头发顺滑有光泽
+- generic: ”
+- generic: ¥
+- generic: "118"
+- generic: 已补18.04元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 赠
+- generic: 包邮
+- generic "已售600万+"
+- generic "30天加购飙升5倍"
+- generic: 欧莱雅美发京东自营旗舰店
+- generic "【全网爆火】王炸单品滋润柔滑"
+- img "自营"
+- text: 【全网爆火】王炸单品滋润柔滑
+- generic "亮泽柔顺润发精华热卖榜第7名":
+  - text: 亮泽柔顺润发精华热卖榜第7名
+- generic: “
+- generic: 头发变顺有光泽了
+- generic: ”
+- generic: 柔顺秀发
+- generic: "|抚平毛躁"
+- generic: "|深彻润养"
+- generic: "|适合染烫"
+- generic "亮泽柔顺润发精华热卖榜第7名":
+  - text: 亮泽柔顺润发精华热卖榜第7名
+- generic: ¥
+- generic: "52"
+- generic: 到手价
+- generic: ¥62
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 满60减8
+- generic: 券满119享8.8折
+- generic "已售100万+"
+- generic "3300+人好评"
+- generic: 施华蔻京东自营旗舰店
+- generic "欧莱雅 护发精油50ml 小红瓶":
+- img "自营"
+- text: 欧莱雅 护发精油50ml 小红瓶
+- generic: “
+- generic: 性价比很高，下次还会继续光顾
+- generic: ”
+- generic: 修护干枯毛躁
+- generic: "|顺滑不油腻"
+- generic: "|免洗香氛精油"
+- generic: "|适合染烫"
+- generic: “
+- generic: 性价比很高，下次还会继续光顾
+- generic: ”
+- generic: ¥
+- generic: "19"
+- generic: .
+- generic: "9"
+- button
+- img "京东超市"
+- generic: 包邮
+- generic "已售40万+"
+- generic "30天加购飙升5倍"
+- generic: 临期清仓专区
+- generic "菲诗蔻护发精油玫瑰瓶30ml":
+- img "自营"
+- text: 菲诗蔻护发精油玫瑰瓶30ml
+- generic "亮泽润发精华热卖榜第4名":
+  - text: 亮泽润发精华热卖榜第4名
+- generic: “
+- generic: 小瓶包装好，按压式也好用
+- generic: ”
+- generic: 轻盈赋活
+- generic: "|玫瑰清香"
+- generic: "|柔顺度+93%"
+- generic: "|固色养发"
+- generic "亮泽润发精华热卖榜第4名":
+  - text: 亮泽润发精华热卖榜第4名
+- generic: ¥
+- generic: "44"
+- generic: 已补5元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 券满119享8.8折
+- generic: 赠
+- generic: 包邮
+- generic "已售10万+"
+- generic "98%好评"
+- generic: 菲诗蔻（FicceCode）个护京东自营旗舰店
+- generic "潘婷3分钟清柚苍兰护发精油90ml":
+- img "自营"
+- text: 潘婷3分钟清柚苍兰护发精油90ml
+- generic: “
+- generic: 90ml大瓶耐用，头发软糯顺滑
+- generic: ”
+- generic: 24小时持久留香
+- generic: "|48小时持久修护"
+- generic: "|3秒吸收不粘腻"
+- generic: "|3分钟奇迹"
+- generic: “
+- generic: 90ml大瓶耐用，头发软糯顺滑
+- generic: ”
+- generic: ¥
+- generic: "74"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥79.8
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金5元
+- generic: 2件9折
+- generic: 赠
+- generic: 包邮
+- generic "已售40万+"
+- generic "99%好评"
+- generic: 宝洁京东自营旗舰店
+- generic "【央妈力荐】TOP榜第1护发精油":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1护发精油
+- generic "护发润发精华热卖榜第3名":
+  - text: 护发润发精华热卖榜第3名
+- generic: “
+- generic: 修护受损很奈斯
+- generic: ”
+- generic: 自营担保
+- generic: "|全网热销爆卖"
+- generic: "|30天无效包退"
+- generic: "|亮泽修护"
+- generic "护发润发精华热卖榜第3名":
+  - text: 护发润发精华热卖榜第3名
+- generic: ¥
+- generic: "38"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥40.9
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 64买2件
+- generic: 包邮
+- generic "已售10万+"
+- generic "30天种草飙升5倍"
+- generic: 维特丝京东自营旗舰店
+- text: 大家都在搜
+- generic: 干枯毛躁护发精油
+- generic: 护发喷雾
+- generic: 女士护发精油
+- generic: 卡诗
+- generic: 卡诗山茶花
+- generic: 施华蔻
+- generic: 鱼子酱护理
+- generic "潘婷3分钟护发精油玫瑰香90ml":
+- img "自营"
+- text: 潘婷3分钟护发精油玫瑰香90ml
+- generic: “
+- generic: 瓶子做的很好，颜色也漂亮
+- generic: ”
+- generic: 留香1整天
+- generic: "|吸收不粘腻"
+- generic: "|1抹柔顺亮"
+- generic: "|三分钟奇迹"
+- generic: “
+- generic: 瓶子做的很好，颜色也漂亮
+- generic: ”
+- generic: ¥
+- generic: "54"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 2件9.7折
+- generic "已售5000+"
+- generic "98%好评"
+- generic: 洗发护发京东自营专区
+- generic "KIMTRUE且初护发精油 无花果香养发润发轻盈柔顺修复干枯礼物送女友":
+  - generic: 广告
+- img "自营"
+- generic "KIMTRUE且初护发精油 无花果香养发润发轻盈柔顺修复干枯礼物送女友"
+- generic: 近30日热销商品
+- generic: "|3万+人已买"
+- generic: ¥
+- generic: "72"
+- generic: .
+- generic: "99"
+- generic: 到手价
+- generic: ¥78.99
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金6元
+- generic "已售10万+"
+- generic: KIMTRUE且初京东自营旗舰店
+- generic "潘婷茉莉山茶香护发精油90ml":
+- img "自营"
+- text: 潘婷茉莉山茶香护发精油90ml
+- generic "亮泽柔顺润发精华热卖榜第6名":
+  - text: 亮泽柔顺润发精华热卖榜第6名
+- generic: “
+- generic: 涂上之后头发就不会那么毛躁打结
+- generic: ”
+- generic: 3秒吸收不黏腻
+- generic: "|修护干枯毛躁"
+- generic: "|山茶花香氛"
+- generic: "|茉莉香气"
+- generic "亮泽柔顺润发精华热卖榜第6名":
+  - text: 亮泽柔顺润发精华热卖榜第6名
+- generic: ¥
+- generic: "70"
+- generic: .
+- generic: "6"
+- generic: 到手价
+- generic: ¥79.6
+- button
+- img "明日达"
+- generic: 京东秒杀
+- generic: 首购礼金9元
+- generic: 2件9折
+- generic: 赠
+- generic "已售40万+"
+- generic "30天种草飙升5倍"
+- generic: 宝洁京东自营旗舰店
+- generic "【行业销冠】护发精油TOP榜第1":
+- img "自营"
+- text: 【行业销冠】护发精油TOP榜第1
+- generic "干枯修护润发精华热卖榜第5名":
+  - text: 干枯修护润发精华热卖榜第5名
+- generic: “
+- generic: 滋润不粘腻，吸收速度快
+- generic: ”
+- generic: 蓬松顺滑留香久
+- generic: "|改善干枯毛躁"
+- generic: "|30天无效包退"
+- generic: "|10倍抗毛躁"
+- generic "干枯修护润发精华热卖榜第5名":
+  - text: 干枯修护润发精华热卖榜第5名
+- generic: ¥
+- generic: "59"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥62.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 92.9买2件
+- generic "已售1万+"
+- generic "100+人复购"
+- generic: 维特丝京东自营旗舰店
+- generic "卡诗 赋活护发洗发水28.5ml":
+- img "自营"
+- text: 卡诗 赋活护发洗发水28.5ml
+- generic "可靠洗发水热卖榜第3名":
+  - text: 可靠洗发水热卖榜第3名
+- generic: “
+- generic: 洗完头发蓬松，很好！
+- generic: ”
+- generic: 持久柔顺
+- generic: "|蓬松修护体验"
+- generic: "|玻尿酸精华"
+- generic: "|迷你试用"
+- generic "可靠洗发水热卖榜第3名":
+  - text: 可靠洗发水热卖榜第3名
+- generic: ¥
+- generic: "55"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满赠
+- generic: 满赠
+- generic "已售80万+"
+- generic "98%好评"
+- generic: 卡诗Kerastase京东自营旗舰店
+- generic "卡诗釉光玫瑰小粉珠护发精油45ml修护亮泽柔顺防毛躁礼盒生日礼物":
+  - generic: 广告
+- img "自营"
+- generic "卡诗釉光玫瑰小粉珠护发精油45ml修护亮泽柔顺防毛躁礼盒生日礼物"
+- generic: 润进发丝透出高光
+- generic: "|3千人已回购"
+- generic: "|3千+人收藏"
+- generic: ¥
+- generic: "280"
+- generic: 已补40元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic "已售10万+"
+- generic: 卡诗Kerastase京东自营旗舰店
+- generic "【央妈力荐】护发精油TOP榜第1名":
+- img "自营"
+- text: 【央妈力荐】护发精油TOP榜第1名
+- generic "打结修护润发精华热卖榜第1名":
+  - text: 打结修护润发精华热卖榜第1名
+- generic: “
+- generic: 涂完之后也不油腻，挺清爽的
+- generic: ”
+- generic: 柔顺修护亮泽
+- generic: "|30天无效包退"
+- generic: "|全网热销爆款"
+- generic: "|防静电抗毛躁"
+- generic "打结修护润发精华热卖榜第1名":
+  - text: 打结修护润发精华热卖榜第1名
+- generic: ¥
+- generic: "49"
+- generic: .
+- generic: "8"
+- generic: 到手价
+- generic: ¥51.8
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 81.9买2件
+- generic: 包邮
+- generic "已售3万+"
+- generic "2800+人好评"
+- generic: 维特丝京东自营旗舰店
+- generic "【央妈力荐】摩洛哥护发精油":
+- img "自营"
+- text: 【央妈力荐】摩洛哥护发精油
+- generic "护发润发精华热卖榜第4名":
+  - text: 护发润发精华热卖榜第4名
+- generic: “
+- generic: 质地清爽不油腻，抹完头发柔顺有光泽
+- generic: ”
+- generic: 持久留香
+- generic: "|烫染损伤"
+- generic: "|毛糙救星"
+- generic: "|72小时留香"
+- generic "护发润发精华热卖榜第4名":
+  - text: 护发润发精华热卖榜第4名
+- generic: ¥
+- generic: "49"
+- button
+- img "京东超市"
+- generic: 69买2件
+- generic: 满赠
+- generic "已售2000+"
+- generic "99%好评"
+- generic: 韩方五谷个护京东自营旗舰店
+- generic "且初无花果护发精油20ml":
+- img "自营"
+- text: 且初无花果护发精油20ml
+- generic: “
+- generic: 不油腻，很清爽
+- generic: ”
+- generic: 清香无花果
+- generic: "|轻盈柔顺"
+- generic: "|内外修护"
+- generic: "|无花果香"
+- generic: “
+- generic: 不油腻，很清爽
+- generic: ”
+- generic: ¥
+- generic: "19"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售80万+"
+- generic "98%好评"
+- generic: KIMTRUE且初京东自营旗舰店
+- generic "施华蔻（Schwarzkopf）金致润养瞬柔精油套装(精油75ml*2)(护发精油 免洗滋养 防毛躁)":
+  - generic: 广告
+- img "自营"
+- generic "施华蔻（Schwarzkopf）金致润养瞬柔精油套装(精油75ml*2)(护发精油 免洗滋养 防毛躁)"
+- generic: ¥
+- generic: "75"
+- generic: 已补26.78元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 首购礼金4元
+- generic "已售100万+"
+- generic: 施华蔻京东自营旗舰店
+- generic "ModaRich 法国护发精油 500ml":
+- img "自营"
+- text: ModaRich 法国护发精油 500ml
+- generic: 修复干枯
+- generic: "|持久留香"
+- generic: "|防断发"
+- generic: ¥
+- generic: "83"
+- generic: 到手价
+- generic: ¥86
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- img "新品"
+- generic: 首购礼金3元
+- generic: 满赠
+- generic: 满赠
+- generic: 包邮
+- generic "已售300+"
+- generic "100%好评"
+- generic: ModaRich京东自营旗舰店
+- generic "润发护发精油100ml 樱桃香味限定":
+- img "自营"
+- text: 润发护发精油100ml 樱桃香味限定
+- generic: “
+- generic: 味道好闻，香气太迷人
+- generic: ”
+- generic: 顺滑毛躁
+- generic: "|发丝闪耀顺滑"
+- generic: "|修护受损"
+- generic: "|免洗防毛躁"
+- generic: “
+- generic: 味道好闻，香气太迷人
+- generic: ”
+- generic: ¥
+- generic: "69"
+- generic: .
+- generic: "7"
+- generic: 到手价
+- generic: ¥72.7
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 券满219减15
+- generic: 赠
+- generic "已售600万+"
+- generic "30天加购飙升5倍"
+- generic: 欧莱雅美发京东自营旗舰店
+- generic "【全网TOP1】摩洛哥护发精油":
+- img "自营"
+- text: 【全网TOP1】摩洛哥护发精油
+- generic "护发润发精华热卖榜第2名":
+  - text: 护发润发精华热卖榜第2名
+- generic: “
+- generic: 洗完头就想往头发上整一点
+- generic: ”
+- generic: 护发精油TOP1
+- generic: "|持久留香"
+- generic: "|柔顺修复发受损"
+- generic: "|抹后即顺滑"
+- generic "护发润发精华热卖榜第2名":
+  - text: 护发润发精华热卖榜第2名
+- generic: ¥
+- generic: "66"
+- generic: 到手价
+- generic: ¥69
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 券满99减10
+- generic: 赠
+- generic "已售20万+"
+- generic "30天加购飙升5倍"
+- generic: HEBST京东自营旗舰店
+- generic "卡诗鎏光山茶花精油":
+- img "自营"
+- text: 卡诗鎏光山茶花精油
+- generic: “
+- generic: 卡诗发油有效果
+- generic: ”
+- generic: 修护受损
+- generic: "|正品保证"
+- generic: "|顺滑护发"
+- generic: "|滋养发丝"
+- generic: “
+- generic: 卡诗发油有效果
+- generic: ”
+- generic: ¥
+- generic: "139"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 包邮
+- generic "已售2万+"
+- generic "98%好评"
+- generic: 洗发护发京东自营专区
+- generic "润发护发精油小红瓶100ml 修护":
+- img "自营"
+- text: 润发护发精油小红瓶100ml 修护
+- generic "滋润修复润发精华热卖榜第4名":
+  - text: 滋润修复润发精华热卖榜第4名
+- generic: “
+- generic: 每次洗完头发都会用精油
+- generic: ”
+- generic: 高纯度蔷薇精油
+- generic: "|适合烫染发质"
+- generic: "|免洗修护"
+- generic: "|提升光泽"
+- generic "滋润修复润发精华热卖榜第4名":
+  - text: 滋润修复润发精华热卖榜第4名
+- generic: ¥
+- generic: "69"
+- generic: .
+- generic: "7"
+- generic: 到手价
+- generic: ¥72.7
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金3元
+- generic: 赠
+- generic "已售600万+"
+- generic "30天加购飙升5倍"
+- generic: 欧莱雅美发京东自营旗舰店

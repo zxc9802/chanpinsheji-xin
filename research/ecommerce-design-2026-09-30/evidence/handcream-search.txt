@@ -1,0 +1,641 @@
+- generic: 更多
+- generic: 展开筛选
+- generic: 综合
+- generic: 销量
+- generic: 价格
+- generic: 价格区间
+- generic: 京东物流
+- generic: 自营/旗舰
+- generic: 品牌
+- generic: 京东国际
+- generic: 货到付款
+- generic: 仅显示有货
+- generic: 211限时达
+- generic: 可配送全球
+- generic: "1"
+- generic: /
+- generic: "100"
+- generic: 更多
+- generic: ¥
+- generic: "7"
+- img "divider"
+- generic: 无门槛·立减，仅可购买美妆部分商品
+- generic: 00:29:48后失效
+- generic: 筛选商品
+- generic "【央妈力荐】安野护手霜75G*2支":
+- generic: 【央妈力荐】安野护手霜75G*2支
+- generic "修护型手部护理热卖榜第1名":
+  - text: 修护型手部护理热卖榜第1名
+- generic: “
+- generic: 护手霜味道很好闻
+- generic: ”
+- generic: 国妆特字
+- generic: "|清爽不粘腻"
+- generic: "|香氛滋润"
+- generic: "|嫩肤修护"
+- generic "修护型手部护理热卖榜第1名":
+  - text: 修护型手部护理热卖榜第1名
+- generic: ¥
+- generic: "4"
+- generic: .
+- generic: "9"
+- button
+- generic: 包邮
+- generic "已售3万+"
+- generic "94%好评"
+- generic: 京隆个护专营店
+- generic "【送礼爆款】润培香氛礼盒85g":
+- img "自营"
+- text: 【送礼爆款】润培香氛礼盒85g
+- generic "润培手部护理热卖榜第1名":
+  - text: 润培手部护理热卖榜第1名
+- generic: “
+- generic: 自用送礼都不错
+- generic: ”
+- generic: 香氛手霜
+- generic: "|独家礼盒"
+- generic: "|滋润保湿"
+- generic: "|清爽保湿体验"
+- generic "润培手部护理热卖榜第1名":
+  - text: 润培手部护理热卖榜第1名
+- generic: ¥
+- generic: "39"
+- generic: .
+- generic: "9"
+- generic: 已补8.29元
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 赠
+- generic: 包邮
+- generic "已售40万+"
+- generic "99%好评"
+- generic: 润培（roopy）京东自营旗舰店
+- generic "欧舒丹护手霜礼盒经典4支装保湿滋润修护防干裂生日礼物送女友":
+  - generic: 广告
+- img "自营"
+- generic "欧舒丹护手霜礼盒经典4支装保湿滋润修护防干裂生日礼物送女友"
+- generic: ¥
+- generic: "380"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售50万+"
+- generic: 欧舒丹L'OCCITANE京东自营旗舰店
+- generic "【热销百万】润培护手霜75g*3":
+- img "自营"
+- text: 【热销百万】润培护手霜75g*3
+- generic "润培手部护理热卖榜第2名":
+  - text: 润培手部护理热卖榜第2名
+- generic: “
+- generic: 性价比高，价格适中效果出色
+- generic: ”
+- generic: 质感保湿
+- generic: "|特研智妍润"
+- generic: "|植萃养润"
+- generic: "|清爽不黏腻感"
+- generic "润培手部护理热卖榜第2名":
+  - text: 润培手部护理热卖榜第2名
+- generic: ¥
+- generic: "75"
+- generic: 到手价
+- generic: ¥80
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 每80减5
+- generic: 赠
+- generic "已售100万+"
+- generic "1000+人复购"
+- generic: 润培（roopy）京东自营旗舰店
+- generic "Herbacin好本清德国小甘菊经典护手霜礼盒(75ml+20ml*2) 中秋节礼物送礼":
+  - generic: 广告
+- img "自营"
+- generic "Herbacin好本清德国小甘菊经典护手霜礼盒(75ml+20ml*2) 中秋节礼物送礼"
+- generic: 2万+人已买
+- generic: "|近7日热销商品"
+- generic: "|近30日热卖好货"
+- generic: ¥
+- generic: "98"
+- button
+- img "京东超市"
+- generic "已售100万+"
+- generic: 小甘菊Herbacin京东自营旗舰店
+- generic "【央妈力荐】TOP榜第1名护手霜":
+- img "自营"
+- text: 【央妈力荐】TOP榜第1名护手霜
+- generic "滋润手部护理热卖榜第1名":
+  - text: 滋润手部护理热卖榜第1名
+- generic: “
+- generic: 双手持久柔嫩光滑，温和好用
+- generic: ”
+- generic: 96H保湿滋润
+- generic: "|72H持久留香"
+- generic: "|90天无效包退"
+- generic: "|水润即刻"
+- generic "滋润手部护理热卖榜第1名":
+  - text: 滋润手部护理热卖榜第1名
+- generic: ¥
+- generic: "29"
+- generic: .
+- generic: "8"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 满59减15
+- generic: 满赠
+- generic: 包邮
+- generic "已售30万+"
+- generic "99%好评"
+- generic: 维特丝京东自营旗舰店
+- generic "凡士林护手霜100ml 白桃香":
+- img "自营"
+- text: 凡士林护手霜100ml 白桃香
+- generic "嫩肤手部护理热卖榜第5名":
+  - text: 嫩肤手部护理热卖榜第5名
+- generic: “
+- generic: 质地轻盈不油腻，一抹化水
+- generic: ”
+- generic: 改善粗糙暗沉
+- generic: "|沁润不腻"
+- generic: "|持久保湿滋润"
+- generic: "|粗糙修复"
+- generic "嫩肤手部护理热卖榜第5名":
+  - text: 嫩肤手部护理热卖榜第5名
+- generic: ¥
+- generic: "25"
+- generic: .
+- generic: "9"
+- button
+- img "京东超市"
+- generic "已售100万+"
+- generic "5300+人复购"
+- generic: 凡士林京东自营旗舰店
+- generic "【百万热销】凡士林护手霜300g":
+- img "自营"
+- text: 【百万热销】凡士林护手霜300g
+- generic "护手霜好评榜第1名":
+  - text: 护手霜好评榜第1名
+- generic: “
+- generic: 栀子花味太好闻了！
+- generic: ”
+- generic: 修护屏障
+- generic: "|多效愈肤"
+- generic: "|深层锁水"
+- generic: "|补水锁水"
+- generic "护手霜好评榜第1名":
+  - text: 护手霜好评榜第1名
+- generic: ¥
+- generic: "27"
+- generic: .
+- generic: "9"
+- generic: 到手价
+- generic: ¥29.9
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金2元
+- generic: 49买2件
+- generic "已售100万+"
+- generic "1万+人复购"
+- generic: sakose京东自营旗舰店
+- generic "YSL圣罗兰唇膏护手霜礼盒粉管7B+护手霜化妆品套装伴手礼生日礼物送女友":
+  - generic: 广告
+- img "自营"
+- generic "YSL圣罗兰唇膏护手霜礼盒粉管7B+护手霜化妆品套装伴手礼生日礼物送女友"
+- generic: 礼物送女友
+- generic: "|新外观·限定礼盒"
+- generic: "|生日礼物"
+- generic: ¥
+- generic: "960"
+- button
+- img "明日达"
+- img "重磅新品"
+- img "国家补贴"
+- generic "已售3万+"
+- generic: YSL圣罗兰京东自营旗舰店
+- generic "润培融雪之时护手霜75g":
+- img "自营"
+- text: 润培融雪之时护手霜75g
+- generic: 29年6月到期
+- generic: "|接受者可拍"
+- generic: "|临期清仓"
+- generic: "|馥奇香氛"
+- generic: ¥
+- generic: "18"
+- generic: .
+- generic: "8"
+- button
+- img "京东超市"
+- generic: 2件9折
+- generic: 满赠
+- generic: 包邮
+- generic "已售2万+"
+- generic "98%好评"
+- generic: 临期清仓专区
+- generic "手霜50ml-高保湿滋润修护防干裂":
+- img "自营"
+- text: 手霜50ml-高保湿滋润修护防干裂
+- generic: “
+- generic: 换购下来价格很合适
+- generic: ”
+- generic: 柔嫩双手
+- generic: "|补水滋润"
+- generic: "|预防干裂"
+- generic: "|防干裂保护"
+- generic: “
+- generic: 换购下来价格很合适
+- generic: ”
+- generic: ¥
+- generic: "70"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 2件减44
+- generic "已售20万+"
+- generic "3100+人复购"
+- generic: CeraVe适乐肤京东自营旗舰店
+- generic "【100w+热销】安野屋护手霜225g":
+- img "自营"
+- text: 【100w+热销】安野屋护手霜225g
+- generic "AARYE手部护理热卖榜第2名":
+  - text: AARYE手部护理热卖榜第2名
+- generic: “
+- generic: 护手霜大推荐！
+- generic: ”
+- generic: 养成漫画手
+- generic: "|持久留香"
+- generic: "|滋润保湿"
+- generic: "|养成美手"
+- generic "AARYE手部护理热卖榜第2名":
+  - text: AARYE手部护理热卖榜第2名
+- generic: ¥
+- generic: "84"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 赠
+- generic: 包邮
+- generic "已售100万+"
+- generic "2100+人好评"
+- generic: 安野屋（AARYE）京东自营旗舰店
+- generic "伊索Aesop温情手护 护手霜三支装生日礼盒送女友生日礼物线上专属":
+  - generic: 广告
+- img "自营"
+- generic "伊索Aesop温情手护 护手霜三支装生日礼盒送女友生日礼物线上专属"
+- generic: ¥
+- generic: "390"
+- button
+- img "明日达"
+- img "重磅新品"
+- generic "已售2万+"
+- generic: Aesop伊索京东自营旗舰店
+- generic "[销量第一]凡士林特润护手霜50ml":
+- img "自营"
+- text: "[销量第一]凡士林特润护手霜50ml"
+- generic "凡士林手部护理热卖榜第2名":
+  - text: 凡士林手部护理热卖榜第2名
+- generic: “
+- generic: 特别滋润，用了后一点都不干燥了
+- generic: ”
+- generic: 修护屏障膜
+- generic: "|清爽不粘腻"
+- generic: "|长效滋润"
+- generic: "|便携防干裂"
+- generic "凡士林手部护理热卖榜第2名":
+  - text: 凡士林手部护理热卖榜第2名
+- generic: ¥
+- generic: "13"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic "已售300万+"
+- generic "30天加购飙升5倍"
+- generic: 凡士林京东自营旗舰店
+- text: 大家都在搜
+- generic: 女士最好的护手霜
+- generic: 欧舒丹
+- generic: 护手霜礼盒
+- generic: 润培
+- generic: 大牌护手霜
+- generic: 小甘菊
+- generic: 护手霜女士
+- generic "凡士林滋润护手霜100ml":
+- img "自营"
+- text: 凡士林滋润护手霜100ml
+- generic "防裂手部护理热卖榜第1名":
+  - text: 防裂手部护理热卖榜第1名
+- generic: “
+- generic: 使用后双手柔软滋润
+- generic: ”
+- generic: 修护屏障膜
+- generic: "|清爽不粘腻"
+- generic: "|长效滋润"
+- generic: "|持久留香"
+- generic "防裂手部护理热卖榜第1名":
+  - text: 防裂手部护理热卖榜第1名
+- generic: ¥
+- generic: "25"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 券满99减10
+- generic "已售100万+"
+- generic "30天加购飙升5倍"
+- generic: 凡士林京东自营旗舰店
+- generic "男士专研护手霜 沉香香味持久留香保湿手部干燥粗糙干裂保湿滋润":
+  - generic: 广告
+- img "自营"
+- generic "男士专研护手霜 沉香香味持久留香保湿手部干燥粗糙干裂保湿滋润"
+- generic: 保质期:1095天
+- generic: "|功效:保湿"
+- generic: ¥
+- generic: "29"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- img "新品"
+- generic: 2件9.5折
+- generic "已售2万+"
+- generic: 永安虎标京东自营旗舰店
+- generic "【热卖】润培护手霜75g融雪":
+- img "自营"
+- text: 【热卖】润培护手霜75g融雪
+- generic: “
+- generic: 非常不错的一款香型
+- generic: ”
+- generic: 馥奇香
+- generic: "|面护级植萃"
+- generic: "|智感补水"
+- generic: "|三段香氛"
+- generic: “
+- generic: 非常不错的一款香型
+- generic: ”
+- generic: ¥
+- generic: "26"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售100万+"
+- generic "1800+人复购"
+- generic: 润培（roopy）京东自营旗舰店
+- generic "欧舒丹香氛礼盒30ml*2香型随机":
+- img "自营"
+- text: 欧舒丹香氛礼盒30ml*2香型随机
+- generic "护手霜回购榜第5名":
+  - text: 护手霜回购榜第5名
+- generic: “
+- generic: 香味高级淡雅，方便随身携带
+- generic: ”
+- generic: 润泽舒缓
+- generic: "|清新花香"
+- generic: "|自然植萃香调"
+- generic: "|便携小巧"
+- generic "护手霜回购榜第5名":
+  - text: 护手霜回购榜第5名
+- generic: ¥
+- generic: "159"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售20万+"
+- generic "1000+人复购"
+- generic: 欧舒丹（L'OCCITANE）美妆京东自营专区
+- generic "凡士林护手霜100ml玫瑰香":
+- img "自营"
+- text: 凡士林护手霜100ml玫瑰香
+- generic "防裂手部护理好评榜第4名":
+  - text: 防裂手部护理好评榜第4名
+- generic: “
+- generic: 香味清新自然，不刺鼻心情特别好
+- generic: ”
+- generic: 改善粗糙暗沉
+- generic: "|沁润不腻"
+- generic: "|持久保湿滋润"
+- generic: "|玫瑰香氛"
+- generic "防裂手部护理好评榜第4名":
+  - text: 防裂手部护理好评榜第4名
+- generic: ¥
+- generic: "25"
+- generic: .
+- generic: "9"
+- button
+- img "京东超市"
+- generic "已售100万+"
+- generic "99%好评"
+- generic: 凡士林京东自营旗舰店
+- generic "祖玛珑护手霜 青柠罗勒与柑橘护手霜30ml 生日礼物送女友 伴手礼 礼盒":
+  - generic: 广告
+- img "自营"
+- generic "祖玛珑护手霜 青柠罗勒与柑橘护手霜30ml 生日礼物送女友 伴手礼 礼盒"
+- generic: 1万+人已买
+- generic: "|15万+人浏览"
+- generic: "|生日礼物"
+- generic: ¥
+- generic: "190"
+- button
+- img "明日达"
+- img "百亿补贴"
+- generic: 满赠
+- generic "已售10万+"
+- generic: Jo Malone London祖玛珑京东自营旗舰店
+- generic "【央妈力荐】TOP榜护手霜第1名":
+- img "自营"
+- text: 【央妈力荐】TOP榜护手霜第1名
+- generic "芳香保湿手部护理热卖榜第1名":
+  - text: 芳香保湿手部护理热卖榜第1名
+- generic: “
+- generic: 质地滋润不油腻，留香也很持久
+- generic: ”
+- generic: 无效退全款
+- generic: "|72H持久留香"
+- generic: "|护手霜第1名"
+- generic: "|长效留香"
+- generic "芳香保湿手部护理热卖榜第1名":
+  - text: 芳香保湿手部护理热卖榜第1名
+- generic: ¥
+- generic: "59"
+- generic: 到手价
+- generic: ¥69
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 首购礼金10元
+- generic: 券满99减10
+- generic: 满赠
+- generic "已售30万+"
+- generic "99%好评"
+- generic: 维特丝京东自营旗舰店
+- generic "欧舒丹乳木果手霜滋润旅行装4片":
+- img "自营"
+- text: 欧舒丹乳木果手霜滋润旅行装4片
+- generic: 长效保湿
+- generic: "|乳木果"
+- generic: "|滋养修护"
+- generic: "|乳木果滋润"
+- generic: ¥
+- generic: "38"
+- button
+- img "京东超市"
+- generic "已售10万+"
+- generic "5万+人种草"
+- generic: 欧舒丹L'OCCITANE京东自营旗舰店
+- generic "欧舒丹甜蜜樱花护手霜30ml":
+- img "自营"
+- text: 欧舒丹甜蜜樱花护手霜30ml
+- generic: “
+- generic: 小小一支方便携带，四季都很合适
+- generic: ”
+- generic: 便携嫩肤
+- generic: "|滋润防干裂"
+- generic: "|四季皆宜"
+- generic: "|滋润保湿"
+- generic: “
+- generic: 小小一支方便携带，四季都很合适
+- generic: ”
+- generic: ¥
+- generic: "95"
+- button
+- img "明日达"
+- generic "已售70万+"
+- generic "200+人复购"
+- generic: 欧舒丹L'OCCITANE京东自营旗舰店
+- generic "Aromat Herbs进口护手霜120g美白嫩肤淡化手纹补水保湿滋润防干裂粗糙女士礼物":
+  - generic: 广告
+- img "全球购自营"
+- generic "Aromat Herbs进口护手霜120g美白嫩肤淡化手纹补水保湿滋润防干裂粗糙女士礼物"
+- generic: 5万+人浏览
+- generic: "|养出漫画手"
+- generic: "|近7日人气商品"
+- generic: ¥
+- generic: "128"
+- generic: 到手价
+- generic: ¥156.82
+- button
+- generic: 首购礼金10元
+- generic: 立享8.8折
+- generic: 正品鉴别
+- generic "已售6000+"
+- generic: Aromat Herbs海外京东自营旗舰店
+- generic "【爆款】润培护手霜融雪之时75g":
+- img "自营"
+- text: 【爆款】润培护手霜融雪之时75g
+- generic "润培手部护理热卖榜第4名":
+  - text: 润培手部护理热卖榜第4名
+- generic: 轻盈乳霜质地
+- generic: "|滋润保湿"
+- generic: "|手有余香"
+- generic: "|清茶香调"
+- generic "润培手部护理热卖榜第4名":
+  - text: 润培手部护理热卖榜第4名
+- generic: ¥
+- generic: "19"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- img "新品"
+- generic: 满赠
+- generic "已售300+"
+- generic "100%好评"
+- generic: 身体护理京东自营专区
+- generic "【热销300W+】第1名小甘菊护手霜":
+- img "自营"
+- text: 【热销300W+】第1名小甘菊护手霜
+- generic: “
+- generic: 质地轻盈如奶霜吸收迅速无黏腻感
+- generic: ”
+- generic: 经典小甘菊
+- generic: "|全网热销百万"
+- generic: "|护手霜热销第1名"
+- generic: "|夏季专用"
+- generic: “
+- generic: 质地轻盈如奶霜吸收迅速无黏腻感
+- generic: ”
+- generic: ¥
+- generic: "9"
+- generic: .
+- generic: "9"
+- button
+- img "明日达"
+- img "京东超市"
+- generic: 赠
+- generic "已售80万+"
+- generic "2300+人复购"
+- generic: KOOGIS京东自营旗舰店
+- generic "凡士林烟酰胺焕亮护手霜50ml":
+- img "自营"
+- text: 凡士林烟酰胺焕亮护手霜50ml
+- generic "嫩肤手部护理热卖榜第8名":
+  - text: 嫩肤手部护理热卖榜第8名
+- generic: “
+- generic: 质量非常好，与卖家描述一致
+- generic: ”
+- generic: 轻松养回女神手
+- generic: "|清爽不粘腻"
+- generic: "|提亮暗沉手"
+- generic: "|高纯配方"
+- generic "嫩肤手部护理热卖榜第8名":
+  - text: 嫩肤手部护理热卖榜第8名
+- generic: ¥
+- generic: "15"
+- generic: .
+- generic: "89"
+- button
+- img "明日达"
+- img "百亿补贴"
+- img "京东超市"
+- generic: 包邮
+- generic "已售300万+"
+- generic "30天加购飙升5倍"
+- generic: 凡士林京东自营旗舰店
+- generic "施丹雅香水护手霜女士3支装72h保湿滋润留香伴手礼生日礼物 2盒":
+  - generic: 广告
+- img "自营"
+- generic "施丹雅香水护手霜女士3支装72h保湿滋润留香伴手礼生日礼物 2盒"
+- generic: 72h持久留香
+- generic: "|400+店铺老客浏览"
+- generic: "|生日礼物"
+- generic: ¥
+- generic: "45"
+- generic: 到手价
+- generic: ¥50
+- img "京东超市"
+- generic: 满30减5
+- generic "已售3000+"
+- generic: SEEDONVEUR 施丹雅美妆京东自营旗舰店
+- generic "【央妈力荐】安野护手霜75G*3支":
+- generic: 【央妈力荐】安野护手霜75G*3支
+- generic "修护型手部护理热卖榜第2名":
+  - text: 修护型手部护理热卖榜第2名
+- generic: “
+- generic: 护手霜保湿效果好
+- generic: ”
+- generic: 修护干裂
+- generic: "|焕亮嫩肤"
+- generic: "|水感质地"
+- generic: "|清爽不油腻"
+- generic "修护型手部护理热卖榜第2名":
+  - text: 修护型手部护理热卖榜第2名
+- generic: ¥
+- generic: "5"
+- generic: .
+- generic: "99"
+- button
+- generic: 包邮
+- generic "已售9000+"
+- generic "96%好评"
+- generic: 京隆个护专营店
