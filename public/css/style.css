@@ -3446,18 +3446,33 @@ input::placeholder {
   cursor: zoom-in;
 }
 
-.lightbox.zoomed .lb-figure {
-  display: block;
+.image-zoom {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 76px 24px 24px;
+  border: 0;
+  background: rgba(14, 28, 22, 0.98);
   overflow: auto;
-  padding: 60px 20px 20px;
 }
 
-.lightbox.zoomed .lb-figure img {
-  max-width: none;
-  max-height: none;
+.image-zoom::backdrop {
+  background: rgba(14, 28, 22, 0.9);
+}
+
+.image-zoom img {
+  max-width: 100%;
   height: auto;
-  cursor: zoom-out;
-  animation: none;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.image-zoom .lb-close {
+  position: fixed;
 }
 
 @keyframes lbIn {

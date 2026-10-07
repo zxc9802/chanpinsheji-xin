@@ -363,7 +363,7 @@
     <button class="icon-btn lb-close" type="button" data-lb="close" aria-label="关闭">×</button>
     <button class="lb-nav prev" type="button" data-lb="prev" aria-label="上一张"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" /></svg></button>
     <button class="lb-nav next" type="button" data-lb="next" aria-label="下一张"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" /></svg></button>
-    <figure class="lb-figure"><img id="lbImg" alt="" role="button" tabindex="0" data-lb="zoom" aria-label="放大图片" aria-pressed="false" title="点击放大图片" /></figure>
+    <figure class="lb-figure"><img id="lbImg" alt="" role="button" tabindex="0" data-lb="zoom" aria-label="放大图片" aria-haspopup="dialog" title="点击放大图片" /></figure>
     <aside class="lb-side">
       <p class="lb-code" id="lbCode">A-01</p>
       <h3 id="lbTitle">外包装 · 正视图</h3>
@@ -376,6 +376,11 @@
       </div>
     </aside>
   </div>
+
+  <dialog class="image-zoom" id="imageZoom" aria-label="放大图片预览">
+    <button class="icon-btn lb-close" id="closeImageZoom" type="button" aria-label="关闭放大预览">×</button>
+    <img id="imageZoomImg" alt="" />
+  </dialog>
 
   <!-- ─────────── 重绘弹窗 ─────────── -->
   <div class="modal" id="regenModal" hidden>
