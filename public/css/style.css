@@ -3207,53 +3207,6 @@ input::placeholder {
   flex-wrap: wrap;
 }
 
-/* ─── 页脚 ─── */
-.site-foot {
-  max-width: 1480px;
-  margin: 0 auto;
-  padding: 30px clamp(20px, 4vw, 56px) 50px;
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  flex-wrap: wrap;
-  font-size: 12.5px;
-  color: var(--muted);
-}
-
-.cmyk {
-  display: flex;
-}
-
-.cmyk i {
-  width: 16px;
-  height: 10px;
-}
-
-.cmyk i:nth-child(1) {
-  background: #00a0e9;
-}
-.cmyk i:nth-child(2) {
-  background: #e4007f;
-}
-.cmyk i:nth-child(3) {
-  background: #fff100;
-}
-.cmyk i:nth-child(4) {
-  background: #1a1a1a;
-}
-.cmyk i:nth-child(5) {
-  background: var(--forest);
-}
-.cmyk i:nth-child(6) {
-  background: var(--sage);
-}
-.cmyk i:nth-child(7) {
-  background: var(--celadon);
-}
-.cmyk i:nth-child(8) {
-  background: var(--gold);
-}
-
 /* ─── 作品集抽屉 ─── */
 .drawer-mask {
   position: fixed;
