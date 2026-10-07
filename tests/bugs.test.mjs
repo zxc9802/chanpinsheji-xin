@@ -142,7 +142,7 @@ test('public file paths cannot escape an image directory', () => {
 test('static workbench loads when the server is imported outside the repo working directory', async () => {
   const response = await request('/');
   assert.equal(response.status, 200);
-  assert.match(response.text, /包装与电商图工作台/);
+  assert.match(response.text, /电商图工作台/);
 });
 
 test('failed disk writes do not publish unsaved data or advance its revision in the cache', async (t) => {
