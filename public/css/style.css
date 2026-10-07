@@ -3781,6 +3781,22 @@ input::placeholder {
   }
 }
 
+@media (max-width: 700px) {
+  .topbar {
+    flex-wrap: wrap;
+  }
+
+  .topnav {
+    order: 1;
+    flex-basis: 100%;
+    justify-content: flex-end;
+  }
+
+  .status-pill {
+    margin-left: auto;
+  }
+}
+
 @media (max-width: 520px) {
   .display {
     font-size: clamp(28px, 9vw, 40px);
@@ -3792,7 +3808,6 @@ input::placeholder {
 
   .topbar {
     gap: 8px;
-    flex-wrap: wrap;
   }
 
   .brand {
@@ -3808,15 +3823,8 @@ input::placeholder {
     font-size: 16px;
   }
 
-  .status-pill {
-    margin-left: auto;
-  }
-
   .topnav {
     gap: 2px;
-    order: 1;
-    flex-basis: 100%;
-    justify-content: flex-end;
   }
 
   .navlink {
