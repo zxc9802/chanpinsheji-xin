@@ -1542,7 +1542,7 @@ function refreshLightbox(force = false) {
   const lbImg = $('#lbImg');
   if (force || lbImg.dataset.src !== img.file) {
     lbImg.dataset.src = img.file;
-    lbImg.src = previewUrl(img.file);
+    setLightboxZoom(false);
     lbImg.style.animation = 'none';
     void lbImg.offsetWidth;
     lbImg.style.animation = '';
@@ -1569,6 +1569,20 @@ function refreshLightbox(force = false) {
   $$('.lb-nav', lb).forEach((n) => (n.hidden = !multi));
 }
 
+function setLightboxZoom(zoomed) {
+  const image = $('#lbImg');
+  if (zoomed && !image.naturalWidth) return;
+  image.style.width = zoomed ? `${image.clientWidth * 2}px` : '';
+  lb.classList.toggle('zoomed', zoomed);
+  image.src = zoomed ? image.dataset.src : previewUrl(image.dataset.src);
+  image.setAttribute('aria-pressed', String(zoomed));
+  image.setAttribute('aria-label', zoomed ? '恢复完整图片' : '放大图片');
+  image.title = zoomed ? '点击恢复完整图片' : '点击放大图片';
+  const figure = $('.lb-figure', lb);
+  figure.scrollTop = 0;
+  figure.scrollLeft = 0;
+}
+
 function closeLightbox() {
   lb.hidden = true;
   state.lbDirection = null;
@@ -1589,6 +1603,7 @@ function stepLightbox(dir) {
 
 lb.addEventListener('click', async (e) => {
   const act = e.target.closest('[data-lb]')?.dataset.lb;
+  if (act === 'zoom') return setLightboxZoom(!lb.classList.contains('zoomed'));
   if (act === 'close' || e.target === lb || e.target.classList.contains('lb-figure')) return closeLightbox();
   if (act === 'prev') return stepLightbox(-1);
   if (act === 'next') return stepLightbox(1);
@@ -1615,8 +1630,13 @@ lb.addEventListener('click', async (e) => {
 });
 
 document.addEventListener('keydown', (e) => {
+  if (lbOpen() && e.target === $('#lbImg') && ['Enter', ' '].includes(e.key)) {
+    e.preventDefault();
+    return setLightboxZoom(!lb.classList.contains('zoomed'));
+  }
   if (e.key === 'Escape') {
     if (!$('#regenModal').hidden) return closeRegen();
+    if (lbOpen() && lb.classList.contains('zoomed')) return setLightboxZoom(false);
     if (lbOpen()) return closeLightbox();
     if (commerce.longOpen()) return commerce.closeLong();
     if (!$('#commerceModal').hidden) return commerce.closeModal();

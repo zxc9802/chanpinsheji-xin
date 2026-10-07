@@ -52,7 +52,7 @@ test('the lightbox loads the compact preview and links to the original download'
   const file = '/files/20261007-example/images/detail.png';
   const nodes = new Map();
   const context = vm.createContext({
-    state: {}, lb: {}, viewable: () => true, lbEntry: () => ({ img: { file }, code: 'D-02', title: '详情图', en: '', file: 'detail.png' }),
+    state: {}, lb: { classList: { toggle() {} } }, viewable: () => true, lbEntry: () => ({ img: { file }, code: 'D-02', title: '详情图', en: '', file: 'detail.png' }),
     lbIds: () => ['detail_02'],
     $: (selector) => {
       if (!nodes.has(selector)) nodes.set(selector, { dataset: {}, style: {}, classList: { toggle() {} }, setAttribute() {} });

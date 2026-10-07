@@ -3443,6 +3443,21 @@ input::placeholder {
   border-radius: 10px;
   box-shadow: 0 40px 100px -30px rgba(0, 0, 0, 0.6);
   animation: lbIn 0.6s var(--ease);
+  cursor: zoom-in;
+}
+
+.lightbox.zoomed .lb-figure {
+  display: block;
+  overflow: auto;
+  padding: 60px 20px 20px;
+}
+
+.lightbox.zoomed .lb-figure img {
+  max-width: none;
+  max-height: none;
+  height: auto;
+  cursor: zoom-out;
+  animation: none;
 }
 
 @keyframes lbIn {
