@@ -127,6 +127,7 @@ const defaultJev = (body) => jev(body.questions ?? {}, (id, keys) => {
   if (id === 'system') return keys[0];
   return keys.at(-1); // 每一屏都挑最后一个候选，证明 JEV 的选择被采用
 });
+const fixtureVisual = { palette: [{ name: '银白', hex: '#E9E9E8', role: '瓶身主色' }, { name: '橙金', hex: '#E8A33D', role: '标签点缀' }], container: '细长按压泵瓶', materials: ['银白玻璃'], mood: ['精致科技'], typography: '深色分级文字', motifs: [] };
 const { DETAIL_LAYOUTS, DETAIL_PROMPTS, DEFAULT_DETAIL_LAYOUT, normalizeDetailPlan } = await import('../lib/commerce-detail.js');
 const { MAIN_LAYOUT, MAIN_PROMPTS, normalizeMainPlan } = await import('../lib/commerce-main.js');
 const fixedRaw = (layoutId = DEFAULT_DETAIL_LAYOUT) => {
@@ -146,7 +147,8 @@ const fixedRaw = (layoutId = DEFAULT_DETAIL_LAYOUT) => {
 };
 const defaultLlm = (body) => {
   if (Array.isArray(body.messages.at(-1).content)) {
-    return Response.json({ choices: [{ message: { content: JSON.stringify({ name: '焕采精华液', description: DOC }) } }] });
+    const value = body.messages[0].content.includes('识别同一件产品照片中的视觉特征') ? fixtureVisual : { name: '焕采精华液', description: DOC, visual: fixtureVisual };
+    return Response.json({ choices: [{ message: { content: JSON.stringify(value) } }] });
   }
   const prompt = body.messages.map((m) => m.content).join('\n');
   const layoutId = prompt.includes('detail_evidence_chain_16') ? 'detail_evidence_chain_16' : DEFAULT_DETAIL_LAYOUT;
@@ -165,8 +167,9 @@ for (const layout of DETAIL_LAYOUTS) {
     assert.deepEqual(plan.detailBrief.missingEvidence, ['缺少真人反馈和检测报告']);
     assert.ok(slots.some((s) => !s.reference), 'absence of proof/brand reference must not remove the screen');
     assert.ok(!plan.skipped.some((s) => s.kind === 'detail'));
-    assert.ok(calls.llm[0].messages[1].content.includes(layout.id));
-    assert.doesNotMatch(calls.llm[0].messages[1].content, /5-12|最多 12|成分详解另有/);
+    const planning = calls.llm.find((call) => typeof call.messages[1].content === 'string');
+    assert.ok(planning.messages[1].content.includes(layout.id));
+    assert.doesNotMatch(planning.messages[1].content, /5-12|最多 12|成分详解另有/);
     assert.deepEqual(plan.slots.filter((s) => s.kind === 'main').map((s) => s.moduleId), MAIN_LAYOUT.modules);
     assert.equal(plan.mainLayout.screenCount, 5);
     assert.deepEqual(plan.slots[2].copy, ['烟酰胺', '透明质酸']);
@@ -229,6 +232,52 @@ test('fixed layouts reject missing, duplicate, foreign modules and wrong layout 
     const raw = fixedRaw(); mutate(raw);
     assert.throws(() => normalizeDetailPlan(raw, context), /详情规划|详情模块/);
   }
+});
+
+test('actual red product images drive reference matching across categories and reach main/detail prompts', async (t) => {
+  const { project, identity } = await fixture();
+  project.brief.design.palette = [{ name: '过期冰蓝', hex: '#04B2CD' }];
+  const red = { palette: [{ name: '山茶红', hex: '#8E2633', role: '罐身主色' }, { name: '黑色', hex: '#191719', role: '盖件辅色' }], container: '宽扁旋盖罐', materials: ['红色半透玻璃', '哑光黑盖'], mood: ['温暖植物', '精致'], typography: '浅色中文标题', motifs: ['山茶花'] };
+  const calls = withNetwork(t, {
+    llm: (body) => Array.isArray(body.messages.at(-1).content) ? Response.json({ choices: [{ message: { content: JSON.stringify(red) } }] }) : defaultLlm(body),
+    jev: (body) => jev(body.questions, (id, keys) => {
+      if (id === 'category') return '面霜';
+      if (id === 'form') return '广口罐';
+      if (id === 'system') {
+        assert.deepEqual(body.state.product_visual.palette, red.palette);
+        assert.ok(keys.includes('fino') && keys.includes('kiehls') && keys.includes('ysllip'), 'visual alternatives must not be removed by category-only recall');
+        assert.match(body.questions.system.criteria.fino, /#b51230/);
+        assert.match(body.questions.system.instructions, /不能用“后续换色”忽略冲突/);
+        return 'fino';
+      }
+      return keys[0];
+    }),
+  });
+  const plan = await planCommerce({ project, scope: 'both', identity });
+  const reading = calls.llm[0].messages[1].content;
+  assert.equal(reading.filter((item) => item.type === 'image_url').length, identity.length);
+  assert.equal(reading[1].image_url.url, blankCanvasDataUri());
+  assert.equal(plan.system.id, 'fino');
+  assert.deepEqual(plan.productVisual.palette, red.palette);
+  assert.equal(plan.productVisual.inputs[0].sha256, crypto.createHash('sha256').update(png).digest('hex'));
+  project.commerce = { plan, inputs: identity, images: {} };
+  for (const id of ['main_02', 'detail_01']) {
+    const input = await buildCommerceInput(project, id);
+    assert.match(input.prompt, /【产品视觉适配：优先于参考原配色】/);
+    assert.match(input.prompt, /山茶红 #8E2633/);
+    assert.match(input.prompt, /红色半透玻璃/);
+    assert.doesNotMatch(input.prompt, /过期冰蓝/);
+  }
+  const white = await buildCommerceInput(project, 'main_01');
+  assert.doesNotMatch(white.prompt, /【产品视觉适配/);
+  assert.match(white.prompt, /#FFFFFF/);
+});
+
+test('unreadable product visuals stop matching instead of choosing a category template blindly', async (t) => {
+  const { project, identity } = await fixture();
+  const calls = withNetwork(t, { jev: defaultJev, llm: () => Response.json({ choices: [{ message: { content: '{"palette":[],"container":""}' } }] }) });
+  await assert.rejects(planCommerce({ project, scope: 'main', identity }), /已停止参考匹配/);
+  assert.equal(calls.jev.length, 0);
 });
 
 test('main layout rejects incomplete/duplicate/foreign modules and keeps source order and factual copy limits', () => {
