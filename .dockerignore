@@ -1,0 +1,9 @@
+.git
+.claude
+.env
+.env.*
+node_modules
+data
+.DS_Store
+**/__pycache__
+tests

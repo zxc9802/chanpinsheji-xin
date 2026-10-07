@@ -695,6 +695,6 @@ for (const summary of await listProjects()) {
   if (project) await recoverInterrupted(project);
 }
 
-export const server = app.listen(PORT, '127.0.0.1', () => {
+export const server = app.listen(PORT, '0.0.0.0', () => {
   console.log(`\n  青匣 · 包装设计智能体已启动 → http://localhost:${PORT}\n`);
 });

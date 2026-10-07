@@ -48,10 +48,18 @@ npm start
 | `JEV_API_KEY` | 参考选择模型密钥，仅在服务端使用 |
 | `JEV_BASE_URL` | `https://api.openlux.ai/v1/systemone` |
 | `JEV_MODEL` | `jev-1.13.0` |
-| `REFERENCE_LIBRARY_ROOT` | 可选：研究库根目录，默认读取旁边「产品设计」项目的 `research/beauty-design-2026-09-28` |
+| `REFERENCE_LIBRARY_ROOT` | 可选：研究库根目录，默认读取项目内的 `research/beauty-design-2026-09-28` |
 | `ECOMMERCE_LIBRARY_ROOT` | 可选：电商设计参考库根目录，默认 `research/ecommerce-design-2026-09-30`（含 `agent-library/catalog.json`） |
 
 文案解析先调用 `gpt-6-luna`，失败后重试 3 次（最多 4 次调用），仍失败再自动切换 `deepseek-v4.1-flash`。备用模型保留原有的一次重试。网络错误、超时、接口报错、空输出或无法解析的 JSON 均计为失败；请求使用流式输出（网关会切断超过约 60 秒没有任何输出的连接，完整简报常需 2–3 分钟）；首字等待超过 150 秒、输出中途连续 60 秒没有新内容、或单次超过 300 秒才算超时（网关排队时第一个字可能要等一两分钟）。被截断或中途断开的输出会直接报出原因，并计入重试。服务日志记录实际调用模型、尝试次数与耗时，不记录密钥或文档正文。
+
+## Zeabur 部署
+
+从 GitHub 导入仓库后，Zeabur 使用根目录的 `Dockerfile` 构建，包含 Node.js 22 和参考图转换所需的 ffmpeg。服务监听 `0.0.0.0`，容器默认端口为 `8080`。
+
+在服务的「环境变量」中配置上述模型变量与密钥，并设置 `PORT=8080`。本地 `.env` 不进入镜像。包装和电商参考库均随代码部署，无需依赖电脑上的其他项目。
+
+在「硬盘」中挂载 `/app/data`，保存生成的项目、图片和参考图缓存；再在「网络」中生成域名。重启后应验证作品集与图片仍可读取。
 
 ## 工作原理
 
