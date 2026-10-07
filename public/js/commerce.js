@@ -19,21 +19,12 @@ const DETAIL_LAYOUTS = {
 };
 const DEFAULT_DETAIL_LAYOUT = 'detail_standard_conversion_10';
 
-const MODES = {
-  reference: { label: '参考库模式', hint: 'JEV 先从电商参考库挑一套视觉系统，再为每一屏挑版式参考图，按 dianputu 固定结构出图。' },
-  claude: { label: 'Claude 规划', hint: 'Claude 直接看产品图与资料，规划每一屏的信息、颜色结构与版式（主图 5 张、详情 6–12 屏由它决定），再逐条核对文案是否有资料依据，然后出图。不使用参考库图片，规划约需 3–6 分钟。' },
-};
-const modeOf = (c) => c?.mode || c?.plan?.mode || 'reference';
-const TONE = { dark: '深色屏', light: '浅色屏', mid: '中间调' };
-
 const PHASE_MSG = {
   IDENTIFY: '正在识别产品图中的信息…',
   CLASSIFY: 'JEV 正在判断品类与包装形态…',
   SYSTEM: 'JEV 正在从电商参考库里挑选视觉系统…',
   PLAN: '正在规划主图与详情图的每一屏…',
   REFERENCES: 'JEV 正在为每一屏挑选设计参考图…',
-  CLAUDE_PLAN: 'Claude 正在看产品图与资料，规划每一屏的信息、颜色结构与版式（约 3–6 分钟）…',
-  CLAUDE_CHECK: 'Claude 正在逐条核对图上文案是否都有资料依据…',
   RENDER: '规划完成，开始出图…',
 };
 
@@ -86,7 +77,7 @@ export function initCommerce(ctx) {
           return `<section class="gallery-group commerce-group">
             <header class="group-head">
               <span class="group-code">${KINDS[kind].code}</span>
-              <div><h3>${kind === 'detail' && c.plan.detailLayout ? esc(DETAIL_LAYOUTS[c.plan.detailLayout.id].name) : kind === 'detail' && modeOf(c) === 'claude' ? `Claude 规划详情 · ${list.length} 屏` : KINDS[kind].cn}</h3><span class="group-en">${list.length} ${kind === 'main' ? 'images' : 'screens'} · ${KINDS[kind].ratio}</span></div>
+              <div><h3>${kind === 'detail' && c.plan.detailLayout ? esc(DETAIL_LAYOUTS[c.plan.detailLayout.id].name) : KINDS[kind].cn}</h3><span class="group-en">${list.length} ${kind === 'main' ? 'images' : 'screens'} · ${KINDS[kind].ratio}</span></div>
               <span class="group-meta">${esc(c.plan.system.style.slice(0, 3).join(' · '))}</span>
             </header>
             <div class="gallery-row commerce-row ${kind}">
@@ -145,18 +136,7 @@ export function initCommerce(ctx) {
       err.innerHTML = `<b>没能完成规划</b><span>${esc(c.error || '未知错误')}</span><button type="button" class="btn btn-ghost btn-sm" data-cact="retry">重试</button>`;
     }
     const skipped = c.plan?.skipped?.length || 0;
-    const mode = modeOf(c);
-    const scope = `${MODES[mode].label} · ${{ main: '仅主图', detail: '仅详情图', both: '主图 + 详情图' }[c.scope]}${mode === 'reference' && c.scope !== 'main' && c.detailLayoutId ? ` · ${DETAIL_LAYOUTS[c.detailLayoutId]?.name || ''}` : ''}`;
-    const alt = p.commerceAlt?.plan ? p.commerceAlt : null;
-    const switcher = $('#commerceMode');
-    switcher.hidden = !alt;
-    if (alt) {
-      const count = (x) => `${(x.plan?.slots || []).filter((s) => x.images?.[s.id]?.status === 'done').length} 张`;
-      const altMode = modeOf(alt);
-      const html = [[mode, c, true], [altMode, alt, false]].sort((a) => (a[0] === 'reference' ? -1 : 1))
-        .map(([m, x, on]) => `<button type="button" data-cmode="${on ? '' : 'switch'}" aria-pressed="${on}" ${!on && busyOf(c) ? 'disabled title="这一套生成完成后才能切换"' : ''}>${MODES[m].label} · ${count(x)}</button>`).join('');
-      if (switcher.innerHTML !== html) switcher.innerHTML = html;
-    }
+    const scope = { main: '仅主图', detail: '仅详情图', both: '主图 + 详情图' }[c.scope] + (c.scope !== 'main' && c.detailLayoutId ? ` · ${DETAIL_LAYOUTS[c.detailLayoutId]?.name || ''}` : '');
     $('#commerceSub').textContent = planning
       ? `${scope} · 正在规划，请稍候`
       : failed
@@ -180,7 +160,6 @@ export function initCommerce(ctx) {
     if (act === 'again') return openModal();
     if (act === 'long') return openLong();
     if (act === 'retry') return start({ reuse: true });
-    if (e.target.closest('[data-cmode="switch"]')) return switchMode();
     const retry = e.target.closest('[data-cretry]');
     if (retry) return ctx.retrySlot(retry.dataset.cretry);
     const card = e.target.closest('.shot');
@@ -199,24 +178,7 @@ export function initCommerce(ctx) {
 
   /* ───────────── 入口弹窗 ───────────── */
   const modal = $('#commerceModal');
-  const cm = { views: new Set(), files: [], document: null, savedDocument: null, scope: 'both', detailLayoutId: DEFAULT_DETAIL_LAYOUT, mode: 'reference', create: false, direct: false };
-  const claudeReady = () => state.health?.claudePlanner !== false;
-
-  async function switchMode() {
-    const p = state.project;
-    try {
-      if (!(await save({ quiet: true })) || state.project?.id !== p.id) return;
-      const project = await api(`/api/projects/${p.id}/commerce/switch`, { json: {} });
-      if (state.project?.id !== p.id) return;
-      state.project = { ...project, brief: state.project.brief, briefRev: state.project.briefRev };
-      state.commerceKey = '';
-      render();
-      if (sheetOpen()) renderSheet();
-      toast(`已切换到${MODES[modeOf(project.commerce)].label}的那一套`);
-    } catch (err) {
-      toast(err.message, 'error', 6000);
-    }
-  }
+  const cm = { views: new Set(), files: [], document: null, savedDocument: null, scope: 'both', detailLayoutId: DEFAULT_DETAIL_LAYOUT, create: false, direct: false };
 
   const picked = () => cm.views.size + cm.files.length;
   const readyViews = () => !state.project || cm.direct ? [] : ctx.activeViews().filter((v) => state.project.images?.[v.id]?.status === 'done' && state.project.images[v.id].file);
@@ -258,30 +220,12 @@ export function initCommerce(ctx) {
     add.hidden = picked() >= MAX_INPUTS;
     $('#cmCount').textContent = `已选 ${picked()} / ${MAX_INPUTS}`;
     $$('#cmScope input').forEach((input) => { input.checked = cm.scope === 'both' || input.dataset.scope === cm.scope; });
-    const claude = cm.mode === 'claude';
-    $$('#cmMode button').forEach((b) => {
-      b.setAttribute('aria-pressed', String(b.dataset.planMode === cm.mode));
-      const off = b.dataset.planMode === 'claude' && !claudeReady();
-      b.disabled = off;
-      b.title = off ? '服务端未配置 CLAUDE_PLAN_KEY' : '';
-    });
-    $('#cmModeHint').textContent = MODES[cm.mode].hint;
-    $('#cmScopeHint').textContent = claude
-      ? { main: '主图 5 张（1 : 1），含 1 张白底图，其余 4 张的岗位与顺序由 Claude 规划。', detail: '详情页 6–12 屏（9 : 16 竖屏），屏数与每屏内容由 Claude 按资料决定。', both: '主图 5 张（1 : 1，含白底图）+ 详情页 6–12 屏（9 : 16），全部由 Claude 规划。' }[cm.scope] || '请至少选择一种生成内容。'
-      : SCOPE_HINT[cm.scope] || '请至少选择一种生成内容。';
-    $('#cmDetailLayoutBlock').hidden = claude || !['detail', 'both'].includes(cm.scope);
+    $('#cmScopeHint').textContent = SCOPE_HINT[cm.scope] || '请至少选择一种生成内容。';
+    $('#cmDetailLayoutBlock').hidden = !['detail', 'both'].includes(cm.scope);
     $$('#cmDetailLayout button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.detailLayout === cm.detailLayoutId)));
     $('#cmDetailLayoutHint').textContent = DETAIL_LAYOUTS[cm.detailLayoutId].hint;
     $('#cmStart').disabled = picked() === 0 || !cm.scope;
-    const current = cm.create ? null : commerceOf();
-    const sameMode = [current, cm.create ? null : state.project?.commerceAlt].find((x) => x?.plan && modeOf(x) === cm.mode);
-    const kept = current?.plan && modeOf(current) !== cm.mode ? current : null;
-    const note = [
-      sameMode && `这个项目已经有一套${MODES[cm.mode].label}的主图与详情图，重新生成会替换它`,
-      kept && `${MODES[modeOf(kept)].label}的那套会保留，生成后可在结果区上方切换对比`,
-    ].filter(Boolean).join('；');
-    $('#cmReplace').hidden = !note;
-    $('#cmReplace').textContent = note ? `${note}。` : '';
+    $('#cmReplace').hidden = cm.create || !commerceOf();
   }
 
   function openModal({ create = false } = {}) {
@@ -302,8 +246,6 @@ export function initCommerce(ctx) {
     cm.views = new Set(previous.length ? previous : ready.includes('outer_front') ? ['outer_front'] : ready.slice(0, 1));
     cm.scope = c?.scope || 'both';
     cm.detailLayoutId = c?.detailLayoutId || c?.plan?.detailLayout?.id || DEFAULT_DETAIL_LAYOUT;
-    cm.mode = c ? modeOf(c) : 'reference';
-    if (cm.mode === 'claude' && !claudeReady()) cm.mode = 'reference';
     renderModal();
     modal.hidden = false;
     setTimeout(() => (cm.direct ? $('#cmAdd') : $('#cmStart')).focus(), 50);
@@ -413,8 +355,6 @@ export function initCommerce(ctx) {
       URL.revokeObjectURL(gone.url);
       return renderModal();
     }
-    const planMode = e.target.closest('[data-plan-mode]');
-    if (planMode && !planMode.disabled) { cm.mode = planMode.dataset.planMode; return renderModal(); }
     const layout = e.target.closest('[data-detail-layout]');
     if (layout) { cm.detailLayoutId = layout.dataset.detailLayout; return renderModal(); }
     if (e.target.closest('[data-cm="start"]')) start();
@@ -428,7 +368,6 @@ export function initCommerce(ctx) {
     const btn = $('#cmStart');
     const body = new FormData();
     body.set('detailLayoutId', reuse ? (commerceOf(p)?.detailLayoutId || DEFAULT_DETAIL_LAYOUT) : cm.detailLayoutId);
-    body.set('planMode', reuse ? modeOf(commerceOf(p)) : cm.mode);
     if (reuse) {
       body.set('reuse', '1');
       body.set('scope', commerceOf(p)?.scope || 'both');
