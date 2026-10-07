@@ -13,6 +13,7 @@ import { createProject, getProject, updateProject, deleteProject, listProjects, 
 import { SCOPES, IDENTITY_MAX, KIND_LABEL, loadCommerceCatalog } from './lib/commerce.js';
 import { DEFAULT_DETAIL_LAYOUT, detailLayout } from './lib/commerce-detail.js';
 import { runCommerce, renderCommerce, runCommerceSlot, isCommerceRunning } from './lib/commerce-render.js';
+import { PLAN_MODES, MODE_LABEL, claudePlannerReady, claudePlanModel } from './lib/commerce-claude.js';
 import { imagePreview } from './lib/image-preview.js';
 
 try {
@@ -98,6 +99,8 @@ app.get('/api/health', wrap(async (req, res) => {
     referenceLibrary: Boolean(catalog),
     referenceProducts: catalog?.products.length || 0,
     commerceLibrary: Boolean(commerceCatalog),
+    claudePlanner: claudePlannerReady(),
+    claudePlanModel: claudePlanModel(),
   });
 }));
 
@@ -393,6 +396,20 @@ async function commerceIntroduction(req, previous = {}, reuse = false) {
     truncated: Boolean(document?.truncated) || combined.length > 40000 };
 }
 
+function planModeOf(req, fallback = 'reference') {
+  const mode = req.body.planMode || fallback;
+  if (!PLAN_MODES.includes(mode)) throw httpError(400, '请选择参考库模式或 AI 规划模式');
+  if (mode === 'claude' && !claudePlannerReady()) throw httpError(400, '未配置 AI 规划模型，暂时只能用参考库模式');
+  return mode;
+}
+
+// 两种模式各留最近一套：换模式开新一套时，把另一种模式已有的那套收进 commerceAlt，便于对比
+function startCommerce(p, fields) {
+  const current = p.commerce;
+  if (current?.plan && (current.mode || 'reference') !== fields.mode) p.commerceAlt = current;
+  p.commerce = { status: 'planning', plan: null, images: {}, startedAt: Date.now(), finishedAt: null, error: null, ...fields };
+}
+
 // 首页直接上传产品图，无需先创建包装设计。
 app.post(
   '/api/commerce-projects',
@@ -405,6 +422,7 @@ app.post(
     if (!SCOPES.includes(scope)) throw httpError(400, '请至少选择主图或详情图，也可以两者都生成');
     const detailLayoutId = req.body.detailLayoutId || DEFAULT_DETAIL_LAYOUT;
     try { detailLayout(detailLayoutId); } catch (err) { throw httpError(400, err.message); }
+    const mode = planModeOf(req);
     const introduction = await commerceIntroduction(req);
     const project = await createProject({
       kind: 'commerce',
@@ -417,9 +435,9 @@ app.post(
         file: await saveFile(project.id, 'refs', `commerce-in-${i + 1}${IMAGE_EXT[f.mimetype] || '.jpg'}`, f.buffer) });
     }
     const saved = await updateProject(project.id, (p) => {
-      p.commerce = { status: 'planning', phase: 'IDENTIFY', scope, detailLayoutId, inputs, plan: null, images: {}, rev: 0, startedAt: Date.now(), finishedAt: null, error: null };
+      startCommerce(p, { phase: 'IDENTIFY', scope, detailLayoutId, mode, inputs, rev: 0 });
     });
-    runCommerce(project.id, { scope, identity: inputs, detailLayoutId }).catch((err) => console.error('commerce', err));
+    runCommerce(project.id, { scope, identity: inputs, detailLayoutId, mode }).catch((err) => console.error('commerce', err));
     res.json(publicProject(saved));
   }),
 );
@@ -439,6 +457,7 @@ app.post(
     if (!SCOPES.includes(scope)) throw httpError(400, '请选择要生成主图、详情图，还是两者都生成');
     const detailLayoutId = req.body.detailLayoutId || (reuse && project.commerce?.detailLayoutId) || DEFAULT_DETAIL_LAYOUT;
     try { detailLayout(detailLayoutId); } catch (err) { throw httpError(400, err.message); }
+    const mode = planModeOf(req, (reuse && project.commerce?.mode) || 'reference');
     const introduction = project.kind === 'commerce' ? await commerceIntroduction(req, project.source, reuse) : null;
 
     let inputs;
@@ -475,11 +494,26 @@ app.post(
 
     await updateProject(project.id, (p) => {
       if (introduction) Object.assign(p.source, introduction);
-      p.commerce = { status: 'planning', phase: 'CLASSIFY', scope, detailLayoutId, inputs, plan: null, images: {}, rev: p.commerce?.rev || 0, startedAt: Date.now(), finishedAt: null, error: null };
+      startCommerce(p, { phase: mode === 'claude' ? 'CLAUDE_PLAN' : 'CLASSIFY', scope, detailLayoutId, mode, inputs, rev: p.commerce?.rev || 0 });
     });
-    runCommerce(project.id, { scope, identity: inputs, detailLayoutId }).catch((err) => console.error('commerce', err));
+    runCommerce(project.id, { scope, identity: inputs, detailLayoutId, mode }).catch((err) => console.error('commerce', err));
     await new Promise((r) => setTimeout(r, 150));
     res.json(publicProject(await getProject(project.id)));
+  }),
+);
+
+// 在两种模式各自最近的一套之间切换查看；进行中的那套不能切走
+app.post(
+  '/api/projects/:id/commerce/switch',
+  wrap(async (req, res) => {
+    const project = await requireProject(req.params.id);
+    if (!project.commerceAlt?.plan) throw httpError(400, '另一种模式还没有生成过');
+    if (commerceBusy(project)) throw httpError(409, '这一套正在生成中，完成后再切换');
+    const saved = await updateProject(project.id, (p) => {
+      [p.commerce, p.commerceAlt] = [p.commerceAlt, p.commerce];
+      p.commerce.rev = (p.commerce.rev || 0) + 1;
+    });
+    res.json(publicProject(saved));
   }),
 );
 
@@ -500,7 +534,7 @@ app.put(
         if (!e) continue;
         slot.title = textField(e.title, 16) || slot.title;
         if (typeof e.headline === 'string') slot.headline = textField(e.headline, slot.kind === 'detail' ? 40 : 24);
-        if (Array.isArray(e.copy)) slot.copy = e.copy.map((t) => textField(t, slot.kind === 'detail' ? 100 : 30)).filter(Boolean).slice(0, slot.kind === 'detail' ? (slot.moduleId === 'product_info' ? 10 : 5) : slot.copyMax ?? 4);
+        if (Array.isArray(e.copy)) slot.copy = e.copy.map((t) => textField(t, slot.kind === 'detail' ? 100 : 30)).filter(Boolean).slice(0, slot.copyMax ?? (slot.kind === 'detail' ? (slot.moduleId === 'product_info' ? 10 : 5) : 4));
         if (slot.role === 'white') { slot.headline = ''; slot.copy = []; }
         if (typeof e.visual === 'string') slot.visual = textField(e.visual, slot.kind === 'detail' ? 600 : 300);
       }
@@ -637,13 +671,14 @@ function commerceMarkdown(commerce) {
 ${plan.summary || ''}
 
 - 范围：${{ main: '仅主图', detail: '仅详情图', both: '主图 + 详情图' }[scope]}
-${plan.mainLayout ? `- 主图结构：${plan.mainLayout.name} · ${plan.mainLayout.screenCount} 张（1:1）\n- 主图顺序：${plan.slots.filter((s) => s.kind === 'main').map((s) => s.roleLabel).join(' → ')}\n` : ''}${plan.detailLayout ? `- 详情结构：${plan.detailLayout.name} · ${plan.detailLayout.screenCount} 屏（9:16）\n` : ''}${plan.promptSource ? `- 提示词来源：${plan.promptSource.repository} @ ${plan.promptSource.revision}\n` : ''}- 视觉系统：${plan.system.style.join('、')}（参考库 ${plan.system.category} · ${plan.system.form}）
+${plan.mainLayout ? `- 主图结构：${plan.mainLayout.name} · ${plan.mainLayout.screenCount} 张（1:1）\n- 主图顺序：${plan.slots.filter((s) => s.kind === 'main').map((s) => s.roleLabel).join(' → ')}\n` : ''}${plan.detailLayout ? `- 详情结构：${plan.detailLayout.name} · ${plan.detailLayout.screenCount} 屏（9:16）\n` : ''}${plan.promptSource ? `- 提示词来源：${plan.promptSource.repository} @ ${plan.promptSource.revision}\n` : ''}- 规划模式：${MODE_LABEL[plan.mode || 'reference']}
+${plan.mode === 'claude' ? `- 规划模型：AI\n- 定位：${plan.claude.strategy.positioning}\n- 调性：${plan.claude.strategy.tone}\n- 色板：${plan.claude.palette.map((c) => `${c.name} ${c.hex}（${c.role}）`).join('；')}\n- 明暗节奏：${plan.claude.rhythm}` : `- 视觉系统：${plan.system.style.join('、')}（参考库 ${plan.system.category} · ${plan.system.form}）`}
 
 ## 取自产品资料的事实
 ${Object.entries(plan.facts).filter(([, v]) => v.length).map(([k, v]) => factLine(names[k] || k, v)).join('\n') || '- 资料里没有可用于宣传的事实，只出产品图与简单场景'}
 
 ## 每一屏
-${plan.slots.map((s) => `### ${KIND_LABEL[s.kind]} ${s.id} · ${s.title}（${s.roleLabel}）\n${s.headline ? `- 主标题：${s.headline}\n` : ''}${s.copy.map((t) => `- ${t}`).join('\n')}${s.copy.length ? '\n' : ''}- 构图：${s.visual}\n- 版式参考：${s.reference ? s.reference.title : s.role === 'white' ? '无（白底图只用产品图）' : '按本屏固定模块构图，沿用整套风格'}`).join('\n\n')}
+${plan.slots.map((s) => `### ${KIND_LABEL[s.kind]} ${s.id} · ${s.title}（${s.roleLabel}）\n${s.headline ? `- 主标题：${s.headline}\n` : ''}${s.copy.map((t) => `- ${t}`).join('\n')}${s.copy.length ? '\n' : ''}- 构图：${s.visual}\n${s.design ? `- 版式：${s.design.layout || '—'}\n- 色彩结构：${s.design.colors.map((c) => `${c.hex} ${c.share}% ${c.use}`).join('；')}` : `- 版式参考：${s.reference ? s.reference.title : s.role === 'white' ? '无（白底图只用产品图）' : '按本屏固定模块构图，沿用整套风格'}`}`).join('\n\n')}
 ${[...(plan.mainBrief?.missingEvidence || []), ...(plan.detailBrief?.missingEvidence || [])].length ? `\n## 资料待补充（不印在图片上）\n${[...new Set([...(plan.mainBrief?.missingEvidence || []), ...(plan.detailBrief?.missingEvidence || [])])].map((s) => `- ${s}`).join('\n')}\n` : ''}
 ${plan.skipped.length ? `\n## 没有生成的屏\n${plan.skipped.map((s) => `- ${KIND_LABEL[s.kind]} · ${s.label}：${s.reason}`).join('\n')}\n` : ''}`;
 }

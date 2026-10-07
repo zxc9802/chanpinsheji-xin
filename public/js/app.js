@@ -1804,6 +1804,7 @@ async function init() {
   }
   api('/api/health')
     .then((h) => {
+      state.health = h;
       const pill = $('#statusPill');
       const ok = h.llm && h.image && h.jev && h.referenceLibrary;
       pill.classList.add(ok ? 'ok' : 'bad');

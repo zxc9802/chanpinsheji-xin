@@ -19,12 +19,21 @@ const DETAIL_LAYOUTS = {
 };
 const DEFAULT_DETAIL_LAYOUT = 'detail_standard_conversion_10';
 
+const MODES = {
+  reference: { label: '参考库模式', hint: 'JEV 先从电商参考库挑一套视觉系统，再为每一屏挑版式参考图，按 dianputu 固定结构出图。' },
+  claude: { label: 'AI 规划', hint: 'AI 直接看产品图与资料，规划每一屏的信息、颜色结构与版式（主图 5 张、详情 6–12 屏由它决定），再逐条核对文案是否有资料依据，然后出图。不使用参考库图片，规划约需 3–6 分钟。' },
+};
+const modeOf = (c) => c?.mode || c?.plan?.mode || 'reference';
+const TONE = { dark: '深色屏', light: '浅色屏', mid: '中间调' };
+
 const PHASE_MSG = {
   IDENTIFY: '正在识别产品图中的信息…',
   CLASSIFY: 'JEV 正在判断品类与包装形态…',
   SYSTEM: 'JEV 正在从电商参考库里挑选视觉系统…',
   PLAN: '正在规划主图与详情图的每一屏…',
   REFERENCES: 'JEV 正在为每一屏挑选设计参考图…',
+  CLAUDE_PLAN: 'AI 正在看产品图与资料，规划每一屏的信息、颜色结构与版式（约 3–6 分钟）…',
+  CLAUDE_CHECK: 'AI 正在逐条核对图上文案是否都有资料依据…',
   RENDER: '规划完成，开始出图…',
 };
 
@@ -77,7 +86,7 @@ export function initCommerce(ctx) {
           return `<section class="gallery-group commerce-group">
             <header class="group-head">
               <span class="group-code">${KINDS[kind].code}</span>
-              <div><h3>${kind === 'detail' && c.plan.detailLayout ? esc(DETAIL_LAYOUTS[c.plan.detailLayout.id].name) : KINDS[kind].cn}</h3><span class="group-en">${list.length} ${kind === 'main' ? 'images' : 'screens'} · ${KINDS[kind].ratio}</span></div>
+              <div><h3>${kind === 'detail' && c.plan.detailLayout ? esc(DETAIL_LAYOUTS[c.plan.detailLayout.id].name) : kind === 'detail' && modeOf(c) === 'claude' ? `AI 规划详情 · ${list.length} 屏` : KINDS[kind].cn}</h3><span class="group-en">${list.length} ${kind === 'main' ? 'images' : 'screens'} · ${KINDS[kind].ratio}</span></div>
               <span class="group-meta">${esc(c.plan.system.style.slice(0, 3).join(' · '))}</span>
             </header>
             <div class="gallery-row commerce-row ${kind}">
@@ -133,10 +142,21 @@ export function initCommerce(ctx) {
     const err = $('#commerceError');
     err.hidden = !failed;
     if (failed) {
-      err.innerHTML = `<b>没能完成规划</b><span>${esc(c.error || '未知错误')}</span><button type="button" class="btn btn-ghost btn-sm" data-cact="retry">重试</button>`;
+      err.innerHTML = `<b>没能完成规划</b><span>${esc((c.error || '未知错误').replace(/claude/gi, 'AI'))}</span><button type="button" class="btn btn-ghost btn-sm" data-cact="retry">重试</button>`;
     }
     const skipped = c.plan?.skipped?.length || 0;
-    const scope = { main: '仅主图', detail: '仅详情图', both: '主图 + 详情图' }[c.scope] + (c.scope !== 'main' && c.detailLayoutId ? ` · ${DETAIL_LAYOUTS[c.detailLayoutId]?.name || ''}` : '');
+    const mode = modeOf(c);
+    const scope = `${MODES[mode].label} · ${{ main: '仅主图', detail: '仅详情图', both: '主图 + 详情图' }[c.scope]}${mode === 'reference' && c.scope !== 'main' && c.detailLayoutId ? ` · ${DETAIL_LAYOUTS[c.detailLayoutId]?.name || ''}` : ''}`;
+    const alt = p.commerceAlt?.plan ? p.commerceAlt : null;
+    const switcher = $('#commerceMode');
+    switcher.hidden = !alt;
+    if (alt) {
+      const count = (x) => `${(x.plan?.slots || []).filter((s) => x.images?.[s.id]?.status === 'done').length} 张`;
+      const altMode = modeOf(alt);
+      const html = [[mode, c, true], [altMode, alt, false]].sort((a) => (a[0] === 'reference' ? -1 : 1))
+        .map(([m, x, on]) => `<button type="button" data-cmode="${on ? '' : 'switch'}" aria-pressed="${on}" ${!on && busyOf(c) ? 'disabled title="这一套生成完成后才能切换"' : ''}>${MODES[m].label} · ${count(x)}</button>`).join('');
+      if (switcher.innerHTML !== html) switcher.innerHTML = html;
+    }
     $('#commerceSub').textContent = planning
       ? `${scope} · 正在规划，请稍候`
       : failed
@@ -160,6 +180,7 @@ export function initCommerce(ctx) {
     if (act === 'again') return openModal();
     if (act === 'long') return openLong();
     if (act === 'retry') return start({ reuse: true });
+    if (e.target.closest('[data-cmode="switch"]')) return switchMode();
     const retry = e.target.closest('[data-cretry]');
     if (retry) return ctx.retrySlot(retry.dataset.cretry);
     const card = e.target.closest('.shot');
@@ -178,7 +199,24 @@ export function initCommerce(ctx) {
 
   /* ───────────── 入口弹窗 ───────────── */
   const modal = $('#commerceModal');
-  const cm = { views: new Set(), files: [], document: null, savedDocument: null, scope: 'both', detailLayoutId: DEFAULT_DETAIL_LAYOUT, create: false, direct: false };
+  const cm = { views: new Set(), files: [], document: null, savedDocument: null, scope: 'both', detailLayoutId: DEFAULT_DETAIL_LAYOUT, mode: 'reference', create: false, direct: false };
+  const claudeReady = () => state.health?.claudePlanner !== false;
+
+  async function switchMode() {
+    const p = state.project;
+    try {
+      if (!(await save({ quiet: true })) || state.project?.id !== p.id) return;
+      const project = await api(`/api/projects/${p.id}/commerce/switch`, { json: {} });
+      if (state.project?.id !== p.id) return;
+      state.project = { ...project, brief: state.project.brief, briefRev: state.project.briefRev };
+      state.commerceKey = '';
+      render();
+      if (sheetOpen()) renderSheet();
+      toast(`已切换到${MODES[modeOf(project.commerce)].label}的那一套`);
+    } catch (err) {
+      toast(err.message, 'error', 6000);
+    }
+  }
 
   const picked = () => cm.views.size + cm.files.length;
   const readyViews = () => !state.project || cm.direct ? [] : ctx.activeViews().filter((v) => state.project.images?.[v.id]?.status === 'done' && state.project.images[v.id].file);
@@ -186,8 +224,8 @@ export function initCommerce(ctx) {
   function renderModal() {
     $('#cmTitle').textContent = cm.direct ? '上传产品图，生成套图' : '生成主图 + 详情图';
     $('#cmDesc').textContent = cm.direct
-      ? '拖入或上传同一件产品的 1–4 张图片，勾选主图、详情图或两者，即可开始生成。工作台会识别产品信息，挑选设计参考并出图。'
-      : '选好产品图（同一件产品的一张或多个角度，最多 4 张），再选要生成的内容。点开始后 JEV 会先挑视觉系统并规划每一屏，然后直接出图，不需要再确认。';
+      ? `拖入或上传同一件产品的 1–4 张图片，勾选主图、详情图或两者，即可开始生成。${cm.mode === 'claude' ? '工作台会识别产品信息，由 AI 规划每一屏后出图。' : '工作台会识别产品信息，挑选设计参考并出图。'}`
+      : `选好产品图（同一件产品的一张或多个角度，最多 4 张），再选要生成的内容。点开始后${cm.mode === 'claude' ? ' AI 会规划每一屏的信息、颜色结构与版式' : ' JEV 会先挑视觉系统并规划每一屏'}，然后直接出图，不需要再确认。`;
     $('#cmGenerated').hidden = cm.direct;
     $('#cmUploadLabel').textContent = cm.direct ? '上传自己的产品图 · PNG / JPG / WebP · 单张不超过 25 MB' : '或上传自己的产品图';
     $('#cmProductInfoBlock').hidden = !cm.direct;
@@ -220,12 +258,30 @@ export function initCommerce(ctx) {
     add.hidden = picked() >= MAX_INPUTS;
     $('#cmCount').textContent = `已选 ${picked()} / ${MAX_INPUTS}`;
     $$('#cmScope input').forEach((input) => { input.checked = cm.scope === 'both' || input.dataset.scope === cm.scope; });
-    $('#cmScopeHint').textContent = SCOPE_HINT[cm.scope] || '请至少选择一种生成内容。';
-    $('#cmDetailLayoutBlock').hidden = !['detail', 'both'].includes(cm.scope);
+    const claude = cm.mode === 'claude';
+    $$('#cmMode button').forEach((b) => {
+      b.setAttribute('aria-pressed', String(b.dataset.planMode === cm.mode));
+      const off = b.dataset.planMode === 'claude' && !claudeReady();
+      b.disabled = off;
+      b.title = off ? '服务端未配置 AI 规划模型' : '';
+    });
+    $('#cmModeHint').textContent = MODES[cm.mode].hint;
+    $('#cmScopeHint').textContent = claude
+      ? { main: '主图 5 张（1 : 1），含 1 张白底图，其余 4 张的岗位与顺序由 AI 规划。', detail: '详情页 6–12 屏（9 : 16 竖屏），屏数与每屏内容由 AI 按资料决定。', both: '主图 5 张（1 : 1，含白底图）+ 详情页 6–12 屏（9 : 16），全部由 AI 规划。' }[cm.scope] || '请至少选择一种生成内容。'
+      : SCOPE_HINT[cm.scope] || '请至少选择一种生成内容。';
+    $('#cmDetailLayoutBlock').hidden = claude || !['detail', 'both'].includes(cm.scope);
     $$('#cmDetailLayout button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.detailLayout === cm.detailLayoutId)));
     $('#cmDetailLayoutHint').textContent = DETAIL_LAYOUTS[cm.detailLayoutId].hint;
     $('#cmStart').disabled = picked() === 0 || !cm.scope;
-    $('#cmReplace').hidden = cm.create || !commerceOf();
+    const current = cm.create ? null : commerceOf();
+    const sameMode = [current, cm.create ? null : state.project?.commerceAlt].find((x) => x?.plan && modeOf(x) === cm.mode);
+    const kept = current?.plan && modeOf(current) !== cm.mode ? current : null;
+    const note = [
+      sameMode && `这个项目已经有一套${MODES[cm.mode].label}的主图与详情图，重新生成会替换它`,
+      kept && `${MODES[modeOf(kept)].label}的那套会保留，生成后可在结果区上方切换对比`,
+    ].filter(Boolean).join('；');
+    $('#cmReplace').hidden = !note;
+    $('#cmReplace').textContent = note ? `${note}。` : '';
   }
 
   function openModal({ create = false } = {}) {
@@ -246,6 +302,8 @@ export function initCommerce(ctx) {
     cm.views = new Set(previous.length ? previous : ready.includes('outer_front') ? ['outer_front'] : ready.slice(0, 1));
     cm.scope = c?.scope || 'both';
     cm.detailLayoutId = c?.detailLayoutId || c?.plan?.detailLayout?.id || DEFAULT_DETAIL_LAYOUT;
+    cm.mode = c ? modeOf(c) : 'reference';
+    if (cm.mode === 'claude' && !claudeReady()) cm.mode = 'reference';
     renderModal();
     modal.hidden = false;
     setTimeout(() => (cm.direct ? $('#cmAdd') : $('#cmStart')).focus(), 50);
@@ -355,6 +413,8 @@ export function initCommerce(ctx) {
       URL.revokeObjectURL(gone.url);
       return renderModal();
     }
+    const planMode = e.target.closest('[data-plan-mode]');
+    if (planMode && !planMode.disabled) { cm.mode = planMode.dataset.planMode; return renderModal(); }
     const layout = e.target.closest('[data-detail-layout]');
     if (layout) { cm.detailLayoutId = layout.dataset.detailLayout; return renderModal(); }
     if (e.target.closest('[data-cm="start"]')) start();
@@ -368,6 +428,7 @@ export function initCommerce(ctx) {
     const btn = $('#cmStart');
     const body = new FormData();
     body.set('detailLayoutId', reuse ? (commerceOf(p)?.detailLayoutId || DEFAULT_DETAIL_LAYOUT) : cm.detailLayoutId);
+    body.set('planMode', reuse ? modeOf(commerceOf(p)) : cm.mode);
     if (reuse) {
       body.set('reuse', '1');
       body.set('scope', commerceOf(p)?.scope || 'both');
@@ -488,9 +549,57 @@ export function initCommerce(ctx) {
 
   const factText = (key, v) => (typeof v === 'string' ? v : key === 'verified_specs_and_label' ? `${v.label} ${v.value}` : `${v.q} → ${v.a}`);
 
+  // Claude 规划模式：每屏的版式线框、颜色面积条与版式说明（颜色均为服务端校验过的 HEX）
+  const wireframe = (slot) => {
+    const d = slot.design;
+    const zones = d.zones.map((z, i) => `<i class="wf-zone wf-${z.kind}" style="left:${z.x}%;top:${z.y}%;width:${z.w}%;height:${z.h}%;z-index:${i};${z.fill ? `--fill:${z.fill}` : ''}" title="${esc(z.label)}"></i>`).join('');
+    return `<div class="wf ${slot.kind}" style="background:${slot.role === 'white' ? '#FFFFFF' : d.colors[0]?.hex || '#FFFFFF'}">${zones}</div>`;
+  };
+  const colorBar = (colors) => `<div class="cbar">${colors.map((x) => `<i style="flex:${x.share} 0 0;background:${x.hex}" title="${esc(`${x.hex} · ${x.share}% · ${x.use}`)}"></i>`).join('')}</div>
+    <ul class="cbar-legend">${colors.map((x) => `<li><i style="background:${x.hex}"></i><span><b>${x.share}%</b> ${esc(x.use)}</span></li>`).join('')}</ul>`;
+  const designBlock = (slot) => {
+    const d = slot.design;
+    if (slot.role === 'white') return '<p class="cs-meta">白底图：纯白背景，只放产品，不加文字和道具。</p>';
+    return `<div class="cs-design">
+        ${wireframe(slot)}
+        <div class="cs-design-info">
+          <p class="cs-tone"><b>${TONE[d.tone] || ''}</b>${d.productShare ? ` · 产品约 ${esc(d.productShare)}` : ''}</p>
+          ${d.replaces ? `<p class="cs-replaces">${esc(d.replaces)}</p>` : ''}
+          ${colorBar(d.colors)}
+        </div>
+      </div>
+      ${d.layout ? `<p class="cs-using"><b>版式</b>${esc(d.layout)}</p>` : ''}
+      ${d.light ? `<p class="cs-using"><b>光线与材质</b>${esc(d.light)}</p>` : ''}
+      ${d.transition ? `<p class="cs-using"><b>与上一屏</b>${esc(d.transition)}</p>` : ''}`;
+  };
+
+  function claudeTop(plan) {
+    const cl = plan.claude;
+    const st = cl.strategy;
+    return `<div class="cs-top">
+        <section class="face-card cs-system">
+          <div class="bcard-head"><span class="group-badge">S</span><h4>规划策略</h4><em>AI 规划</em></div>
+          <p class="cs-summary">${esc(st.coreMessage || st.positioning)}</p>
+          <p class="cs-meta">${esc(st.positioning)}${st.tone ? `<br />调性：${esc(st.tone)}` : ''}</p>
+          ${st.sellingPoints.map((x) => `<p class="cs-point"><b>${esc(x.point)}</b><span>${esc(x.source)}</span>${x.where ? `<small>${esc(x.where)}</small>` : ''}</p>`).join('')}
+          <p class="cs-meta">规划用时 ${fmtTime(cl.ms || 0)} · 文案自检发现 ${cl.audit?.flagged || 0} 处资料不支持的说法并改写${cl.audit?.dropped ? `，仍不合规的 ${cl.audit.dropped} 处已删除` : ''}</p>
+        </section>
+        <section class="face-card">
+          <div class="bcard-head"><span class="group-badge">C</span><h4>色板与字体</h4><em>Palette</em></div>
+          <div class="cs-swatches">${cl.palette.map((x) => `<div class="cs-sw"><i style="background:${x.hex}"></i><b>${esc(x.name)}</b><code>${x.hex}</code><small>${esc(x.role)}</small></div>`).join('')}</div>
+          <ul class="cs-type">${cl.typography.map((t) => `<li><b>${esc(t.level)}</b><span>${esc(t.font)}</span><small>主图 ${esc(t.main)} · 详情 ${esc(t.detail)}</small></li>`).join('')}</ul>
+          ${cl.rhythm ? `<p class="cs-meta"><b>明暗节奏</b> ${esc(cl.rhythm)}</p>` : ''}
+        </section>
+      </div>
+      <section class="face-card cs-strip-card">
+        <div class="bcard-head"><span class="group-badge">R</span><h4>整套节奏</h4><em>每屏的底色与版式</em></div>
+        ${['main', 'detail'].filter((k) => plan.slots.some((x) => x.kind === k)).map((k) => `<div class="cs-strip">${plan.slots.filter((x) => x.kind === k).map((x) => `<figure>${wireframe(x)}<figcaption>${esc(slotCode(x))}<br />${esc(x.title)}</figcaption></figure>`).join('')}</div>`).join('')}
+      </section>`;
+  }
+
   function slotCard(slot, c) {
     const ref = slot.reference;
-    const copyLimit = slot.kind === 'detail' ? (slot.moduleId === 'product_info' ? 10 : 5) : slot.copyMax ?? 4;
+    const copyLimit = slot.copyMax ?? (slot.kind === 'detail' ? (slot.moduleId === 'product_info' ? 10 : 5) : 4);
     const plain = slot.role === 'white'; // 白底图没有文字
     const inputs = slot.identityInputs.map((id) => (c.inputs || []).find((i) => i.id === id)).filter(Boolean);
     return `<section class="face-card cs-slot" data-slot="${slot.id}" data-copy-limit="${copyLimit}">
@@ -499,7 +608,7 @@ export function initCommerce(ctx) {
       ${plain ? '' : `<label class="cs-field"><span>主标题</span><input class="bf-input" data-f="headline" maxlength="${slot.kind === 'detail' ? 40 : 24}" value="${esc(slot.headline)}" /></label>
       <label class="cs-field"><span>辅助文字 <small>一行一条 · 最多 ${copyLimit} 条</small></span><textarea class="bf-input" data-f="copy" rows="2">${esc(slot.copy.join('\n'))}</textarea></label>`}
       <label class="cs-field"><span>构图设想</span><textarea class="bf-input" data-f="visual" rows="3">${esc(slot.visual)}</textarea></label>
-      ${ref ? `<div class="cs-ref">
+      ${slot.design ? designBlock(slot) : ref ? `<div class="cs-ref">
         <div class="cs-ref-imgs">${ref.assets.map((a) => `<img src="${a.file}" alt="设计参考" loading="lazy" />`).join('')}</div>
         <p><b>设计参考</b>${esc(ref.title)}${ref.crossSystem ? ' <em>（借自另一套系统）</em>' : ''}<br /><small>${esc(ref.observed)}</small></p>
       </div>` : `<p class="cs-meta">${plain ? '白底图只用产品图，不用参考图，图上不放文字。' : '本屏按固定模块提示词构图，沿用整套视觉风格。'}</p>`}
@@ -513,7 +622,18 @@ export function initCommerce(ctx) {
     if (!plan) return;
     const sys = plan.system;
     const facts = Object.entries(plan.facts || {}).filter(([, v]) => v.length);
-    $('#commerceBody').innerHTML = `
+    const claude = modeOf(c) === 'claude';
+    $('#commerceBody').innerHTML = claude ? `${claudeTop(plan)}
+      <div class="cs-slots">${plan.slots.map((s) => slotCard(s, c)).join('')}</div>
+      ${plan.skipped.length ? `<section class="face-card cs-skipped">
+        <div class="bcard-head"><span class="group-badge">X</span><h4>没有做的屏</h4><em>Skipped</em></div>
+        <ul>${plan.skipped.map((s) => `<li><b>${esc(s.label)}</b><span>${esc(s.reason)}</span></li>`).join('')}</ul>
+        <p class="cs-meta">资料不支持的屏不编造，补齐资料后可重新规划。</p>
+      </section>` : ''}
+      ${plan.claude.materials?.length ? `<section class="face-card cs-skipped">
+        <div class="bcard-head"><span class="group-badge">M</span><h4>需要准备的素材</h4><em>Materials</em></div>
+        <ul>${plan.claude.materials.map((m) => `<li><b>${esc(m.item)}</b><span>${esc(m.for)}${m.how ? ` · ${esc(m.how)}` : ''}</span></li>`).join('')}</ul>
+      </section>` : ''}` : `
       <div class="cs-top">
         <section class="face-card cs-system">
           <div class="bcard-head"><span class="group-badge">S</span><h4>视觉系统</h4><em>JEV 挑选</em></div>
@@ -537,6 +657,9 @@ export function initCommerce(ctx) {
         ${plan.skipped.length ? `<ul>${plan.skipped.map((s) => `<li><b>${esc(KINDS[s.kind]?.label || '')} · ${esc(s.label)}</b><span>${esc(s.reason)}</span></li>`).join('')}</ul>` : ''}
         <p class="cs-meta">详情页始终保留所选结构的完整屏数；资料不足时减少文案或采用示意表达，不自动添加测试数据和真实用户证言。</p>
       </section>`;
+    $('#csSub').textContent = claude
+      ? 'AI 规划 · 每一屏的信息、颜色结构与版式；文字与构图都可以修改，改完点击「按此方案重新生成」'
+      : '按你的产品资料规划 · 每一屏的文字与构图都可以修改，改完点击「按此方案重新生成」';
     dirty = false;
     sheetRev = c.rev || 0;
     syncSheetState();
@@ -545,9 +668,14 @@ export function initCommerce(ctx) {
   function syncSheetState() {
     const c = commerceOf();
     const busy = busyOf(c);
+    const total = slotsOf(c).length;
+    const finished = slotsOf(c).filter((s) => ['done', 'error'].includes(c?.images?.[s.id]?.status)).length;
+    const wait = c?.status === 'planning' ? '正在规划，完成后才能重新生成' : `正在出图 ${finished} / ${total}，全部出完后才能重新生成`;
     $('#csGenerate').disabled = busy;
     $('#csReplan').disabled = busy;
-    $('#csNote').textContent = busy ? '正在生成，完成后才能重新生成；现在也可以先修改文字' : `按当前方案重新出图，旧图会保留在每张图的历史版本里 · 共 ${slotsOf(c).length} 张`;
+    $('#csGenerate').title = busy ? wait : '';
+    $('#csReplan').title = busy ? wait : '';
+    $('#csNote').textContent = busy ? `${wait}；现在可以先修改文字，改动会保存` : `按当前方案重新出图，旧图会保留在每张图的历史版本里 · 共 ${total} 张`;
   }
 
   function openSheet() {
@@ -640,7 +768,9 @@ export function initCommerce(ctx) {
     const ok = await askConfirm({
       eyebrow: 'Replan',
       title: '重新规划？',
-      desc: '沿用当前选的产品图和范围，让 JEV 重新挑视觉系统与每一屏参考，重新写方案并立即出图。你对每一屏文字的修改和当前这套图会被替换。',
+      desc: modeOf(commerceOf()) === 'claude'
+        ? '沿用当前选的产品图和范围，让 AI 重新规划每一屏的信息、颜色结构与版式，并立即出图。你对每一屏文字的修改和当前这套图会被替换；另一种模式的那套不受影响。'
+        : '沿用当前选的产品图和范围，让 JEV 重新挑视觉系统与每一屏参考，重新写方案并立即出图。你对每一屏文字的修改和当前这套图会被替换；另一种模式的那套不受影响。',
       ok: '重新规划',
     });
     if (ok) start({ reuse: true });
