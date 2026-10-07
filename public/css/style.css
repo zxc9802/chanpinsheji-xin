@@ -3522,28 +3522,6 @@ input::placeholder {
   margin: 24px 0;
 }
 
-.lb-prompt summary {
-  cursor: pointer;
-  font-size: 13px;
-  color: var(--jade);
-}
-
-.lb-prompt pre {
-  margin: 12px 0 0;
-  padding: 14px;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.7);
-  border: 1px solid var(--line);
-  font-family: var(--mono);
-  font-size: 11.5px;
-  line-height: 1.7;
-  white-space: pre-wrap;
-  word-break: break-word;
-  color: var(--ink-2);
-  max-height: 46vh;
-  overflow-y: auto;
-}
-
 .lb-close {
   position: absolute;
   top: 20px;

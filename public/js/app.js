@@ -1550,7 +1550,6 @@ function refreshLightbox(force = false) {
   $('#lbCode').textContent = entry.code;
   $('#lbTitle').textContent = entry.title;
   $('#lbEn').textContent = entry.en;
-  $('#lbPrompt').textContent = img.prompt || '';
   const dl = $('#lbDownload');
   dl.href = img.file;
   dl.setAttribute('download', entry.file);
