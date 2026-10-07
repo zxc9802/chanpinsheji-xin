@@ -283,7 +283,7 @@ export async function exportBoard(project, views) {
 
   // 落款 + 色标条
   const fy = H - M + 10;
-  drawText(ctx, `青匣 Verdant Atelier  ·  ${new Date().toLocaleDateString('zh-CN')}  ·  AI Packaging Proposal`, M, fy, { font: `22px ${F.label}`, color: C.muted, spacing: 3 });
+  drawText(ctx, `包装与电商图工作台  ·  ${new Date().toLocaleDateString('zh-CN')}  ·  AI Packaging Proposal`, M, fy, { font: `22px ${F.label}`, color: C.muted, spacing: 3 });
   ['#00A0E9', '#E4007F', '#FFF100', '#1A1A1A', C.forest, '#86AC92', '#B3D1B6', C.gold].forEach((c, i) => {
     ctx.fillStyle = c;
     ctx.fillRect(W - M - (8 - i) * 34, fy - 20, 34, 20);
