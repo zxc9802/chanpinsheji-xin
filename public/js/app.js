@@ -25,7 +25,7 @@ async function api(url, opts = {}) {
     delete init.json;
   }
   const res = await fetch(url, init);
-  const data = await res.json().catch(() => ({}));
+  const data = await res.json();
   if (!res.ok) throw Object.assign(new Error(data.error || `请求失败（${res.status}）`), { status: res.status, stale: data.stale });
   return data;
 }
@@ -1097,6 +1097,7 @@ function startPolling() {
     try {
       const fresh = await api(`/api/projects/${id}`);
       if (state.pollEpoch !== epoch || state.project?.id !== id) return;
+      if (fresh?.id !== id) throw new Error('项目状态响应不完整，请稍后重试');
       if (watchingAnalysis) {
         state.project = fresh;
         if (fresh.analysis?.status === 'running') {
