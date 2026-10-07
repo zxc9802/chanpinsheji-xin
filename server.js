@@ -13,6 +13,7 @@ import { createProject, getProject, updateProject, deleteProject, listProjects, 
 import { SCOPES, IDENTITY_MAX, KIND_LABEL, loadCommerceCatalog } from './lib/commerce.js';
 import { DEFAULT_DETAIL_LAYOUT, detailLayout } from './lib/commerce-detail.js';
 import { runCommerce, renderCommerce, runCommerceSlot, isCommerceRunning } from './lib/commerce-render.js';
+import { imagePreview } from './lib/image-preview.js';
 
 try {
   process.loadEnvFile('.env');
@@ -33,7 +34,8 @@ app.use(express.static(fileURLToPath(new URL('./public/', import.meta.url)), { e
 app.get('/files/:id/:sub/:file', async (req, res) => {
   const local = localPathFromPublic(`/files/${req.params.id}/${req.params.sub}/${req.params.file}`);
   if (!local) return res.status(404).end();
-  res.sendFile(local, { maxAge: '7d' }, (err) => err && !res.headersSent && res.status(404).end());
+  const file = req.query.preview === '1' ? await imagePreview(local).catch(() => local) : local;
+  res.sendFile(file, { maxAge: '7d' }, (err) => err && !res.headersSent && res.status(404).end());
 });
 
 const fixName = (name) => (/[^\x00-\xff]/.test(name) ? name : Buffer.from(name, 'latin1').toString('utf8'));

@@ -3415,9 +3415,11 @@ input::placeholder {
 .lightbox {
   position: fixed;
   inset: 0;
+  height: 100dvh;
   z-index: 120;
   display: grid;
   grid-template-columns: minmax(0, 1fr) 360px;
+  grid-template-rows: minmax(0, 1fr);
   background: rgba(14, 28, 22, 0.9);
   backdrop-filter: blur(18px);
   animation: fadeIn 0.4s var(--ease);
@@ -3425,7 +3427,9 @@ input::placeholder {
 
 .lb-figure {
   margin: 0;
+  height: 100%;
   display: grid;
+  grid-template: minmax(0, 1fr) / minmax(0, 1fr);
   place-items: center;
   padding: 50px 80px;
   min-width: 0;
@@ -3434,7 +3438,8 @@ input::placeholder {
 
 .lb-figure img {
   max-width: 100%;
-  max-height: calc(100vh - 100px);
+  max-height: 100%;
+  object-fit: contain;
   border-radius: 10px;
   box-shadow: 0 40px 100px -30px rgba(0, 0, 0, 0.6);
   animation: lbIn 0.6s var(--ease);
@@ -3816,7 +3821,7 @@ input::placeholder {
   }
 
   .lb-figure {
-    padding: 60px 16px 16px;
+    padding: 60px 80px 16px;
   }
 
   .lb-side {

@@ -43,7 +43,7 @@ const MAX_INPUTS = 4;
 const MAX_UPLOAD = 25 * 1024 * 1024;
 
 export function initCommerce(ctx) {
-  const { state, $, $$, esc, api, toast, askConfirm, fmtTime, paintShot, ISO_SVG, ICONS } = ctx;
+  const { state, $, $$, esc, api, toast, askConfirm, fmtTime, paintShot, previewUrl, ISO_SVG, ICONS } = ctx;
 
   const commerceOf = (p = state.project) => p?.commerce || null;
   const slotsOf = (c) => c?.plan?.slots || [];
@@ -201,7 +201,7 @@ export function initCommerce(ctx) {
           .map((v) => {
             const on = cm.views.has(v.id);
             return `<button type="button" class="cm-tile" data-view="${v.id}" aria-pressed="${on}" title="${esc(v.label)}">
-              <img src="${state.project.images[v.id].file}" alt="${esc(v.label)}" loading="lazy" />
+              <img src="${previewUrl(state.project.images[v.id].file)}" alt="${esc(v.label)}" loading="lazy" />
               <span>${esc(v.label.replace(' · ', ' '))}</span><i class="cm-check" aria-hidden="true">✓</i>
             </button>`;
           })

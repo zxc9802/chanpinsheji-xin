@@ -15,6 +15,7 @@ const fmtTime = (ms) => {
   return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
 };
 const fmtSize = (b) => (b > 1024 * 1024 ? `${(b / 1024 / 1024).toFixed(1)} MB` : `${Math.max(1, Math.round(b / 1024))} KB`);
+const previewUrl = (file) => file?.startsWith('/files/') ? `${file}?preview=1` : file;
 
 async function api(url, opts = {}) {
   const init = { ...opts };
@@ -972,7 +973,7 @@ function paintShot(card, img, { baseClass = '', dlName, retry, waiting, now = Da
       imgEl.classList.remove('loaded');
       imgEl.onload = () => imgEl.classList.add('loaded');
       imgEl.dataset.src = img.file;
-      imgEl.src = img.file;
+      imgEl.src = previewUrl(img.file);
     }
     const dl = $('[data-tool="down"]', card);
     dl.href = img.file;
@@ -1245,7 +1246,7 @@ function directionStripHtml(dirs, chosen) {
       const current = d.id === chosen;
       const usable = d.image?.status === 'done';
       return `<button type="button" class="dir-chip ${current ? 'current' : ''}" data-dir-switch="${d.id}" ${current ? 'aria-current="true"' : ''} ${current || usable ? '' : 'disabled'} title="${current ? '当前使用的方向' : usable ? '改用这个方向' : '这个方向没有出预览，不能选用'}">
-        <span class="dir-chip-img">${d.image?.file ? `<img src="${esc(d.image.file)}" alt="" />` : ''}</span>
+        <span class="dir-chip-img">${d.image?.file ? `<img src="${esc(previewUrl(d.image.file))}" alt="" />` : ''}</span>
         <span class="dir-chip-txt"><b>方向 ${dirLetter(i)}${current ? ' · 当前' : ''}</b><small>${esc(dirName(d))}</small></span>
       </button>`;
     })
@@ -1276,7 +1277,7 @@ function renderDirections() {
     $$('.dir-chip', box).forEach((chip, i) => {
       const file = dirs[i].image?.file;
       const img = $('img', chip);
-      if (img && img.getAttribute('src') !== file) img.src = file;
+      if (img && img.getAttribute('src') !== previewUrl(file)) img.src = previewUrl(file);
     });
     return;
   }
@@ -1296,7 +1297,7 @@ function renderDirections() {
         imgEl.classList.remove('loaded');
         imgEl.onload = () => imgEl.classList.add('loaded');
         imgEl.dataset.src = img.file;
-        imgEl.src = img.file;
+        imgEl.src = previewUrl(img.file);
       }
     } else {
       imgEl.classList.remove('loaded');
@@ -1541,7 +1542,7 @@ function refreshLightbox(force = false) {
   const lbImg = $('#lbImg');
   if (force || lbImg.dataset.src !== img.file) {
     lbImg.dataset.src = img.file;
-    lbImg.src = img.file;
+    lbImg.src = previewUrl(img.file);
     lbImg.style.animation = 'none';
     void lbImg.offsetWidth;
     lbImg.style.animation = '';
@@ -1562,7 +1563,7 @@ function refreshLightbox(force = false) {
   $('#lbVersions').innerHTML =
     versions.length > 1 || img.status === 'error' && versions.length
       ? versions
-          .map((ver, i) => `<button type="button" data-ver="${i}" aria-current="${ver.file === img.file}" title="版本 ${i + 1}"><img src="${ver.file}" alt="版本 ${i + 1}" /></button>`)
+          .map((ver, i) => `<button type="button" data-ver="${i}" aria-current="${ver.file === img.file}" title="版本 ${i + 1}"><img src="${previewUrl(ver.file)}" alt="版本 ${i + 1}" /></button>`)
           .join('')
       : '';
   const multi = lbIds().length > 1;
@@ -1662,7 +1663,7 @@ async function renderHistory() {
     list.innerHTML = items
       .map(
         (it) => `<div class="h-item" data-open="${it.id}">
-          <div class="h-cover">${it.cover ? `<img src="${it.cover}" alt="" loading="lazy" />` : esc((it.name || '匣').slice(0, 1))}</div>
+          <div class="h-cover">${it.cover ? `<img src="${previewUrl(it.cover)}" alt="" loading="lazy" />` : esc((it.name || '匣').slice(0, 1))}</div>
           <div style="min-width:0">
             <div class="h-name">${esc(it.brand ? `${it.brand} · ${it.name}` : it.name)}</div>
             <div class="h-sub">${esc(it.conceptName || '未完成解析')} · ${new Date(it.createdAt).toLocaleDateString('zh-CN')} · ${it.picking ? '待选方向' : `${it.doneCount} 张`}</div>
@@ -1754,7 +1755,7 @@ async function loadProject(id, { scroll = true } = {}) {
 
 /* ───────────── 电商主图 + 详情图 ───────────── */
 const commerce = initCommerce({
-  state, $, $$, esc, api, toast, askConfirm, fmtTime, paintShot, ISO_SVG, ICONS, isActive, activeViews, renderGallery, startPolling, flushBrief,
+  state, $, $$, esc, api, toast, askConfirm, fmtTime, paintShot, previewUrl, ISO_SVG, ICONS, isActive, activeViews, renderGallery, startPolling, flushBrief,
   openCreated: (project) => {
     leaveProject();
     setProject(project);
