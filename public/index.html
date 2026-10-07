@@ -54,6 +54,7 @@
         </p>
         <div class="hero-cta reveal" style="--d: 3">
           <a href="#studio" class="btn btn-primary"><span>开始设计</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
+          <button class="btn btn-ghost" type="button" id="directDetailBtn">上传产品图，生成套图</button>
           <button class="btn btn-ghost" type="button" data-action="try-sample">用示例文档体验</button>
         </div>
         <dl class="hero-stats reveal" style="--d: 4">
@@ -239,7 +240,7 @@
           <header class="panel-head">
             <span class="panel-num">02</span>
             <div>
-              <h2>包装渲染</h2>
+              <h2 id="renderTitle">包装渲染</h2>
               <p id="renderSubtitle">外包装与内包装三视图</p>
             </div>
             <div class="panel-head-actions">
@@ -279,14 +280,37 @@
               <span class="panel-num small">03</span>
               <div>
                 <h3>交付提案</h3>
-                <p>一键导出排版好的提案板，或打包下载全部高清渲染图与设计简报。</p>
+                <p id="deliverDesc">用这套包装一键生成电商主图与商品详情图，或打包下载全部高清渲染图与设计简报。</p>
               </div>
             </div>
             <div class="deliver-actions">
-              <button class="btn btn-ghost" type="button" id="boardBtn">导出提案板 PNG</button>
+              <button class="btn btn-ghost" type="button" id="commerceBtn">生成主图 + 详情图</button>
               <a class="btn btn-primary" id="zipBtn" href="#" download><span>下载全部 ZIP</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v12M6 11l6 6 6-6M5 20h14" /></svg></a>
             </div>
           </div>
+
+          <!-- 电商主图 + 详情图：JEV 挑视觉系统与每一屏的设计参考图，规划后直接出图 -->
+          <section class="commerce" id="commerce" hidden>
+            <header class="group-head commerce-head">
+              <span class="group-code">E</span>
+              <div>
+                <h3 id="commerceTitle">电商主图 + 详情图</h3>
+                <span class="group-en">Listing Images · Main &amp; Detail</span>
+              </div>
+              <p class="commerce-sub" id="commerceSub"></p>
+              <div class="commerce-actions">
+                <button class="btn btn-primary btn-sm" type="button" data-cact="long" id="commerceLongBtn" disabled>合成详情长图</button>
+                <button class="btn btn-ghost btn-sm" type="button" data-cact="brief" id="commerceBriefBtn">设计简报</button>
+                <button class="btn btn-ghost btn-sm" type="button" data-cact="again" id="commerceAgainBtn">重新生成</button>
+              </div>
+            </header>
+            <div class="commerce-status" id="commerceStatus" hidden>
+              <p class="cs-msg" id="commerceMsg"></p>
+              <div class="working-bar"><i></i></div>
+            </div>
+            <div class="commerce-error" id="commerceError" hidden></div>
+            <div id="commerceGallery"></div>
+          </section>
         </article>
       </div>
     </section>
@@ -370,6 +394,116 @@
         <button class="btn btn-primary btn-sm" type="button" data-modal="confirm"><span>开始重绘</span></button>
       </div>
     </div>
+  </div>
+
+  <!-- ─────────── 生成主图 + 详情图：选产品图与内容 ─────────── -->
+  <div class="modal" id="commerceModal" role="dialog" aria-modal="true" aria-labelledby="cmTitle" hidden>
+    <div class="modal-card cm-card">
+      <i class="crop tl"></i><i class="crop tr"></i><i class="crop bl"></i><i class="crop br"></i>
+      <p class="eyebrow">Listing Images</p>
+      <h3 id="cmTitle">生成主图 + 详情图</h3>
+      <p class="modal-desc" id="cmDesc">选好产品图（同一件产品的一张或多个角度，最多 4 张），再选要生成的内容。点开始后 JEV 会先挑视觉系统并规划每一屏，然后直接出图，不需要再确认。</p>
+
+      <div class="cm-block">
+        <div class="cm-label"><b>产品图</b><small id="cmCount">已选 0 / 4</small></div>
+        <div id="cmGenerated">
+          <p class="cm-sub">来自这套包装的成图</p>
+          <div class="cm-grid" id="cmViews"></div>
+        </div>
+        <p class="cm-sub" id="cmUploadLabel">或上传自己的产品图</p>
+        <div class="cm-upload-zone" id="cmUploads">
+          <label class="cm-dropzone" id="cmAdd" tabindex="0">
+            <input type="file" id="cmFile" accept="image/png,image/jpeg,image/webp" multiple hidden />
+            <span aria-hidden="true">＋</span><strong>拖入产品图，或点击上传</strong>
+            <small>PNG / JPG / WebP · 最多 4 张 · 单张不超过 25 MB</small>
+          </label>
+          <div class="cm-grid" id="cmUploadPreviews" hidden></div>
+        </div>
+        <p class="cm-hint">多张图请选同一件产品的不同角度（正面、背面、侧面），用于保持每一屏中的产品一致。</p>
+      </div>
+
+      <div class="cm-block field" id="cmProductInfoBlock" hidden>
+        <label class="field-label" for="cmProductInfo">产品介绍 <small>选填</small></label>
+        <textarea id="cmProductInfo" rows="3" maxlength="12000" placeholder="补充产品名称、卖点、成分、规格、使用方法……不填写也可以，青匣会识别图片中可见的产品信息。"></textarea>
+        <div class="cm-upload-zone cm-doc-zone" id="cmDocUploads">
+          <label class="cm-dropzone" id="cmDocAdd" tabindex="0">
+            <input type="file" id="cmDocFile" accept=".pdf,.docx,.pptx,.xlsx,.md,.markdown,.txt,.csv,.json,.html,.htm" hidden />
+            <strong>拖入产品文档，或点击上传</strong>
+            <small>PDF / Word（DOCX）/ PPT（PPTX）/ Excel / Markdown / TXT 等 · 可选 1 份 · 最大 25 MB</small>
+          </label>
+          <div class="cm-doc-file" id="cmDocSelected" hidden>
+            <span id="cmDocName"></span>
+            <button type="button" class="icon-btn" id="cmDocRemove" aria-label="移除产品文档">×</button>
+          </div>
+        </div>
+        <p class="cm-hint">文档内容会与上方文字一起用于生成；补充说明优先。</p>
+      </div>
+
+      <div class="cm-block" id="cmScopeBlock">
+        <div class="cm-label"><b>生成内容</b><small>可单选或同时选择</small></div>
+        <div class="cm-scope" id="cmScope">
+          <label><input type="checkbox" data-scope="main" checked /><span>主图</span></label>
+          <label><input type="checkbox" data-scope="detail" checked /><span>详情图</span></label>
+        </div>
+        <p class="cm-hint" id="cmScopeHint"></p>
+      </div>
+
+      <div class="cm-block" id="cmDetailLayoutBlock">
+        <div class="cm-label"><b>详情页结构</b></div>
+        <div class="segmented" id="cmDetailLayout">
+          <button type="button" data-detail-layout="detail_standard_conversion_10" aria-pressed="true">标准详情 · 10 屏</button>
+          <button type="button" data-detail-layout="detail_evidence_chain_16" aria-pressed="false">证据链详情 · 16 屏</button>
+        </div>
+        <p class="cm-hint" id="cmDetailLayoutHint"></p>
+      </div>
+
+      <p class="cm-replace" id="cmReplace" hidden>这个项目已经有一套主图与详情图，重新生成会替换它。</p>
+      <div class="modal-actions">
+        <button class="btn btn-ghost btn-sm" type="button" data-cm="cancel">取消</button>
+        <button class="btn btn-primary btn-sm" type="button" data-cm="start" id="cmStart"><span>开始规划并生成</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 详情长图：所有详情屏定稿后一键合成，预览后下载 -->
+  <div class="modal" id="longModal" role="dialog" aria-modal="true" aria-labelledby="longTitle" hidden>
+    <div class="modal-card long-card">
+      <i class="crop tl"></i><i class="crop tr"></i><i class="crop bl"></i><i class="crop br"></i>
+      <p class="eyebrow">Long Image</p>
+      <h3 id="longTitle">详情长图</h3>
+      <p class="modal-desc" id="longMeta">正在合成…</p>
+      <div class="long-scroll" id="longScroll"><img id="longImg" alt="详情长图预览" hidden /></div>
+      <div class="modal-actions">
+        <button class="btn btn-ghost btn-sm" type="button" data-long="close">关闭</button>
+        <button class="btn btn-ghost btn-sm" type="button" data-long="png" id="longPng" disabled>下载 PNG</button>
+        <button class="btn btn-primary btn-sm" type="button" data-long="jpg" id="longJpg" disabled><span>下载 JPG</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 主图 + 详情图的设计简报：点击「设计简报」打开，可改每一屏文字与构图 -->
+  <div class="sheet" id="commerceSheet" hidden>
+    <div class="sheet-mask" data-csheet="close"></div>
+    <article class="panel panel-brief" role="dialog" aria-modal="true" aria-labelledby="csTitle">
+      <header class="panel-head">
+        <div>
+          <h2 id="csTitle">主图 + 详情图 · 设计简报</h2>
+          <p id="csSub">按你的产品资料规划 · 每一屏的文字与构图都可以修改，改完点击「按此方案重新生成」</p>
+        </div>
+        <div class="panel-head-actions">
+          <button class="btn btn-ghost btn-sm" type="button" id="csReplan">重新规划</button>
+          <button class="icon-btn" type="button" data-csheet="close" aria-label="关闭设计简报">×</button>
+        </div>
+      </header>
+      <div id="commerceBody"></div>
+      <footer class="panel-foot">
+        <p class="foot-note" id="csNote"></p>
+        <button class="btn btn-primary btn-lg" type="button" id="csGenerate">
+          <span>按此方案重新生成</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+        </button>
+      </footer>
+    </article>
   </div>
 
   <!-- ─────────── 确认弹窗 ─────────── -->

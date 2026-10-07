@@ -1,4 +1,4 @@
-import { exportBoard } from './board.js';
+import { initCommerce } from './commerce.js';
 
 /* ───────────── 基础工具 ───────────── */
 const $ = (s, el = document) => el.querySelector(s);
@@ -107,12 +107,21 @@ const state = {
   pollTimer: null,
   saveTimer: null,
   savePromise: null,
+  briefDirty: false,
+  briefEdit: 0,
+  loadToken: 0,
+  pollEpoch: 0,
   galleryKey: '',
   lbView: null,
   lbDirection: null,
   choosing: null,
   dirKey: '',
   regenView: null,
+  regenSlot: null,
+  lbSlot: null,
+  commerceKey: '',
+  sheetOpen: false,
+  wasCommerce: false,
   wasActive: false,
   analyzing: false,
 };
@@ -349,7 +358,7 @@ async function startDesign() {
   setRail(2);
   let ready = false;
   try {
-    await flushBrief();
+    if (!(await flushBrief()) || !(await commerce.flush())) return;
     leaveProject();
     const fd = new FormData();
     if (state.file) fd.append('doc', state.file);
@@ -378,9 +387,15 @@ $('#analyzeBtn').addEventListener('click', startDesign);
 
 // 离开当前项目，回到空白工作台（项目已自动保存，可在「作品集」找回）
 function leaveProject() {
+  state.loadToken++;
   stopPolling();
   closeBrief();
+  closeLightbox();
+  closeRegen();
+  commerce.reset();
   state.project = null;
+  renderGallery();
+  state.briefDirty = false;
   state.galleryKey = '';
   $('#step3').hidden = true;
   history.replaceState(null, '', location.pathname);
@@ -390,7 +405,7 @@ function leaveProject() {
 async function newProject() {
   if (state.analyzing) return toast('请等待本轮设计完成', 'error');
   if (isActive()) return toast('请等待当前渲染完成后再新建项目', 'error');
-  await flushBrief();
+  if (!(await flushBrief()) || !(await commerce.flush())) return;
   leaveProject();
   setFile(null);
   $('#pasteInput').value = '';
@@ -457,12 +472,14 @@ async function reanalyze() {
   btn.classList.add('is-busy');
   btn.textContent = '构思中…';
   let picking = false;
+  let ready = false;
   try {
-    await flushBrief();
+    if (!(await flushBrief())) return;
     const project = await api(`/api/projects/${state.project.id}/analyze`, { json: { options: projectOptions() } });
     setProject(project);
     state.galleryKey = '';
     renderBrief();
+    ready = true;
     picking = pickingDirections();
     if (!picking) toast('已换一个新的设计方向');
   } catch (err) {
@@ -477,6 +494,8 @@ async function reanalyze() {
   if (picking) {
     closeBrief();
     showDirections(`JEV 挑出了 ${state.project.directions.length} 个参考方向，正在同时出预览，约 1 分钟`);
+  } else if (ready) {
+    await generate();
   }
 }
 
@@ -730,7 +749,7 @@ briefBody.addEventListener('click', (e) => {
     b.product.specs.push({ label: '', value: '' });
     $('[data-specs]').innerHTML = specsHtml(b.product.specs);
     $$('[data-specs] .spec').at(-1)?.querySelector('input')?.focus();
-    return;
+    return scheduleSave();
   }
   const tab = e.target.closest('[data-face-tab]');
   if (tab) {
@@ -749,10 +768,12 @@ function rerenderTags(editor) {
 function setSaveState(s) {
   const el = $('#saveState');
   el.classList.toggle('saving', s === 'saving');
-  el.textContent = { saving: '保存中…', synced: '已同步', error: '保存失败，将在渲染时一并提交' }[s];
+  el.textContent = { saving: '保存中…', synced: '已同步', error: '保存失败，请重试后再离开' }[s];
 }
 
 function scheduleSave() {
+  state.briefDirty = true;
+  state.briefEdit++;
   setSaveState('saving');
   clearTimeout(state.saveTimer);
   state.saveTimer = setTimeout(saveBrief, 700);
@@ -760,17 +781,32 @@ function scheduleSave() {
 
 async function saveBrief() {
   clearTimeout(state.saveTimer);
-  if (!state.project) return;
+  state.saveTimer = null;
+  if (!state.project || !state.briefDirty) return true;
+  const owner = state.project;
+  const { id } = owner;
+  const brief = structuredClone(owner.brief);
+  const edit = state.briefEdit;
   // 串行保存，每次都带上当前版本号
   state.savePromise = (state.savePromise || Promise.resolve()).then(async () => {
-    const { id, brief, briefRev = 0 } = state.project;
+    const briefRev = (state.project?.id === id ? state.project.briefRev : owner.briefRev) || 0;
     try {
       const saved = await api(`/api/projects/${id}/brief`, { method: 'PUT', json: { brief, rev: briefRev } });
-      if (state.project?.id === id) state.project.briefRev = saved.briefRev;
-      setSaveState('synced');
+      owner.briefRev = saved.briefRev;
+      if (state.project?.id === id) {
+        state.project.briefRev = saved.briefRev;
+        if (edit === state.briefEdit) {
+          state.briefDirty = false;
+          setSaveState('synced');
+        }
+      }
+      return true;
     } catch (err) {
-      if (err.stale) return reloadStale(err.message);
-      setSaveState('error');
+      if (state.project?.id === id) {
+        if (err.stale) await reloadStale(err.message);
+        else { setSaveState('error'); toast('简报保存失败，请重试后再切换项目', 'error'); }
+      }
+      return false;
     }
   });
   return state.savePromise;
@@ -786,11 +822,14 @@ async function reloadStale(message) {
 // 渲染前先等本地修改落盘，版本号才对得上
 async function flushBrief() {
   clearTimeout(state.saveTimer);
-  await state.savePromise;
+  state.saveTimer = null;
+  if (await state.savePromise === false) state.savePromise = null;
+  return state.briefDirty ? saveBrief() : true;
 }
 
 /* ───────────── 渲染 ───────────── */
 function activeViews(project = state.project) {
+  if (!project || project.kind === 'commerce') return [];
   const includeKv = project.options?.includeKv !== false || project.images?.kv;
   return state.views.filter((v) => v.group !== 'kv' || includeKv);
 }
@@ -801,11 +840,13 @@ async function generate() {
   if (isActive()) return toast('渲染进行中，请等待完成后再重新生成');
   const btn = $('#generateBtn');
   btn.classList.add('is-busy');
+  const id = state.project.id;
   try {
-    await flushBrief();
-    const project = await api(`/api/projects/${state.project.id}/generate`, {
+    if (!(await flushBrief()) || state.project?.id !== id) return;
+    const project = await api(`/api/projects/${id}/generate`, {
       json: { brief: state.project.brief, rev: state.project.briefRev ?? 0, options: (({ quality, includeKv }) => ({ quality, includeKv }))(projectOptions()) },
     });
+    if (state.project?.id !== id) return;
     setProject(project);
     setSaveState('synced'); // 简报已随渲染请求一并保存
     state.galleryKey = '';
@@ -845,6 +886,24 @@ const ICONS = {
 
 function renderGallery() {
   const p = state.project;
+  const direct = p?.kind === 'commerce';
+  $('#step1').hidden = direct;
+  $('#pipeline').hidden = direct;
+  $('#step3 .panel-head-actions').hidden = direct;
+  $('#renderTitle').textContent = direct ? '产品套图' : '包装渲染';
+  $('[data-rail="1"] .rail-cn').textContent = direct ? '上传产品图' : '投递资料';
+  $('[data-rail="2"] .rail-cn').textContent = direct ? '套图生成' : '包装渲染';
+  $('.rail-note').hidden = direct;
+  $('#deliverDesc').textContent = direct
+    ? '套图已自动保存，可逐张查看、下载和重绘。'
+    : '用这套包装一键生成电商主图与商品详情图，或打包下载全部高清渲染图与设计简报。';
+  if (!p || direct) {
+    $('#gallery').innerHTML = '';
+    $('#directions').hidden = true;
+    commerce.render();
+    if (p) updateGallery();
+    return;
+  }
   renderDirections();
   if (pickingDirections(p)) return;
   const views = activeViews(p);
@@ -890,10 +949,85 @@ function renderGallery() {
       .join('');
   }
   updateGallery();
+  commerce.render();
+}
+
+// 一张渲染卡的状态：包装视图与电商主图/详情图共用；返回是否已出图
+function paintShot(card, img, { baseClass = '', dlName, retry, waiting, now = Date.now() }) {
+  const status = img.status || 'idle';
+  card.className = `shot ${baseClass} ${status}`;
+  $('.shot-state', card).setAttribute('aria-hidden', String(status === 'done'));
+  const phaseEl = $('.shot-phase', card);
+  const timerEl = $('.shot-timer', card);
+  const errEl = $('.shot-error', card);
+  errEl.textContent = '';
+  $('.shot-retry', card)?.remove();
+  $('.shot-history', card)?.remove();
+
+  if (status === 'done') {
+    phaseEl.textContent = '已完成';
+    timerEl.textContent = '';
+    const imgEl = $('img', card);
+    if (imgEl.dataset.src !== img.file) {
+      imgEl.classList.remove('loaded');
+      imgEl.onload = () => imgEl.classList.add('loaded');
+      imgEl.dataset.src = img.file;
+      imgEl.src = img.file;
+    }
+    const dl = $('[data-tool="down"]', card);
+    dl.href = img.file;
+    dl.setAttribute('download', dlName);
+    const ver = $('.shot-ver', card);
+    const n = img.versions?.length || 1;
+    ver.hidden = n < 2;
+    ver.textContent = `${n} 个版本`;
+  } else {
+    $('img', card).classList.remove('loaded');
+    delete $('img', card).dataset.src;
+  }
+
+  if (status === 'running' || status === 'queued') {
+    const idle = status === 'queued' && (!img.phase || img.phase === 'WAITING');
+    phaseEl.textContent = idle ? waiting || PHASE_TEXT.WAITING : PHASE_TEXT[img.phase] || '渲染中';
+    timerEl.textContent = img.startedAt && status === 'running' ? fmtTime(now - img.startedAt) : '';
+  } else if (status === 'error') {
+    phaseEl.textContent = '渲染失败';
+    timerEl.textContent = '';
+    errEl.textContent = img.error || '';
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'btn btn-ghost btn-sm shot-retry';
+    btn.textContent = '重新渲染';
+    btn.dataset[retry[0]] = retry[1];
+    $('.shot-state', card).append(btn);
+    if (img.file) {
+      const history = document.createElement('button');
+      history.type = 'button';
+      history.className = 'btn btn-ghost btn-sm shot-history';
+      history.textContent = '查看已有版本';
+      history.dataset.tool = 'zoom';
+      $('.shot-state', card).append(history);
+    }
+  } else if (status === 'idle') {
+    phaseEl.textContent = '待渲染';
+    timerEl.textContent = '';
+  }
+  return status === 'done';
 }
 
 function updateGallery() {
   const p = state.project;
+  if (p?.kind === 'commerce') {
+    const c = p.commerce;
+    const done = Object.values(c?.images || {}).filter((img) => img.status === 'done').length;
+    $('#renderSubtitle').textContent = commerce.isActive()
+      ? `套图正在生成 · 已完成 ${done} 张`
+      : c?.status === 'error' ? '生成未完成 · 查看下方原因后可重新生成' : `已完成 ${done} 张 · 点击图片查看大图、下载或重绘`;
+    $('#deliver').hidden = done === 0;
+    $('#zipBtn').href = `/api/projects/${p.id}/zip`;
+    if (done && !commerce.isActive()) setRail(3);
+    return;
+  }
   if (pickingDirections(p)) return renderDirections();
   const views = activeViews(p);
   const now = Date.now();
@@ -902,52 +1036,13 @@ function updateGallery() {
   for (const v of views) {
     const card = $(`.shot[data-view="${v.id}"]`);
     if (!card) continue;
-    const img = p.images?.[v.id] || {};
-    const status = img.status || 'idle';
-    card.className = `shot ${v.group === 'kv' ? 'kv' : ''} ${status}`;
-    const phaseEl = $('.shot-phase', card);
-    const timerEl = $('.shot-timer', card);
-    const errEl = $('.shot-error', card);
-    errEl.textContent = '';
-    $('.shot-retry', card)?.remove();
-
-    if (status === 'done') {
-      done++;
-      const imgEl = $('img', card);
-      if (imgEl.dataset.src !== img.file) {
-        imgEl.classList.remove('loaded');
-        imgEl.onload = () => imgEl.classList.add('loaded');
-        imgEl.dataset.src = img.file;
-        imgEl.src = img.file;
-      }
-      const dl = $('[data-tool="down"]', card);
-      dl.href = img.file;
-      dl.setAttribute('download', `${v.code}-${v.label.replace(/\s|·/g, '')}${'.png'}`);
-      const ver = $('.shot-ver', card);
-      const n = img.versions?.length || 1;
-      ver.hidden = n < 2;
-      ver.textContent = `${n} 个版本`;
-    } else {
-      $('img', card).classList.remove('loaded');
-    }
-
-    if (status === 'running' || status === 'queued') {
-      phaseEl.textContent = PHASE_TEXT[img.phase] || (status === 'queued' ? PHASE_TEXT.WAITING : '渲染中');
-      timerEl.textContent = img.startedAt && status === 'running' ? fmtTime(now - img.startedAt) : '';
-    } else if (status === 'error') {
-      phaseEl.textContent = '渲染失败';
-      timerEl.textContent = '';
-      errEl.textContent = img.error || '';
-      const retry = document.createElement('button');
-      retry.type = 'button';
-      retry.className = 'btn btn-ghost btn-sm shot-retry';
-      retry.textContent = '重新渲染';
-      retry.dataset.retry = v.id;
-      $('.shot-state', card).append(retry);
-    } else if (status === 'idle') {
-      phaseEl.textContent = '待渲染';
-      timerEl.textContent = '';
-    }
+    const ok = paintShot(card, p.images?.[v.id] || {}, {
+      baseClass: v.group === 'kv' ? 'kv' : '',
+      dlName: `${v.code}-${v.label.replace(/\s|·/g, '')}.png`,
+      retry: ['retry', v.id],
+      now,
+    });
+    if (ok) done++;
   }
 
   // 流水线节点
@@ -967,7 +1062,9 @@ function updateGallery() {
   if (pl?.startedAt) $('#pipeTimer').textContent = fmtTime((pl.status === 'running' ? now : pl.finishedAt || now) - pl.startedAt);
   const rendered = Object.keys(p.images || {}).length > 0;
   $('#rerunBtn').textContent = rendered ? '全部重绘' : '开始渲染';
-  $('#renderSubtitle').textContent = isActive()
+  $('#renderSubtitle').textContent = commerce.isActive()
+    ? `已完成 ${done} 张包装图 · 电商主图与详情图正在生成`
+    : isActive()
     ? '渲染进行中 · 可以先打开「设计简报」修改，完成后再重新生成'
     : rendered
       ? `已完成 ${done} 张 · 点击图片查看大图、下载或重绘 · 想调整设计，打开「设计简报」修改后重新生成`
@@ -981,28 +1078,69 @@ function updateGallery() {
 
 function isActive(project = state.project) {
   if (!project) return false;
+  if (project.analysis?.status === 'running') return true;
   if (project.pipeline?.status === 'running' || project.direction?.status === 'previewing') return true;
+  if (commerce.isActive(project)) return true;
   if ((project.directions || []).some((d) => d.image?.status === 'running' || d.image?.status === 'queued')) return true;
   return Object.values(project.images || {}).some((i) => i.status === 'running' || i.status === 'queued');
 }
 
 function startPolling() {
   stopPolling();
+  const epoch = state.pollEpoch;
+  const id = state.project?.id;
+  const watchingAnalysis = state.project?.analysis?.status === 'running';
   state.wasActive = true;
+  state.wasCommerce = commerce.isActive();
   const tick = async () => {
-    if (!state.project) return;
+    if (state.pollEpoch !== epoch || state.project?.id !== id) return;
     try {
-      const fresh = await api(`/api/projects/${state.project.id}`);
+      const fresh = await api(`/api/projects/${id}`);
+      if (state.pollEpoch !== epoch || state.project?.id !== id) return;
+      if (watchingAnalysis) {
+        state.project = fresh;
+        if (fresh.analysis?.status === 'running') {
+          state.pollTimer = setTimeout(tick, 2000);
+          return;
+        }
+        stopPolling();
+        showAnalyzing(false);
+        if (fresh.brief) {
+          renderBrief();
+          state.galleryKey = '';
+          $('#step3').hidden = false;
+          renderGallery();
+          setRail(2);
+        }
+        if (fresh.analysis?.status === 'error') {
+          toast(fresh.analysis.error || '分析失败，请重试', 'error', 6000);
+          if (!fresh.brief) setRail(1);
+        } else if (pickingDirections()) showDirections('分析已完成，正在载入设计方向');
+        else if (isActive(fresh)) startPolling();
+        else if (fresh.brief) await generate();
+        return;
+      }
       // 保留本地未保存的简报修改（连同它对应的版本号）
       state.project = { ...fresh, brief: state.project.brief, briefRev: state.project.briefRev };
       renderGallery();
       if (lbOpen()) refreshLightbox();
+      if (commerce.isActive()) state.wasCommerce = true;
       if (!isActive()) {
         stopPolling();
         if (state.wasActive && pickingDirections()) {
           const bad = state.project.directions.filter((d) => d.image?.status === 'error').length;
           toast(bad ? `预览出完了，有 ${bad} 个方向失败，可以点「重画」` : '预览已出 ✦ 选一个喜欢的方向', bad ? 'error' : 'info', 5000);
           state.wasActive = false;
+        } else if (state.wasActive && state.wasCommerce) {
+          const c = commerce.commerceOf();
+          const slots = commerce.slotsOf(c);
+          const failed = slots.filter((s) => c.images?.[s.id]?.status === 'error').length;
+          if (c?.status === 'error') toast(`没能完成主图与详情图的规划：${c.error}`, 'error', 7000);
+          else {
+            const label = c?.scope === 'detail' ? '详情图' : c?.scope === 'main' ? '主图' : '主图与详情图';
+            toast(failed ? `${label}出完了，有 ${failed} 张失败，可单独重试` : `${label}全部完成 ✦ 点击图片查看大图`, failed ? 'error' : 'info', 5000);
+          }
+          state.wasActive = state.wasCommerce = false;
         } else if (state.wasActive) {
           const failed = activeViews().filter((v) => state.project.images?.[v.id]?.status === 'error').length;
           toast(failed ? `渲染结束，有 ${failed} 张失败，可单独重试` : '全部渲染完成 ✦ 点击图片查看细节', failed ? 'error' : 'info', 5000);
@@ -1010,20 +1148,27 @@ function startPolling() {
         }
         return;
       }
-    } catch {}
-    state.pollTimer = setTimeout(tick, 2000);
+    } catch (err) {
+      if (state.pollEpoch !== epoch || state.project?.id !== id) return;
+      if (err.status === 404) { leaveProject(); setRail(1); toast('该作品已被删除', 'error'); return; }
+    }
+    if (state.pollEpoch === epoch && state.project?.id === id) state.pollTimer = setTimeout(tick, 2000);
   };
   state.pollTimer = setTimeout(tick, 1200);
 }
 
 function stopPolling() {
+  state.pollEpoch++;
   clearTimeout(state.pollTimer);
   state.pollTimer = null;
 }
 
 // 每秒刷新计时器
 setInterval(() => {
-  if (state.project && !$('#step3').hidden && isActive()) updateGallery();
+  if (state.project && !$('#step3').hidden && isActive()) {
+    updateGallery();
+    commerce.update();
+  }
 }, 1000);
 
 $('#gallery').addEventListener('click', (e) => {
@@ -1035,6 +1180,7 @@ $('#gallery').addEventListener('click', (e) => {
   const tool = e.target.closest('[data-tool]');
   if (tool?.dataset.tool === 'down') return;
   if (tool?.dataset.tool === 'redo') return openRegen(viewId);
+  if (tool?.dataset.tool === 'zoom' && state.project.images?.[viewId]?.file) return openLightbox(viewId);
   if (card.classList.contains('done') && e.target.closest('.shot-frame')) openLightbox(viewId);
 });
 
@@ -1142,6 +1288,7 @@ function renderDirections() {
     const status = img.status || 'idle';
     const shot = $('.shot', card);
     shot.className = `shot ${status}`;
+    $('.shot-state', card).setAttribute('aria-hidden', String(status === 'done'));
     const imgEl = $('img', card);
     if (status === 'done') {
       if (imgEl.dataset.src !== img.file) {
@@ -1155,7 +1302,7 @@ function renderDirections() {
       delete imgEl.dataset.src;
     }
     const running = status === 'running' || status === 'queued';
-    $('.shot-phase', card).textContent = running ? DIR_PHASE_TEXT[img.phase] || '渲染中' : status === 'error' ? '预览失败' : '待渲染';
+    $('.shot-phase', card).textContent = running ? DIR_PHASE_TEXT[img.phase] || '渲染中' : status === 'error' ? '预览失败' : status === 'done' ? '预览完成' : '待渲染';
     $('.shot-timer', card).textContent = status === 'running' && img.startedAt ? fmtTime(now - img.startedAt) : '';
     $('.shot-error', card).textContent = status === 'error' ? img.error || '' : '';
     $('[data-dir-choose]', card).disabled = status !== 'done' || !!state.choosing;
@@ -1175,11 +1322,16 @@ async function chooseDirection(id) {
   if (!d) return;
   if (state.project.pipeline?.status === 'running') return toast('当前这套图还在渲染，请等待完成后再换方向', 'error');
   state.choosing = id;
+  const projectId = state.project.id;
   renderDirections();
   const letter = dirLetter(state.project.directions.indexOf(d));
   try {
+    if (!(await flushBrief()) || state.project?.id !== projectId) return;
     const { quality, includeKv } = projectOptions();
     const project = await api(`/api/projects/${state.project.id}/directions/${id}/choose`, { json: { options: { quality, includeKv } } });
+    if (state.project?.id !== projectId) return;
+    clearTimeout(state.saveTimer);
+    state.briefDirty = false;
     setProject(project);
     setSaveState('synced');
     renderBrief();
@@ -1211,8 +1363,10 @@ async function switchDirection(id) {
 }
 
 async function retryDirection(id) {
+  const projectId = state.project?.id;
   try {
-    const project = await api(`/api/projects/${state.project.id}/directions/${id}/retry`, { json: {} });
+    const project = await api(`/api/projects/${projectId}/directions/${id}/retry`, { json: {} });
+    if (state.project?.id !== projectId) return;
     state.project = { ...project, brief: state.project.brief, briefRev: state.project.briefRev };
     renderGallery();
     startPolling();
@@ -1238,8 +1392,10 @@ $('#directions').addEventListener('keydown', (e) => {
 
 /* ───────────── 重绘 ───────────── */
 function openRegen(viewId) {
+  if (state.project?.pipeline?.status === 'running') return toast('请等待整套渲染完成后再重绘', 'error');
   const v = state.views.find((x) => x.id === viewId);
   state.regenView = viewId;
+  state.regenSlot = null;
   $('#regenTitle').textContent = `重绘 · ${v.label}`;
   $('#regenExtra').value = '';
   $('.modal-desc', $('#regenModal')).textContent =
@@ -1253,14 +1409,52 @@ function openRegen(viewId) {
 function closeRegen() {
   $('#regenModal').hidden = true;
   state.regenView = null;
+  state.regenSlot = null;
+}
+
+// 主图 / 详情图的某一屏：共用同一个重绘弹窗
+function openSlotRegen(slotId) {
+  const c = commerce.commerceOf();
+  const slot = commerce.slotsOf(c).find((s) => s.id === slotId);
+  if (!slot) return;
+  if (['planning', 'rendering'].includes(c.status)) return toast('整套图片正在生成，请完成后再重绘', 'error');
+  if (['queued', 'running'].includes(c.images?.[slotId]?.status)) return toast('这张图正在生成中', 'error');
+  state.regenView = null;
+  state.regenSlot = slotId;
+  $('#regenTitle').textContent = `重绘 · ${commerce.slotTitle(slot)}`;
+  $('#regenExtra').value = '';
+  $('.modal-desc', $('#regenModal')).textContent =
+    slotId === c.plan.anchor
+      ? '这一张是整套的定调图，其余各屏以它为参考。重绘后如想让其它屏跟上，可在「设计简报」里点「按此方案重新生成」。修改意见会作为最高优先级执行；留空则重新画一版，旧版本会保留。'
+      : '写下修改意见会作为最高优先级执行；留空则按当前方案重新画一版。旧版本会保留。';
+  $('#regenModal').hidden = false;
+  setTimeout(() => $('#regenExtra').focus(), 50);
+}
+
+async function regenerateSlot(slotId, extra = '') {
+  const id = state.project?.id;
+  try {
+    if (!(await commerce.flush()) || state.project?.id !== id) return;
+    const { brief, briefRev } = state.project;
+    const project = await api(`/api/projects/${state.project.id}/commerce/slots/${slotId}/regenerate`, { json: { extra } });
+    if (state.project?.id !== id) return;
+    state.project = { ...project, brief, briefRev };
+    renderGallery();
+    startPolling();
+    toast('已开始重绘');
+  } catch (err) {
+    toast(err.message, 'error');
+  }
 }
 
 async function regenerate(viewId, extra) {
   if (state.analyzing) return toast('请等待参考匹配完成', 'error');
+  const id = state.project?.id;
   try {
-    await flushBrief();
+    if (!(await flushBrief()) || state.project?.id !== id) return;
     const { brief, briefRev = 0 } = state.project;
     const project = await api(`/api/projects/${state.project.id}/views/${viewId}/regenerate`, { json: { extra, brief, rev: briefRev } });
+    if (state.project?.id !== id) return;
     state.project = { ...project, brief };
     setSaveState('synced');
     renderGallery();
@@ -1276,18 +1470,21 @@ $('#regenModal').addEventListener('click', (e) => {
   const act = e.target.closest('[data-modal]')?.dataset.modal;
   if (e.target.id === 'regenModal' || act === 'cancel') return closeRegen();
   if (act === 'confirm') {
-    const viewId = state.regenView;
+    const { regenView: viewId, regenSlot: slotId } = state;
     const extra = $('#regenExtra').value;
     closeRegen();
     if (lbOpen()) closeLightbox();
-    regenerate(viewId, extra);
+    if (slotId) regenerateSlot(slotId, extra);
+    else regenerate(viewId, extra);
   }
 });
 
 /* ───────────── 大图查看 ───────────── */
 const lb = $('#lightbox');
 const lbOpen = () => !lb.hidden;
-const doneViews = () => activeViews().filter((v) => state.project.images?.[v.id]?.status === 'done');
+const viewable = (img) => img?.file && ['done', 'error'].includes(img.status);
+const doneViews = () => activeViews().filter((v) => viewable(state.project.images?.[v.id]));
+const doneSlots = () => commerce.slotsOf(commerce.commerceOf()).filter((s) => viewable(commerce.commerceOf().images?.[s.id]));
 
 // 大图可以看整套里的某一张，也可以看平行方向的预览
 function lbEntry() {
@@ -1297,16 +1494,31 @@ function lbEntry() {
     const d = p.directions[i];
     return d && { code: `方向 ${dirLetter(i)}`, title: dirName(d), en: 'Direction Preview · Outer Front', img: d.image, direction: true, file: `方向${dirLetter(i)}-${d.match.primary.brand}.png` };
   }
+  if (state.lbSlot) {
+    const c = commerce.commerceOf();
+    const s = commerce.slotsOf(c).find((x) => x.id === state.lbSlot);
+    return s && { code: commerce.slotCode(s), title: commerce.slotTitle(s), en: s.roleLabel, img: c.images?.[s.id], file: `${commerce.slotCode(s)}-${s.title}.png` };
+  }
   const v = state.views.find((x) => x.id === state.lbView);
   return v && { code: v.code, title: v.label, en: v.en, img: p.images?.[v.id], file: `${v.code}-${v.label.replace(/\s|·/g, '')}.png` };
 }
 
 function lbIds() {
+  if (state.lbSlot) return doneSlots().map((s) => s.id);
   return state.lbDirection ? state.project.directions.filter((d) => d.image?.status === 'done').map((d) => d.id) : doneViews().map((v) => v.id);
 }
 
 function openLightbox(viewId) {
   state.lbView = viewId;
+  state.lbDirection = null;
+  state.lbSlot = null;
+  lb.hidden = false;
+  document.body.style.overflow = 'hidden';
+  refreshLightbox(true);
+}
+
+function openSlotLightbox(slotId) {
+  state.lbSlot = slotId;
   state.lbDirection = null;
   lb.hidden = false;
   document.body.style.overflow = 'hidden';
@@ -1315,6 +1527,7 @@ function openLightbox(viewId) {
 
 function openDirectionLightbox(id) {
   state.lbDirection = id;
+  state.lbSlot = null;
   lb.hidden = false;
   document.body.style.overflow = 'hidden';
   refreshLightbox(true);
@@ -1323,7 +1536,7 @@ function openDirectionLightbox(id) {
 function refreshLightbox(force = false) {
   const entry = lbEntry();
   const img = entry?.img;
-  if (!img || img.status !== 'done') return;
+  if (!viewable(img)) return;
   const lbImg = $('#lbImg');
   if (force || lbImg.dataset.src !== img.file) {
     lbImg.dataset.src = img.file;
@@ -1346,7 +1559,7 @@ function refreshLightbox(force = false) {
   dl.classList.toggle('btn-ghost', canChoose);
   const versions = entry.direction ? [] : img.versions || [];
   $('#lbVersions').innerHTML =
-    versions.length > 1
+    versions.length > 1 || img.status === 'error' && versions.length
       ? versions
           .map((ver, i) => `<button type="button" data-ver="${i}" aria-current="${ver.file === img.file}" title="版本 ${i + 1}"><img src="${ver.file}" alt="版本 ${i + 1}" /></button>`)
           .join('')
@@ -1358,15 +1571,17 @@ function refreshLightbox(force = false) {
 function closeLightbox() {
   lb.hidden = true;
   state.lbDirection = null;
+  state.lbSlot = null;
   document.body.style.overflow = '';
 }
 
 function stepLightbox(dir) {
   const list = lbIds();
   if (list.length < 2) return;
-  const current = state.lbDirection || state.lbView;
+  const current = state.lbSlot || state.lbDirection || state.lbView;
   const next = list[(list.indexOf(current) + dir + list.length) % list.length];
-  if (state.lbDirection) state.lbDirection = next;
+  if (state.lbSlot) state.lbSlot = next;
+  else if (state.lbDirection) state.lbDirection = next;
   else state.lbView = next;
   refreshLightbox(true);
 }
@@ -1376,7 +1591,7 @@ lb.addEventListener('click', async (e) => {
   if (act === 'close' || e.target === lb || e.target.classList.contains('lb-figure')) return closeLightbox();
   if (act === 'prev') return stepLightbox(-1);
   if (act === 'next') return stepLightbox(1);
-  if (act === 'regen') return openRegen(state.lbView);
+  if (act === 'regen') return state.lbSlot ? openSlotRegen(state.lbSlot) : openRegen(state.lbView);
   if (act === 'choose') {
     const id = state.lbDirection;
     closeLightbox();
@@ -1384,9 +1599,12 @@ lb.addEventListener('click', async (e) => {
   }
   const ver = e.target.closest('[data-ver]');
   if (ver) {
+    const id = state.project.id;
     try {
-      const project = await api(`/api/projects/${state.project.id}/views/${state.lbView}/select`, { json: { index: Number(ver.dataset.ver) } });
-      state.project = { ...project, brief: state.project.brief };
+      const target = state.lbSlot ? `commerce/slots/${state.lbSlot}` : `views/${state.lbView}`;
+      const project = await api(`/api/projects/${state.project.id}/${target}/select`, { json: { index: Number(ver.dataset.ver) } });
+      if (state.project?.id !== id) return;
+      state.project = { ...project, brief: state.project.brief, briefRev: state.project.briefRev };
       refreshLightbox();
       renderGallery();
     } catch (err) {
@@ -1399,6 +1617,9 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
     if (!$('#regenModal').hidden) return closeRegen();
     if (lbOpen()) return closeLightbox();
+    if (commerce.longOpen()) return commerce.closeLong();
+    if (!$('#commerceModal').hidden) return commerce.closeModal();
+    if (commerce.sheetOpen()) return commerce.closeSheet();
     if (briefOpen()) return closeBrief();
     if ($('#historyDrawer').classList.contains('open')) return closeHistory();
   }
@@ -1409,20 +1630,8 @@ document.addEventListener('keydown', (e) => {
 });
 
 /* ───────────── 交付 ───────────── */
-$('#boardBtn').addEventListener('click', async () => {
-  const btn = $('#boardBtn');
-  btn.classList.add('is-busy');
-  btn.textContent = '排版中…';
-  try {
-    await exportBoard(state.project, activeViews());
-    toast('提案板已导出');
-  } catch (err) {
-    toast(`导出失败：${err.message}`, 'error');
-  } finally {
-    btn.classList.remove('is-busy');
-    btn.textContent = '导出提案板 PNG';
-  }
-});
+$('#commerceBtn').addEventListener('click', () => commerce.openModal());
+$('#directDetailBtn').addEventListener('click', () => commerce.openModal({ create: true }));
 
 /* ───────────── 作品集 ───────────── */
 const drawer = $('#historyDrawer');
@@ -1480,10 +1689,7 @@ $('#historyList').addEventListener('click', async (e) => {
     try {
       await api(`/api/projects/${del.dataset.del}`, { method: 'DELETE' });
       if (state.project?.id === del.dataset.del) {
-        state.project = null;
-        history.replaceState(null, '', location.pathname);
-        closeBrief();
-        $('#step3').hidden = true;
+        leaveProject();
         setRail(1);
       }
       renderHistory();
@@ -1501,19 +1707,37 @@ $('#historyList').addEventListener('click', async (e) => {
 
 async function loadProject(id, { scroll = true } = {}) {
   if (state.analyzing) return toast('请等待本轮参考匹配完成', 'error');
+  const token = ++state.loadToken;
   try {
+    if (state.project?.id !== id && (!(await flushBrief()) || !(await commerce.flush()))) return;
+    if (token !== state.loadToken) return;
     const project = await api(`/api/projects/${id}`);
-    if (state.analyzing) return;
-    if (state.project?.id !== id) closeBrief(); // 只在切换项目时收起；同项目重载（简报过期）保持打开
+    if (state.analyzing || token !== state.loadToken) return;
+    stopPolling();
+    if (state.project?.id !== id) {
+      closeBrief(); // 只在切换项目时收起；同项目重载（简报过期）保持打开
+      commerce.reset();
+      closeLightbox();
+      closeRegen();
+    }
     setProject(project);
+    state.briefDirty = false;
     state.galleryKey = '';
-    if (!project.brief) {
+    if (project.analysis?.status === 'running') {
+      $('#step3').hidden = true;
+      showAnalyzing(true);
+      setRail(2);
+      startPolling();
+      if (scroll) $('#step1').scrollIntoView({ behavior: 'smooth' });
+      return;
+    }
+    if (!project.brief && project.kind !== 'commerce') {
       $('#step3').hidden = true;
       setRail(1);
       toast('这个项目还没有完成解析');
       return;
     }
-    renderBrief();
+    if (project.brief) renderBrief();
     // 有简报就展示渲染区：还没出过图的项目在这里点「开始渲染」
     $('#step3').hidden = false;
     setRail(2);
@@ -1521,10 +1745,27 @@ async function loadProject(id, { scroll = true } = {}) {
     if (isActive(project)) startPolling();
     if (scroll) requestAnimationFrame(() => $('#step3').scrollIntoView({ behavior: 'smooth' }));
   } catch (err) {
+    if (token !== state.loadToken) return;
     toast(err.message, 'error');
     history.replaceState(null, '', location.pathname);
   }
 }
+
+/* ───────────── 电商主图 + 详情图 ───────────── */
+const commerce = initCommerce({
+  state, $, $$, esc, api, toast, askConfirm, fmtTime, paintShot, ISO_SVG, ICONS, isActive, activeViews, renderGallery, startPolling, flushBrief,
+  openCreated: (project) => {
+    leaveProject();
+    setProject(project);
+    $('#step3').hidden = false;
+    setRail(2);
+    renderHistory();
+  },
+  reload: () => loadProject(state.project.id, { scroll: false }),
+  retrySlot: (slotId) => regenerateSlot(slotId, ''),
+  regenSlot: openSlotRegen,
+  openSlotLightbox,
+});
 
 /* ───────────── 启动 ───────────── */
 async function init() {

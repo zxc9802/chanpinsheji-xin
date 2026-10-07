@@ -30,6 +30,7 @@ async function exercise(t, responses, models, shouldFail = false) {
     assert.equal(init.headers.Authorization, 'Bearer test-key');
     const result = responses[calls.length - 1];
     if (result instanceof Error) throw result;
+    if (typeof result === 'function') return result(body);
     if (typeof result === 'number') return new Response('provider error', { status: result });
     return reply(result);
   });
@@ -49,6 +50,12 @@ async function exercise(t, responses, models, shouldFail = false) {
 
 test('primary success returns immediately without calling DeepSeek', async t => {
   await exercise(t, [valid], [primary]);
+});
+
+test('a complete multi-face packaging brief has enough output budget to avoid repeated truncation', async t => {
+  await exercise(t, [(body) => body.max_tokens >= 12000
+    ? reply(valid)
+    : new Response('data: {"choices":[{"delta":{"content":"{\\"product\\":"},"finish_reason":"length"}]}\n\ndata: [DONE]\n', { headers: { 'Content-Type': 'text/event-stream' } })], [primary]);
 });
 
 test('primary success on retry stops further attempts', async t => {

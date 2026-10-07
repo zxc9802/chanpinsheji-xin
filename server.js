@@ -1,15 +1,18 @@
 import express from 'express';
 import multer from 'multer';
 import fs from 'node:fs/promises';
-import path from 'node:path';
 import crypto from 'node:crypto';
+import { fileURLToPath } from 'node:url';
 import JSZip from 'jszip';
 import { extractText } from './lib/parse.js';
 import { analyzeDocument, designRequirements } from './lib/llm.js';
 import { directionPicker, DIRECTION_COUNT, assetBytes, imageMime, loadCatalog } from './lib/references.js';
 import { VIEWS, viewById } from './lib/prompts.js';
 import { runPipeline, runView, runDirections, viewsFor, isRunning, isDirectionRunning, recoverInterrupted } from './lib/pipeline.js';
-import { createProject, getProject, updateProject, listProjects, saveFile, localPathFromPublic, DATA_DIR } from './lib/store.js';
+import { createProject, getProject, updateProject, deleteProject, listProjects, saveFile, localPathFromPublic, DATA_DIR } from './lib/store.js';
+import { SCOPES, IDENTITY_MAX, KIND_LABEL, loadCommerceCatalog } from './lib/commerce.js';
+import { DEFAULT_DETAIL_LAYOUT, detailLayout } from './lib/commerce-detail.js';
+import { runCommerce, renderCommerce, runCommerceSlot, isCommerceRunning } from './lib/commerce-render.js';
 
 try {
   process.loadEnvFile('.env');
@@ -24,7 +27,7 @@ const analyzing = new Set();
 
 app.use(express.json({ limit: '2mb' }));
 // 前端资源每次都校验更新，改完代码刷新即生效
-app.use(express.static('public', { extensions: ['html'], setHeaders: (res) => res.setHeader('Cache-Control', 'no-cache') }));
+app.use(express.static(fileURLToPath(new URL('./public/', import.meta.url)), { extensions: ['html'], setHeaders: (res) => res.setHeader('Cache-Control', 'no-cache') }));
 
 // 只暴露参考图与渲染图，不暴露 project.json
 app.get('/files/:id/:sub/:file', async (req, res) => {
@@ -35,13 +38,36 @@ app.get('/files/:id/:sub/:file', async (req, res) => {
 
 const fixName = (name) => (/[^\x00-\xff]/.test(name) ? name : Buffer.from(name, 'latin1').toString('utf8'));
 const publicProject = ({ docText, ...rest }) => ({ ...rest, running: VIEWS.filter((v) => isRunning(rest.id, v.id)).map((v) => v.id) });
-const wrap = (fn) => (req, res) =>
-  Promise.resolve(fn(req, res)).catch((err) => {
-    console.error(err);
-    res.status(err.statusCode || 500).json({ error: err.message || '服务器错误', ...(err.stale && { stale: true }) });
-  });
+const mutations = new Set();
+const wrap = (fn) => async (req, res, next) => {
+  const id = req.method !== 'GET' && req.params.id;
+  if (id && mutations.has(id)) return res.status(409).json({ error: '项目操作正在处理中，请稍后再试' });
+  if (id) mutations.add(id);
+  try { await fn(req, res); } catch (err) { next(err); }
+  finally { if (id) mutations.delete(id); }
+};
 const httpError = (statusCode, message) => Object.assign(new Error(message), { statusCode });
 const checkAnalyzing = (id) => { if (analyzing.has(id)) throw httpError(409, '正在匹配参考并整理简报，请稍后再操作'); };
+const imageBusy = (img) => ['queued', 'running'].includes(img?.status);
+const packagingBusy = (p) => p.pipeline?.status === 'running' || p.direction?.status === 'previewing'
+  || VIEWS.some((v) => isRunning(p.id, v.id) || imageBusy(p.images?.[v.id])) || previewRunning(p);
+
+function checkBrief(brief) {
+  const object = (x) => x && typeof x === 'object' && !Array.isArray(x);
+  const strings = (x) => Array.isArray(x) && x.every((v) => typeof v === 'string');
+  if (!['product', 'design', 'outer', 'inner', 'kv'].every((k) => object(brief?.[k]))
+    || !strings(brief.product.sellingPoints) || !strings(brief.design.keywords) || !strings(brief.design.finishes)
+    || !Array.isArray(brief.product.specs) || !brief.product.specs.every((s) => object(s) && typeof s.label === 'string' && typeof s.value === 'string')
+    || !Array.isArray(brief.design.palette) || !brief.design.palette.every((c) => object(c) && /^#[0-9a-f]{6}$/i.test(c.hex))
+    || !['outer', 'inner'].every((k) => ['front', 'side', 'back'].every((f) => object(brief[k].faces?.[f]) && strings(brief[k].faces[f].text)))) {
+    throw httpError(400, '简报格式不正确，请重新载入完整简报后修改');
+  }
+}
+
+function checkImage(file) {
+  if (!/^image\/(png|jpe?g|webp)$/.test(file.mimetype)) throw httpError(400, '参考图只支持 PNG、JPG、WebP');
+  try { imageMime(file.buffer); } catch { throw httpError(400, '图片内容无效，请上传有效的 PNG、JPG、WebP 图片'); }
+}
 
 // 简报带版本号：别的窗口里过期的简报不能覆盖新内容
 function checkBriefRev(project, rev) {
@@ -58,6 +84,7 @@ async function requireProject(id) {
 
 app.get('/api/health', wrap(async (req, res) => {
   const catalog = await loadCatalog().catch(() => null);
+  const commerceCatalog = await loadCommerceCatalog().catch(() => null);
   res.json({
     llm: Boolean(process.env.LLM_API_KEY),
     image: Boolean(process.env.FAL_KEY),
@@ -68,6 +95,7 @@ app.get('/api/health', wrap(async (req, res) => {
     jevModel: process.env.JEV_MODEL || 'jev-1.13.0',
     referenceLibrary: Boolean(catalog),
     referenceProducts: catalog?.products.length || 0,
+    commerceLibrary: Boolean(commerceCatalog),
   });
 }));
 
@@ -79,7 +107,9 @@ app.post(
   upload.fields([{ name: 'doc', maxCount: 1 }, { name: 'refs', maxCount: 4 }]),
   wrap(async (req, res) => {
     const docFile = req.files?.doc?.[0];
-    const pasted = (req.body.text || '').trim();
+    const pasted = typeof req.body?.text === 'string' ? req.body.text.trim() : '';
+    const refFiles = req.files?.refs || [];
+    refFiles.forEach(checkImage);
     if (!docFile && !pasted) throw httpError(400, '请上传产品文档，或粘贴产品介绍文字');
 
     let parsed;
@@ -91,7 +121,11 @@ app.post(
       } catch (err) {
         throw httpError(400, err.message);
       }
-      if (pasted) parsed.text = `${parsed.text}\n\n【补充说明】\n${pasted}`.slice(0, 40000);
+      if (pasted) {
+        const supplement = `\n\n【补充说明】\n${pasted}`;
+        const combined = parsed.text + supplement;
+        parsed = { text: combined.slice(0, 40000), chars: parsed.chars + supplement.length, truncated: parsed.truncated || combined.length > 40000 };
+      }
     } else {
       sourceName = '粘贴的文字';
       parsed = { text: pasted.slice(0, 40000), truncated: pasted.length > 40000, chars: pasted.length };
@@ -105,7 +139,6 @@ app.post(
       brief: null,
     });
 
-    const refFiles = (req.files?.refs || []).filter((f) => /^image\/(png|jpe?g|webp)$/.test(f.mimetype));
     const refs = [];
     for (const [i, f] of refFiles.entries()) {
       const ext = { 'image/png': '.png', 'image/webp': '.webp' }[f.mimetype] || '.jpg';
@@ -140,9 +173,10 @@ app.post(
   wrap(async (req, res) => {
     const project = await requireProject(req.params.id);
     checkAnalyzing(project.id);
-    if (project.pipeline?.status === 'running' || VIEWS.some(v => isRunning(project.id, v.id)) || project.direction?.status === 'previewing' || previewRunning(project)) throw httpError(409, '渲染进行中，请完成后重新匹配');
+    if (packagingBusy(project) || commerceBusy(project)) throw httpError(409, '渲染进行中，请完成后重新匹配');
     analyzing.add(project.id);
     try {
+      await updateProject(project.id, (p) => { p.analysis = { status: 'running', startedAt: Date.now(), error: null }; });
       const options = { ...project.options, ...(req.body.options || {}), refCount: project.refs?.length || 0 };
       const requirements = designRequirements(options);
       const picker = await directionPicker(project.docText, requirements);
@@ -172,6 +206,7 @@ app.post(
       if (!ok.length) throw settled[0].reason;
       const multi = ok.length > 1;
       const saved = await updateProject(project.id, (p) => {
+        p.analysis = { ...p.analysis, status: 'done', finishedAt: Date.now() };
         p.brief = ok[0].brief;
         p.referenceMatch = ok[0].match;
         p.briefRev = (p.briefRev || 0) + 1;
@@ -185,12 +220,17 @@ app.post(
         } else {
           p.directions = [];
           p.direction = null;
+          p.images = {};
+          p.pipeline = null;
         }
       });
       if (multi) runDirections(saved.id, saved.directions.map((d) => d.id)).catch((err) => console.error('directions', err));
       // 等状态写入后再返回，前端第一帧就能看到排队状态
       if (multi) await new Promise((r) => setTimeout(r, 150));
       res.json(publicProject(await getProject(saved.id)));
+    } catch (err) {
+      await updateProject(project.id, (p) => { p.analysis = { ...p.analysis, status: 'error', error: err.message, finishedAt: Date.now() }; }).catch(() => {});
+      throw err;
     } finally {
       analyzing.delete(project.id);
     }
@@ -203,7 +243,7 @@ app.post(
   wrap(async (req, res) => {
     const project = await requireProject(req.params.id);
     checkAnalyzing(project.id);
-    if (project.pipeline?.status === 'running' || VIEWS.some(v => isRunning(project.id, v.id))) throw httpError(409, '渲染进行中，请等待完成后再换方向');
+    if (project.pipeline?.status === 'running' || VIEWS.some(v => isRunning(project.id, v.id) || imageBusy(project.images?.[v.id])) || commerceBusy(project)) throw httpError(409, '渲染进行中，请等待完成后再换方向');
     const direction = project.directions?.find((d) => d.id === req.params.did);
     if (!direction) throw httpError(404, '设计方向不存在');
     if (direction.image?.status !== 'done' || !direction.image.file) throw httpError(409, '这个方向的正视图还没有出图');
@@ -232,7 +272,7 @@ app.post(
     if (!pickingDirection(project)) throw httpError(409, '已经选定方向，请在下方单张重绘');
     const direction = project.directions?.find((d) => d.id === req.params.did);
     if (!direction) throw httpError(404, '设计方向不存在');
-    if (isDirectionRunning(project.id, direction.id)) throw httpError(409, '这个方向正在出图');
+    if (isDirectionRunning(project.id, direction.id) || imageBusy(direction.image)) throw httpError(409, '这个方向正在出图');
     runDirections(project.id, [direction.id]).catch((err) => console.error('directions', err));
     await new Promise((r) => setTimeout(r, 150));
     res.json(publicProject(await getProject(project.id)));
@@ -243,7 +283,7 @@ app.put(
   '/api/projects/:id/brief',
   wrap(async (req, res) => {
     const project = await requireProject(req.params.id);
-    if (!req.body.brief?.product) throw httpError(400, '简报格式不正确');
+    checkBrief(req.body.brief);
     checkAnalyzing(project.id);
     checkBriefRev(project, req.body.rev);
     const saved = await updateProject(project.id, (p) => {
@@ -262,8 +302,8 @@ app.post(
     if (!project.brief) throw httpError(400, '请先完成文档解析');
     checkAnalyzing(project.id);
     if (pickingDirection(project)) throw httpError(409, '请先选定一个设计方向');
-    if (project.pipeline?.status === 'running') throw httpError(409, '渲染正在进行中');
-    if (req.body.brief?.product) checkBriefRev(project, req.body.rev);
+    if (packagingBusy(project)) throw httpError(409, '渲染正在进行中');
+    if (req.body.brief !== undefined) { checkBrief(req.body.brief); checkBriefRev(project, req.body.rev); }
     const options = { ...project.options, ...req.body.options };
     const viewIds = viewsFor(options).map((v) => v.id);
     await updateProject(project.id, (p) => {
@@ -287,10 +327,13 @@ app.post(
     const project = await requireProject(req.params.id);
     const view = viewById(req.params.viewId);
     if (!view) throw httpError(404, '视角不存在');
+    if (!project.brief) throw httpError(400, '请先完成文档解析');
     checkAnalyzing(project.id);
     if (pickingDirection(project)) throw httpError(409, '请先选定一个设计方向');
-    if (isRunning(project.id, view.id)) throw httpError(409, '这张图正在生成中');
-    if (req.body.brief?.product) {
+    if (project.pipeline?.status === 'running' || isRunning(project.id, view.id) || imageBusy(project.images?.[view.id])) throw httpError(409, '这张图或整套视图正在生成中');
+    if (view.deps.some((id) => project.images?.[id]?.status !== 'done' || !project.images[id].file)) throw httpError(409, '请先完成前序正视图，再重绘这个视角');
+    if (req.body.brief !== undefined) {
+      checkBrief(req.body.brief);
       checkBriefRev(project, req.body.rev);
       await updateProject(project.id, (p) => {
         p.brief = req.body.brief;
@@ -311,11 +354,207 @@ app.post(
   '/api/projects/:id/views/:viewId/select',
   wrap(async (req, res) => {
     const project = await requireProject(req.params.id);
+    checkAnalyzing(project.id);
+    if (packagingBusy(project)) throw httpError(409, '渲染进行中，请完成后再切换版本');
     const img = project.images?.[req.params.viewId];
     const version = img?.versions?.[Number(req.body.index)];
     if (!version) throw httpError(404, '版本不存在');
     const saved = await updateProject(project.id, (p) => {
-      Object.assign(p.images[req.params.viewId], { file: version.file, remoteUrl: version.remoteUrl, prompt: version.prompt, referenceInputs: version.referenceInputs || [], extra: version.extra });
+      Object.assign(p.images[req.params.viewId], { status: 'done', phase: 'COMPLETED', error: null, file: version.file, remoteUrl: version.remoteUrl, prompt: version.prompt, referenceInputs: version.referenceInputs || [], extra: version.extra });
+    });
+    res.json(publicProject(saved));
+  }),
+);
+
+// ─── 电商主图 + 详情图 ───────────────────────────────────────────────
+const commerceBusy = (project) => ['planning', 'rendering'].includes(project.commerce?.status)
+  || (project.commerce?.plan?.slots || []).some((s) => isCommerceRunning(project.id, s.id) || imageBusy(project.commerce?.images?.[s.id]));
+const IMAGE_EXT = { 'image/png': '.png', 'image/webp': '.webp', 'image/jpeg': '.jpg' };
+const textField = (v, max) => (typeof v === 'string' ? v.trim().slice(0, max) : '');
+
+async function commerceIntroduction(req, previous = {}, reuse = false) {
+  if (reuse) return { introText: previous.introText ?? previous.excerpt ?? '', document: previous.document || null,
+    excerpt: previous.excerpt || '', chars: previous.chars || 0, truncated: Boolean(previous.truncated) };
+  const introText = textField(req.body.text, 12000);
+  let document = null;
+  const file = req.files?.doc?.[0];
+  if (file) {
+    const name = fixName(file.originalname);
+    try { document = { name, ...await extractText(file.buffer, name) }; }
+    catch (err) { throw httpError(400, `无法读取「${name}」：${err.message}`); }
+  } else if (req.body.reuseDocument === '1') {
+    document = previous.document;
+    if (!document?.text) throw httpError(400, '原产品文档已不可用，请重新上传');
+  }
+  const combined = document ? [introText ? `【补充说明】\n${introText}` : '', `【产品文档：${document.name}】\n${document.text}`].filter(Boolean).join('\n\n') : introText;
+  return { introText, document, excerpt: combined.slice(0, 40000), chars: introText.length + (document?.chars || 0),
+    truncated: Boolean(document?.truncated) || combined.length > 40000 };
+}
+
+// 首页直接上传产品图，无需先创建包装设计。
+app.post(
+  '/api/commerce-projects',
+  upload.fields([{ name: 'images', maxCount: IDENTITY_MAX }, { name: 'doc', maxCount: 1 }]),
+  wrap(async (req, res) => {
+    const files = req.files?.images || [];
+    if (!files.length) throw httpError(400, `请上传 1-${IDENTITY_MAX} 张同一件产品的图片`);
+    files.forEach(checkImage);
+    const scope = req.body.scope;
+    if (!SCOPES.includes(scope)) throw httpError(400, '请至少选择主图或详情图，也可以两者都生成');
+    const detailLayoutId = req.body.detailLayoutId || DEFAULT_DETAIL_LAYOUT;
+    try { detailLayout(detailLayoutId); } catch (err) { throw httpError(400, err.message); }
+    const introduction = await commerceIntroduction(req);
+    const project = await createProject({
+      kind: 'commerce',
+      source: { name: '产品套图', ...introduction },
+      docText: introduction.excerpt, refs: [], images: {}, brief: null,
+    });
+    const inputs = [];
+    for (const [i, f] of files.entries()) {
+      inputs.push({ id: `in${i + 1}`, source: 'upload', label: `上传：${fixName(f.originalname).slice(0, 40)}`,
+        file: await saveFile(project.id, 'refs', `commerce-in-${i + 1}${IMAGE_EXT[f.mimetype] || '.jpg'}`, f.buffer) });
+    }
+    const saved = await updateProject(project.id, (p) => {
+      p.commerce = { status: 'planning', phase: 'IDENTIFY', scope, detailLayoutId, inputs, plan: null, images: {}, rev: 0, startedAt: Date.now(), finishedAt: null, error: null };
+    });
+    runCommerce(project.id, { scope, identity: inputs, detailLayoutId }).catch((err) => console.error('commerce', err));
+    res.json(publicProject(saved));
+  }),
+);
+
+// 开始：选定产品图（包装设计里已出的视角 + 上传的图片，同一件产品，最多 4 张）→ 规划每一屏 → 出图
+app.post(
+  '/api/projects/:id/commerce',
+  upload.fields([{ name: 'images', maxCount: IDENTITY_MAX }, { name: 'doc', maxCount: 1 }]),
+  wrap(async (req, res) => {
+    const project = await requireProject(req.params.id);
+    checkAnalyzing(project.id);
+    if (!project.brief && project.kind !== 'commerce') throw httpError(400, '请先完成包装设计，再生成主图和详情图');
+    if (packagingBusy(project) || pickingDirection(project)) throw httpError(409, '请先完成包装设计并选定方向');
+    if (commerceBusy(project)) throw httpError(409, '主图与详情图正在生成中，请稍后再操作');
+    const reuse = ['1', 'true'].includes(String(req.body.reuse));
+    const scope = req.body.scope || (reuse && project.commerce?.scope);
+    if (!SCOPES.includes(scope)) throw httpError(400, '请选择要生成主图、详情图，还是两者都生成');
+    const detailLayoutId = req.body.detailLayoutId || (reuse && project.commerce?.detailLayoutId) || DEFAULT_DETAIL_LAYOUT;
+    try { detailLayout(detailLayoutId); } catch (err) { throw httpError(400, err.message); }
+    const introduction = project.kind === 'commerce' ? await commerceIntroduction(req, project.source, reuse) : null;
+
+    let inputs;
+    if (reuse) {
+      inputs = project.commerce?.inputs;
+      if (!inputs?.length) throw httpError(400, '没有可沿用的产品图，请重新选择');
+    } else {
+      let viewIds = [];
+      try {
+        viewIds = JSON.parse(req.body.views || '[]');
+      } catch {
+        throw httpError(400, '产品图选择格式不正确');
+      }
+      if (!Array.isArray(viewIds)) throw httpError(400, '产品图选择格式不正确');
+      inputs = [];
+      for (const id of [...new Set(viewIds)]) {
+        const view = viewById(id);
+        const img = project.images?.[id];
+        if (!view || img?.status !== 'done' || !img.file) throw httpError(400, `「${view?.label || id}」还没有出图，不能作为产品图`);
+        inputs.push({ source: 'generated', view: id, label: view.label, file: img.file });
+      }
+      const files = req.files?.images || [];
+      if (!inputs.length && !files.length || inputs.length + files.length > IDENTITY_MAX) throw httpError(400, `请选择 1-${IDENTITY_MAX} 张同一件产品的图片`);
+      files.forEach(checkImage);
+      const stamp = Date.now();
+      for (const [i, f] of files.entries()) {
+        if (!IMAGE_EXT[f.mimetype]) throw httpError(400, '上传的产品图只支持 PNG、JPG、WebP');
+        const name = fixName(f.originalname);
+        inputs.push({ source: 'upload', label: `上传：${name.slice(0, 40)}`, file: await saveFile(project.id, 'refs', `commerce-in-${stamp}-${i + 1}${IMAGE_EXT[f.mimetype]}`, f.buffer) });
+      }
+      if (!inputs.length || inputs.length > IDENTITY_MAX) throw httpError(400, `请选择 1-${IDENTITY_MAX} 张同一件产品的图片`);
+      inputs.forEach((input, i) => { input.id = `in${i + 1}`; });
+    }
+
+    await updateProject(project.id, (p) => {
+      if (introduction) Object.assign(p.source, introduction);
+      p.commerce = { status: 'planning', phase: 'CLASSIFY', scope, detailLayoutId, inputs, plan: null, images: {}, rev: p.commerce?.rev || 0, startedAt: Date.now(), finishedAt: null, error: null };
+    });
+    runCommerce(project.id, { scope, identity: inputs, detailLayoutId }).catch((err) => console.error('commerce', err));
+    await new Promise((r) => setTimeout(r, 150));
+    res.json(publicProject(await getProject(project.id)));
+  }),
+);
+
+// 编辑方案：标题、主标题、辅助文字、构图设想；版本号防止别的窗口里的旧内容覆盖新内容
+app.put(
+  '/api/projects/:id/commerce/plan',
+  wrap(async (req, res) => {
+    const project = await requireProject(req.params.id);
+    if (!project.commerce?.plan) throw httpError(400, '还没有方案');
+    if (project.commerce.status === 'planning') throw httpError(409, '正在规划，请稍后再修改');
+    if (Number(req.body.rev) !== (project.commerce.rev || 0)) {
+      throw Object.assign(httpError(409, '方案已在其他窗口更新，已为你载入最新版本'), { stale: true });
+    }
+    const edits = req.body.slots || {};
+    const saved = await updateProject(project.id, (p) => {
+      for (const slot of p.commerce.plan.slots) {
+        const e = edits[slot.id];
+        if (!e) continue;
+        slot.title = textField(e.title, 16) || slot.title;
+        if (typeof e.headline === 'string') slot.headline = textField(e.headline, slot.kind === 'detail' ? 40 : 24);
+        if (Array.isArray(e.copy)) slot.copy = e.copy.map((t) => textField(t, slot.kind === 'detail' ? 100 : 30)).filter(Boolean).slice(0, slot.kind === 'detail' ? (slot.moduleId === 'product_info' ? 10 : 5) : slot.copyMax ?? 4);
+        if (slot.role === 'white') { slot.headline = ''; slot.copy = []; }
+        if (typeof e.visual === 'string') slot.visual = textField(e.visual, slot.kind === 'detail' ? 600 : 300);
+      }
+      p.commerce.rev = (p.commerce.rev || 0) + 1;
+    });
+    res.json(publicProject(saved));
+  }),
+);
+
+// 按当前方案重新出图（整套，或只出 slotIds 里的几屏）
+app.post(
+  '/api/projects/:id/commerce/generate',
+  wrap(async (req, res) => {
+    const project = await requireProject(req.params.id);
+    if (!project.commerce?.plan) throw httpError(400, '还没有方案');
+    if (commerceBusy(project)) throw httpError(409, '主图与详情图正在生成中');
+    const slotIds = Array.isArray(req.body.slotIds) ? req.body.slotIds : null;
+    if (req.body.slotIds !== undefined && (!slotIds?.length || slotIds.some((id) => !project.commerce.plan.slots.some((s) => s.id === id)))) throw httpError(400, '请选择当前方案中有效的图片');
+    if (project.commerce.plan.slots.some((s) => s.kind === 'detail' && !s.moduleId && (!slotIds?.length || slotIds.includes(s.id)))) throw httpError(400, '此方案使用旧详情结构，请重新选择 10 屏或 16 屏生成');
+    renderCommerce(project.id, slotIds).catch((err) => console.error('commerce', err));
+    await new Promise((r) => setTimeout(r, 150));
+    res.json(publicProject(await getProject(project.id)));
+  }),
+);
+
+app.post(
+  '/api/projects/:id/commerce/slots/:slotId/regenerate',
+  wrap(async (req, res) => {
+    const project = await requireProject(req.params.id);
+    const slot = project.commerce?.plan?.slots.find((s) => s.id === req.params.slotId);
+    if (!slot) throw httpError(404, '这一屏不在当前方案里');
+    if (slot.kind === 'detail' && !slot.moduleId) throw httpError(400, '此方案使用旧详情结构，请重新选择 10 屏或 16 屏生成');
+    if (['planning', 'rendering'].includes(project.commerce.status)) throw httpError(409, '整套图片正在生成，请稍后再操作');
+    if (isCommerceRunning(project.id, slot.id) || imageBusy(project.commerce.images?.[slot.id])) throw httpError(409, '这张图正在生成中');
+    const anchorId = project.commerce.plan.anchor;
+    const anchor = project.commerce.images?.[anchorId];
+    if (anchorId && slot.id !== anchorId && slot.role !== 'white' && (anchor?.status !== 'done' || !anchor.file)) throw httpError(409, '请先完成首图，再重绘本屏');
+    await updateProject(project.id, (p) => {
+      p.commerce.images[slot.id] = { ...p.commerce.images[slot.id], status: 'queued', phase: 'WAITING', error: null };
+    });
+    runCommerceSlot(project.id, slot.id, { extra: textField(req.body.extra, 500) });
+    await new Promise((r) => setTimeout(r, 150));
+    res.json(publicProject(await getProject(project.id)));
+  }),
+);
+
+app.post(
+  '/api/projects/:id/commerce/slots/:slotId/select',
+  wrap(async (req, res) => {
+    const project = await requireProject(req.params.id);
+    if (commerceBusy(project)) throw httpError(409, '渲染进行中，请完成后再切换版本');
+    const img = project.commerce?.images?.[req.params.slotId];
+    const version = img?.versions?.[Number(req.body.index)];
+    if (!version) throw httpError(404, '版本不存在');
+    const saved = await updateProject(project.id, (p) => {
+      Object.assign(p.commerce.images[req.params.slotId], { status: 'done', phase: 'COMPLETED', error: null, file: version.file, remoteUrl: version.remoteUrl, prompt: version.prompt, referenceInputs: version.referenceInputs || [], extra: version.extra });
     });
     res.json(publicProject(saved));
   }),
@@ -333,8 +572,8 @@ app.delete(
   wrap(async (req, res) => {
     const project = await requireProject(req.params.id);
     checkAnalyzing(project.id);
-    if (project.pipeline?.status === 'running' || project.direction?.status === 'previewing' || previewRunning(project)) throw httpError(409, '渲染进行中，暂不能删除');
-    await fs.rm(path.join(DATA_DIR, project.id), { recursive: true, force: true });
+    if (packagingBusy(project) || commerceBusy(project)) throw httpError(409, '渲染进行中，暂不能删除');
+    await deleteProject(project.id);
     res.json({ ok: true });
   }),
 );
@@ -387,6 +626,26 @@ ${kv.content}
 `;
 }
 
+function commerceMarkdown(commerce) {
+  const { plan, scope } = commerce;
+  const factLine = (k, v) => `- ${k}：${v.map((x) => (typeof x === 'string' ? x : x.label ? `${x.label} ${x.value}` : `${x.q} → ${x.a}`)).join('；')}`;
+  const names = { confirmed_benefits: '产品优势', confirmed_ingredients_or_scent: '成分或香调', verified_mechanism: '原理', target_user_needs: '目标人群与需求', confirmed_instructions: '使用方法', verified_specs_and_label: '规格', confirmed_use_scenario: '使用场景', verified_faq: '问答' };
+  return `# 主图与详情图方案
+
+${plan.summary || ''}
+
+- 范围：${{ main: '仅主图', detail: '仅详情图', both: '主图 + 详情图' }[scope]}
+${plan.mainLayout ? `- 主图结构：${plan.mainLayout.name} · ${plan.mainLayout.screenCount} 张（1:1）\n- 主图顺序：${plan.slots.filter((s) => s.kind === 'main').map((s) => s.roleLabel).join(' → ')}\n` : ''}${plan.detailLayout ? `- 详情结构：${plan.detailLayout.name} · ${plan.detailLayout.screenCount} 屏（9:16）\n` : ''}${plan.promptSource ? `- 提示词来源：${plan.promptSource.repository} @ ${plan.promptSource.revision}\n` : ''}- 视觉系统：${plan.system.style.join('、')}（参考库 ${plan.system.category} · ${plan.system.form}）
+
+## 取自产品资料的事实
+${Object.entries(plan.facts).filter(([, v]) => v.length).map(([k, v]) => factLine(names[k] || k, v)).join('\n') || '- 资料里没有可用于宣传的事实，只出产品图与简单场景'}
+
+## 每一屏
+${plan.slots.map((s) => `### ${KIND_LABEL[s.kind]} ${s.id} · ${s.title}（${s.roleLabel}）\n${s.headline ? `- 主标题：${s.headline}\n` : ''}${s.copy.map((t) => `- ${t}`).join('\n')}${s.copy.length ? '\n' : ''}- 构图：${s.visual}\n- 版式参考：${s.reference ? s.reference.title : s.role === 'white' ? '无（白底图只用产品图）' : '按本屏固定模块构图，沿用整套风格'}`).join('\n\n')}
+${[...(plan.mainBrief?.missingEvidence || []), ...(plan.detailBrief?.missingEvidence || [])].length ? `\n## 资料待补充（不印在图片上）\n${[...new Set([...(plan.mainBrief?.missingEvidence || []), ...(plan.detailBrief?.missingEvidence || [])])].map((s) => `- ${s}`).join('\n')}\n` : ''}
+${plan.skipped.length ? `\n## 没有生成的屏\n${plan.skipped.map((s) => `- ${KIND_LABEL[s.kind]} · ${s.label}：${s.reason}`).join('\n')}\n` : ''}`;
+}
+
 app.get(
   '/api/projects/:id/zip',
   wrap(async (req, res) => {
@@ -397,17 +656,37 @@ app.get(
       const local = img?.status === 'done' && localPathFromPublic(img.file);
       if (local) zip.file(`${view.code}_${view.label.replace(/\s|·/g, '')}.png`, await fs.readFile(local));
     }
+    for (const slot of project.commerce?.plan?.slots || []) {
+      const img = project.commerce.images?.[slot.id];
+      const local = img?.status === 'done' && localPathFromPublic(img.file);
+      if (local) zip.file(`电商图/${KIND_LABEL[slot.kind]}/${slot.id.replace('_', '-')}_${slot.title.replace(/[\s·/\\]/g, '')}.png`, await fs.readFile(local));
+    }
+    if (project.commerce?.plan) zip.file('电商图方案.md', commerceMarkdown(project.commerce));
     if (project.brief) {
       zip.file('设计简报.md', briefMarkdown(project.brief));
       zip.file('brief.json', JSON.stringify(project.brief, null, 2));
     }
     const buffer = await zip.generateAsync({ type: 'nodebuffer', compression: 'STORE' });
-    const name = `${project.brief?.product?.name || '包装设计'}-${project.id}.zip`;
+    const name = `${project.brief?.product?.name || project.source?.name || '包装设计'}-${project.id}.zip`;
     res.setHeader('Content-Type', 'application/zip');
     res.setHeader('Content-Disposition', `attachment; filename*=UTF-8''${encodeURIComponent(name)}`);
     res.send(buffer);
   }),
 );
+
+// 上传与 JSON 解析错误也返回前端可以显示的错误信息。
+app.use((err, req, res, next) => {
+  if (res.headersSent) return next(err);
+  let status = err.statusCode || err.status || 500;
+  let message = err.message || '服务器错误';
+  if (err instanceof multer.MulterError) {
+    status = err.code === 'LIMIT_FILE_SIZE' ? 413 : 400;
+    message = err.code === 'LIMIT_FILE_SIZE' ? '单个文件不能超过 25 MB' : '上传文件数量、字段或文字长度不符合要求，请检查后重试';
+  } else if (err.type === 'entity.parse.failed') message = '请求 JSON 格式不正确';
+  else if (err.type === 'entity.too.large') message = '提交的内容过大，请减少文字后重试';
+  if (status >= 500) console.error(err);
+  res.status(status).json({ error: message, ...(err.stale && { stale: true }) });
+});
 
 // 启动时修复上次中断的任务
 await fs.mkdir(DATA_DIR, { recursive: true });
