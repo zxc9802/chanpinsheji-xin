@@ -1,4 +1,4 @@
-import { initCommerce } from './commerce.js';
+import { initCommerce } from './commerce.js?v=default-ai';
 
 /* ───────────── 基础工具 ───────────── */
 const $ = (s, el = document) => el.querySelector(s);
