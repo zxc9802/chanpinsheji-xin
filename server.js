@@ -15,6 +15,7 @@ import { DEFAULT_DETAIL_LAYOUT, detailLayout } from './lib/commerce-detail.js';
 import { runCommerce, renderCommerce, runCommerceSlot, isCommerceRunning } from './lib/commerce-render.js';
 import { PLAN_MODES, MODE_LABEL, claudePlannerReady, claudePlanModel } from './lib/commerce-claude.js';
 import { imagePreview } from './lib/image-preview.js';
+import { errorMessage, localizeErrors } from './public/js/errors.js';
 
 try {
   process.loadEnvFile('.env');
@@ -40,7 +41,7 @@ app.get('/files/:id/:sub/:file', async (req, res) => {
 });
 
 const fixName = (name) => (/[^\x00-\xff]/.test(name) ? name : Buffer.from(name, 'latin1').toString('utf8'));
-const publicProject = ({ docText, ...rest }) => ({ ...rest, running: VIEWS.filter((v) => isRunning(rest.id, v.id)).map((v) => v.id) });
+const publicProject = ({ docText, ...rest }) => ({ ...localizeErrors(rest), running: VIEWS.filter((v) => isRunning(rest.id, v.id)).map((v) => v.id) });
 const mutations = new Set();
 const wrap = (fn) => async (req, res, next) => {
   const id = req.method !== 'GET' && req.params.id;
@@ -124,7 +125,7 @@ app.post(
       try {
         parsed = await extractText(docFile.buffer, sourceName);
       } catch (err) {
-        throw httpError(400, err.message);
+        throw httpError(400, errorMessage(err, '文档读取失败，请检查文件格式后重新上传'));
       }
       if (pasted) {
         const supplement = `\n\n【补充说明】\n${pasted}`;
@@ -234,7 +235,7 @@ app.post(
       if (multi) await new Promise((r) => setTimeout(r, 150));
       res.json(publicProject(await getProject(saved.id)));
     } catch (err) {
-      await updateProject(project.id, (p) => { p.analysis = { ...p.analysis, status: 'error', error: err.message, finishedAt: Date.now() }; }).catch(() => {});
+      await updateProject(project.id, (p) => { p.analysis = { ...p.analysis, status: 'error', error: errorMessage(err, '设计分析失败，请稍后重试'), finishedAt: Date.now() }; }).catch(() => {});
       throw err;
     } finally {
       analyzing.delete(project.id);
@@ -386,7 +387,7 @@ async function commerceIntroduction(req, previous = {}, reuse = false) {
   if (file) {
     const name = fixName(file.originalname);
     try { document = { name, ...await extractText(file.buffer, name) }; }
-    catch (err) { throw httpError(400, `无法读取「${name}」：${err.message}`); }
+    catch (err) { throw httpError(400, `无法读取「${name}」：${errorMessage(err, '请检查文件格式后重新上传')}`); }
   } else if (req.body.reuseDocument === '1') {
     document = previous.document;
     if (!document?.text) throw httpError(400, '原产品文档已不可用，请重新上传');
@@ -722,7 +723,7 @@ app.use((err, req, res, next) => {
   } else if (err.type === 'entity.parse.failed') message = '请求 JSON 格式不正确';
   else if (err.type === 'entity.too.large') message = '提交的内容过大，请减少文字后重试';
   if (status >= 500) console.error(err);
-  res.status(status).json({ error: message, ...(err.stale && { stale: true }) });
+  res.status(status).json({ error: errorMessage({ message, status, code: err.code }), ...(err.stale && { stale: true }) });
 });
 
 // 启动时修复上次中断的任务

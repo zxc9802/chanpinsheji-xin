@@ -146,7 +146,9 @@ async function fixture() {
 
 test('Claude mode plans, rewrites unsupported copy, and renders every screen from its own colour structure without the library', async (t) => {
   const { project, identity } = await fixture();
-  const calls = withNetwork(t);
+  const plan = rawPlan();
+  plan.strategy.tone = '银白清透，性冷淡风，突出身体曲线';
+  const calls = withNetwork(t, { plan });
   await updateProject(project.id, (p) => { p.commerce = { status: 'planning', scope: 'both', mode: 'claude', inputs: identity, rev: 0, images: {} }; });
   await runCommerce(project.id, { scope: 'both', identity });
   const done = (await getProject(project.id)).commerce;
@@ -160,13 +162,20 @@ test('Claude mode plans, rewrites unsupported copy, and renders every screen fro
   assert.equal(planCall.headers['x-api-key'], 'test-claude');
   assert.equal(planCall.body.messages[0].content[0].type, 'image');
   assert.match(planCall.body.messages[0].content.at(-1).text, /焕采精华液/);
+  assert.match(planCall.body.messages[0].content.at(-1).text, /【商品表达】/);
+  assert.match(planCall.body.messages[0].content.at(-1).text, /视觉创意继续按资料自主规划/);
+  assert.doesNotMatch(planCall.body.messages[0].content.at(-1).text, /不用身体强调制造购买欲|不额外强化身体局部或姿态/);
   assert.ok(done.plan.claude.audit.flagged >= 3);
   assert.ok(done.plan.slots[0].copy.includes('补水护理'), 'the rewritten tag replaces the unsupported one');
   assert.ok(!JSON.stringify(done.plan.slots).includes('敏感肌可用'));
   assert.equal(done.plan.anchor, 'main_01');
 
   assert.equal(calls.fal.length, 11);
+  assert.ok(calls.fal.every((input) => input.prompt.includes('【商品表达】')));
+  assert.ok(calls.fal.every((input) => !/性冷淡/.test(input.prompt)));
+  assert.ok(done.plan.slots.every((slot) => calls.fal.some((input) => input.prompt === done.images[slot.id].prompt)));
   const hero = calls.fal.find((b) => b.prompt.includes('「首图」'));
+  assert.match(hero.prompt, /身体曲线/);
   assert.match(hero.prompt, /【色彩结构】这是一张深色屏/);
   assert.match(hero.prompt, /#F3F6EF 约 75%：底色/);
   assert.match(hero.prompt, /主标题：「补水焕采」/);

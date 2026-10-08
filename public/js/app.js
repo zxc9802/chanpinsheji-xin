@@ -1,4 +1,5 @@
 import { initCommerce } from './commerce.js?v=default-ai';
+import { errorMessage } from './errors.js';
 
 /* ───────────── 基础工具 ───────────── */
 const $ = (s, el = document) => el.querySelector(s);
@@ -25,16 +26,23 @@ async function api(url, opts = {}) {
     init.body = JSON.stringify(opts.json);
     delete init.json;
   }
-  const res = await fetch(url, init);
-  const data = await res.json();
-  if (!res.ok) throw Object.assign(new Error(data.error || `请求失败（${res.status}）`), { status: res.status, stale: data.stale });
-  return data;
+  try {
+    const res = await fetch(url, init);
+    const data = await res.json().catch((err) => {
+      if (!res.ok) throw Object.assign(new Error(errorMessage({ status: res.status })), { status: res.status });
+      throw err;
+    });
+    if (!res.ok) throw Object.assign(new Error(errorMessage({ message: data.error, status: res.status })), { status: res.status, stale: data.stale });
+    return data;
+  } catch (err) {
+    throw Object.assign(new Error(errorMessage(err)), { status: err.status, stale: err.stale });
+  }
 }
 
 function toast(msg, type = 'info', ms = 3600) {
   const el = document.createElement('div');
   el.className = `toast ${type}`;
-  el.textContent = msg;
+  el.textContent = type === 'error' ? errorMessage(msg) : msg;
   $('#toasts').append(el);
   setTimeout(() => {
     el.classList.add('out');
@@ -994,7 +1002,7 @@ function paintShot(card, img, { baseClass = '', dlName, retry, waiting, now = Da
   } else if (status === 'error') {
     phaseEl.textContent = '渲染失败';
     timerEl.textContent = '';
-    errEl.textContent = img.error || '';
+    errEl.textContent = errorMessage(img.error, '图片生成失败，请重试');
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'btn btn-ghost btn-sm shot-retry';
@@ -1306,7 +1314,7 @@ function renderDirections() {
     const running = status === 'running' || status === 'queued';
     $('.shot-phase', card).textContent = running ? DIR_PHASE_TEXT[img.phase] || '渲染中' : status === 'error' ? '预览失败' : status === 'done' ? '预览完成' : '待渲染';
     $('.shot-timer', card).textContent = status === 'running' && img.startedAt ? fmtTime(now - img.startedAt) : '';
-    $('.shot-error', card).textContent = status === 'error' ? img.error || '' : '';
+    $('.shot-error', card).textContent = status === 'error' ? errorMessage(img.error, '预览生成失败，请重试') : '';
     $('[data-dir-choose]', card).disabled = status !== 'done' || !!state.choosing;
     const retry = $('[data-dir-retry]', card);
     retry.disabled = running;
@@ -1698,7 +1706,7 @@ async function renderHistory() {
       )
       .join('');
   } catch (err) {
-    list.innerHTML = `<div class="empty"><b>读取失败</b>${esc(err.message)}</div>`;
+    list.innerHTML = `<div class="empty"><b>读取失败</b>${esc(errorMessage(err, '读取项目失败，请重试'))}</div>`;
   }
 }
 

@@ -42,6 +42,25 @@ test('deleted projects disappear from reads and cannot be edited from another wi
   assert.equal((await request(`/api/projects/${p.id}/brief`, 'PUT', { brief, rev: 0 })).status, 404);
 });
 
+test('project responses translate old model failures without rewriting saved errors', async () => {
+  const raw = '图片模型请求失败（422）：[{"loc":["body","prompt"],"type":"content_policy_violation"}]';
+  const p = await fixture({ images: { outer_front: { status: 'error', error: raw } }, analysis: { status: 'error', error: 'fetch failed' } });
+  const response = await request(`/api/projects/${p.id}`);
+  assert.match(JSON.parse(response.text).images.outer_front.error, /内容审核/);
+  assert.match(JSON.parse(response.text).analysis.error, /网络/);
+  assert.equal((await getProject(p.id)).images.outer_front.error, raw);
+});
+
+test('invalid uploaded documents expose a Chinese reason instead of parser exceptions', async () => {
+  const data = new FormData();
+  data.append('doc', new Blob(['not a zip file']), 'Product.docx');
+  const response = await fetch(origin + '/api/projects', { method: 'POST', body: data });
+  const body = await response.json();
+  assert.equal(response.status, 400);
+  assert.match(body.error, /文档|文件/);
+  assert.doesNotMatch(body.error, /central directory|Can't|zip file/i);
+});
+
 test('a brief cannot be replaced with a partial object that breaks the editor and export', async () => {
   const p = await fixture();
   assert.equal((await request(`/api/projects/${p.id}/brief`, 'PUT', { brief: { product: { name: 'bad' } }, rev: 0 })).status, 400);
@@ -207,7 +226,7 @@ test('analysis progress and failure remain visible to a reloaded page', async (t
   assert.equal((await pending).status, 500);
   const failed = JSON.parse((await request(`/api/projects/${p.id}`)).text);
   assert.equal(failed.analysis.status, 'error');
-  assert.match(failed.analysis.error, /JEV/);
+  assert.match(failed.analysis.error, /参考匹配服务/);
 });
 
 test('restart recovers an interrupted analysis instead of leaving it busy forever', async () => {

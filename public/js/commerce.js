@@ -1,6 +1,7 @@
 // 电商主图 + 详情图：入口弹窗、结果区、可编辑的设计简报。
 // 主流程（项目状态、轮询、大图、重绘）仍在 app.js，这里通过 ctx 与它对接。
 import { composeLong, canvasBlob } from './longimage.js';
+import { errorMessage } from './errors.js';
 
 const KINDS = {
   main: { label: '主图', code: 'M', cn: '电商主图', ratio: '1 : 1' },
@@ -140,7 +141,7 @@ export function initCommerce(ctx) {
     const err = $('#commerceError');
     err.hidden = !failed;
     if (failed) {
-      err.innerHTML = `<b>没能完成规划</b><span>${esc((c.error || '未知错误').replace(/claude/gi, 'AI'))}</span><button type="button" class="btn btn-ghost btn-sm" data-cact="retry">重试</button>`;
+      err.innerHTML = `<b>没能完成规划</b><span>${esc(errorMessage(c.error, '商品规划失败，请重试'))}</span><button type="button" class="btn btn-ghost btn-sm" data-cact="retry">重试</button>`;
     }
     const skipped = c.plan?.skipped?.length || 0;
     const mode = modeOf(c);

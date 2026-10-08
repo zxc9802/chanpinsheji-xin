@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import vm from 'node:vm';
+import { errorMessage } from '../public/js/errors.js';
 
 const source = await fs.readFile(new URL('../public/js/app.js', import.meta.url), 'utf8');
 const section = (start, end) => source.slice(source.indexOf(start), source.indexOf(end, source.indexOf(start)));
@@ -16,6 +17,7 @@ for (const response of ['truncated JSON', 'empty object']) {
     const timers = [];
     let requests = 0;
     const context = vm.createContext({
+      errorMessage,
       state: { project, pollEpoch: 0, pollTimer: null, galleryKey: '', views: [{ id: 'outer_front', group: 'outer' }] },
       $: (selector) => {
         if (!nodes.has(selector)) nodes.set(selector, { hidden: false, textContent: '', classList: { toggle() {} } });
