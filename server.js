@@ -396,10 +396,10 @@ async function commerceIntroduction(req, previous = {}, reuse = false) {
     truncated: Boolean(document?.truncated) || combined.length > 40000 };
 }
 
-function planModeOf(req, fallback = 'reference') {
-  const mode = req.body.planMode || fallback;
+function planModeOf(req) {
+  const mode = req.body.planMode || 'claude';
   if (!PLAN_MODES.includes(mode)) throw httpError(400, '请选择参考库模式或 AI 规划模式');
-  if (mode === 'claude' && !claudePlannerReady()) throw httpError(400, '未配置 AI 规划模型，暂时只能用参考库模式');
+  if (mode === 'claude' && !claudePlannerReady()) throw httpError(400, '未配置 AI 规划模型');
   return mode;
 }
 
@@ -457,7 +457,7 @@ app.post(
     if (!SCOPES.includes(scope)) throw httpError(400, '请选择要生成主图、详情图，还是两者都生成');
     const detailLayoutId = req.body.detailLayoutId || (reuse && project.commerce?.detailLayoutId) || DEFAULT_DETAIL_LAYOUT;
     try { detailLayout(detailLayoutId); } catch (err) { throw httpError(400, err.message); }
-    const mode = planModeOf(req, (reuse && project.commerce?.mode) || 'reference');
+    const mode = planModeOf(req);
     const introduction = project.kind === 'commerce' ? await commerceIntroduction(req, project.source, reuse) : null;
 
     let inputs;

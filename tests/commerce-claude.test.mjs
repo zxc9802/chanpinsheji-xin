@@ -107,10 +107,17 @@ function withNetwork(t, { plan = rawPlan(), fixes = (ids) => ids.map((id) => ({ 
   t.mock.method(console, 'info', () => {});
   t.mock.method(console, 'warn', () => {});
   t.mock.method(console, 'error', () => {});
-  const calls = { claude: [], fal: [], other: [] };
+  const calls = { claude: [], identify: [], fal: [], other: [] };
   t.mock.method(globalThis, 'fetch', async (url, init = {}) => {
     const u = String(url);
     if (u.startsWith('http://127.0.0.1:')) return realFetch(url, init);
+    if (u.includes('chat/completions')) {
+      const body = JSON.parse(init.body);
+      if (body.messages[0].content.includes('识别用户上传的同一件产品')) {
+        calls.identify.push(body);
+        return Response.json({ choices: [{ message: { content: JSON.stringify({ name: '焕采精华液', description: DOC, visual: { palette: [{ name: '银白', hex: '#E9E9E8', role: '瓶身' }], container: '细长按压泵瓶' } }) } }] });
+      }
+    }
     if (u.endsWith('/v1/messages')) {
       const body = JSON.parse(init.body);
       calls.claude.push({ body, headers: init.headers });
@@ -141,7 +148,7 @@ test('Claude mode plans, rewrites unsupported copy, and renders every screen fro
   const { project, identity } = await fixture();
   const calls = withNetwork(t);
   await updateProject(project.id, (p) => { p.commerce = { status: 'planning', scope: 'both', mode: 'claude', inputs: identity, rev: 0, images: {} }; });
-  await runCommerce(project.id, { scope: 'both', identity, mode: 'claude' });
+  await runCommerce(project.id, { scope: 'both', identity });
   const done = (await getProject(project.id)).commerce;
   assert.equal(done.status, 'done', done.error);
   assert.equal(done.plan.mode, 'claude');
@@ -175,7 +182,7 @@ test('Claude mode plans, rewrites unsupported copy, and renders every screen fro
   assert.doesNotMatch(detail.prompt, /主标题「/, 'text zones carry only positions, not stale wording');
 });
 
-test('HTTP: Claude mode needs its key, keeps the other mode\'s set, and switching swaps them', async (t) => {
+test('HTTP: AI is the default for new uploads and legacy retries, needs its key, and preserves existing sets', async (t) => {
   const port = 42000 + Math.floor(Math.random() * 800);
   process.env.PORT = String(port);
   const calls = withNetwork(t);
@@ -191,15 +198,18 @@ test('HTTP: Claude mode needs its key, keeps the other mode\'s set, and switchin
     const body = new FormData();
     body.set('scope', 'main');
     body.set('views', '["outer_front"]');
-    body.set('planMode', mode);
+    if (mode) body.set('planMode', mode);
     return body;
   };
-  const wait = async () => {
-    for (let i = 0; i < 150 && ['planning', 'rendering'].includes((await getProject(project.id)).commerce.status); i++) await new Promise((r) => setTimeout(r, 100));
-    return getProject(project.id);
+  const wait = async (id = project.id) => {
+    for (let i = 0; i < 150 && ['planning', 'rendering'].includes((await getProject(id)).commerce.status); i++) await new Promise((r) => setTimeout(r, 100));
+    return getProject(id);
   };
 
   delete process.env.CLAUDE_PLAN_KEY;
+  const unavailable = await request('/commerce', { method: 'POST', body: form() });
+  assert.equal(unavailable.status, 400);
+  assert.match(unavailable.data.error, /未配置 AI 规划模型/);
   assert.equal((await request('/commerce', { method: 'POST', body: form('claude') })).status, 400);
   assert.equal((await request('/commerce', { method: 'POST', body: form('nonsense') })).status, 400);
   process.env.CLAUDE_PLAN_KEY = 'test-claude';
@@ -209,7 +219,7 @@ test('HTTP: Claude mode needs its key, keeps the other mode\'s set, and switchin
     p.commerce = { status: 'done', mode: 'reference', scope: 'main', inputs: identity, rev: 3, images: { main_01: { status: 'done', file: identity[0].file } },
       plan: { system: { style: ['参考'] }, slots: [{ id: 'main_01', kind: 'main', role: 'hero', title: '首图', roleLabel: '首图', headline: '参考', copy: [], visual: '', identityInputs: ['in1'] }], facts: {}, skipped: [] } };
   });
-  assert.equal((await request('/commerce', { method: 'POST', body: form('claude') })).status, 200);
+  assert.equal((await request('/commerce', { method: 'POST', body: form() })).status, 200);
   let stored = await wait();
   assert.equal(stored.commerce.status, 'done', stored.commerce.error);
   assert.equal(stored.commerce.mode, 'claude');
@@ -223,9 +233,31 @@ test('HTTP: Claude mode needs its key, keeps the other mode\'s set, and switchin
   assert.equal(switched.data.commerceAlt.mode, 'claude');
   assert.equal(switched.data.commerce.rev, 4, 'rev moves so open editors reload');
 
+  const retry = new FormData();
+  retry.set('reuse', '1');
+  assert.equal((await request('/commerce', { method: 'POST', body: retry })).status, 200);
+  stored = await wait();
+  assert.equal(stored.commerce.status, 'done', stored.commerce.error);
+  assert.equal(stored.commerce.mode, 'claude', 'retrying a reference set defaults to AI');
+  assert.equal(stored.commerceAlt.mode, 'reference');
+
   // 同一模式重出只替换自己那套，另一套保留
   assert.equal((await request('/commerce', { method: 'POST', body: form('reference') })).status, 200);
   stored = await getProject(project.id);
   assert.equal(stored.commerceAlt.mode, 'claude');
   await wait();
+
+  const upload = new FormData();
+  upload.set('scope', 'main');
+  upload.set('text', DOC);
+  upload.append('images', new Blob([png], { type: 'image/png' }), 'product.png');
+  const response = await fetch(`http://127.0.0.1:${port}/api/commerce-projects`, { method: 'POST', body: upload });
+  assert.equal(response.status, 200);
+  const created = await response.json();
+  assert.equal(created.commerce.mode, 'claude', 'new uploads default to AI without planMode');
+  const generated = await wait(created.id);
+  assert.equal(generated.commerce.status, 'done', generated.commerce.error);
+  assert.equal(generated.commerce.plan.mode, 'claude');
+  assert.equal(generated.commerce.plan.slots.length, 5);
+  assert.equal(calls.identify.length, 1);
 });

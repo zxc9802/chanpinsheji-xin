@@ -8,20 +8,18 @@ const KINDS = {
 };
 
 const SCOPE_HINT = {
-  main: '主图固定 5 张（1 : 1）：白底图 → 首图 → 成分图 → 效果图 → 使用场景图。首图定调，白底图独立生成。',
-  detail: '详情图按所选结构固定生成 10 或 16 屏（9 : 16 竖屏），全部定稿后可一键合成长图。',
-  both: '主图固定 5 张（1 : 1）：白底、首图、成分、效果、使用场景；再加所选 10 或 16 屏详情（9 : 16）。',
+  main: '主图 5 张（1 : 1），含 1 张白底图，其余 4 张的岗位与顺序由 AI 规划。',
+  detail: '详情页 6–12 屏（9 : 16 竖屏），屏数与每屏内容由 AI 按资料决定。',
+  both: '主图 5 张（1 : 1，含白底图）+ 详情页 6–12 屏（9 : 16），全部由 AI 规划。',
 };
 
 const DETAIL_LAYOUTS = {
   detail_standard_conversion_10: { name: '标准详情 · 10 屏', hint: '适合常规上新、卖点比较集中的产品，用较短篇幅讲清卖点、成分、用法和规格。' },
   detail_evidence_chain_16: { name: '证据链详情 · 16 屏', hint: '适合成分或功效需要深入讲解，且有研发、测试、真人反馈等资料的产品，逐层说明原理与效果依据。' },
 };
-const DEFAULT_DETAIL_LAYOUT = 'detail_standard_conversion_10';
-
 const MODES = {
-  reference: { label: '参考库模式', hint: 'JEV 先从电商参考库挑一套视觉系统，再为每一屏挑版式参考图，按 dianputu 固定结构出图。' },
-  claude: { label: 'AI 规划', hint: 'AI 直接看产品图与资料，规划每一屏的信息、颜色结构与版式（主图 5 张、详情 6–12 屏由它决定），再逐条核对文案是否有资料依据，然后出图。不使用参考库图片，规划约需 3–6 分钟。' },
+  reference: { label: '参考库模式' },
+  claude: { label: 'AI 规划' },
 };
 const modeOf = (c) => c?.mode || c?.plan?.mode || 'reference';
 const TONE = { dark: '深色屏', light: '浅色屏', mid: '中间调' };
@@ -199,7 +197,7 @@ export function initCommerce(ctx) {
 
   /* ───────────── 入口弹窗 ───────────── */
   const modal = $('#commerceModal');
-  const cm = { views: new Set(), files: [], document: null, savedDocument: null, scope: 'both', detailLayoutId: DEFAULT_DETAIL_LAYOUT, mode: 'reference', create: false, direct: false };
+  const cm = { views: new Set(), files: [], document: null, savedDocument: null, scope: 'both', create: false, direct: false };
   const claudeReady = () => state.health?.claudePlanner !== false;
 
   async function switchMode() {
@@ -224,8 +222,8 @@ export function initCommerce(ctx) {
   function renderModal() {
     $('#cmTitle').textContent = cm.direct ? '上传产品图，生成套图' : '生成主图 + 详情图';
     $('#cmDesc').textContent = cm.direct
-      ? `拖入或上传同一件产品的 1–4 张图片，勾选主图、详情图或两者，即可开始生成。${cm.mode === 'claude' ? '工作台会识别产品信息，由 AI 规划每一屏后出图。' : '工作台会识别产品信息，挑选设计参考并出图。'}`
-      : `选好产品图（同一件产品的一张或多个角度，最多 4 张），再选要生成的内容。点开始后${cm.mode === 'claude' ? ' AI 会规划每一屏的信息、颜色结构与版式' : ' JEV 会先挑视觉系统并规划每一屏'}，然后直接出图，不需要再确认。`;
+      ? '拖入或上传同一件产品的 1–4 张图片，勾选主图、详情图或两者，即可开始生成。工作台会识别产品信息，由 AI 规划每一屏后出图。'
+      : '选好产品图（同一件产品的一张或多个角度，最多 4 张），再选要生成的内容。点开始后 AI 会规划每一屏的信息、颜色结构与版式，然后直接出图，不需要再确认。';
     $('#cmGenerated').hidden = cm.direct;
     $('#cmUploadLabel').textContent = cm.direct ? '上传自己的产品图 · PNG / JPG / WebP · 单张不超过 25 MB' : '或上传自己的产品图';
     $('#cmProductInfoBlock').hidden = !cm.direct;
@@ -258,26 +256,14 @@ export function initCommerce(ctx) {
     add.hidden = picked() >= MAX_INPUTS;
     $('#cmCount').textContent = `已选 ${picked()} / ${MAX_INPUTS}`;
     $$('#cmScope input').forEach((input) => { input.checked = cm.scope === 'both' || input.dataset.scope === cm.scope; });
-    const claude = cm.mode === 'claude';
-    $$('#cmMode button').forEach((b) => {
-      b.setAttribute('aria-pressed', String(b.dataset.planMode === cm.mode));
-      const off = b.dataset.planMode === 'claude' && !claudeReady();
-      b.disabled = off;
-      b.title = off ? '服务端未配置 AI 规划模型' : '';
-    });
-    $('#cmModeHint').textContent = MODES[cm.mode].hint;
-    $('#cmScopeHint').textContent = claude
-      ? { main: '主图 5 张（1 : 1），含 1 张白底图，其余 4 张的岗位与顺序由 AI 规划。', detail: '详情页 6–12 屏（9 : 16 竖屏），屏数与每屏内容由 AI 按资料决定。', both: '主图 5 张（1 : 1，含白底图）+ 详情页 6–12 屏（9 : 16），全部由 AI 规划。' }[cm.scope] || '请至少选择一种生成内容。'
-      : SCOPE_HINT[cm.scope] || '请至少选择一种生成内容。';
-    $('#cmDetailLayoutBlock').hidden = claude || !['detail', 'both'].includes(cm.scope);
-    $$('#cmDetailLayout button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.detailLayout === cm.detailLayoutId)));
-    $('#cmDetailLayoutHint').textContent = DETAIL_LAYOUTS[cm.detailLayoutId].hint;
-    $('#cmStart').disabled = picked() === 0 || !cm.scope;
+    $('#cmScopeHint').textContent = SCOPE_HINT[cm.scope] || '请至少选择一种生成内容。';
+    $('#cmStart').disabled = picked() === 0 || !cm.scope || !claudeReady();
+    $('#cmStart').title = claudeReady() ? '' : '服务端未配置 AI 规划模型';
     const current = cm.create ? null : commerceOf();
-    const sameMode = [current, cm.create ? null : state.project?.commerceAlt].find((x) => x?.plan && modeOf(x) === cm.mode);
-    const kept = current?.plan && modeOf(current) !== cm.mode ? current : null;
+    const sameMode = [current, cm.create ? null : state.project?.commerceAlt].find((x) => x?.plan && modeOf(x) === 'claude');
+    const kept = current?.plan && modeOf(current) !== 'claude' ? current : null;
     const note = [
-      sameMode && `这个项目已经有一套${MODES[cm.mode].label}的主图与详情图，重新生成会替换它`,
+      sameMode && '这个项目已经有一套 AI 规划的主图与详情图，重新生成会替换它',
       kept && `${MODES[modeOf(kept)].label}的那套会保留，生成后可在结果区上方切换对比`,
     ].filter(Boolean).join('；');
     $('#cmReplace').hidden = !note;
@@ -301,9 +287,6 @@ export function initCommerce(ctx) {
     const previous = (c?.inputs || []).filter((i) => i.source === 'generated' && ready.includes(i.view)).map((i) => i.view);
     cm.views = new Set(previous.length ? previous : ready.includes('outer_front') ? ['outer_front'] : ready.slice(0, 1));
     cm.scope = c?.scope || 'both';
-    cm.detailLayoutId = c?.detailLayoutId || c?.plan?.detailLayout?.id || DEFAULT_DETAIL_LAYOUT;
-    cm.mode = c ? modeOf(c) : 'reference';
-    if (cm.mode === 'claude' && !claudeReady()) cm.mode = 'reference';
     renderModal();
     modal.hidden = false;
     setTimeout(() => (cm.direct ? $('#cmAdd') : $('#cmStart')).focus(), 50);
@@ -413,10 +396,6 @@ export function initCommerce(ctx) {
       URL.revokeObjectURL(gone.url);
       return renderModal();
     }
-    const planMode = e.target.closest('[data-plan-mode]');
-    if (planMode && !planMode.disabled) { cm.mode = planMode.dataset.planMode; return renderModal(); }
-    const layout = e.target.closest('[data-detail-layout]');
-    if (layout) { cm.detailLayoutId = layout.dataset.detailLayout; return renderModal(); }
     if (e.target.closest('[data-cm="start"]')) start();
   });
 
@@ -425,10 +404,10 @@ export function initCommerce(ctx) {
     const creating = !reuse && cm.create;
     if (!p && !creating) return;
     if (!reuse && (!picked() || !cm.scope)) return;
+    if (!claudeReady()) return toast('服务端未配置 AI 规划模型', 'error');
     const btn = $('#cmStart');
     const body = new FormData();
-    body.set('detailLayoutId', reuse ? (commerceOf(p)?.detailLayoutId || DEFAULT_DETAIL_LAYOUT) : cm.detailLayoutId);
-    body.set('planMode', reuse ? modeOf(commerceOf(p)) : cm.mode);
+    body.set('planMode', 'claude');
     if (reuse) {
       body.set('reuse', '1');
       body.set('scope', commerceOf(p)?.scope || 'both');
@@ -768,9 +747,7 @@ export function initCommerce(ctx) {
     const ok = await askConfirm({
       eyebrow: 'Replan',
       title: '重新规划？',
-      desc: modeOf(commerceOf()) === 'claude'
-        ? '沿用当前选的产品图和范围，让 AI 重新规划每一屏的信息、颜色结构与版式，并立即出图。你对每一屏文字的修改和当前这套图会被替换；另一种模式的那套不受影响。'
-        : '沿用当前选的产品图和范围，让 JEV 重新挑视觉系统与每一屏参考，重新写方案并立即出图。你对每一屏文字的修改和当前这套图会被替换；另一种模式的那套不受影响。',
+      desc: '沿用当前选的产品图和范围，让 AI 重新规划每一屏的信息、颜色结构与版式，并立即出图。已有 AI 规划方案的文字修改和图片会被替换。',
       ok: '重新规划',
     });
     if (ok) start({ reuse: true });

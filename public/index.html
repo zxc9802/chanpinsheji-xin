@@ -435,15 +435,6 @@
         <p class="cm-hint">文档内容会与上方文字一起用于生成；补充说明优先。</p>
       </div>
 
-      <div class="cm-block" id="cmModeBlock">
-        <div class="cm-label"><b>规划模式</b><small>两种模式各保留最近一套，可来回对比</small></div>
-        <div class="segmented" id="cmMode">
-          <button type="button" data-plan-mode="reference" aria-pressed="true">参考库模式</button>
-          <button type="button" data-plan-mode="claude" aria-pressed="false">AI 规划</button>
-        </div>
-        <p class="cm-hint" id="cmModeHint"></p>
-      </div>
-
       <div class="cm-block" id="cmScopeBlock">
         <div class="cm-label"><b>生成内容</b><small>可单选或同时选择</small></div>
         <div class="cm-scope" id="cmScope">
@@ -451,15 +442,6 @@
           <label><input type="checkbox" data-scope="detail" checked /><span>详情图</span></label>
         </div>
         <p class="cm-hint" id="cmScopeHint"></p>
-      </div>
-
-      <div class="cm-block" id="cmDetailLayoutBlock">
-        <div class="cm-label"><b>详情页结构</b></div>
-        <div class="segmented" id="cmDetailLayout">
-          <button type="button" data-detail-layout="detail_standard_conversion_10" aria-pressed="true">标准详情 · 10 屏</button>
-          <button type="button" data-detail-layout="detail_evidence_chain_16" aria-pressed="false">证据链详情 · 16 屏</button>
-        </div>
-        <p class="cm-hint" id="cmDetailLayoutHint"></p>
       </div>
 
       <p class="cm-replace" id="cmReplace" hidden>这个项目已经有一套主图与详情图，重新生成会替换它。</p>

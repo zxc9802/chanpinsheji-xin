@@ -186,7 +186,7 @@ for (const layout of DETAIL_LAYOUTS) {
     const { project, identity } = await fixture();
     const calls = withNetwork(t, { jev: defaultJev, llm: defaultLlm });
     await updateProject(project.id, (p) => { p.commerce = { status: 'planning', scope: 'detail', detailLayoutId: layout.id, inputs: identity, rev: 0, images: {} }; });
-    await runCommerce(project.id, { scope: 'detail', identity, detailLayoutId: layout.id });
+    await runCommerce(project.id, { scope: 'detail', identity, detailLayoutId: layout.id, mode: 'reference' });
     const done = await getProject(project.id);
     assert.equal(done.commerce.status, 'done', done.commerce.error);
     assert.equal(done.commerce.plan.slots.length, layout.modules.length);
@@ -380,6 +380,7 @@ test('HTTP selection, validation, retry persistence, brief edits and ZIP export 
   };
   const form = (layout, reuse = false) => {
     const body = new FormData(); body.set('scope', 'detail');
+    body.set('planMode', 'reference');
     body.set('detailLayoutId', layout); body.set('views', '["outer_front"]');
     if (reuse) body.set('reuse', '1');
     return body;
@@ -423,6 +424,7 @@ test('HTTP selection, validation, retry persistence, brief edits and ZIP export 
   const directForm = (layout = DEFAULT_DETAIL_LAYOUT, text = '', scope = 'detail') => {
     const body = new FormData();
     body.set('scope', scope);
+    body.set('planMode', 'reference');
     body.set('detailLayoutId', layout);
     if (text) body.set('text', text);
     body.append('images', new Blob([png], { type: 'image/png' }), 'product.png');
@@ -507,7 +509,7 @@ test('HTTP selection, validation, retry persistence, brief edits and ZIP export 
         assert.equal(response.status, 200, (await response.json()).error);
         return waitForCommerce(id);
       };
-      const reuse = new FormData(); reuse.set('reuse', '1');
+      const reuse = new FormData(); reuse.set('reuse', '1'); reuse.set('planMode', 'reference');
       done = await requestAgain(reuse);
       assert.ok(done.source.document.text.includes(marker));
       assert.ok(done.docText.includes(marker));
@@ -570,7 +572,7 @@ test('HTTP selection, validation, retry persistence, brief edits and ZIP export 
       assert.equal(Object.keys(zip.files).filter((name) => name.endsWith('.png')).length, layout.modules.length);
       assert.equal(zip.file('设计简报.md'), null);
 
-      const retry = new FormData(); retry.set('reuse', '1');
+      const retry = new FormData(); retry.set('reuse', '1'); retry.set('planMode', 'reference');
       const retried = await fetch(`${origin}/api/projects/${id}/commerce`, { method: 'POST', body: retry });
       assert.equal(retried.status, 200);
       for (let i = 0; i < 150 && ['planning', 'rendering'].includes((await getProject(id)).commerce.status); i++) await new Promise((resolve) => setTimeout(resolve, 100));
@@ -637,7 +639,7 @@ test('a redraw carries the user note, keeps versions, and refuses a changed libr
   const { project, identity } = await fixture();
   const calls = withNetwork(t, { jev: defaultJev, llm: defaultLlm });
   await updateProject(project.id, (p) => { p.commerce = { status: 'planning', scope: 'main', inputs: identity, plan: null, images: {}, rev: 0 }; });
-  await runCommerce(project.id, { scope: 'main', identity });
+  await runCommerce(project.id, { scope: 'main', identity, mode: 'reference' });
   const done = await getProject(project.id);
   assert.equal(done.commerce.status, 'done', done.commerce.error);
   assert.equal(calls.fal.length, 5);
