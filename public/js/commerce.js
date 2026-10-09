@@ -9,15 +9,16 @@ const KINDS = {
 };
 
 const SCOPE_HINT = {
-  main: '主图 5 张（1 : 1），含 1 张白底图，其余 4 张的岗位与顺序由 AI 规划。',
-  detail: '详情页 6–12 屏（9 : 16 竖屏），屏数与每屏内容由 AI 按资料决定。',
-  both: '主图 5 张（1 : 1，含白底图）+ 详情页 6–12 屏（9 : 16），全部由 AI 规划。',
+  main: '主图 5 张（1 : 1）：白底图、首图、成分 / 原料、效果 / 收益、使用场景；构图与视觉由 AI 规划。',
+  detail: '详情页选择 10 或 16 屏（9 : 16 竖屏），参考每屏的信息任务，构图与视觉由 AI 规划。',
+  both: '主图 5 张（1 : 1，含白底图）+ 详情页 10 或 16 屏（9 : 16）；构图与视觉由 AI 规划。',
 };
 
 const DETAIL_LAYOUTS = {
   detail_standard_conversion_10: { name: '标准详情 · 10 屏', hint: '适合常规上新、卖点比较集中的产品，用较短篇幅讲清卖点、成分、用法和规格。' },
   detail_evidence_chain_16: { name: '证据链详情 · 16 屏', hint: '适合成分或功效需要深入讲解，且有研发、测试、真人反馈等资料的产品，逐层说明原理与效果依据。' },
 };
+const DEFAULT_DETAIL_LAYOUT = 'detail_standard_conversion_10';
 const MODES = {
   reference: { label: '参考库模式' },
   claude: { label: 'AI 规划' },
@@ -145,7 +146,8 @@ export function initCommerce(ctx) {
     }
     const skipped = c.plan?.skipped?.length || 0;
     const mode = modeOf(c);
-    const scope = `${MODES[mode].label} · ${{ main: '仅主图', detail: '仅详情图', both: '主图 + 详情图' }[c.scope]}${mode === 'reference' && c.scope !== 'main' && c.detailLayoutId ? ` · ${DETAIL_LAYOUTS[c.detailLayoutId]?.name || ''}` : ''}`;
+    const layoutId = c.plan ? c.plan.detailLayout?.id : c.detailLayoutId;
+    const scope = `${MODES[mode].label} · ${{ main: '仅主图', detail: '仅详情图', both: '主图 + 详情图' }[c.scope]}${c.scope !== 'main' && layoutId ? ` · ${DETAIL_LAYOUTS[layoutId]?.name || ''}` : ''}`;
     const alt = p.commerceAlt?.plan ? p.commerceAlt : null;
     const switcher = $('#commerceMode');
     switcher.hidden = !alt;
@@ -160,7 +162,7 @@ export function initCommerce(ctx) {
       ? `${scope} · 正在规划，请稍候`
       : failed
         ? `${scope} · 规划失败`
-        : `${scope} · 已出 ${done} / ${slots.length} 张${skipped ? ` · ${skipped} 类备选屏未采用` : ''}${c.startedAt && c.status === 'rendering' ? ` · ${fmtTime(now - c.startedAt)}` : ''}`;
+        : `${scope} · 已出 ${done} / ${slots.length} 张${skipped ? c.plan.contentSource ? ` · ${skipped} 项依据缺失，已调整表达` : ` · ${skipped} 类备选屏未采用` : ''}${c.startedAt && c.status === 'rendering' ? ` · ${fmtTime(now - c.startedAt)}` : ''}`;
     $('#commerceBriefBtn').disabled = !c.plan;
     const detail = slots.filter((s) => s.kind === 'detail');
     const unfinished = detail.filter((s) => !(c.images?.[s.id]?.status === 'done' && c.images[s.id].file)).length;
@@ -198,7 +200,7 @@ export function initCommerce(ctx) {
 
   /* ───────────── 入口弹窗 ───────────── */
   const modal = $('#commerceModal');
-  const cm = { views: new Set(), files: [], document: null, savedDocument: null, scope: 'both', create: false, direct: false };
+  const cm = { views: new Set(), files: [], document: null, savedDocument: null, scope: 'both', detailLayoutId: DEFAULT_DETAIL_LAYOUT, create: false, direct: false };
   const claudeReady = () => state.health?.claudePlanner !== false;
 
   async function switchMode() {
@@ -258,6 +260,9 @@ export function initCommerce(ctx) {
     $('#cmCount').textContent = `已选 ${picked()} / ${MAX_INPUTS}`;
     $$('#cmScope input').forEach((input) => { input.checked = cm.scope === 'both' || input.dataset.scope === cm.scope; });
     $('#cmScopeHint').textContent = SCOPE_HINT[cm.scope] || '请至少选择一种生成内容。';
+    $('#cmDetailBlock').hidden = !['detail', 'both'].includes(cm.scope);
+    $$('#cmDetailLayout input').forEach((input) => { input.checked = input.value === cm.detailLayoutId; });
+    $('#cmDetailHint').textContent = DETAIL_LAYOUTS[cm.detailLayoutId].hint;
     $('#cmStart').disabled = picked() === 0 || !cm.scope || !claudeReady();
     $('#cmStart').title = claudeReady() ? '' : '服务端未配置 AI 规划模型';
     const current = cm.create ? null : commerceOf();
@@ -288,6 +293,7 @@ export function initCommerce(ctx) {
     const previous = (c?.inputs || []).filter((i) => i.source === 'generated' && ready.includes(i.view)).map((i) => i.view);
     cm.views = new Set(previous.length ? previous : ready.includes('outer_front') ? ['outer_front'] : ready.slice(0, 1));
     cm.scope = c?.scope || 'both';
+    cm.detailLayoutId = c?.detailLayoutId || c?.plan?.detailLayout?.id || DEFAULT_DETAIL_LAYOUT;
     renderModal();
     modal.hidden = false;
     setTimeout(() => (cm.direct ? $('#cmAdd') : $('#cmStart')).focus(), 50);
@@ -374,6 +380,10 @@ export function initCommerce(ctx) {
     cm.scope = selected.length === 2 ? 'both' : selected[0] || '';
     renderModal();
   });
+  $('#cmDetailLayout').addEventListener('change', (e) => {
+    cm.detailLayoutId = e.target.value;
+    renderModal();
+  });
   $('#cmAdd').addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
@@ -409,6 +419,7 @@ export function initCommerce(ctx) {
     const btn = $('#cmStart');
     const body = new FormData();
     body.set('planMode', 'claude');
+    body.set('detailLayoutId', reuse ? commerceOf(p)?.detailLayoutId || commerceOf(p)?.plan?.detailLayout?.id || DEFAULT_DETAIL_LAYOUT : cm.detailLayoutId);
     if (reuse) {
       body.set('reuse', '1');
       body.set('scope', commerceOf(p)?.scope || 'both');
@@ -633,7 +644,7 @@ export function initCommerce(ctx) {
       ${plan.detailBrief?.missingEvidence?.length ? `<section class="face-card"><h4>资料待补充</h4><p class="cs-meta">以下信息仅用于完善方案，不会印在图片上。</p><ul>${plan.detailBrief.missingEvidence.map((item) => `<li>${esc(item)}</li>`).join('')}</ul></section>` : ''}
       <div class="cs-slots">${plan.slots.map((s) => slotCard(s, c)).join('')}</div>
       <section class="face-card cs-skipped">
-        <div class="bcard-head"><span class="group-badge">X</span><h4>没有生成的屏</h4><em>Skipped</em></div>
+        <div class="bcard-head"><span class="group-badge">X</span><h4>${plan.contentSource ? '缺失依据与替代表达' : '没有生成的屏'}</h4><em>${plan.contentSource ? 'Adapted' : 'Skipped'}</em></div>
         ${plan.skipped.length ? `<ul>${plan.skipped.map((s) => `<li><b>${esc(KINDS[s.kind]?.label || '')} · ${esc(s.label)}</b><span>${esc(s.reason)}</span></li>`).join('')}</ul>` : ''}
         <p class="cs-meta">详情页始终保留所选结构的完整屏数；资料不足时减少文案或采用示意表达，不自动添加测试数据和真实用户证言。</p>
       </section>`;

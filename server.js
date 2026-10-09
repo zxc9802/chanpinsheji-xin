@@ -671,6 +671,7 @@ function commerceMarkdown(commerce) {
 
 ${plan.summary || ''}
 
+${plan.contentSource ? `信息结构参考：${plan.contentSource.repository} @ ${plan.contentSource.revision}；只参考每屏信息任务，构图与视觉由 AI 独立规划。\n` : ''}
 - 范围：${{ main: '仅主图', detail: '仅详情图', both: '主图 + 详情图' }[scope]}
 ${plan.mainLayout ? `- 主图结构：${plan.mainLayout.name} · ${plan.mainLayout.screenCount} 张（1:1）\n- 主图顺序：${plan.slots.filter((s) => s.kind === 'main').map((s) => s.roleLabel).join(' → ')}\n` : ''}${plan.detailLayout ? `- 详情结构：${plan.detailLayout.name} · ${plan.detailLayout.screenCount} 屏（9:16）\n` : ''}${plan.promptSource ? `- 提示词来源：${plan.promptSource.repository} @ ${plan.promptSource.revision}\n` : ''}- 规划模式：${MODE_LABEL[plan.mode || 'reference']}
 ${plan.mode === 'claude' ? `- 规划模型：AI\n- 定位：${plan.claude.strategy.positioning}\n- 调性：${plan.claude.strategy.tone}\n- 色板：${plan.claude.palette.map((c) => `${c.name} ${c.hex}（${c.role}）`).join('；')}\n- 明暗节奏：${plan.claude.rhythm}` : `- 视觉系统：${plan.system.style.join('、')}（参考库 ${plan.system.category} · ${plan.system.form}）`}
@@ -681,7 +682,7 @@ ${Object.entries(plan.facts).filter(([, v]) => v.length).map(([k, v]) => factLin
 ## 每一屏
 ${plan.slots.map((s) => `### ${KIND_LABEL[s.kind]} ${s.id} · ${s.title}（${s.roleLabel}）\n${s.headline ? `- 主标题：${s.headline}\n` : ''}${s.copy.map((t) => `- ${t}`).join('\n')}${s.copy.length ? '\n' : ''}- 构图：${s.visual}\n${s.design ? `- 版式：${s.design.layout || '—'}\n- 色彩结构：${s.design.colors.map((c) => `${c.hex} ${c.share}% ${c.use}`).join('；')}` : `- 版式参考：${s.reference ? s.reference.title : s.role === 'white' ? '无（白底图只用产品图）' : '按本屏固定模块构图，沿用整套风格'}`}`).join('\n\n')}
 ${[...(plan.mainBrief?.missingEvidence || []), ...(plan.detailBrief?.missingEvidence || [])].length ? `\n## 资料待补充（不印在图片上）\n${[...new Set([...(plan.mainBrief?.missingEvidence || []), ...(plan.detailBrief?.missingEvidence || [])])].map((s) => `- ${s}`).join('\n')}\n` : ''}
-${plan.skipped.length ? `\n## 没有生成的屏\n${plan.skipped.map((s) => `- ${KIND_LABEL[s.kind]} · ${s.label}：${s.reason}`).join('\n')}\n` : ''}`;
+${plan.skipped.length ? `\n## ${plan.contentSource ? '缺失依据与替代表达（屏数保留）' : '没有生成的屏'}\n${plan.skipped.map((s) => `- ${KIND_LABEL[s.kind]} · ${s.label}：${s.reason}`).join('\n')}\n` : ''}`;
 }
 
 app.get(
