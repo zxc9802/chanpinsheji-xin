@@ -28,6 +28,7 @@ async function api(url, opts = {}) {
   }
   try {
     const res = await fetch(url, init);
+    if (res.status === 401) location.assign('/api/sso/start');
     const data = await res.json().catch((err) => {
       if (!res.ok) throw Object.assign(new Error(errorMessage({ status: res.status })), { status: res.status });
       throw err;
@@ -1803,6 +1804,13 @@ const commerce = initCommerce({
 
 /* ───────────── 启动 ───────────── */
 async function init() {
+  api('/api/session').then(({ user, mainAppUrl }) => {
+    if (!user) return;
+    const account = $('#mainAccount');
+    account.textContent = `${user.nickname || user.account} · 返回主站`;
+    account.href = mainAppUrl;
+    account.hidden = false;
+  }).catch(() => {});
   renderChoices();
   updatePlanNote();
   try {

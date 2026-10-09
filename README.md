@@ -61,6 +61,8 @@ npm start
 
 在「硬盘」中挂载 `/app/data`，保存生成的项目、图片和参考图缓存；再在「网络」中生成域名。重启后应验证作品集与图片仍可读取。
 
+主站 SSO：生产环境设置 `MAIN_APP_URL=https://www.qycm.top` 与 `SSO_CLIENT_SECRET`（与主站的 `SSO_CHANPINSHEJI_CLIENT_SECRET` 一致）。主站「产品设计智能体」打开 `https://qycpsj.qycm.top/api/sso/start`，回调地址为 `/api/sso/callback`。会话保存在加密、HttpOnly、Secure Cookie 中，每次数据请求向主站确认账号有效性。新作品按主站账号隔离；未绑定账号的旧作品仅主站管理员可见，不自动转移归属。生产环境缺少 SSO 密钥时拒绝读取数据；本地未设置密钥时保留原有独立使用方式。
+
 ## 工作原理
 
 ```

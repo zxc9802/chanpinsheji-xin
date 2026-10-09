@@ -16,6 +16,7 @@ import { runCommerce, renderCommerce, runCommerceSlot, isCommerceRunning } from 
 import { PLAN_MODES, MODE_LABEL, claudePlannerReady, claudePlanModel } from './lib/commerce-claude.js';
 import { imagePreview } from './lib/image-preview.js';
 import { errorMessage, localizeErrors } from './public/js/errors.js';
+import { installSso, canAccessProject } from './lib/sso.js';
 
 try {
   process.loadEnvFile('.env');
@@ -24,11 +25,22 @@ try {
 }
 
 const app = express();
+app.set('case sensitive routing', true);
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 25 * 1024 * 1024, files: 6 } });
 const PORT = Number(process.env.PORT) || 3789;
 const analyzing = new Set();
 
 app.use(express.json({ limit: '2mb' }));
+installSso(app);
+// API 与图片统一检查所属账号，包括下载和单张重绘。
+app.use(async (req, res, next) => {
+  const match = req.path.match(/^\/(?:api\/projects|files)\/([^/]+)/);
+  if (match && req.ssoUser) {
+    const project = await getProject(match[1]);
+    if (!project || !canAccessProject(project, req.ssoUser)) return res.status(404).json({ error: '项目不存在' });
+  }
+  next();
+});
 // 前端资源每次都校验更新，改完代码刷新即生效
 app.use(express.static(fileURLToPath(new URL('./public/', import.meta.url)), { extensions: ['html'], setHeaders: (res) => res.setHeader('Cache-Control', 'no-cache') }));
 
@@ -138,6 +150,7 @@ app.post(
     }
 
     const project = await createProject({
+      ownerUserId: req.ssoUser?.id || null,
       source: { name: sourceName, chars: parsed.chars, truncated: parsed.truncated, excerpt: parsed.text.slice(0, 600) },
       docText: parsed.text,
       refs: [],
@@ -426,6 +439,7 @@ app.post(
     const mode = planModeOf(req);
     const introduction = await commerceIntroduction(req);
     const project = await createProject({
+      ownerUserId: req.ssoUser?.id || null,
       kind: 'commerce',
       source: { name: '产品套图', ...introduction },
       docText: introduction.excerpt, refs: [], images: {}, brief: null,
@@ -597,7 +611,7 @@ app.post(
   }),
 );
 
-app.get('/api/projects', wrap(async (req, res) => res.json(await listProjects())));
+app.get('/api/projects', wrap(async (req, res) => res.json(await listProjects(req.ssoUser))));
 
 app.get(
   '/api/projects/:id',
