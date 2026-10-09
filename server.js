@@ -9,7 +9,7 @@ import { analyzeDocument, designRequirements } from './lib/llm.js';
 import { directionPicker, DIRECTION_COUNT, assetBytes, imageMime, loadCatalog } from './lib/references.js';
 import { VIEWS, viewById } from './lib/prompts.js';
 import { runPipeline, runView, runDirections, viewsFor, isRunning, isDirectionRunning, recoverInterrupted } from './lib/pipeline.js';
-import { createProject, getProject, updateProject, deleteProject, listProjects, saveFile, localPathFromPublic, DATA_DIR } from './lib/store.js';
+import { createProject, getProject, updateProject, deleteProject, listProjects, assignUnownedProjects, saveFile, localPathFromPublic, DATA_DIR } from './lib/store.js';
 import { SCOPES, IDENTITY_MAX, KIND_LABEL, loadCommerceCatalog } from './lib/commerce.js';
 import { DEFAULT_DETAIL_LAYOUT, detailLayout } from './lib/commerce-detail.js';
 import { runCommerce, renderCommerce, runCommerceSlot, isCommerceRunning } from './lib/commerce-render.js';
@@ -743,6 +743,10 @@ app.use((err, req, res, next) => {
 
 // 启动时修复上次中断的任务
 await fs.mkdir(DATA_DIR, { recursive: true });
+if (process.env.LEGACY_PROJECT_OWNER_ID) {
+  const assigned = await assignUnownedProjects(process.env.LEGACY_PROJECT_OWNER_ID);
+  if (assigned) console.log(`已为 ${assigned} 个历史项目绑定管理员账号`);
+}
 for (const summary of await listProjects()) {
   const project = await getProject(summary.id);
   if (project) await recoverInterrupted(project);

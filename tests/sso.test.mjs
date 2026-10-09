@@ -34,7 +34,7 @@ process.env.MAIN_APP_URL = `http://127.0.0.1:${mainServer.address().port}`;
 process.env.SSO_CLIENT_SECRET = 'test-client-secret';
 process.env.PORT = String(45000 + Math.floor(Math.random() * 1000));
 const { server } = await import('../server.js');
-const { createProject, saveFile } = await import('../lib/store.js');
+const { createProject, getProject, assignUnownedProjects, saveFile } = await import('../lib/store.js');
 if (!server.listening) await new Promise((resolve) => server.once('listening', resolve));
 const origin = `http://127.0.0.1:${process.env.PORT}`;
 after(async () => {
@@ -72,16 +72,32 @@ test('SSO denies anonymous data and rejects missing state before consuming a tic
   assert.equal(exchangeCount, before);
 });
 
-test('SSO survives cookie reuse, isolates all project paths, and retains legacy work for admins', async () => {
+test('SSO isolates every account and migrates legacy work to its designated owner without changing content', async () => {
   const alice = await login('alice');
   const bob = await login('bob');
   const admin = await login('admin', 'admin');
+  const otherAdmin = await login('other-admin', 'admin');
   const legacy = await createProject({ source: { name: 'legacy' }, images: {} });
+  const legacyBefore = structuredClone(legacy);
+  const legacyFile = await saveFile(legacy.id, 'refs', 'legacy.png', Buffer.from('legacy fixture'));
   const form = new FormData(); form.set('text', 'SSO 测试产品资料，不进行出图');
   const created = await request('/api/projects', alice.session, { method: 'POST', body: form });
   assert.equal(created.status, 200);
   const project = await created.json();
   assert.equal(project.ownerUserId, 'alice');
+  assert.deepEqual(await (await request('/api/projects', admin.session)).json(), []);
+  assert.equal((await request(`/api/projects/${legacy.id}`, admin.session)).status, 404);
+  assert.equal(await assignUnownedProjects('admin'), 1);
+  assert.deepEqual(await getProject(legacy.id), { ...legacyBefore, ownerUserId: 'admin' });
+  assert.deepEqual(JSON.parse(await fs.readFile(path.join(temp, 'data/projects', legacy.id, 'project.json'), 'utf8')), { ...legacyBefore, ownerUserId: 'admin' });
+  assert.equal(await assignUnownedProjects('other-admin'), 0);
+  assert.equal((await getProject(project.id)).ownerUserId, 'alice');
+  assert.equal((await getProject(legacy.id)).ownerUserId, 'admin');
+  assert.equal(await (await request(legacyFile, admin.session)).text(), 'legacy fixture');
+  assert.equal((await request(legacyFile, bob.session)).status, 404);
+  assert.equal((await request(legacyFile, otherAdmin.session)).status, 404);
+  assert.equal((await request(`/api/projects/${legacy.id}`, otherAdmin.session)).status, 404);
+  assert.deepEqual(await (await request('/api/projects', otherAdmin.session)).json(), []);
   assert.deepEqual((await (await request('/api/projects', alice.session)).json()).map((p) => p.id), [project.id]);
   assert.deepEqual(await (await request('/api/projects', bob.session)).json(), []);
   assert.deepEqual((await (await request('/api/projects', admin.session)).json()).map((p) => p.id), [legacy.id]);
