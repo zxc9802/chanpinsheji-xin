@@ -8,7 +8,8 @@ import { extractText } from './lib/parse.js';
 import { analyzeDocument, designRequirements } from './lib/llm.js';
 import { directionPicker, DIRECTION_COUNT, assetBytes, imageMime, loadCatalog } from './lib/references.js';
 import { VIEWS, viewById } from './lib/prompts.js';
-import { runPipeline, runView, runDirections, viewsFor, isRunning, isDirectionRunning, recoverInterrupted } from './lib/pipeline.js';
+import { runPipeline, runView, runDirections, viewsFor, isRunning, isDirectionRunning, isKeyRunning, recoverInterrupted } from './lib/pipeline.js';
+import { IMAGE_POINTS, billingPending, reconcileProjectBilling } from './lib/image-billing.js';
 import { createProject, getProject, updateProject, deleteProject, listProjects, assignUnownedProjects, saveFile, localPathFromPublic, DATA_DIR } from './lib/store.js';
 import { SCOPES, IDENTITY_MAX, KIND_LABEL, loadCommerceCatalog } from './lib/commerce.js';
 import { DEFAULT_DETAIL_LAYOUT, detailLayout } from './lib/commerce-detail.js';
@@ -32,6 +33,15 @@ const analyzing = new Set();
 
 app.use(express.json({ limit: '2mb' }));
 installSso(app);
+app.use((req, res, next) => {
+  const generates = req.method === 'POST' && (req.path === '/api/commerce-projects'
+    || /^\/api\/projects\/[^/]+\/(?:analyze|generate|commerce(?:\/generate)?|(?:views|commerce\/slots)\/[^/]+\/regenerate|directions\/[^/]+\/(?:retry|choose))$/.test(req.path));
+  const user = req.ssoUser;
+  if (generates && user && (user.billingAudience === 'external' || user.groupName === '外部用户') && user.pointsBalance < IMAGE_POINTS) {
+    return res.status(402).json({ error: `积分不足，图片生成每张需要 ${IMAGE_POINTS} 积分，请返回主站充值。`, code: 'INSUFFICIENT_CREDITS' });
+  }
+  next();
+});
 // API 与图片统一检查所属账号，包括下载和单张重绘。
 app.use(async (req, res, next) => {
   const match = req.path.match(/^\/(?:api\/projects|files)\/([^/]+)/);
@@ -64,7 +74,7 @@ const wrap = (fn) => async (req, res, next) => {
 };
 const httpError = (statusCode, message) => Object.assign(new Error(message), { statusCode });
 const checkAnalyzing = (id) => { if (analyzing.has(id)) throw httpError(409, '正在匹配参考并整理简报，请稍后再操作'); };
-const imageBusy = (img) => ['queued', 'running'].includes(img?.status);
+const imageBusy = (img) => ['queued', 'running'].includes(img?.status) || billingPending(img);
 const packagingBusy = (p) => p.pipeline?.status === 'running' || p.direction?.status === 'previewing'
   || VIEWS.some((v) => isRunning(p.id, v.id) || imageBusy(p.images?.[v.id])) || previewRunning(p);
 
@@ -749,8 +759,24 @@ if (process.env.LEGACY_PROJECT_OWNER_ID) {
 }
 for (const summary of await listProjects()) {
   const project = await getProject(summary.id);
-  if (project) await recoverInterrupted(project);
+  if (project) {
+    await reconcileProjectBilling(project, { interrupted: true });
+    await recoverInterrupted(project);
+  }
 }
+
+let reconcilingBilling = false;
+setInterval(async () => {
+  if (reconcilingBilling) return;
+  reconcilingBilling = true;
+  try {
+    for (const summary of await listProjects()) {
+      const project = await getProject(summary.id);
+      if (project) await reconcileProjectBilling(project, { isRendering: isKeyRunning });
+    }
+  } catch (err) { console.error('[image-billing-recovery]', err.message); }
+  finally { reconcilingBilling = false; }
+}, 30000).unref();
 
 export const server = app.listen(PORT, '0.0.0.0', () => {
   console.log(`\n  青匣 · 包装设计智能体已启动 → http://localhost:${PORT}\n`);

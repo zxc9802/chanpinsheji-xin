@@ -85,6 +85,8 @@ const QUALITIES = [
 ];
 
 const PHASE_TEXT = {
+  BILLING: '成图已保存，正在结算积分',
+  REFUNDING: '生成失败，正在释放预留积分',
   WAITING: '等待前序视图定稿',
   SUBMITTING: '正在提交任务',
   IN_QUEUE: '排队中',
@@ -1810,6 +1812,8 @@ async function init() {
     account.textContent = `${user.nickname || user.account} · 返回主站`;
     account.href = mainAppUrl;
     account.hidden = false;
+    $('#imagePrice').textContent = user.billingAudience === 'external' || user.groupName === '外部用户'
+      ? '30积分 / 张（¥0.30）' : '30积分 / 张 · 当前账号免扣';
   }).catch(() => {});
   renderChoices();
   updatePlanNote();
